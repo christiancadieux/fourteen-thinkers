@@ -10,6 +10,7 @@ The checking and chart layer for `synthesis.md`.
   - `cases`: events that test the positions, such as the October 2026 diesel collision. They are shown on the chart page, and their quotes are checked.
   - `hypotheses`: the competing explanations, with supporting and opposing authors, tests and status. The build writes them into the closing "Hypotheses" section of `synthesis.md`, between the `<!-- hypotheses -->` markers (don't edit that block by hand), and onto the chart page.
   - `ach`: evidence grids (analysis of competing hypotheses). Each grid lists facts and explanations, marks each fact as fitting (C), against (I) or not bearing on (N) each explanation, and flags facts that could be staged. The build ranks the explanations by weighted facts against them (high reliability 1, medium 0.7, low 0.4), with and without the staged facts. It writes the ranking between the `<!-- ach -->` markers in `synthesis.md` and onto the chart page.
+  - `checks`: dated checks that group forecasts and public-data indicators around one event, such as the November 2026 midterms. Forecasts belong to a check through their `check` field. The build writes each check into `synthesis.md` between its `<!-- check-… -->` markers.
   - `manual_checks`: quotes verified by hand where the saved text differs, for example a transcript spelling such as "deskkills".
 - `sources/`: the authors' own texts, one folder per author. `index.json` maps each file to its URL where one was recoverable.
 - `templates/`: the chart page template. Their data blocks are overwritten on every build.

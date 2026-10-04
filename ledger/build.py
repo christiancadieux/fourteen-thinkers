@@ -315,6 +315,20 @@ def ach_markdown(g):
     out += ["", f"The facts that separate the explanations most are {', '.join(diag)}: each fits some explanations and rules against others. They are where new evidence matters most."]
     return "\n".join(out)
 
+def check_markdown(L, c):
+    F = [f for f in L["forecasts"] if f.get("check") == c["id"]]
+    def line(f):
+        st = f["status"] if f["status"] != "open" else "open, resolves " + (f.get("resolves") or "?")
+        return f"- {f['author']}: {f['claim']} ({st})."
+    out = [f"**{c['question']}** Vote on {c['vote']}; review by {c['review']}. {c['basis']}", "",
+           "The authors' own forecasts on fuel and the economy:", ""]
+    out += [line(f) for f in F if f.get("check_part") == "energy"]
+    out += ["", "Public-data indicators (judged on public data, with the source named when marked):", ""]
+    out += [line(f) for f in F if f.get("check_part") == "indicator"]
+    out += ["", "Also resolving on the day of the vote:", ""]
+    out += [line(f) for f in F if f.get("check_part") == "election"]
+    return "\n".join(out)
+
 def write_block(name, body):
     p = doc("synthesis.md")
     s = open(p, encoding="utf-8").read()
@@ -339,6 +353,8 @@ def main():
     global ACH_DATA
     ACH = L.get("ach", [])
     ACH_DATA = ACH
+    for c in L.get("checks", []):
+        write_block("check-" + c["id"], check_markdown(L, c))
     for k, g in enumerate(ACH):
         write_block("ach" if k == 0 else "ach-" + g["id"], ach_markdown(g))
     rep = ["# Ledger report", "",

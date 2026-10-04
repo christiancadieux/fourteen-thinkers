@@ -214,6 +214,34 @@ Henningsen has also put dated forecasts on record that can be checked later. Aug
 
 Martenson's are on record too. July 2026: critical fuel shortages within two to three months if prices stay low. September 2026: oil pushed down before the midterms, and six to twelve months before the bond market turns "ugly". Hudson's: a world depression "no later than this autumn"; Trump holding fuel prices down until the November vote and declaring an emergency after it; the Emirates not surviving "after a few years". Wilkerson's: "60/40 we don't have elections" (May 2026); a "50-50 chance" that Saudi Arabia disappears as a state (September 2026); US forces off the Korean peninsula within a decade. Crooke's: "The U.S. ultimately will have to capitulate" (July 2026). Martenson has already had to explain one delay: he reports his oil analyst's view that the crisis "has been delayed, not permanently deferred".
 
+### After the midterms: a dated check
+
+The clearest near-term test in the project. If fuel prices are being held down by paper trading and emergency stocks until the vote, the weeks after it should show the physical shortage: prices jumping, rationing or export limits, more emergency drawdowns. If prices stay calm and supply holds through the winter, the reading weakens. The list below is generated from the ledger and will be marked hit or miss after the review date.
+
+<!-- check-after-midterms-2026:start -->
+**Are fuel prices being held down by paper trading and emergency stocks until the vote, with the physical shortage pushed past it?** Vote on 2026-11-03; review by 2027-01-31. Paper trading can cap a price only while there are barrels to deliver. Pilkington's chart work shows large, well-timed futures sales capping oil, which he attributes to the US Treasury or entities working with it; Miller, via Johnson, describes "missing barrels, not just expensive ones". If the cap is political, it should loosen after the vote.
+
+The authors' own forecasts on fuel and the economy:
+
+- Martenson: Critical fuel shortages within two to three months if prices stay low (open, resolves 2026-10).
+- Martenson: Oil pushed down before the midterms; bond market 'ugly' in six to twelve months (open, resolves 2027-09).
+- Hudson: A world depression no later than autumn 2026 (open, resolves 2026-12).
+- Hudson: Trump holds fuel prices down until the November vote and declares an emergency after it (open, resolves 2026-11).
+
+Public-data indicators (judged on public data, with the source named when marked):
+
+- Can-kicking reading (paper against physical): Oil (Brent) rises more than 15% within six weeks of the vote, once the incentive to hold it down is gone (open, resolves 2026-12-15).
+- Can-kicking reading (paper against physical): Physical shortage signals appear: US diesel or fuel rationing, purchase limits, or an export ban (open, resolves 2027-01-31).
+- Can-kicking reading (paper against physical): Washington keeps drawing on emergency stocks, its own or allies', rather than letting price ration demand (open, resolves 2027-01-31).
+- Can-kicking reading (paper against physical): Weakens the reading: prices stay within 10% of their pre-vote level and supply holds through January (open, resolves 2027-01-31).
+
+Also resolving on the day of the vote:
+
+- Wilkerson: '60/40 we don't have elections' (open, resolves 2026-11-03).
+- Wolff: Trump's only options: interfere in the election or lose (open, resolves 2026-11-03).
+- Wolff: Trump will 'lose farm votes big time' (open, resolves 2026-11-03).
+<!-- check-after-midterms-2026:end -->
+
 ## Who they read, and who reads whom
 
 - **Krainer cites Werner** at length, and names his own lineage: LaRouche, Engdahl, Ehret and Chung, Michael Hudson, Parenti.
@@ -685,6 +713,7 @@ Wolff (democracyatwork.substack.com/p/…; essays read in full)
 - his own turns in: singjupost.com transcripts richard-wolff-iran-war-destroys-global-economy-u-s-empire-transcript (Diesen, March 2026); richard-wolff-petrodollar-decline-unravels-the-u-s-empire-transcript (Diesen, April 2026); transcript-will-the-iran-war-cause-a-global-depression-w-prof-richard-wolff (Chris Hedges, May 2026); richard-wolff-u-s-israel-divorce-as-u-s-economy-is-on-the-brink-of-collapse-transcript (Diesen, September 2026); richard-wolff-us-empire-in-collapse-china-builds-rival-system-transcript (Diesen, September 2025); global-capitalism-what-trump-2-0-means-richard-wolff-transcript (speech, January 2025); and michael-hudson.com/2026/06/the-last-colonial-wars (with Hudson on Nima Alkhorshid's show, May 2026)
 
 Documents cited by the authors and read in full
+- Fact source only, not one of the authors: Philip Pilkington, interviews on Going Underground and Mario Nawfal's show (July to August 2026) on the timing of large oil-futures sales. Not yet saved as a source; cited from the episode descriptions, so none of his words are quoted.
 - Fact source only, not one of the authors: Larry C. Johnson, sonar21.com, nine posts from 25 September to 3 October 2026, several summarising the energy analyst Karl W. Miller's reports (for example "The Gulf Restart Trap", 28 September 2026). Used for facts in the evidence grids.
 - Brookings Institution, "Which Path to Persia? Options for a New American Strategy toward Iran" (2009), cited by Berletic; brookings.edu/wp-content/uploads/2016/06/06_iran_strategy.pdf. The chapter "Leave it to Bibi" is the one quoted here.
 

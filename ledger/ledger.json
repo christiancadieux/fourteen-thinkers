@@ -1581,7 +1581,9 @@
    "quote": "",
    "resolves": "2026-10",
    "status": "open",
-   "basis": "Wolff (Oct 2026) describes a diesel shortage squeezing farmers; check against Martenson's own later account."
+   "basis": "Wolff (Oct 2026) describes a diesel shortage squeezing farmers; check against Martenson's own later account.",
+   "check": "after-midterms-2026",
+   "check_part": "energy"
   },
   {
    "author": "Martenson",
@@ -1590,7 +1592,9 @@
    "quote": "ugly",
    "resolves": "2027-09",
    "status": "open",
-   "basis": "Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban that would have lowered prices."
+   "basis": "Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban that would have lowered prices.",
+   "check": "after-midterms-2026",
+   "check_part": "energy"
   },
   {
    "author": "Hudson",
@@ -1599,7 +1603,9 @@
    "quote": "no later than this autumn",
    "resolves": "2026-12",
    "status": "open",
-   "basis": ""
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "energy"
   },
   {
    "author": "Hudson",
@@ -1608,7 +1614,9 @@
    "quote": "",
    "resolves": "2026-11",
    "status": "open",
-   "basis": "Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban that would have lowered prices."
+   "basis": "Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban that would have lowered prices.",
+   "check": "after-midterms-2026",
+   "check_part": "energy"
   },
   {
    "author": "Henningsen",
@@ -1635,7 +1643,9 @@
    "quote": "60/40 we don't have elections",
    "resolves": "2026-11-03",
    "status": "open",
-   "basis": "Resolves with the midterms."
+   "basis": "Resolves with the midterms.",
+   "check": "after-midterms-2026",
+   "check_part": "election"
   },
   {
    "author": "Wilkerson",
@@ -1662,7 +1672,9 @@
    "quote": "interfere in the election or lose",
    "resolves": "2026-11-03",
    "status": "open",
-   "basis": "Resolves with the midterms."
+   "basis": "Resolves with the midterms.",
+   "check": "after-midterms-2026",
+   "check_part": "election"
   },
   {
    "author": "Wolff",
@@ -1671,7 +1683,9 @@
    "quote": "lose farm votes big time",
    "resolves": "2026-11-03",
    "status": "open",
-   "basis": "Resolves with the midterms."
+   "basis": "Resolves with the midterms.",
+   "check": "after-midterms-2026",
+   "check_part": "election"
   },
   {
    "author": "Wolff",
@@ -1843,6 +1857,50 @@
    "resolves": "2027-06",
    "status": "open",
    "basis": ""
+  },
+  {
+   "author": "Can-kicking reading (paper against physical)",
+   "made": "2026-10",
+   "claim": "Oil (Brent) rises more than 15% within six weeks of the vote, once the incentive to hold it down is gone",
+   "quote": "",
+   "resolves": "2026-12-15",
+   "status": "open",
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "indicator"
+  },
+  {
+   "author": "Can-kicking reading (paper against physical)",
+   "made": "2026-10",
+   "claim": "Physical shortage signals appear: US diesel or fuel rationing, purchase limits, or an export ban",
+   "quote": "",
+   "resolves": "2027-01-31",
+   "status": "open",
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "indicator"
+  },
+  {
+   "author": "Can-kicking reading (paper against physical)",
+   "made": "2026-10",
+   "claim": "Washington keeps drawing on emergency stocks, its own or allies', rather than letting price ration demand",
+   "quote": "",
+   "resolves": "2027-01-31",
+   "status": "open",
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "indicator"
+  },
+  {
+   "author": "Can-kicking reading (paper against physical)",
+   "made": "2026-10",
+   "claim": "Weakens the reading: prices stay within 10% of their pre-vote level and supply holds through January",
+   "quote": "",
+   "resolves": "2027-01-31",
+   "status": "open",
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "indicator"
   }
  ],
  "manual_checks": [
@@ -2977,6 +3035,16 @@
      "quote": "It is taking orders"
     }
    ]
+  }
+ ],
+ "checks": [
+  {
+   "id": "after-midterms-2026",
+   "title": "After the midterms",
+   "vote": "2026-11-03",
+   "review": "2027-01-31",
+   "question": "Are fuel prices being held down by paper trading and emergency stocks until the vote, with the physical shortage pushed past it?",
+   "basis": "Paper trading can cap a price only while there are barrels to deliver. Pilkington's chart work shows large, well-timed futures sales capping oil, which he attributes to the US Treasury or entities working with it; Miller, via Johnson, describes \"missing barrels, not just expensive ones\". If the cap is political, it should loosen after the vote."
   }
  ]
 }
