@@ -1,4 +1,4 @@
-<title>Fourteen Authors, Thirteen Axes</title>
+<title>Sixteen Authors, Thirteen Axes</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
 /* Layout: one reading column; each chart is a full-width band inside it, text held to ~65ch. */
@@ -11,7 +11,7 @@
   --accent: #0f6e78;
   --dot-ink: #ffffff;
   --a0: #2b66ad; --a1: #b2432c; --a2: #2a7f52; --a3: #7d48a8;
-  --a4: #8f6510; --a5: #b83a72; --a6: #157f8a; --a7: #566070; --a8: #a1561b; --a9: #3f4fb5; --a10: #66741a; --a11: #8a3d4a; --a12: #2f6f8f; --a13: #9a4f8a; --a14: #8a6a1f;
+  --a4: #8f6510; --a5: #b83a72; --a6: #157f8a; --a7: #566070; --a8: #a1561b; --a9: #3f4fb5; --a10: #66741a; --a11: #8a3d4a; --a12: #2f6f8f; --a13: #9a4f8a; --a14: #1e293b; --a15: #d97706;
   --display: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -21,7 +21,7 @@
     --bg: #11161c; --surface: #19212a; --fg: #e6ebf0; --muted: #9aa7b5; --line: #2e3945;
     --accent: #5cc4cf; --dot-ink: #10151a;
     --a0: #7fb0ee; --a1: #ee8f78; --a2: #6fcf9a; --a3: #c79bea;
-    --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6; --a14: #e0c27a;
+    --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6; --a14: #f1f5f9; --a15: #fbbf24;
     color-scheme: dark;
   }
 }
@@ -29,7 +29,7 @@
   --bg: #11161c; --surface: #19212a; --fg: #e6ebf0; --muted: #9aa7b5; --line: #2e3945;
   --accent: #5cc4cf; --dot-ink: #10151a;
   --a0: #7fb0ee; --a1: #ee8f78; --a2: #6fcf9a; --a3: #c79bea;
-  --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6; --a14: #e0c27a;
+  --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6; --a14: #f1f5f9; --a15: #fbbf24;
   color-scheme: dark;
 }
 body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.55; }
@@ -75,7 +75,7 @@ svg text { font-family: var(--mono); }
 .c8 { fill: var(--a8); background: var(--a8); } .c9 { fill: var(--a9); background: var(--a9); }
 .c10 { fill: var(--a10); background: var(--a10); } .c11 { fill: var(--a11); background: var(--a11); }
 .c12 { fill: var(--a12); background: var(--a12); } .c13 { fill: var(--a13); background: var(--a13); }
-.c14 { fill: var(--a14); background: var(--a14); }
+.c14 { fill: var(--a14); background: var(--a14); } .c15 { fill: var(--a15); background: var(--a15); }
 .reasons { margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid var(--line); list-style: none; display: flex; flex-direction: column; font-size: 0.92rem; }
 .reasons li { display: grid; grid-template-columns: 24px 1.4ch 6.4rem 1fr; gap: 10px; align-items: start; padding-block: 6px; }
 .reasons li + li { border-top: 1px dashed var(--line); }
@@ -162,8 +162,8 @@ section[id], nav[id] { scroll-margin-top: 12px; }
 <div class="wrap">
   <header class="stack">
     <div class="eyebrow">Companion to synthesis.md · twelfth pass</div>
-    <h1>Fourteen Authors, Thirteen Axes</h1>
-    <p>Each author is placed from 1 to 5 on thirteen questions where at least ten of the fourteen take a position. The scores are my reading of the synthesis document and the authors’ texts, not measurements. The last three questions were added in the tenth pass. The reason for every score is listed under its chart.</p>
+    <h1>Sixteen Authors, Thirteen Axes</h1>
+    <p>Each author is placed from 1 to 5 on thirteen questions where at least ten of the sixteen take a position. The scores are my reading of the synthesis document and the authors’ texts, not measurements. The last three questions were added in the tenth pass. The reason for every score is listed under its chart.</p>
     <p class="muted small">Select an author to follow them through every chart.</p>
     <div class="legend" id="legend"></div>
   </header>
@@ -221,12 +221,13 @@ section[id], nav[id] { scroll-margin-top: 12px; }
     <div class="scroll"><table class="matrix" id="matrix"></table></div>
     <div class="pairs" id="pairs"></div>
     <ul class="plain">
-      <li><b>Two camps.</b> The first trusts states: Norton, Hudson and Berletic, with Henningsen, Crooke, Wilkerson, Wolff and Diesen close by. The second puts power in networks above countries and fears the state's tools: Werner, Fitts, Martenson and Webb, with Dixon further out.</li>
-      <li><b>A third line: countries or blocs.</b> On the two newest questions, Diesen, Wilkerson and Crooke stand apart. They treat states and leaders as the actors and wars as won or lost by countries, while nearly everyone else sees blocs or classes, and complexes that gain win or lose.</li>
+      <li><b>Two camps.</b> The first trusts states: Norton, Hudson and Berletic, with Henningsen, Crooke, Wilkerson, Wolff, Diesen, Mearsheimer and Sachs close by. The second puts power in networks above countries and fears the state's tools: Werner, Fitts, Martenson and Webb, with Dixon further out.</li>
+      <li><b>The three academics are the tightest cluster.</b> Diesen, Mearsheimer and Sachs make up the three closest pairs in the set. They are the realist pole, and they appear on the same shows, often together, so their closeness is not independent agreement.</li>
+      <li><b>A third line: countries or blocs.</b> On the two newest questions, Diesen, Mearsheimer, Sachs, Wilkerson and Crooke stand apart. They treat states and leaders as the actors and wars as won or lost by countries, while nearly everyone else sees blocs or classes, and complexes that gain win or lose.</li>
       <li><b>Krainer bridges the first two camps.</b> He puts finance above all countries, as the second camp does, and wants a strong state, as the first does.</li>
-      <li><b>Hudson is the most central, then Werner, Henningsen and Crooke.</b> Hudson is two points from the group on only one question. His closest neighbour is Norton, whose site carries his interviews, and Wolff's is Wilkerson, whose shows he shares, so those closenesses are not independent agreement.</li>
-      <li><b>Diesen and Webb are furthest apart.</b> Diesen sees sovereign states balancing a hegemon; Webb sees states, the multipolar ones included, as instruments of the same private networks.</li>
-      <li><b>Dixon stands furthest from the crowd, then Webb, Krainer and Diesen.</b> The first three put power above countries; Diesen is the outlier at the other end, the state frame.</li>
+      <li><b>Henningsen is the most central, then Wolff, Hudson and Crooke.</b> They sit closest to the group's middle answer across the questions. Hudson's closest neighbour is Norton, whose site carries his interviews, and Wolff's is Wilkerson, whose shows he shares, so those closenesses are not independent agreement.</li>
+      <li><b>Sachs and Dixon are furthest apart, then Webb with Sachs and with Mearsheimer.</b> Sachs and Mearsheimer see states and leaders making the choices; Dixon and Webb see states, the multipolar ones included, as instruments of private networks.</li>
+      <li><b>Dixon stands furthest from the crowd, then Webb, Mearsheimer and Sachs.</b> Dixon and Webb put power above countries; Mearsheimer and Sachs are the outliers at the other end, the state frame.</li>
     </ul>
     <p class="back"><a href="#contents-top">Back to contents</a></p>
   </section>

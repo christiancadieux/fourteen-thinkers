@@ -22,7 +22,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 27,
+  "line": 29,
   "section": "Method and limits",
   "quote": "The Israel Lobby?",
   "words": 3,
@@ -31,11 +31,11 @@
   ],
   "context": [
    "Diesen",
+   "Mearsheimer",
+   "Sachs",
    "Hudson",
    "Wolff",
-   "Webb",
-   "Wilkerson",
-   "Crooke"
+   "Webb"
   ],
   "status": "verified",
   "author": "Chomsky",
@@ -43,7 +43,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 28,
+  "line": 30,
   "section": "Method and limits",
   "quote": "argues",
   "words": 1,
@@ -51,16 +51,16 @@
   "context": [
    "Chomsky",
    "Diesen",
+   "Mearsheimer",
+   "Sachs",
    "Hudson",
-   "Wolff",
-   "Webb",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 28,
+  "line": 30,
   "section": "Method and limits",
   "quote": "shows",
   "words": 1,
@@ -68,21 +68,23 @@
   "context": [
    "Chomsky",
    "Diesen",
+   "Mearsheimer",
+   "Sachs",
    "Hudson",
-   "Wolff",
-   "Webb",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 32,
+  "line": 34,
   "section": "Short version",
   "quote": "a handful of men with bottomless pockets who were willing to wait decades",
   "words": 13,
   "candidates": [
    "Webb",
+   "Sachs",
+   "Mearsheimer",
    "Diesen",
    "Wilkerson",
    "Crooke",
@@ -97,7 +99,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 33,
+  "line": 35,
   "section": "Short version",
   "quote": "monolithic and ruthless conspiracy",
   "words": 4,
@@ -106,11 +108,11 @@
   ],
   "context": [
    "Webb",
+   "Sachs",
+   "Mearsheimer",
    "Diesen",
    "Wilkerson",
-   "Crooke",
-   "Hudson",
-   "Martenson"
+   "Crooke"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -118,13 +120,41 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 35,
+  "line": 37,
+  "section": "Short version",
+  "quote": "sold to President Donald Trump by Prime Minister Benjamin Netanyahu",
+  "words": 10,
+  "candidates": [
+   "Sachs",
+   "Mearsheimer",
+   "Wilkerson",
+   "Martenson",
+   "Werner",
+   "Krainer",
+   "Henningsen",
+   "Norton",
+   "Berletic"
+  ],
+  "context": [
+   "Webb",
+   "Wolff",
+   "Dixon"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_x92sd22yctamrlph767acjb42tdndf.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 37,
   "section": "Short version",
   "quote": "a war for Israel",
   "words": 4,
   "candidates": [
    "Henningsen",
    "Wolff",
+   "Sachs",
+   "Mearsheimer",
    "Wilkerson",
    "Martenson",
    "Werner",
@@ -134,8 +164,7 @@
   ],
   "context": [
    "Webb",
-   "Dixon",
-   "Fitts"
+   "Dixon"
   ],
   "status": "verified",
   "author": "Henningsen",
@@ -143,8 +172,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "the bankers hold all the power",
   "words": 6,
   "candidates": [
@@ -158,8 +187,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "a piggy bank",
   "words": 3,
   "candidates": [
@@ -174,8 +203,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "continuity of agenda",
   "words": 3,
   "candidates": [
@@ -192,8 +221,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "is made by and for these powerful corporations",
   "words": 8,
   "candidates": [
@@ -211,8 +240,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "handpicked every cabinet member of the Trump administration that touches national security or foreign policy",
   "words": 15,
   "candidates": [
@@ -231,8 +260,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "There's a class of people above him, who have more power than the government because they are completely untouchable.",
   "words": 20,
   "candidates": [
@@ -252,8 +281,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "it doesn't matter what the voters say anymore",
   "words": 9,
   "candidates": [
@@ -274,8 +303,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "wholly co-opted",
   "words": 3,
   "candidates": [
@@ -297,8 +326,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "national security state, which we have most assuredly become",
   "words": 9,
   "candidates": [
@@ -321,8 +350,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "are running the freaking government",
   "words": 5,
   "candidates": [
@@ -345,8 +374,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "one can change the people in power, there's often less and less ability to actually change the policies.",
   "words": 19,
   "candidates": [
@@ -370,8 +399,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "a world system of financial control in private hands",
   "words": 9,
   "candidates": [
@@ -396,8 +425,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 41,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
   "quote": "The donor class's donations protect it from serious or sustained criticism by either major US Party.",
   "words": 17,
   "candidates": [
@@ -423,8 +452,66 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 42,
-  "section": "What all fourteen agree on",
+  "line": 43,
+  "section": "What they agree on",
+  "quote": "Where Israel is concerned, however, potential critics fall silent.",
+  "words": 9,
+  "candidates": [
+   "Mearsheimer",
+   "Sachs",
+   "Wolff",
+   "Webb",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Martenson",
+   "Henningsen",
+   "Norton",
+   "Berletic",
+   "Fitts",
+   "Dixon",
+   "Krainer",
+   "Werner"
+  ],
+  "context": [],
+  "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/lrb_2006_the_israel_lobby_with_walt.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 43,
+  "section": "What they agree on",
+  "quote": "was decided by a small circle of presidential loyalists at Mar-a-Lago, with no formal interagency process",
+  "words": 18,
+  "candidates": [
+   "Sachs",
+   "Mearsheimer",
+   "Wolff",
+   "Webb",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Martenson",
+   "Henningsen",
+   "Norton",
+   "Berletic",
+   "Fitts",
+   "Dixon",
+   "Krainer",
+   "Werner"
+  ],
+  "context": [],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_x92sd22yctamrlph767acjb42tdndf.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 44,
+  "section": "What they agree on",
   "quote": "lend money for assets... already in existence",
   "words": 7,
   "candidates": [
@@ -433,11 +520,12 @@
    "Werner"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Wolff",
    "Webb",
    "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Wilkerson"
   ],
   "status": "verified",
   "author": "Norton",
@@ -445,8 +533,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 42,
-  "section": "What all fourteen agree on",
+  "line": 44,
+  "section": "What they agree on",
   "quote": "British system",
   "words": 2,
   "candidates": [
@@ -456,18 +544,19 @@
    "Werner"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Wolff",
    "Webb",
    "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Wilkerson"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 42,
-  "section": "What all fourteen agree on",
+  "line": 44,
+  "section": "What they agree on",
   "quote": "American System",
   "words": 2,
   "candidates": [
@@ -477,18 +566,19 @@
    "Werner"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Wolff",
    "Webb",
    "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Wilkerson"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 43,
-  "section": "What all fourteen agree on",
+  "line": 45,
+  "section": "What they agree on",
   "quote": "I don't get hung up on the labels",
   "words": 9,
   "candidates": [
@@ -501,8 +591,8 @@
   "context": [
    "Hudson",
    "Norton",
-   "Wolff",
-   "Webb"
+   "Sachs",
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Henningsen",
@@ -510,8 +600,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 43,
-  "section": "What all fourteen agree on",
+  "line": 45,
+  "section": "What they agree on",
   "quote": "a uniparty with two personalities",
   "words": 5,
   "candidates": [
@@ -525,8 +615,8 @@
   ],
   "context": [
    "Norton",
-   "Wolff",
-   "Webb"
+   "Sachs",
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Hudson",
@@ -534,8 +624,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 44,
-  "section": "What all fourteen agree on",
+  "line": 46,
+  "section": "What they agree on",
   "quote": "all US wars are indeed a form of class war",
   "words": 10,
   "candidates": [
@@ -555,8 +645,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 44,
-  "section": "What all fourteen agree on",
+  "line": 46,
+  "section": "What they agree on",
   "quote": "popping champagne corks",
   "words": 3,
   "candidates": [
@@ -576,8 +666,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 44,
-  "section": "What all fourteen agree on",
+  "line": 46,
+  "section": "What they agree on",
   "quote": "The people at the top, the rich and the powerful, respond to the decline by saying, oh, this is terrible, but not for me.",
   "words": 24,
   "candidates": [
@@ -598,8 +688,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 44,
-  "section": "What all fourteen agree on",
+  "line": 46,
+  "section": "What they agree on",
   "quote": "a sociological experiment",
   "words": 3,
   "candidates": [
@@ -620,8 +710,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 44,
-  "section": "What all fourteen agree on",
+  "line": 46,
+  "section": "What they agree on",
   "quote": "They know they're going to make money out their yin yang.",
   "words": 12,
   "candidates": [
@@ -643,8 +733,32 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 45,
-  "section": "What all fourteen agree on",
+  "line": 46,
+  "section": "What they agree on",
+  "quote": "Working families have paid more at the checkout counter. Wealthy households have received large tax cuts.",
+  "words": 16,
+  "candidates": [
+   "Sachs",
+   "Wilkerson",
+   "Martenson",
+   "Wolff",
+   "Henningsen",
+   "Norton",
+   "Dixon",
+   "Fitts"
+  ],
+  "context": [
+   "Berletic",
+   "Hudson"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_7sa2rm8r33b5nt4bh8j3a36rf3xlz7.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 47,
+  "section": "What they agree on",
   "quote": "a protection racket",
   "words": 3,
   "candidates": [
@@ -656,6 +770,7 @@
    "Werner"
   ],
   "context": [
+   "Sachs",
    "Wilkerson",
    "Martenson",
    "Wolff"
@@ -666,8 +781,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 45,
-  "section": "What all fourteen agree on",
+  "line": 47,
+  "section": "What they agree on",
   "quote": "cannibalized to support the dollar",
   "words": 5,
   "candidates": [
@@ -679,6 +794,7 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
    "Wilkerson",
    "Martenson",
    "Wolff"
@@ -689,8 +805,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 45,
-  "section": "What all fourteen agree on",
+  "line": 47,
+  "section": "What they agree on",
   "quote": "committing economic suicide",
   "words": 3,
   "candidates": [
@@ -703,6 +819,7 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
    "Wilkerson",
    "Martenson",
    "Wolff"
@@ -713,8 +830,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 45,
-  "section": "What all fourteen agree on",
+  "line": 47,
+  "section": "What they agree on",
   "quote": "We've already lost 40 and under in Korea.",
   "words": 9,
   "candidates": [
@@ -728,6 +845,7 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
    "Martenson",
    "Wolff"
   ],
@@ -737,8 +855,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 45,
-  "section": "What all fourteen agree on",
+  "line": 47,
+  "section": "What they agree on",
   "quote": "We are vassals now.",
   "words": 4,
   "candidates": [
@@ -753,6 +871,7 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
    "Martenson",
    "Wolff"
   ],
@@ -762,8 +881,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 45,
-  "section": "What all fourteen agree on",
+  "line": 47,
+  "section": "What they agree on",
   "quote": "a craven act of Europe's even more desperate submission",
   "words": 10,
   "candidates": [
@@ -779,6 +898,7 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
    "Martenson"
   ],
   "status": "verified",
@@ -787,8 +907,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 46,
-  "section": "What all fourteen agree on",
+  "line": 48,
+  "section": "What they agree on",
   "quote": "hedge fund dollar",
   "words": 3,
   "candidates": [
@@ -808,8 +928,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 46,
-  "section": "What all fourteen agree on",
+  "line": 48,
+  "section": "What they agree on",
   "quote": "people started walking away from the dollar",
   "words": 7,
   "candidates": [
@@ -832,8 +952,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 46,
-  "section": "What all fourteen agree on",
+  "line": 48,
+  "section": "What they agree on",
   "quote": "America has become a pirate state.",
   "words": 6,
   "candidates": [
@@ -856,8 +976,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 46,
-  "section": "What all fourteen agree on",
+  "line": 48,
+  "section": "What they agree on",
   "quote": "dollar hegemony largely is a function of preserving the myth of U.S. exceptional military invulnerability",
   "words": 16,
   "candidates": [
@@ -881,8 +1001,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 46,
-  "section": "What all fourteen agree on",
+  "line": 48,
+  "section": "What they agree on",
   "quote": "the global understanding of the United States as a place where you can safely keep your money is finished.",
   "words": 19,
   "candidates": [
@@ -906,8 +1026,34 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 49,
-  "section": "What all fourteen agree on",
+  "line": 48,
+  "section": "What they agree on",
+  "quote": "relying on dollar-based trade leaves states vulnerable to US sanctions.",
+  "words": 11,
+  "candidates": [
+   "Sachs",
+   "Wolff",
+   "Crooke",
+   "Hudson",
+   "Martenson",
+   "Henningsen",
+   "Dixon",
+   "Berletic",
+   "Norton",
+   "Werner"
+  ],
+  "context": [
+   "Diesen",
+   "Wilkerson"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_mtcsp486jrahnm4rtl6txfjh3rj84m.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 51,
+  "section": "What they agree on",
   "quote": "the best friend of the U.S. government",
   "words": 8,
   "candidates": [
@@ -917,12 +1063,12 @@
    "Fitts"
   ],
   "context": [
+   "Sachs",
    "Wolff",
    "Crooke",
    "Hudson",
    "Martenson",
-   "Henningsen",
-   "Dixon"
+   "Henningsen"
   ],
   "status": "verified",
   "author": "Webb",
@@ -930,8 +1076,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 49,
-  "section": "What all fourteen agree on",
+  "line": 51,
+  "section": "What they agree on",
   "quote": "a backdoor way",
   "words": 3,
   "candidates": [
@@ -941,12 +1087,12 @@
    "Fitts"
   ],
   "context": [
+   "Sachs",
    "Wolff",
    "Crooke",
    "Hudson",
    "Martenson",
-   "Henningsen",
-   "Dixon"
+   "Henningsen"
   ],
   "status": "verified",
   "author": "Werner",
@@ -954,8 +1100,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 49,
-  "section": "What all fourteen agree on",
+  "line": 51,
+  "section": "What they agree on",
   "quote": "central bank digital control",
   "words": 4,
   "candidates": [
@@ -965,12 +1111,12 @@
    "Fitts"
   ],
   "context": [
+   "Sachs",
    "Wolff",
    "Crooke",
    "Hudson",
    "Martenson",
-   "Henningsen",
-   "Dixon"
+   "Henningsen"
   ],
   "status": "verified",
   "author": "Werner",
@@ -978,8 +1124,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 49,
-  "section": "What all fourteen agree on",
+  "line": 51,
+  "section": "What they agree on",
   "quote": "a very unsafe investment",
   "words": 4,
   "candidates": [
@@ -990,11 +1136,11 @@
    "Fitts"
   ],
   "context": [
+   "Sachs",
    "Wolff",
    "Crooke",
    "Martenson",
-   "Henningsen",
-   "Dixon"
+   "Henningsen"
   ],
   "status": "verified",
   "author": "Hudson",
@@ -1002,8 +1148,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 51,
-  "section": "What all fourteen agree on",
+  "line": 53,
+  "section": "What they agree on",
   "quote": "does not exist",
   "words": 3,
   "candidates": [
@@ -1023,8 +1169,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 51,
-  "section": "What all fourteen agree on",
+  "line": 53,
+  "section": "What they agree on",
   "quote": "a financial illusion",
   "words": 3,
   "candidates": [
@@ -1044,8 +1190,8 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 51,
-  "section": "What all fourteen agree on",
+  "line": 53,
+  "section": "What they agree on",
   "quote": "petroleum",
   "words": 1,
   "candidates": [
@@ -1064,7 +1210,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 57,
+  "line": 59,
   "section": "The mechanism, assembled from all the authors",
   "quote": "no such thing as a low-energy rich country",
   "words": 9,
@@ -1078,7 +1224,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 59,
+  "line": 61,
   "section": "The mechanism, assembled from all the authors",
   "quote": "available to be paid to the banks as interest",
   "words": 9,
@@ -1095,7 +1241,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 61,
+  "line": 63,
   "section": "The mechanism, assembled from all the authors",
   "quote": "pop",
   "words": 1,
@@ -1112,7 +1258,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 63,
+  "line": 65,
   "section": "The mechanism, assembled from all the authors",
   "quote": "to pay for its many wars, large and small. This enabled US governments to avoid having to raise taxes to pay for wars.",
   "words": 23,
@@ -1134,7 +1280,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 63,
+  "line": 65,
   "section": "The mechanism, assembled from all the authors",
   "quote": "military Keynesianism",
   "words": 2,
@@ -1154,7 +1300,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 63,
+  "line": 65,
   "section": "The mechanism, assembled from all the authors",
   "quote": "the perpetual war economy",
   "words": 4,
@@ -1176,7 +1322,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 63,
+  "line": 65,
   "section": "The mechanism, assembled from all the authors",
   "quote": "there would be military bases in all 50 states",
   "words": 9,
@@ -1198,7 +1344,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 64,
+  "line": 66,
   "section": "The mechanism, assembled from all the authors",
   "quote": "formula",
   "words": 1,
@@ -1218,7 +1364,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 64,
+  "line": 66,
   "section": "The mechanism, assembled from all the authors",
   "quote": "right up there alongside the central bank",
   "words": 7,
@@ -1240,7 +1386,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "paid to have",
   "words": 3,
@@ -1260,7 +1406,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "mainstream media, not politics, is the true engine of war",
   "words": 10,
@@ -1280,7 +1426,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "I don't believe that there's a smoky room",
   "words": 10,
@@ -1301,7 +1447,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "advertising is bribes",
   "words": 3,
@@ -1322,7 +1468,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "flak",
   "words": 1,
@@ -1342,7 +1488,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "our journalists, our NGOs, our think tanks",
   "words": 7,
@@ -1365,7 +1511,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 65,
+  "line": 67,
   "section": "The mechanism, assembled from all the authors",
   "quote": "managed by 'non-governmental organizations' financed by the US government and cooperating closely with US intelligence services",
   "words": 17,
@@ -1388,7 +1534,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 66,
+  "line": 68,
   "section": "The mechanism, assembled from all the authors",
   "quote": "signaling devices",
   "words": 2,
@@ -1408,7 +1554,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 66,
+  "line": 68,
   "section": "The mechanism, assembled from all the authors",
   "quote": "and it'll go right back up",
   "words": 7,
@@ -1431,7 +1577,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 66,
+  "line": 68,
   "section": "The mechanism, assembled from all the authors",
   "quote": "a threat by an oligopoly to use its oligopoly to force the prices high",
   "words": 14,
@@ -1454,7 +1600,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 66,
+  "line": 68,
   "section": "The mechanism, assembled from all the authors",
   "quote": "That's not how the market works. That's how the market is manipulated.",
   "words": 14,
@@ -1477,7 +1623,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 67,
+  "line": 69,
   "section": "The mechanism, assembled from all the authors",
   "quote": "programmable, surveillable",
   "words": 2,
@@ -1498,7 +1644,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 68,
+  "line": 70,
   "section": "The mechanism, assembled from all the authors",
   "quote": "civilisational power",
   "words": 2,
@@ -1517,7 +1663,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 68,
+  "line": 70,
   "section": "The mechanism, assembled from all the authors",
   "quote": "altered consciousness",
   "words": 2,
@@ -1536,7 +1682,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 68,
+  "line": 70,
   "section": "The mechanism, assembled from all the authors",
   "quote": "moral chaos and fragmentation",
   "words": 4,
@@ -1557,7 +1703,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 68,
+  "line": 70,
   "section": "The mechanism, assembled from all the authors",
   "quote": "deliberately fostered",
   "words": 2,
@@ -1576,7 +1722,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 69,
+  "line": 71,
   "section": "The mechanism, assembled from all the authors",
   "quote": "end up owning that technology secretly in a way that drives their stock to the moon",
   "words": 16,
@@ -1596,7 +1742,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 69,
+  "line": 71,
   "section": "The mechanism, assembled from all the authors",
   "quote": "pop",
   "words": 1,
@@ -1614,7 +1760,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 71,
+  "line": 73,
   "section": "The mechanism, assembled from all the authors",
   "quote": "we don't really want growth anymore",
   "words": 7,
@@ -1634,7 +1780,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 71,
+  "line": 73,
   "section": "The mechanism, assembled from all the authors",
   "quote": "they want to reduce populations everywhere",
   "words": 6,
@@ -1654,7 +1800,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 75,
+  "line": 77,
   "section": "What each could teach the others",
   "quote": "fractional reserve lending",
   "words": 3,
@@ -1670,7 +1816,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 76,
+  "line": 78,
   "section": "What each could teach the others",
   "quote": "they",
   "words": 1,
@@ -1687,7 +1833,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 76,
+  "line": 78,
   "section": "What each could teach the others",
   "quote": "This is systemic. There is no one on top. It's not an organized cabal.",
   "words": 15,
@@ -1706,7 +1852,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 79,
+  "line": 81,
   "section": "What each could teach the others",
   "quote": "we can't expect to find documented evidence",
   "words": 8,
@@ -1726,7 +1872,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 81,
+  "line": 83,
   "section": "What each could teach the others",
   "quote": "remarks",
   "words": 1,
@@ -1745,7 +1891,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 81,
+  "line": 83,
   "section": "What each could teach the others",
   "quote": "code",
   "words": 1,
@@ -1764,7 +1910,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 81,
+  "line": 83,
   "section": "What each could teach the others",
   "quote": "wishful thinking, obsessive paranoia, axes-to-grind",
   "words": 7,
@@ -1785,7 +1931,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 82,
+  "line": 84,
   "section": "What each could teach the others",
   "quote": "manipulated by the US",
   "words": 4,
@@ -1805,7 +1951,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 83,
+  "line": 85,
   "section": "What each could teach the others",
   "quote": "if this is some grandmaster plan, can someone explain to me what is in America's interest... Because I personally cannot see it.",
   "words": 23,
@@ -1826,7 +1972,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 83,
+  "line": 85,
   "section": "What each could teach the others",
   "quote": "accelerating the demise of the very empire",
   "words": 7,
@@ -1847,7 +1993,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 84,
+  "line": 86,
   "section": "What each could teach the others",
   "quote": "the colonial dividend",
   "words": 3,
@@ -1867,7 +2013,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 84,
+  "line": 86,
   "section": "What each could teach the others",
   "quote": "the names",
   "words": 2,
@@ -1885,7 +2031,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 84,
+  "line": 86,
   "section": "What each could teach the others",
   "quote": "excels in disciplining the United States, nudging the United States",
   "words": 10,
@@ -1905,7 +2051,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 84,
+  "line": 86,
   "section": "What each could teach the others",
   "quote": "The US empire is the dog.",
   "words": 6,
@@ -1925,7 +2071,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 85,
+  "line": 87,
   "section": "What each could teach the others",
   "quote": "while Klaus and the West head towards their technocratic digital 'utopia'",
   "words": 11,
@@ -1947,7 +2093,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 87,
+  "line": 89,
   "section": "What each could teach the others",
   "quote": "The bankers seem to always come out of top",
   "words": 9,
@@ -1967,7 +2113,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 88,
+  "line": 90,
   "section": "What each could teach the others",
   "quote": "no discernible nuclear weapons capability",
   "words": 5,
@@ -1988,7 +2134,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 88,
+  "line": 90,
   "section": "What each could teach the others",
   "quote": "a protection racket",
   "words": 3,
@@ -2009,7 +2155,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 89,
+  "line": 91,
   "section": "What each could teach the others",
   "quote": "a secondary issue",
   "words": 3,
@@ -2030,7 +2176,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 89,
+  "line": 91,
   "section": "What each could teach the others",
   "quote": "perhaps we're not beyond... peak oil",
   "words": 7,
@@ -2051,7 +2197,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 89,
+  "line": 91,
   "section": "What each could teach the others",
   "quote": "abiotic oil is just not a significant part of the story",
   "words": 11,
@@ -2072,7 +2218,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 91,
+  "line": 93,
   "section": "What each could teach the others",
   "quote": "Either our systems of money and economy are either about to crash, and crash hard, or the world is not nearly as dependent on energy as I think it is.",
   "words": 30,
@@ -2092,7 +2238,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 92,
+  "line": 94,
   "section": "What each could teach the others",
   "quote": "a public utility",
   "words": 3,
@@ -2113,7 +2259,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 92,
+  "line": 94,
   "section": "What each could teach the others",
   "quote": "a central authority to oversee the financial system",
   "words": 8,
@@ -2134,7 +2280,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 93,
+  "line": 95,
   "section": "What each could teach the others",
   "quote": "fiscal states",
   "words": 2,
@@ -2153,7 +2299,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 93,
+  "line": 95,
   "section": "What each could teach the others",
   "quote": "There is no shame in this, no attempt to conceal it.",
   "words": 11,
@@ -2174,7 +2320,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 94,
+  "line": 96,
   "section": "What each could teach the others",
   "quote": "violence",
   "words": 1,
@@ -2192,7 +2338,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 95,
+  "line": 97,
   "section": "What each could teach the others",
   "quote": "a transitory system",
   "words": 3,
@@ -2214,7 +2360,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 96,
+  "line": 98,
   "section": "What each could teach the others",
   "quote": "committed war crimes",
   "words": 3,
@@ -2235,7 +2381,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 96,
+  "line": 98,
   "section": "What each could teach the others",
   "quote": "broke my back",
   "words": 3,
@@ -2256,7 +2402,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 96,
+  "line": 98,
   "section": "What each could teach the others",
   "quote": "covet that slot",
   "words": 3,
@@ -2277,7 +2423,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 96,
+  "line": 98,
   "section": "What each could teach the others",
   "quote": "There is no strategic purpose to it.",
   "words": 7,
@@ -2298,7 +2444,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 97,
+  "line": 99,
   "section": "What each could teach the others",
   "quote": "that railroad will take 60% of the commerce that China now generates... off the seas",
   "words": 15,
@@ -2319,7 +2465,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 97,
+  "line": 99,
   "section": "What each could teach the others",
   "quote": "I'm not sure Trump's aware of it.",
   "words": 9,
@@ -2340,7 +2486,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 98,
+  "line": 100,
   "section": "What each could teach the others",
   "quote": "financial oligarchy",
   "words": 2,
@@ -2359,7 +2505,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 98,
+  "line": 100,
   "section": "What each could teach the others",
   "quote": "enforcement structure",
   "words": 2,
@@ -2378,7 +2524,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 98,
+  "line": 100,
   "section": "What each could teach the others",
   "quote": "dark state",
   "words": 2,
@@ -2397,7 +2543,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 99,
+  "line": 101,
   "section": "What each could teach the others",
   "quote": "primordially",
   "words": 1,
@@ -2417,7 +2563,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 99,
+  "line": 101,
   "section": "What each could teach the others",
   "quote": "all about a bigger U.S. play",
   "words": 7,
@@ -2439,7 +2585,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 100,
+  "line": 102,
   "section": "What each could teach the others",
   "quote": "go direct",
   "words": 2,
@@ -2459,7 +2605,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 101,
+  "line": 103,
   "section": "What each could teach the others",
   "quote": "decentralization theater",
   "words": 2,
@@ -2479,7 +2625,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 101,
+  "line": 103,
   "section": "What each could teach the others",
   "quote": "masking the greatest centralization of power in history",
   "words": 8,
@@ -2501,7 +2647,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 102,
+  "line": 104,
   "section": "What each could teach the others",
   "quote": "transideological corporation",
   "words": 2,
@@ -2519,7 +2665,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 103,
+  "line": 105,
   "section": "What each could teach the others",
   "quote": "Morality entails a commitment to principles about what is right and wrong, while moralism uses moral principles to judge, condemn, and police others.",
   "words": 23,
@@ -2539,7 +2685,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 104,
+  "line": 106,
   "section": "What each could teach the others",
   "quote": "The consequence was predictable.",
   "words": 4,
@@ -2560,7 +2706,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 105,
+  "line": 107,
   "section": "What each could teach the others",
   "quote": "Those reforms left unchallenged capitalism's basic class structure. History - the undoing of the New Deal over the last 75 years - has shown those reforms to be insufficient.",
   "words": 28,
@@ -2583,7 +2729,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 106,
+  "line": 108,
   "section": "What each could teach the others",
   "quote": "shifting state budget expenditures from public social services to big-business defense firms, from social democracy to pro-employer (pro-capitalist) austerity",
   "words": 22,
@@ -2603,7 +2749,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 108,
+  "line": 110,
   "section": "What each could teach the others",
   "quote": "secured their respective information spaces",
   "words": 5,
@@ -2628,7 +2774,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 109,
+  "line": 111,
   "section": "What each could teach the others",
   "quote": "labor aristocrats",
   "words": 2,
@@ -2646,7 +2792,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 110,
+  "line": 112,
   "section": "What each could teach the others",
   "quote": "delusional hyperventilation",
   "words": 2,
@@ -2666,7 +2812,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 110,
+  "line": 112,
   "section": "What each could teach the others",
   "quote": "the dollar creditocracy",
   "words": 3,
@@ -2688,7 +2834,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 110,
+  "line": 112,
   "section": "What each could teach the others",
   "quote": "Forget the BRICS.",
   "words": 3,
@@ -2711,7 +2857,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 117,
+  "line": 119,
   "section": "Where they contradict each other",
   "quote": "hidden hand",
   "words": 2,
@@ -2725,7 +2871,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 118,
+  "line": 120,
   "section": "Where they contradict each other",
   "quote": "Wall Street and Washington",
   "words": 4,
@@ -2742,7 +2888,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 119,
+  "line": 121,
   "section": "Where they contradict each other",
   "quote": "no one on top",
   "words": 4,
@@ -2760,7 +2906,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 120,
+  "line": 122,
   "section": "Where they contradict each other",
   "quote": "above countries",
   "words": 2,
@@ -2777,7 +2923,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 120,
+  "line": 122,
   "section": "Where they contradict each other",
   "quote": "total malice",
   "words": 2,
@@ -2794,7 +2940,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 120,
+  "line": 122,
   "section": "Where they contradict each other",
   "quote": "come clean",
   "words": 2,
@@ -2811,7 +2957,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 122,
+  "line": 124,
   "section": "Where they contradict each other",
   "quote": "formula",
   "words": 1,
@@ -2830,7 +2976,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 122,
+  "line": 124,
   "section": "Where they contradict each other",
   "quote": "grandmaster plan",
   "words": 2,
@@ -2849,7 +2995,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 123,
+  "line": 125,
   "section": "Where they contradict each other",
   "quote": "above",
   "words": 1,
@@ -2868,7 +3014,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 123,
+  "line": 125,
   "section": "Where they contradict each other",
   "quote": "power brokers in DC",
   "words": 4,
@@ -2889,7 +3035,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 123,
+  "line": 125,
   "section": "Where they contradict each other",
   "quote": "they know not what they do",
   "words": 6,
@@ -2910,7 +3056,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 123,
+  "line": 125,
   "section": "Where they contradict each other",
   "quote": "maybe they did it",
   "words": 4,
@@ -2931,7 +3077,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 125,
+  "line": 127,
   "section": "Where they contradict each other",
   "quote": "dark state",
   "words": 2,
@@ -2950,7 +3096,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 125,
+  "line": 127,
   "section": "Where they contradict each other",
   "quote": "a clear design",
   "words": 3,
@@ -2971,7 +3117,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 126,
+  "line": 128,
   "section": "Where they contradict each other",
   "quote": "no strategic purpose",
   "words": 3,
@@ -2992,7 +3138,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 127,
+  "line": 129,
   "section": "Where they contradict each other",
   "quote": "liberal hegemony",
   "words": 2,
@@ -3011,7 +3157,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 127,
+  "line": 129,
   "section": "Where they contradict each other",
   "quote": "predictable",
   "words": 1,
@@ -3030,7 +3176,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 127,
+  "line": 129,
   "section": "Where they contradict each other",
   "quote": "indivisible security",
   "words": 2,
@@ -3049,7 +3195,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 128,
+  "line": 130,
   "section": "Where they contradict each other",
   "quote": "Democratically organized worker cooperatives are the goal",
   "words": 7,
@@ -3070,7 +3216,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 128,
+  "line": 130,
   "section": "Where they contradict each other",
   "quote": "with real powers",
   "words": 3,
@@ -3091,7 +3237,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 129,
+  "line": 131,
   "section": "Where they contradict each other",
   "quote": "a world system of financial control in private hands",
   "words": 9,
@@ -3112,7 +3258,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 129,
+  "line": 131,
   "section": "Where they contradict each other",
   "quote": "decentralization theater",
   "words": 2,
@@ -3131,12 +3277,12 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 134,
+  "line": 132,
   "section": "Where they contradict each other",
-  "quote": "intentions and goals",
+  "quote": "much more unconscious",
   "words": 3,
   "candidates": [
-   "Werner"
+   "Mearsheimer"
   ],
   "context": [
    "Webb",
@@ -3147,12 +3293,96 @@
    "Hudson"
   ],
   "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/transcript1.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 132,
+  "section": "Where they contradict each other",
+  "quote": "Understand the tragic nature of international politics and do everything you can to manage it",
+  "words": 15,
+  "candidates": [
+   "Mearsheimer"
+  ],
+  "context": [
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson"
+  ],
+  "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/transcript2.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 133,
+  "section": "Where they contradict each other",
+  "quote": "the implementing partner",
+  "words": 3,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson",
+   "Crooke"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_8bkcp9nkwjr6rrjfsald7pz7nxad9r.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 133,
+  "section": "Where they contradict each other",
+  "quote": "a war of whim",
+  "words": 4,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson",
+   "Crooke"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_x92sd22yctamrlph767acjb42tdndf.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 138,
+  "section": "Where they contradict each other",
+  "quote": "intentions and goals",
+  "words": 3,
+  "candidates": [
+   "Werner"
+  ],
+  "context": [
+   "Sachs",
+   "Mearsheimer",
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson"
+  ],
+  "status": "verified",
   "author": "Werner",
   "source": "Werner/werner2.txt"
  },
  {
   "doc": "synthesis.md",
-  "line": 135,
+  "line": 139,
   "section": "Where they contradict each other",
   "quote": "the most undeniable case",
   "words": 4,
@@ -3161,11 +3391,11 @@
   ],
   "context": [
    "Werner",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
    "Wolff",
-   "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Diesen"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -3173,7 +3403,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 135,
+  "line": 139,
   "section": "Where they contradict each other",
   "quote": "the current money prison",
   "words": 4,
@@ -3182,11 +3412,11 @@
   ],
   "context": [
    "Werner",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
    "Wolff",
-   "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Diesen"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -3194,7 +3424,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 136,
+  "line": 140,
   "section": "Where they contradict each other",
   "quote": "on behalf of Israel",
   "words": 4,
@@ -3204,10 +3434,10 @@
   "context": [
    "Krainer",
    "Werner",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Berletic",
@@ -3215,7 +3445,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 137,
+  "line": 141,
   "section": "Where they contradict each other",
   "quote": "moving east",
   "words": 2,
@@ -3226,15 +3456,15 @@
    "Berletic",
    "Krainer",
    "Werner",
-   "Webb",
-   "Wolff",
-   "Diesen"
+   "Sachs",
+   "Mearsheimer",
+   "Webb"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 139,
+  "line": 143,
   "section": "Where they contradict each other",
   "quote": "against some synthetic crypto thing",
   "words": 5,
@@ -3247,7 +3477,7 @@
    "Berletic",
    "Krainer",
    "Werner",
-   "Webb"
+   "Sachs"
   ],
   "status": "verified",
   "author": "Norton",
@@ -3255,7 +3485,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 140,
+  "line": 144,
   "section": "Where they contradict each other",
   "quote": "really done any harm",
   "words": 4,
@@ -3276,7 +3506,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 140,
+  "line": 144,
   "section": "Where they contradict each other",
   "quote": "plays... go",
   "words": 2,
@@ -3295,7 +3525,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 140,
+  "line": 144,
   "section": "Where they contradict each other",
   "quote": "Greater Israel",
   "words": 2,
@@ -3314,7 +3544,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 141,
+  "line": 145,
   "section": "Where they contradict each other",
   "quote": "does not care that much about human life",
   "words": 8,
@@ -3335,7 +3565,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 141,
+  "line": 145,
   "section": "Where they contradict each other",
   "quote": "became far more Israel-focused",
   "words": 5,
@@ -3356,7 +3586,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 142,
+  "line": 146,
   "section": "Where they contradict each other",
   "quote": "the American-British disease",
   "words": 4,
@@ -3376,7 +3606,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 142,
+  "line": 146,
   "section": "Where they contradict each other",
   "quote": "transitory",
   "words": 1,
@@ -3394,7 +3624,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 142,
+  "line": 146,
   "section": "Where they contradict each other",
   "quote": "a satellite of the United States",
   "words": 6,
@@ -3414,7 +3644,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 142,
+  "line": 146,
   "section": "Where they contradict each other",
   "quote": "could stop... at any time",
   "words": 5,
@@ -3434,7 +3664,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 143,
+  "line": 147,
   "section": "Where they contradict each other",
   "quote": "compute and the minerals",
   "words": 4,
@@ -3455,7 +3685,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 143,
+  "line": 147,
   "section": "Where they contradict each other",
   "quote": "primordially",
   "words": 1,
@@ -3474,7 +3704,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 144,
+  "line": 148,
   "section": "Where they contradict each other",
   "quote": "China is winning",
   "words": 3,
@@ -3495,7 +3725,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 144,
+  "line": 148,
   "section": "Where they contradict each other",
   "quote": "Israel's our tool",
   "words": 4,
@@ -3516,7 +3746,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 144,
+  "line": 148,
   "section": "Where they contradict each other",
   "quote": "trapped",
   "words": 1,
@@ -3535,7 +3765,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 144,
+  "line": 148,
   "section": "Where they contradict each other",
   "quote": "strategic liability",
   "words": 2,
@@ -3554,7 +3784,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 145,
+  "line": 149,
   "section": "Where they contradict each other",
   "quote": "can resist economic coercion",
   "words": 4,
@@ -3575,7 +3805,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 145,
+  "line": 149,
   "section": "Where they contradict each other",
   "quote": "pushed its main Eurasian adversaries together",
   "words": 6,
@@ -3596,7 +3826,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 145,
+  "line": 149,
   "section": "Where they contradict each other",
   "quote": "pull America into one of its wars",
   "words": 7,
@@ -3617,7 +3847,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 145,
+  "line": 149,
   "section": "Where they contradict each other",
   "quote": "beholden to Netanyahu",
   "words": 3,
@@ -3638,7 +3868,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 146,
+  "line": 150,
   "section": "Where they contradict each other",
   "quote": "a remarkable mastery of both economic nationalism and openness",
   "words": 9,
@@ -3659,7 +3889,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 146,
+  "line": 150,
   "section": "Where they contradict each other",
   "quote": "toward a new Chinese global empire",
   "words": 6,
@@ -3680,7 +3910,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 146,
+  "line": 150,
   "section": "Where they contradict each other",
   "quote": "17th century colonialism, but it's several centuries too late",
   "words": 10,
@@ -3701,7 +3931,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 147,
+  "line": 151,
   "section": "Where they contradict each other",
   "quote": "private bank digital currency",
   "words": 4,
@@ -3722,7 +3952,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 147,
+  "line": 151,
   "section": "Where they contradict each other",
   "quote": "CIA-Israeli intelligence nexus",
   "words": 4,
@@ -3743,31 +3973,12 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 151,
+  "line": 152,
   "section": "Where they contradict each other",
-  "quote": "Empire",
-  "words": 1,
+  "quote": "so impressive in terms of its economic might and now its military might",
+  "words": 13,
   "candidates": [
-   "Krainer"
-  ],
-  "context": [
-   "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson",
-   "Crooke",
-   "Hudson"
-  ],
-  "status": "term"
- },
- {
-  "doc": "synthesis.md",
-  "line": 151,
-  "section": "Where they contradict each other",
-  "quote": "the City of London with its satellites on Wall Street, in Paris, Frankfurt, Basel, Tokyo",
-  "words": 15,
-  "candidates": [
-   "Krainer"
+   "Mearsheimer"
   ],
   "context": [
    "Webb",
@@ -3778,12 +3989,94 @@
    "Hudson"
   ],
   "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/transcript2.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 152,
+  "section": "Where they contradict each other",
+  "quote": "derives almost entirely from domestic politics",
+  "words": 6,
+  "candidates": [
+   "Mearsheimer"
+  ],
+  "context": [
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson"
+  ],
+  "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/lrb_2006_the_israel_lobby_with_walt.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 153,
+  "section": "Where they contradict each other",
+  "quote": "the rise of China is a good thing",
+  "words": 8,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson",
+   "Crooke"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/diesen_with_mearsheimer_2025.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 157,
+  "section": "Where they contradict each other",
+  "quote": "Empire",
+  "words": 1,
+  "candidates": [
+   "Krainer"
+  ],
+  "context": [
+   "Sachs",
+   "Mearsheimer",
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 157,
+  "section": "Where they contradict each other",
+  "quote": "the City of London with its satellites on Wall Street, in Paris, Frankfurt, Basel, Tokyo",
+  "words": 15,
+  "candidates": [
+   "Krainer"
+  ],
+  "context": [
+   "Sachs",
+   "Mearsheimer",
+   "Webb",
+   "Wolff",
+   "Diesen",
+   "Wilkerson"
+  ],
+  "status": "verified",
   "author": "Krainer",
   "source": "Krainer/k_undead.clean.txt"
  },
  {
   "doc": "synthesis.md",
-  "line": 152,
+  "line": 158,
   "section": "Where they contradict each other",
   "quote": "BlackRock wants to split the world up into a multipolar world order. That's the next empire.",
   "words": 17,
@@ -3792,11 +4085,11 @@
   ],
   "context": [
    "Krainer",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
    "Wolff",
-   "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Diesen"
   ],
   "status": "verified",
   "author": "Dixon",
@@ -3804,7 +4097,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "symbiotic",
   "words": 1,
@@ -3816,16 +4109,16 @@
   ],
   "context": [
    "Krainer",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "that tail is absolutely wagging this dog",
   "words": 7,
@@ -3837,10 +4130,10 @@
   ],
   "context": [
    "Krainer",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Henningsen",
@@ -3848,7 +4141,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "has nothing to do with US interests. It's a war for Israel.",
   "words": 13,
@@ -3860,10 +4153,10 @@
   ],
   "context": [
    "Krainer",
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Henningsen",
@@ -3871,7 +4164,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "Israel is a satellite of the United States.",
   "words": 8,
@@ -3886,10 +4179,10 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Hudson",
@@ -3897,7 +4190,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "What was the Indonesia Lobby?",
   "words": 5,
@@ -3913,10 +4206,10 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Chomsky",
@@ -3924,7 +4217,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "was compelled to back down",
   "words": 5,
@@ -3940,10 +4233,10 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen",
-   "Wilkerson"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Chomsky",
@@ -3951,7 +4244,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "Israel's our tool, not the other way around",
   "words": 9,
@@ -3969,9 +4262,10 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -3979,7 +4273,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "is trapped by Netanyahu and his and Miriam's money",
   "words": 10,
@@ -3997,9 +4291,10 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Webb",
-   "Wolff",
-   "Diesen"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -4007,7 +4302,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "pull America into one of its wars",
   "words": 7,
@@ -4026,6 +4321,8 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Webb",
    "Wolff"
   ],
@@ -4035,7 +4332,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "CIA-Israeli intelligence nexus",
   "words": 4,
@@ -4055,6 +4352,8 @@
    "Berletic"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Wolff"
   ],
   "status": "verified",
@@ -4063,7 +4362,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 153,
+  "line": 159,
   "section": "Where they contradict each other",
   "quote": "deflected away from the United States and onto Israel",
   "words": 9,
@@ -4084,6 +4383,8 @@
    "Dixon"
   ],
   "context": [
+   "Sachs",
+   "Mearsheimer",
    "Wolff"
   ],
   "status": "verified",
@@ -4092,7 +4393,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "breaking the back of the US Empire",
   "words": 7,
@@ -4114,7 +4415,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "we're heading towards a breaking point",
   "words": 7,
@@ -4138,7 +4439,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "but the war is going on",
   "words": 6,
@@ -4163,7 +4464,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "retains a lot of levers",
   "words": 5,
@@ -4188,7 +4489,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "controlled demolition",
   "words": 2,
@@ -4211,7 +4512,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "The U.S. has lost the war.",
   "words": 7,
@@ -4238,7 +4539,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "the initial steps of the empire, the American empire's retreat from the Levant and the Middle East",
   "words": 18,
@@ -4265,7 +4566,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite. The decline accelerated.",
   "words": 18,
@@ -4293,7 +4594,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "the greatest centralization of power in history",
   "words": 7,
@@ -4321,7 +4622,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 154,
+  "line": 160,
   "section": "Where they contradict each other",
   "quote": "Wars accelerate contracts to replace used-up arms and thereby profit military-industrial complexes.",
   "words": 14,
@@ -4349,7 +4650,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 155,
+  "line": 161,
   "section": "Where they contradict each other",
   "quote": "America is not a country; it is a series of companies and a financial industrial complex",
   "words": 16,
@@ -4370,7 +4671,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 155,
+  "line": 161,
   "section": "Where they contradict each other",
   "quote": "clumps",
   "words": 1,
@@ -4389,7 +4690,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 156,
+  "line": 162,
   "section": "Where they contradict each other",
   "quote": "some version of capital controls",
   "words": 5,
@@ -4398,12 +4699,12 @@
    "Desai-Tyson"
   ],
   "context": [
+   "Sachs",
    "Mearsheimer",
    "Krainer",
    "Hudson",
    "Wolff",
-   "Dixon",
-   "Crooke"
+   "Dixon"
   ],
   "status": "verified",
   "author": "Norton",
@@ -4411,7 +4712,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 156,
+  "line": 162,
   "section": "Where they contradict each other",
   "quote": "digital Gulag",
   "words": 2,
@@ -4421,18 +4722,18 @@
    "Desai-Tyson"
   ],
   "context": [
+   "Sachs",
    "Mearsheimer",
    "Krainer",
    "Hudson",
    "Wolff",
-   "Dixon",
-   "Crooke"
+   "Dixon"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 157,
+  "line": 163,
   "section": "Where they contradict each other",
   "quote": "a form of global collectivism, or communism",
   "words": 7,
@@ -4443,9 +4744,9 @@
    "Werner",
    "Norton",
    "Desai-Tyson",
+   "Sachs",
    "Mearsheimer",
-   "Krainer",
-   "Hudson"
+   "Krainer"
   ],
   "status": "verified",
   "author": "Henningsen",
@@ -4453,7 +4754,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 158,
+  "line": 164,
   "section": "Where they contradict each other",
   "quote": "I think Iran already has one.",
   "words": 6,
@@ -4465,8 +4766,8 @@
    "Werner",
    "Norton",
    "Desai-Tyson",
-   "Mearsheimer",
-   "Krainer"
+   "Sachs",
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -4474,7 +4775,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 158,
+  "line": 164,
   "section": "Where they contradict each other",
   "quote": "possess nuclear weapons",
   "words": 3,
@@ -4487,8 +4788,8 @@
    "Werner",
    "Norton",
    "Desai-Tyson",
-   "Mearsheimer",
-   "Krainer"
+   "Sachs",
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Crooke",
@@ -4496,7 +4797,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 159,
+  "line": 165,
   "section": "Where they contradict each other",
   "quote": "a dead end",
   "words": 3,
@@ -4516,7 +4817,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 160,
+  "line": 166,
   "section": "Where they contradict each other",
   "quote": "global panopticon",
   "words": 2,
@@ -4537,7 +4838,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 161,
+  "line": 167,
   "section": "Where they contradict each other",
   "quote": "a historical wealth transfer from regular Americans to a handful of billionaires",
   "words": 12,
@@ -4559,7 +4860,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 161,
+  "line": 167,
   "section": "Where they contradict each other",
   "quote": "locked out of the system",
   "words": 5,
@@ -4581,7 +4882,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 162,
+  "line": 168,
   "section": "Where they contradict each other",
   "quote": "all lies",
   "words": 2,
@@ -4599,7 +4900,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 162,
+  "line": 168,
   "section": "Where they contradict each other",
   "quote": "not my department",
   "words": 3,
@@ -4619,7 +4920,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 163,
+  "line": 169,
   "section": "Where they contradict each other",
   "quote": "pseudo pandemic",
   "words": 2,
@@ -4637,7 +4938,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 164,
+  "line": 170,
   "section": "Where they contradict each other",
   "quote": "If somebody says they're going to do something and then it happens, I'm thinking maybe they did it.",
   "words": 20,
@@ -4657,7 +4958,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 164,
+  "line": 170,
   "section": "Where they contradict each other",
   "quote": "easy",
   "words": 1,
@@ -4675,7 +4976,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 164,
+  "line": 170,
   "section": "Where they contradict each other",
   "quote": "hard",
   "words": 1,
@@ -4693,7 +4994,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 166,
+  "line": 172,
   "section": "Where they contradict each other",
   "quote": "the price of oil is so heavily manipulated at this point that veteran commodities traders and portfolio managers like Jeff Currie are throwing in the towel in exasperation.",
   "words": 28,
@@ -4713,7 +5014,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 167,
+  "line": 173,
   "section": "Where they contradict each other",
   "quote": "They're actually signaling devices. They're not legitimate places of inquiry and price discovery",
   "words": 15,
@@ -4733,7 +5034,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 168,
+  "line": 174,
   "section": "Where they contradict each other",
   "quote": "I watched what I will politely call shenanigans unfold in those markets",
   "words": 12,
@@ -4753,7 +5054,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 168,
+  "line": 174,
   "section": "Where they contradict each other",
   "quote": "they were clearly manipulated",
   "words": 4,
@@ -4773,7 +5074,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 169,
+  "line": 175,
   "section": "Where they contradict each other",
   "quote": "the day after I mentioned this stuff called chloricquin phosphate",
   "words": 10,
@@ -4793,7 +5094,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 172,
+  "line": 178,
   "section": "Where they contradict each other",
   "quote": "dark state",
   "words": 2,
@@ -4812,7 +5113,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 173,
+  "line": 179,
   "section": "Where they contradict each other",
   "quote": "I'm told",
   "words": 3,
@@ -4833,7 +5134,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 173,
+  "line": 179,
   "section": "Where they contradict each other",
   "quote": "90% assured",
   "words": 2,
@@ -4852,7 +5153,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 174,
+  "line": 180,
   "section": "Where they contradict each other",
   "quote": "the assumption of the rational state... It's not very rational at all.",
   "words": 13,
@@ -4873,7 +5174,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 175,
+  "line": 181,
   "section": "Where they contradict each other",
   "quote": "Irrational",
   "words": 1,
@@ -4890,7 +5191,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 175,
+  "line": 181,
   "section": "Where they contradict each other",
   "quote": "irrational",
   "words": 1,
@@ -4907,7 +5208,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 175,
+  "line": 181,
   "section": "Where they contradict each other",
   "quote": "For me, it is completely irrational. It doesn't make any sense.",
   "words": 12,
@@ -4927,7 +5228,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 176,
+  "line": 182,
   "section": "Where they contradict each other",
   "quote": "We are vassals now",
   "words": 4,
@@ -4947,7 +5248,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 176,
+  "line": 182,
   "section": "Where they contradict each other",
   "quote": "we are in the asset stripping phase and the money's moving east",
   "words": 13,
@@ -4969,7 +5270,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 176,
+  "line": 182,
   "section": "Where they contradict each other",
   "quote": "bet and built their careers on accepting junior partner positions vis-à-vis the United States",
   "words": 14,
@@ -4991,7 +5292,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 176,
+  "line": 182,
   "section": "Where they contradict each other",
   "quote": "Europe",
   "words": 1,
@@ -5011,7 +5312,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 176,
+  "line": 182,
   "section": "Where they contradict each other",
   "quote": "the US",
   "words": 2,
@@ -5031,7 +5332,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 177,
+  "line": 183,
   "section": "Where they contradict each other",
   "quote": "Bye-bye, Mr. Netanyahu. Your life is probably over, career almost certainly",
   "words": 11,
@@ -5052,7 +5353,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 177,
+  "line": 183,
   "section": "Where they contradict each other",
   "quote": "only two options: interfere in the election or lose",
   "words": 9,
@@ -5073,7 +5374,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 178,
+  "line": 184,
   "section": "Where they contradict each other",
   "quote": "circumstantial",
   "words": 1,
@@ -5092,7 +5393,64 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 180,
+  "line": 185,
+  "section": "Where they contradict each other",
+  "quote": "false claim",
+  "words": 2,
+  "candidates": [
+   "Mearsheimer"
+  ],
+  "context": [
+   "Webb",
+   "Werner",
+   "Wolff",
+   "Dixon",
+   "Diesen",
+   "Wilkerson"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 186,
+  "section": "Where they contradict each other",
+  "quote": "malignant narcissism",
+  "words": 2,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Webb",
+   "Werner",
+   "Wolff",
+   "Dixon",
+   "Diesen"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 186,
+  "section": "Where they contradict each other",
+  "quote": "psychopathy",
+  "words": 1,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Webb",
+   "Werner",
+   "Wolff",
+   "Dixon",
+   "Diesen"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 188,
   "section": "Where they contradict each other",
   "quote": "had nuclear weapons to arrest their fall",
   "words": 7,
@@ -5118,7 +5476,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 180,
+  "line": 188,
   "section": "Where they contradict each other",
   "quote": "the disorderly transition",
   "words": 3,
@@ -5144,7 +5502,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 180,
+  "line": 188,
   "section": "Where they contradict each other",
   "quote": "the last of the big ones, the American Empire",
   "words": 9,
@@ -5170,7 +5528,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 180,
+  "line": 188,
   "section": "Where they contradict each other",
   "quote": "the US employer class may then throw its full weight on the MAGA side and fulfill the fascistic inclinations already in play",
   "words": 22,
@@ -5196,7 +5554,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 180,
+  "line": 188,
   "section": "Where they contradict each other",
   "quote": "the disintegration of a thousand years of dominance",
   "words": 8,
@@ -5221,7 +5579,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 187,
+  "line": 195,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "the ultimate goal of isolating Beijing",
   "words": 6,
@@ -5237,7 +5595,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 187,
+  "line": 195,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "peace president",
   "words": 2,
@@ -5251,7 +5609,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 188,
+  "line": 196,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "leakage",
   "words": 1,
@@ -5266,7 +5624,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 189,
+  "line": 197,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "the outsider eventually becomes the insider",
   "words": 6,
@@ -5284,7 +5642,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 189,
+  "line": 197,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "invariably be a regional war",
   "words": 5,
@@ -5302,7 +5660,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 190,
+  "line": 198,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "Iran was always the final objective",
   "words": 6,
@@ -5321,7 +5679,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 191,
+  "line": 199,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "Trump as Myth",
   "words": 3,
@@ -5341,7 +5699,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 191,
+  "line": 199,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "wholly co-opted",
   "words": 3,
@@ -5361,7 +5719,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 191,
+  "line": 199,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "the pro-Israeli ruling billionaires behind Trump will stop at nothing",
   "words": 11,
@@ -5381,7 +5739,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 191,
+  "line": 199,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "A long war is more likely than a quick war.",
   "words": 10,
@@ -5401,7 +5759,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 192,
+  "line": 200,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "genuine",
   "words": 1,
@@ -5420,7 +5778,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 192,
+  "line": 200,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "I'm worried that we might be walking into a war that we cannot walk away from because of Netanyahu.",
   "words": 20,
@@ -5441,7 +5799,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 193,
+  "line": 201,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "would be an absolute disaster",
   "words": 5,
@@ -5462,7 +5820,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 193,
+  "line": 201,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "Iran would hit back in a massive way",
   "words": 8,
@@ -5483,7 +5841,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 193,
+  "line": 201,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "no clear exit strategy",
   "words": 4,
@@ -5504,7 +5862,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 193,
+  "line": 201,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "Trump is very much aligned with the hawks.",
   "words": 8,
@@ -5525,12 +5883,12 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 194,
+  "line": 202,
   "section": "A shared test: Trump and the war on Iran",
-  "quote": "programmable, surveillable stablecoins to expand and entrench dollar dominance",
+  "quote": "risk a major regional war that would be devastating",
   "words": 9,
   "candidates": [
-   "Webb"
+   "Sachs"
   ],
   "context": [
    "Diesen",
@@ -5541,12 +5899,178 @@
    "Fitts"
   ],
   "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_tn2yb5f42sgrjk9yxlwzh7h7xb3r7m.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 202,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "will likely end in an American retreat",
+  "words": 7,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_x92sd22yctamrlph767acjb42tdndf.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 202,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "significantly reduced",
+  "words": 2,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen",
+   "Fitts"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 202,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "a war of whim",
+  "words": 4,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_x92sd22yctamrlph767acjb42tdndf.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 202,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "dramatically underestimated Iran's technological sophistication",
+  "words": 6,
+  "candidates": [
+   "Sachs"
+  ],
+  "context": [
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_x92sd22yctamrlph767acjb42tdndf.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 203,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "the greatest strategic blunder in US history",
+  "words": 7,
+  "candidates": [
+   "Mearsheimer"
+  ],
+  "context": [
+   "Sachs",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen"
+  ],
+  "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/substack_the-mother-of-all-strategic-blunders.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 203,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "we had to quit after 40 days",
+  "words": 7,
+  "candidates": [
+   "Mearsheimer"
+  ],
+  "context": [
+   "Sachs",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen"
+  ],
+  "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/transcript1.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 203,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "running out of weaponry",
+  "words": 4,
+  "candidates": [
+   "Mearsheimer"
+  ],
+  "context": [
+   "Sachs",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson",
+   "Henningsen"
+  ],
+  "status": "verified",
+  "author": "Mearsheimer",
+  "source": "Mearsheimer/transcript1.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 204,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "programmable, surveillable stablecoins to expand and entrench dollar dominance",
+  "words": 9,
+  "candidates": [
+   "Webb"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Sachs",
+   "Diesen",
+   "Wilkerson",
+   "Crooke",
+   "Hudson"
+  ],
+  "status": "verified",
   "author": "Webb",
   "source": "Webb/ww_1.body.txt"
  },
  {
   "doc": "synthesis.md",
-  "line": 195,
+  "line": 205,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "real, not controlled, opposition",
   "words": 4,
@@ -5557,9 +6081,9 @@
    "Hudson",
    "Werner",
    "Webb",
-   "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Mearsheimer",
+   "Sachs",
+   "Diesen"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -5567,7 +6091,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 195,
+  "line": 205,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "shocked the world and many of his supporters",
   "words": 8,
@@ -5578,9 +6102,9 @@
    "Hudson",
    "Werner",
    "Webb",
-   "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Mearsheimer",
+   "Sachs",
+   "Diesen"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -5588,7 +6112,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 196,
+  "line": 206,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "The true aim is to make war on China",
   "words": 9,
@@ -5599,8 +6123,8 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Werner",
@@ -5608,7 +6132,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 196,
+  "line": 206,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "sensible",
   "words": 1,
@@ -5619,14 +6143,14 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 196,
+  "line": 206,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "somehow it hasn't quite happened",
   "words": 6,
@@ -5637,8 +6161,8 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Werner",
@@ -5646,7 +6170,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 196,
+  "line": 206,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "attempt to ensure that the petro dollar can survive",
   "words": 9,
@@ -5657,8 +6181,8 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Werner",
@@ -5666,7 +6190,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 197,
+  "line": 207,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "seemed to be on track",
   "words": 5,
@@ -5678,8 +6202,8 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Martenson",
@@ -5687,7 +6211,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 197,
+  "line": 207,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "then something shifted",
   "words": 3,
@@ -5699,8 +6223,8 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Martenson",
@@ -5708,7 +6232,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 197,
+  "line": 207,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "I'm starting to wonder if that hasn't been the point all along.",
   "words": 14,
@@ -5720,8 +6244,8 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen",
-   "Wilkerson"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Martenson",
@@ -5729,7 +6253,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 198,
+  "line": 208,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "already been regime changed",
   "words": 4,
@@ -5742,7 +6266,7 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen"
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Dixon",
@@ -5750,7 +6274,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 198,
+  "line": 208,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "synthetic",
   "words": 1,
@@ -5763,13 +6287,13 @@
    "Krainer",
    "Hudson",
    "Webb",
-   "Diesen"
+   "Mearsheimer"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "whatever he in fact does is marginal",
   "words": 7,
@@ -5790,7 +6314,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "capacity for saying one thing and doing another is already legendary",
   "words": 11,
@@ -5811,7 +6335,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "he has not ended the wars he inherited (Ukraine and Gaza) and has actually started another (Iran).",
   "words": 17,
@@ -5832,7 +6356,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "to do another Maduro, sort of, in Iran",
   "words": 8,
@@ -5853,7 +6377,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "I don't see how he survives this.",
   "words": 8,
@@ -5874,7 +6398,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "lose farm votes big time",
   "words": 5,
@@ -5896,7 +6420,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "something spectacular",
   "words": 2,
@@ -5915,7 +6439,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "high up in the hierarchy",
   "words": 5,
@@ -5936,7 +6460,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 199,
+  "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "the real enemy here isn't the Iranians... It's a Chinese.",
   "words": 12,
@@ -5957,7 +6481,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 201,
+  "line": 211,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "the number one enemy",
   "words": 4,
@@ -5981,7 +6505,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 201,
+  "line": 211,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "conflicts among proxies of the two great powers of our time",
   "words": 11,
@@ -6005,7 +6529,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 201,
+  "line": 211,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "another reason",
   "words": 2,
@@ -6027,7 +6551,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 201,
+  "line": 211,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "sit back and watch",
   "words": 4,
@@ -6051,7 +6575,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "ugly",
   "words": 1,
@@ -6069,7 +6593,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "no later than this autumn",
   "words": 5,
@@ -6090,7 +6614,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "after a few years",
   "words": 4,
@@ -6111,7 +6635,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "60/40 we don't have elections",
   "words": 7,
@@ -6132,7 +6656,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "50-50 chance",
   "words": 2,
@@ -6151,7 +6675,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "The U.S. ultimately will have to capitulate",
   "words": 8,
@@ -6173,7 +6697,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 205,
+  "line": 215,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "has been delayed, not permanently deferred",
   "words": 6,
@@ -6195,7 +6719,47 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 224,
+  "line": 231,
+  "section": "Who they read, and who reads whom",
+  "quote": "the most accurate precient",
+  "words": 4,
+  "candidates": [
+   "Sachs",
+   "Diesen",
+   "Mearsheimer"
+  ],
+  "context": [
+   "Hudson",
+   "Wolff",
+   "Chomsky",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/diesen_with_mearsheimer_2025.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 231,
+  "section": "Who they read, and who reads whom",
+  "quote": "almost completely",
+  "words": 2,
+  "candidates": [
+   "Sachs",
+   "Diesen",
+   "Mearsheimer"
+  ],
+  "context": [
+   "Hudson",
+   "Wolff",
+   "Chomsky",
+   "Fitts"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 236,
   "section": "Who they read, and who reads whom",
   "quote": "misguided",
   "words": 1,
@@ -6207,14 +6771,15 @@
   "context": [
    "Dixon",
    "Berletic",
+   "Diesen",
    "Mearsheimer",
-   "Diesen"
+   "Sachs"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 239,
+  "line": 251,
   "section": "Open questions for the room",
   "quote": "transideological",
   "words": 1,
@@ -6234,7 +6799,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 239,
+  "line": 251,
   "section": "Open questions for the room",
   "quote": "same capital",
   "words": 2,
@@ -6254,7 +6819,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 239,
+  "line": 251,
   "section": "Open questions for the room",
   "quote": "different system",
   "words": 2,
@@ -6275,7 +6840,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 241,
+  "line": 253,
   "section": "Open questions for the room",
   "quote": "The United States looks at chaos as an opportunity to lock in foreign dependency.",
   "words": 14,
@@ -6298,7 +6863,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 244,
+  "line": 256,
   "section": "Open questions for the room",
   "quote": "consciousness",
   "words": 1,
@@ -6317,7 +6882,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "You can use cash... You can stop using the banks",
   "words": 10,
@@ -6332,7 +6897,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "Boycott more this month than last month",
   "words": 7,
@@ -6347,7 +6912,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "investing in diversified farming operations in exchange for a share of the farm's produce",
   "words": 15,
@@ -6364,7 +6929,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "can bypass the banking system completely",
   "words": 6,
@@ -6381,7 +6946,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "merely temporary refuges",
   "words": 3,
@@ -6398,7 +6963,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "Build on what you got... Work with us, with everybody else",
   "words": 11,
@@ -6416,7 +6981,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 248,
+  "line": 260,
   "section": "Practical convergence",
   "quote": "buffers",
   "words": 1,
@@ -6440,7 +7005,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 273,
+  "line": 285,
   "section": "Hypotheses",
   "quote": "made by and for these powerful corporations",
   "words": 7,
@@ -6461,7 +7026,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 274,
+  "line": 286,
   "section": "Hypotheses",
   "quote": "irrational",
   "words": 1,
@@ -6480,7 +7045,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 276,
+  "line": 288,
   "section": "Hypotheses",
   "quote": "primordially",
   "words": 1,
@@ -6499,7 +7064,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 276,
+  "line": 288,
   "section": "Hypotheses",
   "quote": "Leave it to Bibi",
   "words": 4,
@@ -6522,7 +7087,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 276,
+  "line": 288,
   "section": "Hypotheses",
   "quote": "deflected away from the United States and onto Israel",
   "words": 9,
@@ -6545,7 +7110,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 276,
+  "line": 288,
   "section": "Hypotheses",
   "quote": "American supported or even American orchestrated",
   "words": 6,
@@ -6568,7 +7133,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "small, fleeter Iranian naval assets ran rings around the large lumbering naval vessels of the U.S. Navy",
   "words": 18,
@@ -6588,7 +7153,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "our maritime assets are getting increasingly dated",
   "words": 7,
@@ -6608,7 +7173,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "the money's moving east",
   "words": 5,
@@ -6629,7 +7194,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "a place where you can safely keep your money is finished",
   "words": 11,
@@ -6650,7 +7215,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "They're sort of above countries.",
   "words": 6,
@@ -6672,7 +7237,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "dollar hegemony largely is a function of preserving the myth of U.S. exceptional military invulnerability",
   "words": 16,
@@ -6694,7 +7259,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 277,
+  "line": 289,
   "section": "Hypotheses",
   "quote": "as long as the United States can impose choke points",
   "words": 10,
@@ -6717,7 +7282,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "Germany's economic success & transport corridor plans were seen as lethal challenge to British hegemony requiring total war",
   "words": 18,
@@ -6738,7 +7303,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "a replay",
   "words": 2,
@@ -6757,7 +7322,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf",
   "words": 20,
@@ -6778,7 +7343,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "most of the world's commerce travels over land",
   "words": 9,
@@ -6799,7 +7364,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "intercontinental railways",
   "words": 2,
@@ -6819,7 +7384,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "US maritime power is in many ways backstopped by the city of London",
   "words": 13,
@@ -6842,7 +7407,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 278,
+  "line": 290,
   "section": "Hypotheses",
   "quote": "maritime blockades, attacking the Chinese BRI",
   "words": 6,
@@ -6866,7 +7431,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 279,
+  "line": 291,
   "section": "Hypotheses",
   "quote": "Iran sits in the driving seat",
   "words": 6,
@@ -6887,7 +7452,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 279,
+  "line": 291,
   "section": "Hypotheses",
   "quote": "largely impervious to Israeli air defences",
   "words": 6,
@@ -6908,7 +7473,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 279,
+  "line": 291,
   "section": "Hypotheses",
   "quote": "know they're going to make money out their yin yang",
   "words": 11,
@@ -6930,7 +7495,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 279,
+  "line": 291,
   "section": "Hypotheses",
   "quote": "We don't back away. We don't retrench.",
   "words": 9,
@@ -6952,7 +7517,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 279,
+  "line": 291,
   "section": "Hypotheses",
   "quote": "Invasions don't work. All you can do is destroy other countries.",
   "words": 12,
@@ -6975,7 +7540,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 279,
+  "line": 291,
   "section": "Hypotheses",
   "quote": "a refusal to entertain the very idea the empire is over",
   "words": 11,
@@ -6999,7 +7564,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 303,
+  "line": 315,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "the US military leadership essentially ordered many US bases in the region to be evacuated.",
   "words": 15,
@@ -7007,12 +7572,12 @@
    "Werner"
   ],
   "context": [
+   "Sachs",
    "Diesen",
    "Crooke",
    "Wolff",
-   "Henningsen",
-   "Hudson",
-   "Berletic"
+   "Mearsheimer",
+   "Henningsen"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7020,7 +7585,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 304,
+  "line": 316,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf",
   "words": 20,
@@ -7029,11 +7594,11 @@
   ],
   "context": [
    "Werner",
+   "Sachs",
    "Diesen",
    "Crooke",
    "Wolff",
-   "Henningsen",
-   "Hudson"
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -7041,7 +7606,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 305,
+  "line": 317,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "deflected away from the United States and onto Israel",
   "words": 9,
@@ -7051,10 +7616,10 @@
   "context": [
    "Wilkerson",
    "Werner",
+   "Sachs",
    "Diesen",
    "Crooke",
-   "Wolff",
-   "Henningsen"
+   "Wolff"
   ],
   "status": "verified",
   "author": "Brookings-2009",
@@ -7062,7 +7627,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 306,
+  "line": 318,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "constantly changing its views and putting forward new or contradictory demands",
   "words": 11,
@@ -7072,9 +7637,9 @@
   "context": [
    "Brookings-2009",
    "Wilkerson",
+   "Sachs",
    "Diesen",
-   "Crooke",
-   "Wolff"
+   "Crooke"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7082,7 +7647,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 307,
+  "line": 319,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "President Trump announced on 13 April that a US-led naval blockade is being imposed",
   "words": 15,
@@ -7092,9 +7657,9 @@
   "context": [
    "Brookings-2009",
    "Wilkerson",
+   "Sachs",
    "Diesen",
-   "Crooke",
-   "Wolff"
+   "Crooke"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7102,7 +7667,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 308,
+  "line": 320,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "the US Treasury announced so-called secondary sanctions on Chinese companies importing Iranian oil",
   "words": 14,
@@ -7112,9 +7677,9 @@
   "context": [
    "Brookings-2009",
    "Wilkerson",
+   "Sachs",
    "Diesen",
-   "Crooke",
-   "Wolff"
+   "Crooke"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7122,7 +7687,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 311,
+  "line": 323,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "over $1 trillion in committed purchases of liquified natural gas plus investments",
   "words": 12,
@@ -7133,6 +7698,7 @@
    "Werner",
    "Brookings-2009",
    "Wilkerson",
+   "Sachs",
    "Diesen",
    "Crooke"
   ],
@@ -7142,7 +7708,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 312,
+  "line": 324,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "We have been your loyal supporters. We don't want this.",
   "words": 11,
@@ -7153,8 +7719,8 @@
    "Werner",
    "Brookings-2009",
    "Wilkerson",
-   "Diesen",
-   "Crooke"
+   "Sachs",
+   "Diesen"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7162,7 +7728,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 313,
+  "line": 325,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "most of this seems to consist of “repair or replacement costs for equipment”",
   "words": 13,
@@ -7173,8 +7739,8 @@
    "Wolff",
    "Brookings-2009",
    "Wilkerson",
-   "Diesen",
-   "Crooke"
+   "Sachs",
+   "Diesen"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7182,7 +7748,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 314,
+  "line": 326,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "Donald Trump's war is to make money for himself, and he makes money by essentially manipulating the stock market prices.",
   "words": 21,
@@ -7194,8 +7760,8 @@
    "Wolff",
    "Brookings-2009",
    "Wilkerson",
-   "Diesen",
-   "Crooke"
+   "Sachs",
+   "Diesen"
   ],
   "status": "verified",
   "author": "Hudson",
@@ -7203,7 +7769,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 316,
+  "line": 328,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "The Republican leadership doesn't want to lose that money, and the Democratic Party doesn't.",
   "words": 16,
@@ -7215,7 +7781,7 @@
    "Werner",
    "Brookings-2009",
    "Wilkerson",
-   "Diesen"
+   "Sachs"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7223,7 +7789,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 317,
+  "line": 329,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "with the Israelis being the lion's share of the bombing",
   "words": 11,
@@ -7235,7 +7801,7 @@
    "Hudson",
    "Werner",
    "Brookings-2009",
-   "Diesen"
+   "Sachs"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -7243,7 +7809,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 319,
+  "line": 331,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "the desalination plants, the electric plants, the energy facilities",
   "words": 9,
@@ -7255,7 +7821,7 @@
    "Hudson",
    "Werner",
    "Brookings-2009",
-   "Diesen"
+   "Sachs"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7263,7 +7829,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 320,
+  "line": 332,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "these corporations are trying to claw their way into the enormous Chinese market",
   "words": 13,
@@ -7276,7 +7842,7 @@
    "Hudson",
    "Werner",
    "Brookings-2009",
-   "Diesen"
+   "Sachs"
   ],
   "status": "verified",
   "author": "Norton",
@@ -7284,7 +7850,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 322,
+  "line": 334,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "more than two-thirds in August and September",
   "words": 8,
@@ -7305,11 +7871,13 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 327,
+  "line": 338,
   "section": "Weighing the evidence: what is the Iran war for?",
-  "quote": "against",
-  "words": 1,
-  "candidates": [],
+  "quote": "we started this war due to pressure from Israel and its powerful American lobby",
+  "words": 14,
+  "candidates": [
+   "Sachs"
+  ],
   "context": [
    "Johnson",
    "Norton",
@@ -7318,11 +7886,30 @@
    "Hudson",
    "Werner"
   ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_ncsswnlac5mea9d299n89s9dylc4y3.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 340,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "against",
+  "words": 1,
+  "candidates": [],
+  "context": [
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson",
+   "Hudson"
+  ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 346,
+  "line": 359,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite.",
   "words": 15,
@@ -7331,10 +7918,10 @@
   ],
   "context": [
    "Brookings-2009",
+   "Sachs",
    "Johnson",
    "Norton",
-   "Wilkerson",
-   "Hudson"
+   "Wilkerson"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7342,7 +7929,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 350,
+  "line": 363,
   "section": "Is the plan working?",
   "quote": "Iran sits in the driving seat.",
   "words": 6,
@@ -7359,7 +7946,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 350,
+  "line": 363,
   "section": "Is the plan working?",
   "quote": "Try thinking for THAAD, maybe even longer than that.",
   "words": 9,
@@ -7376,7 +7963,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 350,
+  "line": 363,
   "section": "Is the plan working?",
   "quote": "Invasions don't work. All you can do is destroy other countries.",
   "words": 12,
@@ -7393,7 +7980,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 368,
+  "line": 381,
   "section": "Is the plan working?",
   "quote": "Iranian high-end missiles flying at speeds above Mach Four are proving largely impervious to Israeli air defences",
   "words": 18,
@@ -7411,7 +7998,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 369,
+  "line": 382,
   "section": "Is the plan working?",
   "quote": "it led instead to massive outpourings of support for the Islamic Republic",
   "words": 12,
@@ -7429,7 +8016,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 372,
+  "line": 385,
   "section": "Is the plan working?",
   "quote": "They know they're going to make money out their yin yang",
   "words": 12,
@@ -7447,7 +8034,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 373,
+  "line": 386,
   "section": "Is the plan working?",
   "quote": "most of this seems to consist of “repair or replacement costs for equipment”",
   "words": 13,
@@ -7466,7 +8053,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 374,
+  "line": 387,
   "section": "Is the plan working?",
   "quote": "With the help of a very sophisticated Chinese satellite, and probably backups from Russia",
   "words": 14,
@@ -7485,7 +8072,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 377,
+  "line": 390,
   "section": "Is the plan working?",
   "quote": "a US-led naval blockade",
   "words": 5,
@@ -7504,7 +8091,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 378,
+  "line": 391,
   "section": "Is the plan working?",
   "quote": "One group of his supporters want it, another group of his supporters don't want it.",
   "words": 16,
@@ -7523,7 +8110,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 384,
+  "line": 397,
   "section": "Is the plan working?",
   "quote": "The running average today is almost 13 million barrels a day",
   "words": 11,
@@ -7543,7 +8130,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 385,
+  "line": 398,
   "section": "Is the plan working?",
   "quote": "just over a quarter of prewar levels",
   "words": 7,
@@ -7563,7 +8150,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 386,
+  "line": 399,
   "section": "Is the plan working?",
   "quote": "puts repairs to two damaged LNG trains at about three years",
   "words": 11,
@@ -7583,7 +8170,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 387,
+  "line": 400,
   "section": "Is the plan working?",
   "quote": "after a record 1.935 million in early August",
   "words": 9,
@@ -7603,7 +8190,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 388,
+  "line": 401,
   "section": "Is the plan working?",
   "quote": "It is taking orders",
   "words": 4,
@@ -7623,7 +8210,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 390,
+  "line": 403,
   "section": "Is the plan working?",
   "quote": "against",
   "words": 1,
@@ -7640,7 +8227,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 421,
+  "line": 434,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "US empire",
   "words": 2,
@@ -7655,7 +8242,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 425,
+  "line": 438,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "This is systemic. There is no one on top. It's not an organized cabal.",
   "words": 15,
@@ -7673,7 +8260,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 426,
+  "line": 439,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "pop",
   "words": 1,
@@ -7690,7 +8277,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 427,
+  "line": 440,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "part and parcel of the military-industrial complex",
   "words": 8,
@@ -7709,7 +8296,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 430,
+  "line": 443,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "strategic-economic interests of concentrations of domestic power",
   "words": 8,
@@ -7730,7 +8317,53 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 432,
+  "line": 444,
+  "section": "H1. A nexus of interests (a candidate answer to question 4)",
+  "quote": "would be fine if they took it all",
+  "words": 8,
+  "candidates": [
+   "Sachs",
+   "Wilkerson",
+   "Crooke"
+  ],
+  "context": [
+   "Chomsky",
+   "Hudson",
+   "Dixon",
+   "Berletic",
+   "Henningsen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_ncsswnlac5mea9d299n89s9dylc4y3.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 444,
+  "section": "H1. A nexus of interests (a candidate answer to question 4)",
+  "quote": "Prophetically, we're right on cue.",
+  "words": 6,
+  "candidates": [
+   "Sachs",
+   "Wilkerson",
+   "Crooke"
+  ],
+  "context": [
+   "Chomsky",
+   "Hudson",
+   "Dixon",
+   "Berletic",
+   "Henningsen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Sachs",
+  "source": "Sachs/js_ncsswnlac5mea9d299n89s9dylc4y3.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 445,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "The consequence was predictable.",
   "words": 4,
@@ -7738,12 +8371,12 @@
    "Diesen"
   ],
   "context": [
+   "Sachs",
    "Wilkerson",
    "Crooke",
    "Chomsky",
    "Hudson",
-   "Dixon",
-   "Berletic"
+   "Dixon"
   ],
   "status": "verified",
   "author": "Diesen",
@@ -7751,7 +8384,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 433,
+  "line": 446,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "accelerating the demise of the very empire",
   "words": 7,
@@ -7760,11 +8393,11 @@
   ],
   "context": [
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
    "Chomsky",
-   "Hudson",
-   "Dixon"
+   "Hudson"
   ],
   "status": "verified",
   "author": "Henningsen",
@@ -7772,7 +8405,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 447,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "clumps",
   "words": 1,
@@ -7782,16 +8415,16 @@
   "context": [
    "Henningsen",
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
-   "Chomsky",
-   "Hudson"
+   "Chomsky"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 447,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "work out amongst themselves a deal",
   "words": 6,
@@ -7801,10 +8434,10 @@
   "context": [
    "Henningsen",
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
-   "Chomsky",
-   "Hudson"
+   "Chomsky"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7812,7 +8445,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 447,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "don't make a monopoly... Have three or four an oligopoly",
   "words": 11,
@@ -7822,10 +8455,10 @@
   "context": [
    "Henningsen",
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
-   "Chomsky",
-   "Hudson"
+   "Chomsky"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7833,7 +8466,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 447,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "go as a coordinated group to the Congress",
   "words": 8,
@@ -7843,10 +8476,10 @@
   "context": [
    "Henningsen",
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
-   "Chomsky",
-   "Hudson"
+   "Chomsky"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7854,7 +8487,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 447,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "medical industrial complex",
   "words": 3,
@@ -7864,10 +8497,10 @@
   "context": [
    "Henningsen",
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
-   "Chomsky",
-   "Hudson"
+   "Chomsky"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7875,7 +8508,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 447,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "If we were watching this in Russia, there would be all this conversation about oligarchs because that's what we have.",
   "words": 21,
@@ -7885,10 +8518,10 @@
   "context": [
    "Henningsen",
    "Diesen",
+   "Sachs",
    "Wilkerson",
    "Crooke",
-   "Chomsky",
-   "Hudson"
+   "Chomsky"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7896,7 +8529,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 445,
+  "line": 458,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "monolithic and ruthless conspiracy",
   "words": 4,
@@ -7908,8 +8541,8 @@
    "Wolff",
    "Henningsen",
    "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Sachs",
+   "Wilkerson"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -7917,7 +8550,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 445,
+  "line": 458,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "the invention of the Brits",
   "words": 5,
@@ -7929,8 +8562,8 @@
    "Wolff",
    "Henningsen",
    "Diesen",
-   "Wilkerson",
-   "Crooke"
+   "Sachs",
+   "Wilkerson"
   ],
   "status": "verified",
   "author": "Krainer",
@@ -7938,7 +8571,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 447,
+  "line": 460,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "nexus",
   "words": 1,
@@ -7951,13 +8584,13 @@
    "Wolff",
    "Henningsen",
    "Diesen",
-   "Wilkerson"
+   "Sachs"
   ],
   "status": "term"
  },
  {
   "doc": "synthesis.md",
-  "line": 448,
+  "line": 461,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "no strategic purpose",
   "words": 3,
@@ -7978,7 +8611,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 455,
+  "line": 468,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "literally extinguishing the margin",
   "words": 4,
@@ -7998,7 +8631,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 455,
+  "line": 468,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "We have been your loyal supporters. We don't want this.",
   "words": 11,
@@ -8018,7 +8651,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 456,
+  "line": 469,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "One group of his supporters want it, another group of his supporters don't want it.",
   "words": 16,
@@ -8038,7 +8671,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 456,
+  "line": 469,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "to try to give to whoever comes to him what they want",
   "words": 12,
@@ -8058,7 +8691,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 457,
+  "line": 470,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "we will cut back on refining and it'll go right back up.",
   "words": 13,
@@ -8078,7 +8711,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 457,
+  "line": 470,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "one day's demand",
   "words": 4,
@@ -8098,7 +8731,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 459,
+  "line": 472,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "That seems to have worked",
   "words": 5,
@@ -8118,7 +8751,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 470,
+  "line": 483,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The war on Iran is part of a decades-spanning US project to assume complete control over the Middle East and the oil and gas that is produced and exported",
   "words": 30,
@@ -8136,7 +8769,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 471,
+  "line": 484,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "may represent a broader strategy aimed at reshaping global energy flows",
   "words": 11,
@@ -8154,7 +8787,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 472,
+  "line": 485,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "placing Europe under increasing and likely irreversible energy dependence on the United States",
   "words": 13,
@@ -8172,7 +8805,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 472,
+  "line": 485,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "This energy dependence on the US obviously benefits US-based energy corporations financially",
   "words": 13,
@@ -8190,7 +8823,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 473,
+  "line": 486,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the destruction of the Nord Stream pipelines and ever-tightening sanctions on Russian energy exports that have made otherwise irrational US LNG imports to Europe essential",
   "words": 26,
@@ -8208,7 +8841,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 474,
+  "line": 487,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Why the War Might Pause but Won't End",
   "words": 9,
@@ -8226,7 +8859,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 475,
+  "line": 488,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "we have Venezuela's oil now. We have Canada's oil. We can block the trade for Russian oil through the Arctic by invading Greenland",
   "words": 25,
@@ -8244,7 +8877,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 475,
+  "line": 488,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "There's no deal that's imminent at all, and there cannot be.",
   "words": 13,
@@ -8262,7 +8895,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 476,
+  "line": 489,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the US military leadership essentially ordered many US bases in the region to be evacuated.",
   "words": 15,
@@ -8280,7 +8913,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 477,
+  "line": 490,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Mark my words, we're leaving.",
   "words": 6,
@@ -8298,7 +8931,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 477,
+  "line": 490,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the oil field and gas field they stole in the Mediterranean from the Gazans",
   "words": 14,
@@ -8316,7 +8949,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 478,
+  "line": 491,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The bases and their host nations have become endangered targets vulnerable to Iranian drones and missiles.",
   "words": 16,
@@ -8335,7 +8968,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 479,
+  "line": 492,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "has nothing to do with US interests. It's a war for Israel.",
   "words": 13,
@@ -8355,7 +8988,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 479,
+  "line": 492,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite.",
   "words": 15,
@@ -8377,7 +9010,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 481,
+  "line": 494,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Which Path to Persia?",
   "words": 4,
@@ -8398,7 +9031,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 481,
+  "line": 494,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Leave it to Bibi: Allowing or Encouraging an Israeli Military Strike",
   "words": 11,
@@ -8420,7 +9053,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 482,
+  "line": 495,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "would encourage—and perhaps even assist—the Israelis in conducting the strikes themselves, in the expectation that both international criticism and Iranian retaliation would be deflected away from the United States and onto Israel",
   "words": 34,
@@ -8440,7 +9073,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 482,
+  "line": 495,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "verbatim",
   "words": 1,
@@ -8458,7 +9091,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 483,
+  "line": 496,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Many Iranians would still see the attack as American supported or even American orchestrated. After all, the aircraft in any strike would be American produced, supplied, and funded F-15s and F-16s, and much of the ordnance would be American made.",
   "words": 42,
@@ -8478,7 +9111,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 483,
+  "line": 496,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "$3 billion dollars in U.S. assistance annually sustains the IDF's conventional superiority in the region.",
   "words": 17,
@@ -8498,7 +9131,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 483,
+  "line": 496,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "a complete cutoff of all military assistance and economic aid",
   "words": 10,
@@ -8518,7 +9151,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 484,
+  "line": 497,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Bibi, just ignore what I'm saying. That's only for public consumption.",
   "words": 13,
@@ -8539,7 +9172,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 502,
+  "line": 515,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The US",
   "words": 2,
@@ -8556,7 +9189,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 503,
+  "line": 516,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "fiscal cliff",
   "words": 2,
@@ -8574,7 +9207,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 504,
+  "line": 517,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "much less of a buyer of American debt",
   "words": 8,
@@ -8594,7 +9227,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 505,
+  "line": 518,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "we are in the asset stripping phase and the money's moving east",
   "words": 13,
@@ -8615,7 +9248,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 506,
+  "line": 519,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "with its satellites",
   "words": 3,

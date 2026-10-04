@@ -2,9 +2,9 @@
 
 Fourteen Independent Thinkers, Read Side by Side
 
-An AI-assisted synthesis of fourteen commentators who write and speak outside the mainstream about money, war and power. Their interviews and articles are read in their own words, compared with each other rather than with official fact-checks, and quoted exactly. A small program checks every quotation against the saved texts.
+An AI-assisted synthesis of sixteen commentators who write and speak outside the mainstream about money, war and power. Their interviews and articles are read in their own words, compared with each other rather than with official fact-checks, and quoted exactly. A small program checks every quotation against the saved texts.
 
-The fourteen: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherine Austin Fitts, Ben Norton, Patrick Henningsen, Chris Martenson, Michael Hudson, Alastair Crooke, Lawrence Wilkerson, Glenn Diesen, Whitney Webb and Richard Wolff. Noam Chomsky and K.J. Noh are cited as references. Larry Johnson (sonar21.com) and the energy analyst Karl Miller are used as sources of facts only.
+The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherine Austin Fitts, Ben Norton, Patrick Henningsen, Chris Martenson, Michael Hudson, Alastair Crooke, Lawrence Wilkerson, Glenn Diesen, Whitney Webb and Richard Wolff, joined later by John Mearsheimer and Jeffrey Sachs. The title still says fourteen; there are now sixteen. Noam Chomsky and K.J. Noh are cited as references. Larry Johnson (sonar21.com) and the energy analyst Karl Miller are used as sources of facts only.
 
 ## What is here
 
@@ -15,7 +15,7 @@ The fourteen: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catheri
   - their forecasts on the Iran war, judged by their own later accounts;
   - a closing set of hypotheses, each with its supporters, objections and tests.
 - `author-axes.html`: the charts page. Download it and open it in a browser. It shows:
-  - each author scored from 1 to 5 on thirteen questions, every score backed by the author's own words;
+  - each of the sixteen authors scored from 1 to 5 on thirteen questions, every score backed by the author's own words;
   - who sits close to whom, and who is on the margin;
   - a chart of the personal advice the authors give;
   - test cases, the hypotheses and the evidence grids.
@@ -50,6 +50,6 @@ This needs only Python 3. Fix anything listed in `ledger/report.md` before publi
 
 ## Limits
 
-- The fourteen were chosen for a shared outlook, so part of their agreement is built in.
+- The authors were chosen for a shared outlook, so part of their agreement is built in.
 - They share hosts, platforms and sometimes sources, so their agreement is not fully independent.
 - Every score and every mark in the evidence grids is a judgement. Each one shows its quote or reason so it can be challenged.

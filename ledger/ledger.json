@@ -73,6 +73,16 @@
      "name": "Wolff",
      "first": "Richard",
      "code": "Wo"
+    },
+    {
+     "name": "Mearsheimer",
+     "first": "John",
+     "code": "Mh"
+    },
+    {
+     "name": "Sachs",
+     "first": "Jeffrey",
+     "code": "Sa"
     }
    ],
    "axes": [
@@ -1247,6 +1257,162 @@
      "author": "Wolff",
      "score": 5,
      "why": "Blocs: government “becomes the arena very vulgar of clumps subgroups of capitalists”."
+    },
+    {
+     "axis": "coord",
+     "author": "Mearsheimer",
+     "score": 2,
+     "why": "Elites believe their own stories rather than plan a deception: “I don't think that's what's going on. I think it's much more unconscious.”"
+    },
+    {
+     "axis": "finance",
+     "author": "Mearsheimer",
+     "score": 1,
+     "why": "Power belongs to states: “spheres of influence are geographical regions that great powers dominate”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Mearsheimer",
+     "score": 5,
+     "why": "Restraint and prioritising by a strong state: “understand how this world works. Understand the tragic nature of international politics and do everything you can to manage it.”"
+    },
+    {
+     "axis": "china",
+     "author": "Mearsheimer",
+     "score": 3,
+     "why": "A formidable rival rather than a model: “this country is so impressive in terms of its economic might and now its military might as well.”"
+    },
+    {
+     "axis": "digital",
+     "author": "Mearsheimer",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "israel",
+     "author": "Mearsheimer",
+     "score": 5,
+     "why": "With Walt: “the thrust of US policy in the region derives almost entirely from domestic politics”, above all the Israel lobby."
+    },
+    {
+     "axis": "gains",
+     "author": "Mearsheimer",
+     "score": 1,
+     "why": "Framed as a contest between states: “it's just very important to understand that Iran has won this war”."
+    },
+    {
+     "axis": "trump",
+     "author": "Mearsheimer",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "iranchina",
+     "author": "Mearsheimer",
+     "score": 2,
+     "why": "The Iran war is not about China, though the Gulf is where the rivalry will play out: “the real competition will come in the Middle East”."
+    },
+    {
+     "axis": "bloc",
+     "author": "Mearsheimer",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "centre",
+     "author": "Mearsheimer",
+     "score": 1,
+     "why": "The US state, over-stretched: “the United States still labors under the illusion that it can be everywhere and do everything all the time.”"
+    },
+    {
+     "axis": "vote",
+     "author": "Mearsheimer",
+     "score": 4,
+     "why": "On Israel the debate is closed, with Walt: “Where Israel is concerned, however, potential critics fall silent.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Mearsheimer",
+     "score": 1,
+     "why": "States and their power: “Iran is going to emerge from this war much more powerful relative to its neighbors”."
+    },
+    {
+     "axis": "coord",
+     "author": "Sachs",
+     "score": 3,
+     "why": "A long plan by a network, executed on a whim: “the culmination of a long-standing plan by Israel and the US to dominate the Arab world and West Asia”."
+    },
+    {
+     "axis": "finance",
+     "author": "Sachs",
+     "score": 1,
+     "why": "Power lies with states and leaders bent on hegemony: “the US and Israel are dead set on hegemony in the Arab world and West Asia”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Sachs",
+     "score": 5,
+     "why": "States under international law: “The end result would be a return to international law and the UN Charter.”"
+    },
+    {
+     "axis": "china",
+     "author": "Sachs",
+     "score": 4,
+     "why": "A rise to welcome: “the rise of China is a good thing and it will help the us”."
+    },
+    {
+     "axis": "digital",
+     "author": "Sachs",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "israel",
+     "author": "Sachs",
+     "score": 5,
+     "why": "Israel plans, the US carries it out: the Clean Break strategy “calls for Israel to establish hegemony in the region through wars of regime change, with the US as the implementing partner”."
+    },
+    {
+     "axis": "gains",
+     "author": "Sachs",
+     "score": 1,
+     "why": "Framed as a contest between states: “The American empire cannot win the war against Iran at an acceptable financial, military, and political cost.”"
+    },
+    {
+     "axis": "trump",
+     "author": "Sachs",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "iranchina",
+     "author": "Sachs",
+     "score": 3,
+     "why": "The war is Israel's project, but the sanctions target China: “Above all, the campaign is targeted against China, which buys more than 80 percent of Iran's oil exports.”"
+    },
+    {
+     "axis": "bloc",
+     "author": "Sachs",
+     "score": 1,
+     "why": "A real alternative: “The BRICS have the credibility, the economic weight, and the absence of the historical complicity in Middle East imperialism to bring the world to its senses.”"
+    },
+    {
+     "axis": "centre",
+     "author": "Sachs",
+     "score": 1,
+     "why": "The US state chasing lost primacy: “The United States was attempting to preserve a global dominance that it no longer possesses”."
+    },
+    {
+     "axis": "vote",
+     "author": "Sachs",
+     "score": 2,
+     "why": "Law still works: “the Supreme Court confirmed what many of us argued from the beginning: Your sweeping tariffs were an unlawful overreach of executive power.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Sachs",
+     "score": 1,
+     "why": "Leaders and their psychology: “They are in the grip of three cascading pathologies. The first is personality”."
     }
    ],
    "advice": [
@@ -1768,7 +1934,8 @@
     "Krainer",
     "Webb",
     "Crooke",
-    "Norton"
+    "Norton",
+    "Mearsheimer"
    ],
    "evidence": "Dixon's shared ownership, Henningsen's blocs, Hudson's choke points, Wolff's \"clumps\" of capitalists bargaining over the state.",
    "objection": "Krainer and Webb see one directing group; Norton sees one class; Crooke sees a project behind the blocs.",
@@ -1861,7 +2028,8 @@
    "support": [
     "Diesen",
     "Wolff",
-    "Crooke"
+    "Crooke",
+    "Mearsheimer"
    ],
    "against": [
     "Krainer",
@@ -1904,7 +2072,9 @@
    "claim": "The Iran war serves Israel, not the US; the Israel lobby steers US policy in West Asia.",
    "support": [
     "Henningsen",
-    "Crooke"
+    "Crooke",
+    "Sachs",
+    "Mearsheimer"
    ],
    "against": [
     "Berletic",
@@ -1987,7 +2157,9 @@
     "Crooke",
     "Wilkerson",
     "Hudson",
-    "Wolff"
+    "Wolff",
+    "Sachs",
+    "Mearsheimer"
    ],
    "against": [],
    "evidence": "Public data on munitions: CSIS estimates that Patriot stocks fell by at least 65% and THAAD by at least 38%, and that rebuilding them will take at least three years; THAAD interceptors were shipped from South Korea after Iran destroyed at least ten US radars, four of them THAAD radars; Gulf states ran low on interceptors; with the Bahrain base hit, carriers were resupplied from Diego Garcia; Patriots meant for Ukraine were diverted. From the authors: Crooke, four days in: \"Iran sits in the driving seat\", its fastest missiles \"largely impervious to Israeli air defences\". Wilkerson on the arms makers: they \"know they're going to make money out their yin yang\"; and on the response: \"We don't back away. We don't retrench.\" Hudson: \"Invasions don't work. All you can do is destroy other countries.\" Wolff on denial: \"a refusal to entertain the very idea the empire is over\".",
@@ -2017,7 +2189,7 @@
      "id": "W2",
      "label": "A war for Israel",
      "short": "For Israel",
-     "from": "H7: Henningsen, Crooke"
+     "from": "H7: Henningsen, Crooke, Sachs, Mearsheimer"
     },
     {
      "id": "W3",
@@ -2029,7 +2201,7 @@
      "id": "W4",
      "label": "No coherent aim: a blunder by a declining power",
      "short": "Blunder",
-     "from": "Wolff, Crooke, Diesen"
+     "from": "Mearsheimer, Wolff, Crooke, Diesen, Sachs"
     },
     {
      "id": "W5",
@@ -2408,6 +2580,22 @@
       "W5": "C"
      },
      "source": "Al Jazeera; Al-Monitor (March 2026)"
+    },
+    {
+     "id": "F24",
+     "text": "Joe Kent, Trump's director of the National Counterterrorism Center, resigned on 17 March 2026, writing that “we started this war due to pressure from Israel and its powerful American lobby”.",
+     "kind": "public document",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "C",
+      "W3": "N",
+      "W4": "C",
+      "W5": "N"
+     },
+     "author": "Sachs",
+     "quote": "we started this war due to pressure from Israel and its powerful American lobby"
     }
    ],
    "weights": {
