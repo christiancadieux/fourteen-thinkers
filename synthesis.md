@@ -290,11 +290,11 @@ Ranking, fewest weighted facts against first (high reliability counts 1, medium 
 
 | | Explanation | From | Weighted against | Facts against | Facts that fit | Against, if possibly staged facts are dropped |
 |---|---|---|---|---|---|---|
-| W5 | Profit for the blocs (arms, energy, finance) and political theatre | Hudson, Wolff | 0.0 | 0 | 8 | 0.0 |
+| W5 | Profit for the blocs (arms, energy, finance) and political theatre | Hudson, Wolff | 0.0 | 0 | 10 | 0.0 |
 | W3 | Against China, through its corridors and energy | H6 and H10: Berletic, Werner, Wilkerson | 0.0 | 0 | 5 | 0.0 |
-| W1 | Energy dominance by managed demolition | H2: Berletic, Hudson | 1.0 | 1 | 13 | 1.0 |
-| W2 | A war for Israel | H7: Henningsen, Crooke | 1.0 | 1 | 5 | 1.0 |
-| W4 | No coherent aim: a blunder by a declining power | Wolff, Crooke, Diesen | 1.7 | 2 | 5 | 1.7 |
+| W1 | Energy dominance by managed demolition | H2: Berletic, Hudson | 1.0 | 1 | 15 | 1.0 |
+| W2 | A war for Israel | H7: Henningsen, Crooke | 1.0 | 1 | 7 | 1.0 |
+| W4 | No coherent aim: a blunder by a declining power | Wolff, Crooke, Diesen | 1.7 | 2 | 6 | 1.7 |
 
 The grid (· means the fact does not bear on that explanation):
 
@@ -320,6 +320,9 @@ The grid (· means the fact does not bear on that explanation):
 | F18. At the Trump–Xi summit, US corporations pressed to get into China's market. (Norton: "these corporations are trying to claw their way into the enormous Chinese market") | author report | medium | · | · | · | · | fits |
 | F19. US interceptors carried most of Israel's defence while the Gulf states ran short. (Libertarian Institute, summarising US reporting; CBS News (2026)) | public data | high | fits | fits | fits | · | · |
 | F20. Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller). (Johnson: "more than two-thirds in August and September") | author report | high | fits | · | · | · | fits |
+| F21. Federal lobbying in 2024: the defense industry spent about $149 million and the oil and gas industry about $137 million (2023), against about $3.3 million for AIPAC, roughly forty times less. (OpenSecrets lobbying disclosures (2023–2024)) | public data | high | fits | · | · | · | fits |
+| F22. AIPAC's weight is in election money: with its super PAC, United Democracy Project, it spent about $95 million on the 2024 elections. (FEC filings, reported by OpenSecrets and JNS (2025)) | public data | high | · | fits | · | · | · |
+| F23. In March 2026 Secretary of State Rubio said the US struck because Israel was going to: “We knew that there was going to be an Israeli action. We knew that that would precipitate an attack against American forces”, so the US went first. The administration later tried to walk it back. (Al Jazeera; Al-Monitor (March 2026)) Could be staged. | public statement | high | fits | fits | · | fits | fits |
 
 Why each "against" was marked:
 
@@ -334,9 +337,10 @@ The facts that separate the explanations most are F2, F3, F8: each fits some exp
 What the grid shows. This is my reading; every mark in the grid is a judgement and is listed so it can be challenged.
 - **Two explanations have no fact against them, and that is partly a weakness of the method.** A war against China and profit for the arms, energy and finance blocs score 0. But an explanation that predicts little is hard to contradict: almost any target or move can be read as serving some bloc's profit. The gaps are small, from 0 to 1.7.
 - **A blunder fits worst.** Two facts count against a war with no coherent aim: it was worked out on paper years in advance (the Brookings plan, F3), and its targets were chosen strategically, such as China's railway through Iran (F2). Shifting, contradictory demands in the talks (F4) do fit it, and the blockade during the ceasefire (F5) fits a declining power doubling down as well as it fits a plan.
-- **Energy dominance and a war for Israel each have one fact against them.** For energy dominance it is Europe's record Russian LNG imports (F8). For a war for Israel it is the Brookings plan: US planners had their own case for war with Iran and planned for Israel to take the blame (F3). Bombing China's railway (F2) fits a war for Israel, because the railway is also Iran's lifeline to China and cutting it isolates Iran.
+- **Energy dominance and a war for Israel each have one fact against them.** For energy dominance it is Europe's record Russian LNG imports (F8). For a war for Israel it is the Brookings plan: US planners had their own case for war with Iran and planned for Israel to take the blame (F3). In March 2026 Rubio gave that very account in public: the US struck because Israel was about to (F23). The statement fits a war for Israel, but it is also exactly what the 2009 deflection plan called for, so it is marked as possibly staged. Bombing China's railway (F2) fits a war for Israel, because the railway is also Iran's lifeline to China and cutting it isolates Iran.
 - **They are not exclusive.** On the nexus model, a war can serve several blocs at once: energy sales, the squeeze on China's corridors, arms replacement orders. Energy dominance fits the most facts (thirteen), with one solid fact against it.
 - **Defending Israel first does not separate the explanations.** The US carried most of Israel's missile defence while the Gulf oil states ran short (F19). That fits a war for Israel, but it fits the purposeful explanations just as well: Israel is the US's unsinkable aircraft carrier in the region, the asset a plan for the Gulf would protect first.
+- **The size of the lobbies points away from Israel as the main driver.** In 2024 the defense industry spent about $149 million on federal lobbying and the oil and gas industry about as much, roughly forty times AIPAC's $3.3 million (F21). AIPAC's weight is in election money instead: with its super PAC it spent about $95 million on the 2024 elections (F22). The person who assembled these sources reads the imbalance this way: the arms and energy lobbies rarely make the news, while the US and Israel play good cop and bad cop, and the attention on Israel keeps it off them. Neither fact rules out an explanation, since every bloc can gain from the same war, but together they show where most of the lobbying money goes.
 - **Dropping the facts that could be staged does not change the ranking.** They only ever fitted explanations; none ruled one out.
 - **What would change it.** If Europe keeps raising its Russian LNG purchases (F8), energy dominance weakens. If the strikes on China's corridors turn out to be incidental, the China explanation weakens. A durable reopening of Hormuz sought by Washington would revive the blunder reading.
 - **Purpose is not success.** This grid asks only what the war is for. A plan can be deliberate and still fail. Wolff's own summary has both halves: the war's "goal was to reverse the decline of the US empire; its result was the opposite." The next grid weighs that second half.

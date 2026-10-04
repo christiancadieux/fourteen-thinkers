@@ -191,7 +191,7 @@ None.
 
 ## Evidence grid
 
-- What is the Iran war for?: 20 facts; quotes all checked.
+- What is the Iran war for?: 23 facts; quotes all checked.
   - weighted against: W3 0.0, W5 0.0, W1 1.0, W2 1.0, W4 1.7
 - Is the plan working?: 22 facts; quotes all checked.
   - weighted against: O3 0.0, O2 1.0, O1 11.8
