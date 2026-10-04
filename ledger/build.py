@@ -325,6 +325,9 @@ def check_markdown(L, c):
     out += [line(f) for f in F if f.get("check_part") == "energy"]
     out += ["", "Public-data indicators (judged on public data, with the source named when marked):", ""]
     out += [line(f) for f in F if f.get("check_part") == "indicator"]
+    war = [line(f) for f in F if f.get("check_part") == "war"]
+    if war:
+        out += ["", "Forecasts on the war after the vote:", ""] + war
     out += ["", "Also resolving on the day of the vote:", ""]
     out += [line(f) for f in F if f.get("check_part") == "election"]
     return "\n".join(out)

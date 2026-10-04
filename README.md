@@ -4,7 +4,7 @@ Fourteen Independent Thinkers, Read Side by Side
 
 An AI-assisted synthesis of sixteen commentators who write and speak outside the mainstream about money, war and power. Their interviews and articles are read in their own words, compared with each other rather than with official fact-checks, and quoted exactly. A small program checks every quotation against the saved texts.
 
-The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherine Austin Fitts, Ben Norton, Patrick Henningsen, Chris Martenson, Michael Hudson, Alastair Crooke, Lawrence Wilkerson, Glenn Diesen, Whitney Webb and Richard Wolff, joined later by John Mearsheimer and Jeffrey Sachs. The title still says fourteen; there are now sixteen. Noam Chomsky and K.J. Noh are cited as references. Larry Johnson (sonar21.com) and the energy analyst Karl Miller are used as sources of facts only.
+The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherine Austin Fitts, Ben Norton, Patrick Henningsen, Chris Martenson, Michael Hudson, Alastair Crooke, Lawrence Wilkerson, Glenn Diesen, Whitney Webb and Richard Wolff, joined later by John Mearsheimer and Jeffrey Sachs. The title still says fourteen; there are now sixteen. Noam Chomsky and K.J. Noh are cited as references. Larry Johnson (sonar21.com), the energy analyst Karl Miller and Philip Pilkington are used as sources of facts only. Jiang Xueqin (Predictive History) is cited only for his forecasts; his factual claims were checked and found overstated.
 
 ## What is here
 

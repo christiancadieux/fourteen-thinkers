@@ -1901,6 +1901,28 @@
    "basis": "",
    "check": "after-midterms-2026",
    "check_part": "indicator"
+  },
+  {
+   "author": "Jiang Xueqin",
+   "made": "2026-10-04",
+   "claim": "With 'nothing to lose' after the midterms, Trump orders a ground operation against Iran, starting small (Kharg Island and nearby islands) and escalating",
+   "quote": "it will start off as a very limited um tactical military maneuver",
+   "resolves": "2027-06",
+   "status": "open",
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "war"
+  },
+  {
+   "author": "Jiang Xueqin",
+   "made": "2026-10-04",
+   "claim": "The Republicans may keep control of Congress, because older voters turn out",
+   "quote": "the Republicans keep control over Congress",
+   "resolves": "2026-11-03",
+   "status": "open",
+   "basis": "",
+   "check": "after-midterms-2026",
+   "check_part": "election"
   }
  ],
  "manual_checks": [
@@ -2672,7 +2694,7 @@
      "id": "O1",
      "label": "On track: the plan is advancing as designed",
      "short": "On track",
-     "from": "H2 read as succeeding"
+     "from": "H2 read as succeeding; Jiang Xueqin (cited for his forecasts)"
     },
     {
      "id": "O2",

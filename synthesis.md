@@ -235,12 +235,30 @@ Public-data indicators (judged on public data, with the source named when marked
 - Can-kicking reading (paper against physical): Washington keeps drawing on emergency stocks, its own or allies', rather than letting price ration demand (open, resolves 2027-01-31).
 - Can-kicking reading (paper against physical): Weakens the reading: prices stay within 10% of their pre-vote level and supply holds through January (open, resolves 2027-01-31).
 
+Forecasts on the war after the vote:
+
+- Jiang Xueqin: With 'nothing to lose' after the midterms, Trump orders a ground operation against Iran, starting small (Kharg Island and nearby islands) and escalating (open, resolves 2027-06).
+
 Also resolving on the day of the vote:
 
 - Wilkerson: '60/40 we don't have elections' (open, resolves 2026-11-03).
 - Wolff: Trump's only options: interfere in the election or lose (open, resolves 2026-11-03).
 - Wolff: Trump will 'lose farm votes big time' (open, resolves 2026-11-03).
+- Jiang Xueqin: The Republicans may keep control of Congress, because older voters turn out (open, resolves 2026-11-03).
 <!-- check-after-midterms-2026:end -->
+
+### A method note: checking a theory-first account
+
+Jiang Xueqin (Predictive History), cited here only for his forecasts, explains events through a strong theory of factions, and his interview of 4 October 2026 made four striking factual claims. Each was checked against the record. Each had a real core, and each was stretched to fit the theory:
+
+| His claim | What the record shows |
+|---|---|
+| Trump loyalists are in Alberta and Quebec, fomenting separatist movements | Trump administration officials met leaders of the Alberta separatist group at least three times (Financial Times), and Washington confirmed the contacts. Nothing found on Quebec. |
+| A US–Denmark treaty gave the US de facto control of Greenland | The September 2026 agreement allows two major new US bases; Greenland stays under Danish control. |
+| Adelson, Paulson and Singer poured $30 million into defeating Thomas Massie | Massie lost on 19 May 2026, in the most expensive House primary on record (over $25 million in ads); the three named donors gave about $2 million to the main anti-Massie super PAC. |
+| Hegseth fired the *Stars and Stripes* editor for reporting low morale on the carriers | The editor and publisher were fired in August 2026, officially for "insubordination" after a CBS interview about censorship; one outlet links it to carrier reporting. |
+
+The pattern is common in this genre: a theory first, then facts shaped to fit it. That is why none of his claims is used as a fact. What remains is the fair test for a theory-first thinker, his dated forecasts in the check above: a ground operation against Iran after the vote, and the Republicans keeping Congress. If they come true, this note will say so.
 
 ## Who they read, and who reads whom
 
@@ -399,7 +417,7 @@ Ranking, fewest weighted facts against first (high reliability counts 1, medium 
 |---|---|---|---|---|---|---|
 | O3 | Profit either way: the outcome does not matter to those the war pays | Hudson, Wolff; the 'Who gains from the wars?' axis | 0.0 | 0 | 10 | 0.0 |
 | O2 | Failing on contact: new weapons, a hollowed-out industrial base, a war that will not stay short | H11: Crooke, Wilkerson, Hudson, Wolff | 1.0 | 1 | 19 | 1.0 |
-| O1 | On track: the plan is advancing as designed | H2 read as succeeding | 11.8 | 13 | 6 | 11.8 |
+| O1 | On track: the plan is advancing as designed | H2 read as succeeding; Jiang Xueqin (cited for his forecasts) | 11.8 | 13 | 6 | 11.8 |
 
 The grid (· means the fact does not bear on that explanation):
 
@@ -451,6 +469,7 @@ The facts that separate the explanations most are G1, G2, G3, G4, G5, G8, G9, G1
 What this grid shows. This is my reading.
 - **On track has by far the most facts against it,** and most of them are public data, not commentary. Iran blinded the shield first: at least ten US radars destroyed in two weeks, four of them THAAD radars. Interceptor stocks fell by two-thirds (Patriot) and over a third (THAAD), and rebuilding them takes at least three years. THAAD interceptors were pulled from South Korea and Patriots diverted from Ukraine. Gulf allies ran low while US interceptors carried most of Israel's defence. With Bahrain hit, the carriers were supplied from Diego Garcia, 2,200 miles away.
 - **Failing and profit either way both fit, and can both be true.** Every lost interceptor is a replacement order (G1, G4, G5, G7). That is the point that the arms industry was built for profit, not victory: a war can enrich its contractors and still fail as a plan for dominance. No fact in the grid counts against *profit either way*. That makes it hard to rule out, but it also explains less: it says who gains, not whether the plan works.
+- **One voice argues that the plan is on track.** Jiang Xueqin (cited for his forecasts, not one of the authors) reads the war from Trump's side: Europe, Japan and South Korea grow dependent on US energy, the Gulf states depend on the US and Israel for arms, and China loses cheap Gulf energy, so "from a Trump perspective, this war in the Middle East is going according plan." His three gains are the energy facts in this grid (G9, G19 to G22); the munitions and logistics facts still count against the plan as a whole.
 - **The one solid fact against failing is Europe's LNG.** The US share of the EU's LNG imports keeps rising (G9). The energy-sales part of the plan is working even if the military part is not. That fits the nexus model: one bloc's plan can succeed while the empire's position weakens.
 - **The energy facts cut both ways.** Larry Johnson's reports, drawing on the energy analyst Karl Miller, add the physical side. Hormuz is running at about 13 million barrels a day against 20 million before the war (G18), and Gulf diesel exports are at a quarter of normal (G19), with repairs taking three to five years (G20). Meanwhile US distillate exports hit a record (G21), and Washington used Europe's dependence on US diesel to make it drain its reserves (G22). For US energy sellers this is the plan working; for the world economy it is the spiral. Both are true at once.
 - **What would change it.** If munitions output catches up with use, or Iran's launches dry up for good, the case for failing weakens. H11's tests say what to watch.
@@ -713,6 +732,7 @@ Wolff (democracyatwork.substack.com/p/…; essays read in full)
 - his own turns in: singjupost.com transcripts richard-wolff-iran-war-destroys-global-economy-u-s-empire-transcript (Diesen, March 2026); richard-wolff-petrodollar-decline-unravels-the-u-s-empire-transcript (Diesen, April 2026); transcript-will-the-iran-war-cause-a-global-depression-w-prof-richard-wolff (Chris Hedges, May 2026); richard-wolff-u-s-israel-divorce-as-u-s-economy-is-on-the-brink-of-collapse-transcript (Diesen, September 2026); richard-wolff-us-empire-in-collapse-china-builds-rival-system-transcript (Diesen, September 2025); global-capitalism-what-trump-2-0-means-richard-wolff-transcript (speech, January 2025); and michael-hudson.com/2026/06/the-last-colonial-wars (with Hudson on Nima Alkhorshid's show, May 2026)
 
 Documents cited by the authors and read in full
+- Forecast source only, not one of the authors: Jiang Xueqin (Predictive History), interview with Glenn Diesen, 4 October 2026 (ledger/sources/Xueqin). Used for his reading of the war as "going according plan" from Trump's side, and for two forecasts in the after-midterms check. His factual claims in that interview (Alberta separatists, Greenland, the Massie primary, the *Stars and Stripes* firings) were checked and found overstated, so none is used as a fact.
 - Fact source only, not one of the authors: Philip Pilkington, interviews on Going Underground and Mario Nawfal's show (July to August 2026) on the timing of large oil-futures sales. Not yet saved as a source; cited from the episode descriptions, so none of his words are quoted.
 - Fact source only, not one of the authors: Larry C. Johnson, sonar21.com, nine posts from 25 September to 3 October 2026, several summarising the energy analyst Karl W. Miller's reports (for example "The Gulf Restart Trap", 28 September 2026). Used for facts in the evidence grids.
 - Brookings Institution, "Which Path to Persia? Options for a New American Strategy toward Iran" (2009), cited by Berletic; brookings.edu/wp-content/uploads/2016/06/06_iran_strategy.pdf. The chapter "Leave it to Bibi" is the one quoted here.
