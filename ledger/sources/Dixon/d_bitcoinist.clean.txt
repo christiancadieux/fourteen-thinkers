@@ -1,0 +1,59 @@
+Breaking News: The Ethereum Indicator That Never Missed A Bottom Is Signaling Again, This Time At $700
+
+Bitcoin At Risk? Simon Dixon Alleges BlackRock’s Hidden Takeover Plan
+
+Trusted Editorial content, reviewed by leading industry experts and seasoned editors. Ad Disclosure
+
+In an interview with Bitcoin Archive’s Archie, early Bitcoiner and Bank to the Future co-founder Simon Dixon characterized the current moment as nothing less than “the Wall Street attack phase,” arguing that institutional finance is assembling the plumbing and incentives to pull customer coins into custodial wrappers—and, in crisis, separate investors from their bitcoin. “People underestimate what Wall Street is willing to do to take your Bitcoin,” he said. The essential defense, in his view, is unambiguous: “Bitcoin is money you can own, money you can spend, and money that has a fixed supply with a monetary policy that nobody can change.”
+
+Dixon framed the last 14 years of Bitcoin’s history as a series of counter-attacks, from exchange failures to regulatory squeezes, culminating now in what he described as a two-tier system: bitcoin held in Wall Street custody—via ETFs, pensions, corporate treasuries and bitcoin-backed loans—and bitcoin held in self-custody. The danger, he argued, is not price manipulation forever, but engineered liquidity events designed to vacuum up coins from leveraged or custodial holders. “They can’t change the long-term price. The fixed supply is the fixed supply,” he said. “But they can do elaborate schemes to steal your Bitcoin.”
+
+At the core of his thesis is the scale and reach of the modern asset-management complex. Dixon pointed to BlackRock’s centrality—its index weight across “20,000 companies,” its Aladdin risk platform used by large asset managers, and its proximity to policymaking—as symptomatic of a broader “financial-industrial complex.”
+
+Related Reading: Are Bitcoin Whales Back In Accumulation Mode? On-Chain Data Suggests So
+
+In Dixon’s telling, that complex has already rebuilt the crypto industry in its own image: first by presiding over (or benefiting from) a parade of high-profile implosions and banking disruptions like FTX and Celsius, then by shepherding a pro-ETF, pro-tokenization framework that channels retirement savings, insurance float and corporate balance sheets into custodial bitcoin exposure. “Through this tax efficiency plus individuals thinking about inheritance, we have essentially given the asset managers full control,” he claimed. The net effect, he warned, is the consolidation of coins into a few systemically important pools.
+
+Archie challenged the causal chain between the 2022–2023 enforcement wave and spot ETF approvals, noting that Grayscale had to sue to win its conversion. Dixon acknowledged that “you have to take a few leaps” when reconstructing opaque policy sequences, but insisted the net result is plain: the industry was discredited and de-banked, only for a tightly regulated, Wall-Street-led version to emerge. He cited his inside view as a major creditor in the Celsius Chapter 11 as formative, saying that bankruptcy taught him how quickly “Bitcoin IOUs” become indistinguishable from the legacy system’s risks. “Anybody that’s left Bitcoin on an exchange and received a Bitcoin IOU… realizes the importance of the ability to self-custody,” he said.
+
+The conversation repeatedly returned to leverage. Archie drew a distinction between the margin chains and rehypothecation that blew up in 2021–2022 and the long-duration, corporate-finance tools used by publicly listed “bitcoin operating companies,” arguing these are “night and day” in terms of systemic fragility. Dixon’s reply was that the real risk emerges when individually sensible structures are linked into a pipeline—ETFs and index funds directing flows, corporate debt and dividend commitments denominated in fiat, stablecoin credit interlacing with bitcoin-backed loans, distressed buyouts rolling assets into the largest public vehicles, and mining equities sitting inside the same index-fund complex.
+
+“When you combine all of these different products together… you can then do this margin process,” he said. He sketched a scenario in which a severe drawdown triggers margin cascades and bankruptcy proceedings that deliver even more coins into a few custodial honeypots. “All you need to do to protect yourself when that event happens is own bitcoin in self-custody,” he said.
+
+Related Reading: Bitcoin Spot ETFs Bounce Back With $3.24 Billion In Net Inflows – Details
+
+Beyond market structure, Dixon placed Bitcoin in a wider macro and geopolitical frame. He argued the United States is pursuing “fiscal dominance”—debt-financed spending that inflates away obligations—while a multipolar currency order accelerates. In that transition, he expects both gold and bitcoin to be instrumentalized. “Bitcoin is going to be placed at the very, very center of a future and upcoming currency war,” he said, asserting that the same financial-industrial network that shapes rates and credit will not hesitate to “engineer some kind of pump and dump cycle that resets the chessboard.” Whether or not readers accept that framing, his prescription does not waver: self-custody first.
+
+Dixon also laid out a personal rule set forged across cycles: buy on a fixed cadence, hold coins in self-custody, and think in multi-year horizons. “Most people come in for number-go-ups,” he said, “but until they go through a disaster, then they realize that the money you can own and money you can spend is the real utility.” He urged viewers to build the operational competence of self-custody now—keys, inheritance planning, and disciplined accumulation—rather than outsourcing it to product wrappers that trade convenience for counterparty risk. “Everybody has to do it,” he said. “The skill of self-custody is something everyone has to do.”
+
+Archie added two caveats for balance: allocate only capital you can leave untouched for at least four years, and remember to upgrade quality of life rather than “bask in the warmth of your UTXOs” indefinitely. Dixon agreed, stressing that the point of reducing financial anxiety is to live better, not to hoard at all costs. Still, he closed with urgency: “There will never be another five years like the five years ahead… In the next five years, you need to accumulate as much bitcoin as is humanly possible,” he said, adding his standard disclaimer—“not financial advice.”
+
+[BTC hovers below $124,000, 1-day chart | Source: BTCUSDT on TradingView.com]
+
+Editorial Process for bitcoinist is centered on delivering thoroughly researched, accurate, and unbiased content. We uphold strict sourcing standards, and each page undergoes diligent review by our team of top technology experts and seasoned editors. This process ensures the integrity, relevance, and value of our content for our readers.
+
+I consent to my submitted data being collected and stored.
+
+Jake Simmons has been a Bitcoin enthusiast since 2016. Ever since he heard about Bitcoin, he has been studying the topic every day and trying to share his knowledge with others. His goal is to contribute to Bitcoin's financial revolution, which will replace the fiat money system. Besides BTC and crypto, Jake studied Business Informatics at a university. After graduation in 2017, he has been working in the blockchain and crypto sector. You can follow Jake on Twitter at @realJakeSimmons.
+
+Bitcoin Prediction From February Comes Back Into Focus As BTC Trades Near $65K Zone
+
+Bitcoin Establishes Floor In $60K–$70K Range, Technical Analyst Says
+
+Bitcoin Puell Multiple Falls To 0.74 As Miner Revenue Slides
+
+Bitcoin Market Faces A Potential Profitability Reset As More Coins Slip Out Of Profit
+
+[Hedgeye’s New Bitcoin ETF Filing Targets One Of BTC’s Biggest Problems]
+
+Hedgeye’s New Bitcoin ETF Filing Targets One Of BTC’s Biggest Problems
+
+Why Did Strategy Sell 32 Bitcoin? CEO Reveals The Real Reason
+
+TRON DAO Celebrates Canary Staked TRX ETF (Ticker: TRXS)...
+
+MEXC Earnings Season Data: Nearly Half of Tokenized Stock...
+
+MEXC Launches MEXC CLI, Connecting AI Agents From Trading...
+
+Bitcoin news portal providing breaking news, guides, price analysis about decentralized digital money & blockchain technology.

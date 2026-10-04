@@ -1,0 +1,169 @@
+Two systems are before the world, part 3 of 3
+
+The spectacular civilizational renaissance of China makes the case for national system of economy undeniable.
+
+In our last report, I asserted that the conflicts we are witnessing in the world today stem from the clash between two systems of governance. Usually, this is presented as the clash between democracies and autocracies, but in truth, it is between the western colonialist system and anyone who rejects its demand for subjugation, be it Cuba, Venezuela, Russia, China, North Korea, Yemen or Iran.
+
+The geopolitical manifestations of this conflict are easier to discern, but its roots stem from the two alternative systems’ economic foundations, which determine the nature and the conduct of the opposed systems. Western colonialism favors and seeks to impose the British free trade system. Nations that prefer independence and wish to chart a sovereign path of their development, prefer the national system of political economy, also known as the American System.
+
+The national system seeks to stimulate domestic manufacturing, accumulate capital at home, and invest it into its society’s own development, infrastructure, education, research, innovation, culture, and other uses that raise the country’s living standards and quality of life.
+
+By contrast, the British free trade system extracts wealth and concentrates it in the hands of a financier oligarchy and their largest corporate clients. Free trade entails removing all barriers to unobstructed worldwide flow of capital, always in pursuit of highest available returns. Any costs that reduce the returns on capital must be slashed, including social spending and protection of the environment.
+
+Under the free trade system, nations are obliged to compete for investment capital by systematically depressing wages, job security, pensions, health care services, and education. Therefore, the British free trade system amounts to a competitive race to the bottom.
+
+In part 1 of this report we looked at the effects of the free trade system in Great Britain and how it nearly destroyed her economy. In part 2, we also looked at the examples of the United States, Germany, and Italy when they implemented the national system and how it boosted their economic development and raised their standards of living in rather spectacular ways. But the country that put the national system of political economy to its best effect has been China over the last several decades.
+
+Back in the 1970s, China used to be among the very poorest nations in the world. In the early 1970s, her GDP per capita was just over $100. By today, Chinese GDP per capita is nearing $15,000. In purchasing power parity terms, that figure corresponds to over $31,000 per capita, a massive jump from the $100 range, where it was only 50 years ago.
+
+Importantly, China’s economic development has been very broad-based. Having completed 14 sequential national, government directed five-year economic and social development plans, China has lifted some 800 million of its people out of poverty, and this blossoming of China has been nothing short of spectacular. While it would be impossible to cover every aspect of China’s development over this period, it is worth looking at some of her most remarkable achievements in implementing the national system of political economy.
+
+For example, starting from almost nothing in 2008, China has built the largest high-speed rail network in the whole world. In less than 20 years, they’ve completed fully 50,000 km - more than 31,000 miles - of high-speed rail connections, which represents over 70% of the total global high-speed rail mileage, surpassing the combined total of high-speed rail mileage of all other countries in the world combined.
+
+This was accompanied by the construction of breathtaking railway stations and network hubs across China. Recently, an entire train station in Fuzhou City, in Fujian Province was built in only 9 hours. This year, they completed the construction of a massive high-speed railway hub in Chongqing covering 1.22 million square meters in a place that, only 38 months earlier, was a mountain. The whole structure is an impressive architectural masterpiece on the scale of Egyptian pyramids (here’s a 5-min. documentary about the station’s construction and a 2-min. drone fly-through). The construction cost: $7.8 billion.
+
+Over the last two decades, China has also advanced from almost nothing to being the world’s leading producer of cars. In the year 2000, Chinese car manufacturers accounted for about 1% of the global auto market. By 2023, 39% of cars sold in the world were Chinese-made.
+
+And indeed, the innovation train in China is now advancing to such an extent that flying cars could become a reality in a not too distant future. In some cities they already have autonomous flying taxies, and just in case anyone should dismiss this as an AI confabulation, I personally know people who have actually used the flying taxi service in China.
+
+9:07 AM · Apr 1, 2025 · 507 Views
+
+Today, one of the strategically most critical industries where the United States sought to establish an unassailable American primacy is artificial intelligence.
+
+In spite of a considerable head start and literally trillions of dollars in capital expenditure by the leading American AI companies, China has rapidly caught up and even surpassed them on some performance metrics.
+
+In January 2025, China’s DeepSeek AI released a new artificial intelligence model, DeepSeek R1, marking what Marc Andreesen called, “a Sputnik moment” for the industry. Just as the Soviet Union’s launch of the Sputnik satellite in 1957 upended the assumptions about the American technological dominance in space-related technology, DeepSeek announced a similar challenge to then prevailing assumptions in the AI tech race. From that moment on, new milestones would be reached and surpassed in quick succession. DeepSeel R1 already matched the performance of the leading American models even though its total development budget was only $6 million.
+
+On 23 April this year - 2026, American company, OpenAI launched their most advanced model, GPT 5.5. DeepSeek responded the very next day with their own challenger, the V4 model which nearly matched OpenAI’s model in terms of performance. But the real, gaping difference between “Made in USA,” and “Made in China” poped up in terms of cost: DeepSeek is up to 107 times cheaper than GPT 5.5. For heavy users, that difference could add up to tens of thousands of dollars a year, a make-or-break issue in the AI wars.
+
+Of course, DeepSeek is only one of dozens of Chinese companies in the artificial intelligence space and their most popular models include Qwen, MiniMax, GLM and Kimi. This last one, Kimi launched their model K3 in late July 2026 which very nearly closed the performance gap with the most advanced American models and even surpassed them along some metrics like coding and agentic tasks again, at a fraction of the cost of the American models. The cost difference has had a significant impact, even among the largest (and presumably least cost-sensitive) users.
+
+For example within June of 2026, Microsoft cancelled most of its Claude code licenses for products like Windows, M365 and Teams due to very high token costs. That was quite a surprise given that Microsoft invested as much as $5 billion in Claude’s creator, Anthropic. Also, Uber’s CTO complained that their 2026 AI budget was already depleted by April of this year due to the heavy cost associated with Claude Code use.
+
+In fact, many companies found that the cost of American AI models significantly exceeded the cost of human employees. One of them was Nvidia. Its VP of Applied Deep Learning, Bryan Cantazaro said that, “For my team, the cost of compute is far beyond the costs of the employees.” Ultimately, the result is that many American companies have been shifting to the Chinese AI models.
+
+In an interview with Bloomberg News, AirBnB CEO Brian Chesky explained their preference for “Made in China”: “We’re relying a lot on Alibaba’s Qwen model. It’s very good. It’s also fast and cheap,” he said. “We use OpenAI’s latest models, but we typically don’t use them that much in production because there are faster and cheaper models.”
+
+This same realization has rippled through the tech community and the result is that China is now convincingly winning the AI race. The most convincing verdict came from the most highly performance- and cost-sensitive market segment: Silicon Valley technology startups: according to Andreesen-Horowitz venture capital company, 80% of these startups rely on Chinese AI models now.
+
+One of the most extraordinary cases among startups was that of Mira Murati’s Thinking Machines Lab. Murati was formerly the CTO at OpenAI, so when she spun off her own company, she was able to raise $2 billion in investment capital. But rather than building on OpenAI’s models, Thinking Machines Lab adopted Chinese AI: the first product Murati’s company released was a tool that helps developers fine-tune Alibaba’s Qwen model.
+
+Indeed, the writing is on the wall, and China is winning the arms race in high technology. In a December report for its investors, UBS Global Wealth Management rated Chinese technology companies as “most attractive.”
+
+But China’s development is about so much more than AI, flying cars or high-speed rail networks. On the back of its economic success, China’s whole society is experiencing an extraordinary civilizational renaissance – a still blossoming achievement of the human spirit that’s making the world a better place for its people.
+
+An ordinary Chinese citizen today is more prosperous, wealthier, healthier and more free than ever before. While China’s public spaces are remarkably clean and almost uniformly safe, a Chinese working family can aspire to living in great comfort. As an example, here’s a typical modern apartment in the south-eastern province of Jiangxi. The monthly rent for this unit is about $207 dollars:
+
+Here’s an apartment in 🇨🇳Jiangxi with a monthly rent of just about $207 USD! It’s a great deal for comfortable city living.
+
+7:22 AM · Aug 2, 2026 · 28.5K Views
+
+Many new developments are conceived to offer their residents a level of comfort that would be regarded as unaffordable high-end luxury in most places in the world, featuring spacious living quarters and exceptionally large terrace areas. Apparently, these are now mandated for all newly approved residential developments in China:
+
+The US is learning from China's policy "Houses are for living in, not for speculation" proposed almost ten years ago. ✨🇨🇳In China, over 90% of the 1.4 billion population owns their own housing. And no need to pay property tax every year.
+
+2:38 PM · Apr 14, 2026 · 72.4K Views
+
+Young people in China have the choice of over 3100 universities to pursue their education which is affordable and accessible to all. Today, Chinese universities are among the world’s most modern institutions producing over 12 million new graduates every year.
+
+Chinese people also enjoy the benefit of one of the world’s most effective health care systems, and near-universal basic medical coverage. Chinese families don’t suffer from anxieties that a treatment at a hospital might bankrupt them. To help us appreciate just how well the whole system functions, and how affordable it is, an American young woman named Jennifer posted a short video of her own experience.
+
+She had no health insurance of any kind in China, but she needed to see a doctor in order to obtain a prescription for some medicines. So, she walked into a public hospital and 19 minutes and $12 later, she walked out with everything she needed. Here is the video of her experience:
+
+An American woman went to a public hospital in China with just her passport—no appointment, no insurance, and spent only $12 total! She walked in, took a number, scanned a QR code, paid quickly, and saw a doctor right away. The doctor visit cost $7 and the prescription was $5. …
+
+10:49 PM · Jun 30, 2026 · 112K Views
+
+If such a system could be created for China’s 1.4 billion people, why could it not be created everywhere else? Why should this be out of reach for the American people? And why shouldn’t it be as affordable for Americans as it is for the Chinese people?
+
+Indeed, when we make comparisons of alternative systems of economic governance, something has to be said about the cost of things. We just saw how quick, easy and inexpensive it was for Jennifer to obtain her medicines even though she had no medical insurance at all. Earlier, we saw the comfortable living quarters available to Chinese families for just over $200 per month.
+
+✨🇨🇳This is an apartment in Jiangxi, China with a monthly rent of around $84.
+
+2:45 PM · Aug 2, 2026 · 14K Views
+
+For the unit in the above video, the monthly rent is only about $84 – it’s more modest, to be sure, but still quite nice and very affordable. Now, if we take the purchasing parity into account, that amount in the US or Western Europe would be about $200 per month and $500 per month for the larger one. That is still very affordable, an almost unimaginable value for money in Western cities.
+
+As it turns out, China’s affordable health care, affordable education, travel and affordable living are also symptomatic of her system, which again sharply contrasts to the Western free market system. In this report, we saw how a massive high-speed railway hub in Chongqing was completed in only 38 months at a cost of $7.8 billion. That’s not a small amount of money, but compare that to the projections for the repair of the Francis Scott Key Bridge in Baltimore.
+
+[Broken in 2024, still broken in 2026; might be fixed by late 2030 or thereabouts. Maybe]
+
+The bridge collapsed after it was struck by a large freight ship in March of 2024. Its reconstruction is expected to be completed by late 2030, more than six years from its collapse, at a cost that’s currently estimated at between $4.3 and $5.2 billion. Thus, one system can build a brand new, modern piece of infrastructure at the scale of Egyptian pyramids in 38 months while the other struggles to repair an old bridge in twice the time frame and at a comparable cost.
+
+Consider again the cost and speed of high speed railroad construction. In May of 2024, California High-Speed Rail Authority proudly announced completion of “The Fresno River Viaduct in Madera County. Although the viaduct measured only 1,600 feet in length, it took 9 years to complete. In the 29 years since its establishment, California High-Speed Rail Authority built 38 structures, totaling 39 miles at a cost $13.6 billion, nearly $350 million per mile of high-speed railroads that are still not remotely operational.
+
+Across the entire US, in 2024 there were some 30 sites of high speed rail under “active construction” totaling 119 miles. In less than 20 years, China built over 30,000 miles at a cost of between $17 and $21 million per kilometer, or $27 to $34 million per mile. That’s less than 1/10^(th) of the cost per mile of American high speed rail which might never even become operational.
+
+Then there’s the AI industry again. Hundreds of billions of dollars were invested in the creation of leading American models. China’s DeepSeek spent a total of only $6 million in the development of their DeepSeek R1 model, a very credible rival offering. It’s almost like the Western system was set up for systematic looting so that just about everything costs ten times what it could or should cost.
+
+If that’s true, it would follow that our system is consistently and relentlessly robbing us of the fruits of our labor and our creativity. We are forced to pay more for everything and get considerably less in exchange. American people pay by far the world’s most expensive health care system, but they get some of the worst health outcomes of any advanced economy in the world, on almost any metric:
+
+-   Health care is the 3rd leading cause of death in the US
+
+-   50% of U.S. adults and 30% of teens have pre-diabetes or type II diabetes
+
+-   40% of 18-year olds have a mental health diagnosis
+
+-   U.S. has the highest infant and mother mortality rate in the developed world in spite of spending more than twice as much on infant and maternal care
+
+-   One in 36 children have autism (in California, it’s one in 32)
+
+-   Rates of myocarditis, pericarditis and cancers among young people are exploding
+
+-   Since 2019 life expectancy in the US has been shrinking and is now 7.65% lower than in other developed nations (82.4 years vs. 76.1 years, based on 2021 data)
+
+I could go on enumerating case after case where the people in the West are short-changed and robbed of their health, their wealth, their freedom and their future and contrast it to very different realities faced by the Chinese people. This all could strain the credulity of Western audiences as though it’s propaganda. But it is not propaganda – it’s the reality confronting any Western visitor to China today.
+
+Earlier this year President Trump visited President Xi Jinping and his visit focused the world’s attention on China in a way that was hard to overlook or ignore. The large American delegation and all the international journalists that followed the diplomatic encounters in Beijing were clearly impressed with what they encountered.
+
+Among them were Nvidia’s CEO Jensen Huang and Elon Musk - two individuals who should be generally hard to impress. Another one was Naval Ravikand, a reporter who took the occasion to spend ten days in China. As a learned journalist, Ravikand knew all about China, but like other visitors, he was still taken aback by what he experienced there.
+
+Among other observations, he mentioned the high-speed rail network that transports millions of people daily at 300 km/h quietly, comfortably and on time. What impressed Ravikand was the very fact that such monumental pieces of infrastructure even exist, since their building involves monumental investments whose payoff is measured in decades, not years.
+
+That brings us back to the purpose of this report, which was to point at the systemic drivers of China’s advancement and also to the systemic factors that have caused the Western powers to fall behind. China’s success was not the result of Adam Smith’s invisible hand nor his system of absolute free trade where private interests only need to focus on pursuing their own selfish objectives and somehow they thereby magically create the greatest possible benefit to the whole collective. China built itself up through a concerted effort and a strategy formulated and pursued by its central government in the form of 15 consecutive five-year plans.
+
+On 29 October 1955 Chairman Mao Zedong announced his government’s intent in his “Address at the Symposium on the Socialist Transformation of Capitalist Industry and Commerce.” Mao said that, “Our goal is to catch up with and surpass the United States… As for how many decades it will take, depending on everyone’s efforts, it will take at least fifty years, perhaps seventy-five, which is fifteen five-year plans. Only when we catch up with and surpass the U.S. can we finally breathe easy.”[SK23]
+
+This was during the period of socialist transformation in the mid-1950s, around the time of the First Five-Year Plan which ran from 1953–1957. Deng’s Xiaoping’s leadership focused on the “Four Modernizations” aimed at turning China into a moderately prosperous society by the year 2000. In this way, by setting goals and formulating explicit plans, successive Chinese governments mobilized the creative potential and hard work of the Chinese people toward achieving specifically set objectives. The capital China gradually accumulated was invested in the buildup of the nation’s infrastructure, including large investments into educational institutions, R&D campuses, and health care.
+
+Most important: China today provides the most concrete example of what is possible and what is achievable with competent and constructive leadership. It’s also the most undeniable case of the superiority of the national system of political economy and the legitimacy of the government role, as opposed to the laissez-faire approach and the unrestrained system of global free trade.
+
+There are zero reasons for us to subordinate the future development of our societies to the failed ideological framework imposed by those who use it to systematically loot wealth from our economies and prevent them, like a parasite, from attaining their full potential in a way that benefits every member of the collective. The ideologues will screech, “socialism!!!” But by this time, the simple grasp of the obvious should suggest that if we want to transcend our present predicaments and build a better future, we need to reexamine our convictions and especially our certitudes.
+
+Alex Krainer – @NakedHedgie is the creator of I-System Trend Following and publisher of daily TrendCompass investor reports which cover over 200 financial and commodities markets. One-month test drive is always free of charge, no jumping through hoops to cancel. To start your trial subscription, drop us an email at TrendCompass@ISystem-TF.com, or:
+
+NEW: Check out our daily TrendCompass on Substack, covering 19 key global markets, incl. gold and bitcoin at under $1/day
+
+For US investors, we propose a trend-driven inflation/recession resilient portfolio covering a basket of 30+ financial and commodities markets. Further information is at this link.
+
+Have you always dreamed of becoming the highly visible face of a government whose most important decisions are made somewhere considerably less visible?
+
+Do you possess the unique ability to deliver inspiring speeches about democracy, sovereignty and public service while ensuring that the money keeps flowing upwards?
+
+If so, your career in State Theatre™ awaits! 🎭
+
+Sell the taxpayers on why another gigantic borrowing programme is absolutely essential.
+
+Ensure that gains from public spending remain beautifully privatized while losses are forever socialized.
+
+Help transform public assets, infrastructure and national resources into attractive plunder for private capital.
+
+Maintain the appearance of fierce ideological conflict while avoiding any serious challenge to the underlying financial architecture.
+
+Market ever-increasing military expenditure as essential for “security,” “democracy” and defence manufacturers — sorry — “national interests.”
+
+Promote the brave new world of AI, digital identity, surveillance, programmable finance and technological control as essential "biosecurity."
+
+🎤 Unlimited opportunities to answer well-rehearsed questions on television
+
+📜 Guaranteed access to an endless supply of our policy talking points
+
+🎭 The satisfaction of knowing that, whatever happens, you are the person standing at the microphone who will take the fall.
+
+Preferential consideration will be given to applicants who understand that the modern state functions primarily as a narrative, debt and capital-flow management interface for the benefit of the Financial Industrial Complex.
+
+Candidates with experience running a genuinely sovereign country need not apply.
+
+🥂 Apply today and help us keep the losses socialized, the profits privatized, and the public permanently distracted and fighting each other. 💰
+
+Very good article .As they always said in the old Dragnet shows "just the facts mam ".

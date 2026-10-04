@@ -1,0 +1,21 @@
+There ain't no equilibrium: A Conversation with “Artificial Intelligence” about Economics
+
+How ChatGPT is reluctant to admit that there is no evidence for equilibrium – rendering mainstream economics a fairy tale and quite useless for policy purposes - or ideal to foster neo-colonialism.
+
+Note to readers: The book “A Conversation about Economics” by an alleged “Richard Werner” and linked to me and my books on Amazon is not by me and likely a waste of your money.
+
+Modern macroeconomics, as it dominates the teaching and textbooks of all major universities in Europe and North America, is based on the equilibrium paradigm. This began with the introduction of the deductive methodology in economics – also known as the hypothetico-axiomatic method, by David Ricardo in the 19^(th) century. The deductive method was used to justify equilibrium economics. Both deductive methodology and its application to equilibrium economics were sponsored and actively advanced by Ricardo, a wealthy financier from the City of London, who was followed by others and their hired economists promoting this particular kind of economics. Once merely an extremist faction in economics, it has experienced a steady rise to total dominance in economics, which was achieved after the end of the second world war, when US domination of international institutions went hand-in-hand with US sponsorship of this particular kind of economics.
+
+Essentially, all important claims in modern economics are premised on the existence of equilibrium. Modern mainstream economics is equilibrium economics.
+
+Just consider the latest issue of one of the top economics journals, the Journal of Political Economy, associated with the University of Chicago: Studying the seven original paper contributions, we see that only one of them is an empirical study not assuming equilibrium. All others, one way or another, are based on the theoretical premise of equilibrium.
+
+So what if equilibrium is a rare occurrence? What if there is no equilibrium? The edifice of modern mainstream economics would collapse.
+
+Since large language models have been trained also on economics publications, they surely follow the premise that the true economics is equilibrium economics. So let’s question them a bit in the attempt to gain some answers. Unlike modern economists that simply avoid such direct questions, the AI-models at least have to pretend to give answers.
+
+Here is the transcript of two such interactions with AI, namely the Chat GPT free model:
+
+You said (Richard Werner): In economics, it is usually assumed that markets are in equilibrium. This is the foundation for and precondition of most of the currently dominant theories and economic models. However, can you tell me if there is actually any evidence of equilibrium in any market?
+
+Continue reading this post for free, courtesy of Richard A. Werner, D.Phil..
