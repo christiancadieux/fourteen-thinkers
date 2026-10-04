@@ -17,6 +17,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SRC = os.path.join(HERE, "sources")
 
+def doc(name):
+    """The project documents may sit in transcripts/ or in the repository root above it."""
+    for d in (ROOT, os.path.dirname(ROOT)):
+        if os.path.exists(os.path.join(d, name)):
+            return os.path.join(d, name)
+    return os.path.join(ROOT, name)
+
 # ---------- source texts ----------
 
 FILLERS = {"uh", "um", "uhm", "er"}
@@ -70,8 +77,8 @@ def md_quotes(path):
     section = ""
     lines = open(path, encoding="utf-8").read().split("\n")
     headings = set()
-    for doc in ("synthesis.md", "hidden-layer.md"):
-        headings |= {norm(l.strip("# ")) for l in open(os.path.join(ROOT, doc), encoding="utf-8") if l.startswith("#")}
+    for d in ("synthesis.md", "hidden-layer.md"):
+        headings |= {norm(l.strip("# ")) for l in open(doc(d), encoding="utf-8") if l.startswith("#")}
     recent = []  # authors named in recent lines of the same section (context)
     for ln, line in enumerate(lines, 1):
         if line.startswith("#"):
@@ -256,7 +263,7 @@ def hyp_markdown(H):
     return "\n".join(out)
 
 def write_hyp_md(H):
-    p = os.path.join(ROOT, "synthesis.md")
+    p = doc("synthesis.md")
     s = open(p, encoding="utf-8").read()
     a, b = "<!-- hypotheses:start -->", "<!-- hypotheses:end -->"
     if a not in s:
@@ -309,7 +316,7 @@ def ach_markdown(g):
     return "\n".join(out)
 
 def write_block(name, body):
-    p = os.path.join(ROOT, "synthesis.md")
+    p = doc("synthesis.md")
     s = open(p, encoding="utf-8").read()
     a, b = f"<!-- {name}:start -->", f"<!-- {name}:end -->"
     if a not in s:
@@ -339,8 +346,8 @@ def main():
 
     # quotes in the two documents
     allq = []
-    for doc in ("synthesis.md", "hidden-layer.md"):
-        allq += check_md(os.path.join(ROOT, doc))
+    for d in ("synthesis.md", "hidden-layer.md"):
+        allq += check_md(doc(d))
     json.dump(allq, open(os.path.join(HERE, "build/quotes.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     by = defaultdict(list)
     for q in allq:
@@ -363,7 +370,7 @@ def main():
         rep.append("")
 
     # counts
-    probs = check_counts(os.path.join(ROOT, "synthesis.md"))
+    probs = check_counts(doc("synthesis.md"))
     rep += ["## Counts in synthesis.md", ""]
     rep += [f"- line {p['line']}: \"{p['text']}\" says {p['says']}, lists {p['lists']}" for p in probs] or ["All \"N of the fifteen (…)\" counts match their lists."]
     rep.append("")
@@ -392,7 +399,7 @@ def main():
             rep.append("")
         page = render(tmpl, entry, counts, L.get("cases", []) if name == "author-axes" else None)
         open(os.path.join(HERE, "build", name + ".html"), "w", encoding="utf-8").write(page)
-        open(os.path.join(ROOT, name + ".html"), "w", encoding="utf-8").write(standalone(page))
+        open(doc(name + ".html"), "w", encoding="utf-8").write(standalone(page))
 
     # evidence grid quotes
     rep += ["## Evidence grid", ""]
