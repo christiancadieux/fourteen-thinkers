@@ -48,16 +48,13 @@ table { border-collapse: collapse; font-size: 0.95rem; min-width: 30rem; }
 th, td { text-align: left; vertical-align: top; padding: 6px 10px; border-bottom: 1px solid var(--line); }
 th { font-family: var(--mono); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 500; }
 hr { border: 0; border-top: 1px solid var(--line); margin: 0.6em 0; }
+@media print { html,body,.wrap{background:#fff!important} .wrap{max-width:none!important;padding:0!important;margin:0!important} article{border:none!important;box-shadow:none!important;padding:0!important;margin:0!important;max-width:none!important;background:#fff!important} body{font-size:10.5pt!important} figure{break-inside:avoid} h2{break-after:avoid} }
 </style>
 </head>
 <body>
 
 
 <div class="wrap">
-  <div class="bar">
-    <span>Draft for Medium · about 3,100 words · six screenshots included (upload the files in images/ to Medium)</span>
-    <span><button type="button" id="copy">Copy article text</button> <span class="status" id="status" role="status"></span></span>
-  </div>
 
   <article id="article">
     <h1>Fourteen Independent Thinkers, Read Side by Side</h1>
@@ -253,29 +250,6 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 0.6em 0; }
     <p class="note">For more detail: the full charts page, including the evidence grids, is at <a href="https://christiancadieux.github.io/fourteen-thinkers/author-axes.html">christiancadieux.github.io/fourteen-thinkers/author-axes.html</a>, and the full synthesis is at <a href="https://christiancadieux.github.io/fourteen-thinkers/synthesis.html">christiancadieux.github.io/fourteen-thinkers/synthesis.html</a>. The saved source texts and the program that checks every quote are on GitHub at <a href="https://github.com/christiancadieux/fourteen-thinkers">github.com/christiancadieux/fourteen-thinkers</a>.</p>
   </article>
 </div>
-
-<script>
-(function () {
-  var btn = document.getElementById("copy");
-  var status = document.getElementById("status");
-  btn.addEventListener("click", function () {
-    var art = document.getElementById("article").cloneNode(true);
-    art.querySelectorAll(".ph").forEach(function (el) {
-      el.textContent = "[" + el.textContent.trim() + "]";
-    });
-    var text = art.innerText.replace(/\n{3,}/g, "\n\n").trim();
-    function fallback() {
-      var r = document.createRange();
-      r.selectNodeContents(document.getElementById("article"));
-      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
-      status.textContent = "Copy was blocked; the article is selected, so press Ctrl+C or Cmd+C.";
-    }
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function () { status.textContent = "Copied."; }, fallback);
-    } else { fallback(); }
-  });
-})();
-</script>
 
 </body>
 </html>

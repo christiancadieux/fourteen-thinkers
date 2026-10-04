@@ -290,22 +290,22 @@ Ranking, fewest weighted facts against first (high reliability counts 1, medium 
 
 | | Explanation | From | Weighted against | Facts against | Facts that fit | Against, if possibly staged facts are dropped |
 |---|---|---|---|---|---|---|
-| W5 | Profit for the blocs (arms, energy, finance) and political theatre | Hudson, Wolff | 0.7 | 1 | 8 | 0.7 |
-| W3 | Against China, through its corridors and energy | H6 and H10: Berletic, Werner, Wilkerson | 0.7 | 1 | 5 | 0.7 |
-| W1 | Energy dominance by managed demolition | H2: Berletic, Hudson | 1.0 | 1 | 12 | 1.0 |
-| W2 | A war for Israel | H7: Henningsen, Crooke | 1.7 | 2 | 4 | 1.7 |
-| W4 | No coherent aim: a blunder by a declining power | Wolff, Crooke, Diesen | 1.7 | 2 | 4 | 1.7 |
+| W5 | Profit for the blocs (arms, energy, finance) and political theatre | Hudson, Wolff | 0.0 | 0 | 8 | 0.0 |
+| W3 | Against China, through its corridors and energy | H6 and H10: Berletic, Werner, Wilkerson | 0.0 | 0 | 5 | 0.0 |
+| W1 | Energy dominance by managed demolition | H2: Berletic, Hudson | 1.0 | 1 | 13 | 1.0 |
+| W2 | A war for Israel | H7: Henningsen, Crooke | 1.0 | 1 | 5 | 1.0 |
+| W4 | No coherent aim: a blunder by a declining power | Wolff, Crooke, Diesen | 1.7 | 2 | 5 | 1.7 |
 
 The grid (· means the fact does not bear on that explanation):
 
 | Fact | Kind | Reliability | Energy dominance | For Israel | Against China | Blunder | Bloc profit |
 |---|---|---|---|---|---|---|---|
 | F1. Iran's strikes led the US to evacuate many of its Gulf bases. (Werner: "the US military leadership essentially ordered many US bases in the region to be evacuated.") Could be staged. | author report | medium | fits | · | · | fits | · |
-| F2. US and Israeli strikes hit China's new railway through Iran. (Wilkerson: "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf") | author report | medium | · | **against** | fits | · | **against** |
-| F3. A 2009 Brookings paper proposed letting Israel strike so that blame would fall on Israel. (Brookings, "deflected away from the United States and onto Israel") | document | high | fits | **against** | · | · | · |
-| F4. Talks keep failing as the US changes its demands. (Werner: "constantly changing its views and putting forward new or contradictory demands") | author report | medium | fits | · | · | **against** | · |
-| F5. During the ceasefire, Trump imposed a US naval blockade on Iranian shipping (13 April 2026). (Werner: "President Trump announced on 13 April that a US-led naval blockade is being imposed") | public | high | fits | · | fits | **against** | · |
-| F6. The US imposed secondary sanctions on Chinese companies buying Iranian oil (24 April 2026). (Werner: "the US Treasury announced so-called secondary sanctions on Chinese companies importing Iranian oil") | public | high | · | · | fits | · | · |
+| F2. US and Israeli strikes hit China's new railway through Iran. (Wilkerson: "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf") | author report | medium | · | fits | fits | **against** | · |
+| F3. A 2009 Brookings paper proposed letting Israel strike so that blame would fall on Israel. (Brookings, "deflected away from the United States and onto Israel") | document | high | fits | **against** | · | **against** | · |
+| F4. Talks keep failing as the US changes its demands. (Werner: "constantly changing its views and putting forward new or contradictory demands") | author report | medium | fits | · | · | fits | · |
+| F5. During the ceasefire, Trump imposed a US naval blockade on Iranian shipping (13 April 2026). (Werner: "President Trump announced on 13 April that a US-led naval blockade is being imposed") | public | high | fits | · | fits | · | · |
+| F6. The US imposed secondary sanctions on Chinese companies buying Iranian oil (24 April 2026). (Werner: "the US Treasury announced so-called secondary sanctions on Chinese companies importing Iranian oil") | public | high | fits | · | fits | · | · |
 | F7. The US share of the EU's LNG imports rose to 59% in 2026 (55% a year earlier); forecasts reach two-thirds in 2026 and 80% by 2028. (IEEFA; S&P Global (2026)) | public | high | fits | · | · | · | fits |
 | F8. EU imports of Russian LNG hit a quarterly record in early 2026, up 16% on the year. (Euronews / IEEFA (May 2026)) | public | high | **against** | · | · | · | · |
 | F9. Before the war, Europe committed to large US energy purchases in Trump's 2025 trade deal. (Wolff: "over $1 trillion in committed purchases of liquified natural gas plus investments") | public | high | fits | · | · | · | fits |
@@ -317,30 +317,28 @@ The grid (· means the fact does not bear on that explanation):
 | F15. Israel did most of the bombing. (Wilkerson: "with the Israelis being the lion's share of the bombing") Could be staged. | author report | medium | fits | fits | · | · | · |
 | F16. Central banks outside the West are cutting US Treasuries and buying gold. (US Treasury TIC; PBOC (2026)) | public | high | · | · | · | fits | · |
 | F17. Iran's strikes hit Gulf energy and desalination plants, cutting supply to Asia and Europe. (Wolff: "the desalination plants, the electric plants, the energy facilities") | author report | medium | fits | · | fits | fits | fits |
-| F18. At the Trump–Xi summit, US corporations pressed to get into China's market. (Norton: "these corporations are trying to claw their way into the enormous Chinese market") | author report | medium | · | · | **against** | · | fits |
+| F18. At the Trump–Xi summit, US corporations pressed to get into China's market. (Norton: "these corporations are trying to claw their way into the enormous Chinese market") | author report | medium | · | · | · | · | fits |
 | F19. US interceptors carried most of Israel's defence while the Gulf states ran short. (Libertarian Institute, summarising US reporting; CBS News (2026)) | public data | high | fits | fits | fits | · | · |
 | F20. Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller). (Johnson: "more than two-thirds in August and September") | author report | high | fits | · | · | · | fits |
 
 Why each "against" was marked:
 
-- F2 against W2: A war fought only for Israel has no reason to target China's railway.
-- F2 against W5: Profit and theatre do not need a strategic target like China's railway; hitting it serves a strategy, not a sale.
-- F3 against W2: US planners themselves designed the appearance of an Israeli war, so the appearance is weak evidence that the war is Israel's.
-- F4 against W4: A power that had gambled and lost would look for a way out, not keep moving the terms.
-- F5 against W4: A loser seeking an exit would want Hormuz reopened, not add its own blockade.
+- F2 against W4: Picking China's new railway as a target is a strategic choice, the opposite of a war with no coherent aim.
+- F3 against W2: US planners had their own case for war with Iran and planned for Israel to take the blame; that cuts against a war fought only for Israel's sake.
+- F3 against W4: A war against Iran was worked out on paper years in advance, down to who would take the blame; that is not a war without a coherent aim.
 - F8 against W1: If the aim were to lock Europe into US gas, Europe buying record Russian LNG cuts against it.
-- F18 against W3: A campaign to contain China sits awkwardly with US firms pushing to expand there at the same moment.
 
-The facts that separate the explanations most are F2, F3, F4, F5, F8, F18: each fits some explanations and rules against others. They are where new evidence matters most.
+The facts that separate the explanations most are F2, F3, F8: each fits some explanations and rules against others. They are where new evidence matters most.
 <!-- ach:end -->
 
 What the grid shows. This is my reading; every mark in the grid is a judgement and is listed so it can be challenged.
-- **No explanation is free of facts against it,** and with twenty facts the gaps are small: 0.7 to 1.7.
-- **The purposeful explanations do best.** The three that treat the war as serving someone's aims (against China, energy dominance, profit for the arms, energy and finance blocs) have the fewest facts against them. The two that read it as having no coherent aim or as someone else's war (a blunder, a war for Israel) have the most. The facts that weigh most against those two are the US blockade imposed during the ceasefire (F5), the moving terms in the talks (F4), the Brookings deflection plan (F3) and the bombing of China's railway (F2).
-- **They are not exclusive.** On the nexus model, a war can serve several blocs at once: energy sales, the squeeze on China's corridors, arms replacement orders. Energy dominance fits the most facts (ten), with one solid fact against it.
+- **Two explanations have no fact against them, and that is partly a weakness of the method.** A war against China and profit for the arms, energy and finance blocs score 0. But an explanation that predicts little is hard to contradict: almost any target or move can be read as serving some bloc's profit. The gaps are small, from 0 to 1.7.
+- **A blunder fits worst.** Two facts count against a war with no coherent aim: it was worked out on paper years in advance (the Brookings plan, F3), and its targets were chosen strategically, such as China's railway through Iran (F2). Shifting, contradictory demands in the talks (F4) do fit it, and the blockade during the ceasefire (F5) fits a declining power doubling down as well as it fits a plan.
+- **Energy dominance and a war for Israel each have one fact against them.** For energy dominance it is Europe's record Russian LNG imports (F8). For a war for Israel it is the Brookings plan: US planners had their own case for war with Iran and planned for Israel to take the blame (F3). Bombing China's railway (F2) fits a war for Israel, because the railway is also Iran's lifeline to China and cutting it isolates Iran.
+- **They are not exclusive.** On the nexus model, a war can serve several blocs at once: energy sales, the squeeze on China's corridors, arms replacement orders. Energy dominance fits the most facts (thirteen), with one solid fact against it.
 - **Defending Israel first does not separate the explanations.** The US carried most of Israel's missile defence while the Gulf oil states ran short (F19). That fits a war for Israel, but it fits the purposeful explanations just as well: Israel is the US's unsinkable aircraft carrier in the region, the asset a plan for the Gulf would protect first.
 - **Dropping the facts that could be staged does not change the ranking.** They only ever fitted explanations; none ruled one out.
-- **What would change it.** If Europe keeps raising its Russian LNG purchases (F8), energy dominance weakens. If US firms keep expanding in China (F18), the China explanation weakens. A durable reopening of Hormuz sought by Washington would revive the blunder reading.
+- **What would change it.** If Europe keeps raising its Russian LNG purchases (F8), energy dominance weakens. If the strikes on China's corridors turn out to be incidental, the China explanation weakens. A durable reopening of Hormuz sought by Washington would revive the blunder reading.
 - **Purpose is not success.** This grid asks only what the war is for. A plan can be deliberate and still fail. Wolff's own summary has both halves: the war's "goal was to reverse the decline of the US empire; its result was the opposite." The next grid weighs that second half.
 
 ### Is the plan working?

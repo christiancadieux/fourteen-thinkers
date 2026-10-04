@@ -2063,16 +2063,15 @@
      "staged": false,
      "cells": {
       "W1": "N",
-      "W2": "I",
+      "W2": "C",
       "W3": "C",
-      "W4": "N",
-      "W5": "I"
+      "W4": "I",
+      "W5": "N"
      },
      "author": "Wilkerson",
      "quote": "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf",
      "reasons": {
-      "W2": "A war fought only for Israel has no reason to target China's railway.",
-      "W5": "Profit and theatre do not need a strategic target like China's railway; hitting it serves a strategy, not a sale."
+      "W4": "Picking China's new railway as a target is a strategic choice, the opposite of a war with no coherent aim."
      }
     },
     {
@@ -2085,13 +2084,14 @@
       "W1": "C",
       "W2": "I",
       "W3": "N",
-      "W4": "N",
+      "W4": "I",
       "W5": "N"
      },
      "author": "Brookings-2009",
      "quote": "deflected away from the United States and onto Israel",
      "reasons": {
-      "W2": "US planners themselves designed the appearance of an Israeli war, so the appearance is weak evidence that the war is Israel's."
+      "W2": "US planners had their own case for war with Iran and planned for Israel to take the blame; that cuts against a war fought only for Israel's sake.",
+      "W4": "A war against Iran was worked out on paper years in advance, down to who would take the blame; that is not a war without a coherent aim."
      }
     },
     {
@@ -2104,14 +2104,11 @@
       "W1": "C",
       "W2": "N",
       "W3": "N",
-      "W4": "I",
+      "W4": "C",
       "W5": "N"
      },
      "author": "Werner",
-     "quote": "constantly changing its views and putting forward new or contradictory demands",
-     "reasons": {
-      "W4": "A power that had gambled and lost would look for a way out, not keep moving the terms."
-     }
+     "quote": "constantly changing its views and putting forward new or contradictory demands"
     },
     {
      "id": "F5",
@@ -2123,14 +2120,11 @@
       "W1": "C",
       "W2": "N",
       "W3": "C",
-      "W4": "I",
+      "W4": "N",
       "W5": "N"
      },
      "author": "Werner",
-     "quote": "President Trump announced on 13 April that a US-led naval blockade is being imposed",
-     "reasons": {
-      "W4": "A loser seeking an exit would want Hormuz reopened, not add its own blockade."
-     }
+     "quote": "President Trump announced on 13 April that a US-led naval blockade is being imposed"
     },
     {
      "id": "F6",
@@ -2139,7 +2133,7 @@
      "reliability": "high",
      "staged": false,
      "cells": {
-      "W1": "N",
+      "W1": "C",
       "W2": "N",
       "W3": "C",
       "W4": "N",
@@ -2332,15 +2326,12 @@
      "cells": {
       "W1": "N",
       "W2": "N",
-      "W3": "I",
+      "W3": "N",
       "W4": "N",
       "W5": "C"
      },
      "author": "Norton",
-     "quote": "these corporations are trying to claw their way into the enormous Chinese market",
-     "reasons": {
-      "W3": "A campaign to contain China sits awkwardly with US firms pushing to expand there at the same moment."
-     }
+     "quote": "these corporations are trying to claw their way into the enormous Chinese market"
     },
     {
      "id": "F19",
