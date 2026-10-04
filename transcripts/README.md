@@ -16,14 +16,6 @@ Better sources, which are critical of power and checkable:
 Ben Norton
 Patrick Henningsen
 Andei Jikh
-KJ Noh
 Danny Haiphong
-
-Dr Steven Greer
-Richard Dolan
-Darryl Anka (skip from synthesis but consider the information)
-Lee Harris (skip from synthesis but consider the information)
-Richard Doty
-John Lear
 
 
