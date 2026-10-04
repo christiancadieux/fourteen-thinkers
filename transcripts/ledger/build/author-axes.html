@@ -1,0 +1,1439 @@
+<title>Fourteen Authors, Thirteen Axes</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column; each chart is a full-width band inside it, text held to ~65ch. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --fg: #18212b;
+  --muted: #5a6675;
+  --line: #d3dae2;
+  --accent: #0f6e78;
+  --dot-ink: #ffffff;
+  --a0: #2b66ad; --a1: #b2432c; --a2: #2a7f52; --a3: #7d48a8;
+  --a4: #8f6510; --a5: #b83a72; --a6: #157f8a; --a7: #566070; --a8: #a1561b; --a9: #3f4fb5; --a10: #66741a; --a11: #8a3d4a; --a12: #2f6f8f; --a13: #9a4f8a; --a14: #8a6a1f;
+  --display: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161c; --surface: #19212a; --fg: #e6ebf0; --muted: #9aa7b5; --line: #2e3945;
+    --accent: #5cc4cf; --dot-ink: #10151a;
+    --a0: #7fb0ee; --a1: #ee8f78; --a2: #6fcf9a; --a3: #c79bea;
+    --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6; --a14: #e0c27a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --surface: #19212a; --fg: #e6ebf0; --muted: #9aa7b5; --line: #2e3945;
+  --accent: #5cc4cf; --dot-ink: #10151a;
+  --a0: #7fb0ee; --a1: #ee8f78; --a2: #6fcf9a; --a3: #c79bea;
+  --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6; --a14: #e0c27a;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 16px; padding-block: 32px 64px; display: flex; flex-direction: column; gap: 44px; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.9rem, 5vw, 2.7rem); line-height: 1.08; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h2 { font-family: var(--display); font-weight: 700; font-size: 1.45rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--body); font-weight: 600; font-size: 1.02rem; margin: 0; }
+p { margin: 0; max-width: 66ch; }
+.eyebrow { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
+.stack { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.muted { color: var(--muted); }
+.small { font-size: 0.88rem; }
+
+/* legend */
+.legend { display: flex; flex-wrap: wrap; gap: 8px; }
+.legend button { font: inherit; font-size: 0.9rem; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px 4px 5px; display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+.legend button[aria-pressed="true"] { border-color: var(--fg); box-shadow: inset 0 0 0 1px var(--fg); }
+.legend button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.dot { width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-family: var(--mono); font-weight: 600; font-size: 0.66rem; color: var(--dot-ink); flex: none; }
+
+/* axis strips */
+.axes { display: flex; flex-direction: column; gap: 28px; }
+.axis { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--fg); border-radius: 4px; padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.axis h3 { font-family: var(--display); font-weight: 700; font-size: 1.22rem; line-height: 1.2; }
+.axis-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 16px; }
+.spread { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+.poles { display: flex; justify-content: space-between; gap: 16px; font-size: 0.82rem; color: var(--muted); }
+.poles span { max-width: 46%; }
+.poles span:last-child { text-align: right; }
+.na { font-size: 0.82rem; color: var(--muted); }
+svg { display: block; width: 100%; }
+svg text { font-family: var(--mono); }
+.tick-label { fill: var(--muted); font-size: 11px; }
+.track { stroke: var(--line); stroke-width: 2; fill: none; }
+.tick { stroke: var(--line); stroke-width: 1; fill: none; }
+.median { fill: var(--accent); }
+.dot-text { fill: var(--dot-ink); font-size: 10px; font-weight: 600; text-anchor: middle; dominant-baseline: central; }
+.dim { opacity: 0.18; }
+.c0 { fill: var(--a0); background: var(--a0); } .c1 { fill: var(--a1); background: var(--a1); }
+.c2 { fill: var(--a2); background: var(--a2); } .c3 { fill: var(--a3); background: var(--a3); }
+.c4 { fill: var(--a4); background: var(--a4); } .c5 { fill: var(--a5); background: var(--a5); }
+.c6 { fill: var(--a6); background: var(--a6); } .c7 { fill: var(--a7); background: var(--a7); }
+.c8 { fill: var(--a8); background: var(--a8); } .c9 { fill: var(--a9); background: var(--a9); }
+.c10 { fill: var(--a10); background: var(--a10); } .c11 { fill: var(--a11); background: var(--a11); }
+.c12 { fill: var(--a12); background: var(--a12); } .c13 { fill: var(--a13); background: var(--a13); }
+.c14 { fill: var(--a14); background: var(--a14); }
+.reasons { margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid var(--line); list-style: none; display: flex; flex-direction: column; font-size: 0.92rem; }
+.reasons li { display: grid; grid-template-columns: 24px 1.4ch 6.4rem 1fr; gap: 10px; align-items: start; padding-block: 6px; }
+.reasons li + li { border-top: 1px dashed var(--line); }
+.reasons b { font-family: var(--mono); font-weight: 600; text-align: right; line-height: 24px; }
+.reasons .who { font-weight: 600; line-height: 24px; }
+.reasons .why { min-width: 0; padding-top: 1px; }
+.reasons .none { color: var(--muted); }
+.advice-list li { grid-template-columns: 24px 6.4rem 1fr; }
+.segs { display: grid; grid-template-columns: repeat(14, 1fr); gap: 3px; }
+.seg { height: 16px; border-radius: 2px; }
+.seg.empty { background: transparent; border: 1px dashed var(--line); }
+@media (max-width: 520px) { .advice-list li { grid-template-columns: 24px 1fr; } .advice-list .why { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .reasons li { grid-template-columns: 24px 1.4ch 1fr; } .reasons .why { grid-column: 3; } }
+
+/* margin bars */
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.bar-row { display: grid; grid-template-columns: 9.5rem 1fr 3.2rem; gap: 10px; align-items: center; }
+.bar-name { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.bar-track { height: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+.bar-fill { height: 100%; }
+.bar-val { font-family: var(--mono); font-size: 0.86rem; font-variant-numeric: tabular-nums; text-align: right; }
+.bar-why { grid-column: 2 / 4; font-size: 0.82rem; color: var(--muted); margin-top: -6px; }
+.bar-track.stacked { display: flex; }
+.far-list { list-style: none; margin: 4px 0 2px; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.far-head { color: var(--fg); font-size: 0.86rem; }
+.far-head b { font-weight: 600; }
+.far-reason { font-size: 0.82rem; color: var(--muted); margin-top: 2px; }
+.bar-why p { margin: 0; }
+.achgrid td.cell { text-align: center; font-family: var(--mono); white-space: nowrap; }
+.achgrid td.fit { color: var(--fg); }
+.achgrid td.against { color: var(--accent); font-weight: 600; }
+.achgrid td.na { color: var(--muted); }
+.achgrid .src { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 2px; }
+.achgrid .why { display: block; font-size: 0.8rem; color: var(--accent); margin-top: 2px; }
+.tag { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; margin-left: 4px; }
+.case-list { margin: 6px 0 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; font-size: 0.92rem; }
+.case-list q { color: var(--muted); }
+.case-h { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin-top: 10px; }
+.case-p { font-size: 0.92rem; margin: 4px 0 0; }
+.chips { display: inline-flex; flex-wrap: wrap; gap: 6px; vertical-align: middle; margin-left: 4px; }
+.bar-fill.light { opacity: 0.45; }
+.qkey { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.84rem; color: var(--muted); }
+.qkey span { display: inline-flex; align-items: center; gap: 6px; }
+.qkey i { display: inline-block; width: 22px; height: 10px; border-radius: 2px; background: var(--fg); }
+.qkey i.light { opacity: 0.45; }
+@media (max-width: 520px) { .bar-row { grid-template-columns: 2rem 1fr 3rem; } .bar-name span:last-child { display: none; } }
+
+/* matrix */
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.qtable { width: 100%; min-width: 560px; font-size: 0.9rem; }
+.qtable th, .qtable td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.qtable th { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 400; }
+.qtable td.num { font-family: var(--mono); text-align: right; white-space: nowrap; }
+.qtable a { color: var(--fg); font-weight: 600; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.qtable a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.matrix th, .matrix td { width: 44px; height: 40px; text-align: center; font-family: var(--mono); font-size: 0.8rem; padding: 0; }
+.matrix th { font-weight: 400; }
+.matrix th .dot { margin: 0 auto; }
+.matrix td { border: 1px solid var(--bg); color: var(--fg); }
+.matrix td.self { color: var(--muted); }
+.pairs { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px 28px; }
+.pairs div { font-size: 0.92rem; }
+.pairs b { font-weight: 600; }
+
+/* scatter */
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.controls label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); min-width: 0; }
+select { font: inherit; font-size: 0.92rem; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; max-width: 100%; }
+.scatter-box { max-width: 540px; }
+.grid-line { stroke: var(--line); stroke-width: 1; }
+.readout { font-size: 0.86rem; color: var(--muted); display: flex; flex-direction: column; gap: 3px; }
+ul.plain { margin: 0; padding-left: 1.1em; max-width: 66ch; display: flex; flex-direction: column; gap: 6px; }
+.toc ol { margin: 0; padding-left: 1.4em; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 6px 28px; }
+.toc li { font-size: 0.94rem; }
+.toc a { color: var(--fg); font-weight: 600; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.toc li span { display: block; font-size: 0.82rem; color: var(--muted); }
+html { scroll-behavior: smooth; }
+section[id], nav[id] { scroll-margin-top: 12px; }
+.back { font-size: 0.82rem; }
+</style>
+
+<div class="wrap">
+  <header class="stack">
+    <div class="eyebrow">Companion to synthesis.md · twelfth pass</div>
+    <h1>Fourteen Authors, Thirteen Axes</h1>
+    <p>Each author is placed from 1 to 5 on thirteen questions where at least ten of the fourteen take a position. The scores are my reading of the synthesis document and the authors’ texts, not measurements. The last three questions were added in the tenth pass. The reason for every score is listed under its chart.</p>
+    <p class="muted small">Select an author to follow them through every chart.</p>
+    <div class="legend" id="legend"></div>
+  </header>
+
+  <nav class="stack toc" id="contents-top" aria-label="Contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#quotes">Quotes per author</a><span>How much of each author's own wording backs the page</span></li>
+      <li><a href="#axes">Where each author sits</a><span>The thirteen questions, with every author's score and reason</span></li>
+      <li><a href="#margin">Who is on the margin</a><span>Distance from the group, and why</span></li>
+      <li><a href="#cases-sec">Cases</a><span>Events that test the positions</span></li>
+      <li><a href="#pairs-sec">Who sits with whom</a><span>Which authors are closest and furthest apart</span></li>
+      <li><a href="#advice-sec">Personal advice</a><span>What the authors tell individuals to do</span></li>
+      <li><a href="#scatter-sec">Two axes at once</a><span>Compare any two questions</span></li>
+      <li><a href="#evidence">Weighing the evidence</a><span>What the Iran war is for, and whether the plan is working</span></li>
+      <li><a href="#hypotheses">Hypotheses</a><span>The competing explanations, with tests</span></li>
+      <li><a href="#how">How to read this</a><span>Caveats and what was left out</span></li>
+    </ol>
+  </nav>
+
+  <section class="stack" id="quotes">
+    <h2>How much of each author is quoted</h2>
+    <p>The number of quotations from each author’s own words that back these pages: in the text of synthesis.md, and in the reasons and advice on this page. Every one is checked against the author’s saved texts by the ledger build. More quotes means more of an author’s position rests on their own wording rather than on my summary; it also reflects how much of their material I could read. Terms of one or two words (Fitts’s “pop”, “come clean”, “total malice”) are too short to check and are not counted, which is why her synthesis.md count is low.</p>
+    <div class="qkey"><span><i></i>In synthesis.md</span><span><i class="light"></i>In this page’s reasons and advice</span></div>
+    <div class="bars" id="qbars"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="axes">
+    <h2>Where each author sits</h2>
+    <p>The thirteen questions, from most to least divisive. Spread is how far apart the authors are (the standard deviation of their scores); select a question to jump to its chart.</p>
+    <div class="scroll"><table class="qtable" id="qtable"></table></div>
+    <p class="muted small">The diamond on each line is the group median. Under each diagram, one row per author gives the score and the reason, from lowest score to highest.</p>
+    <div class="axes" id="axes"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="margin">
+    <h2>Who is on the margin</h2>
+    <p>Average distance from the group median, across the questions each author addresses; a higher number means further from the crowd. Under each bar are the questions where the author is two or more points from the group: their score against the group’s median, the end of the scale they lean toward, and their own reason, largest gap first.</p>
+    <div class="bars" id="bars"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="cases-sec">
+    <h2>Cases that test the positions</h2>
+    <p>The charts above show where the authors stand. A case is different: an event, reported by one of the authors, that bears on one of the questions or on a dated forecast. Each case lists what happened, in the source’s words, which positions it fits more easily or strains, and its limits.</p>
+    <div class="axes" id="cases"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="pairs-sec">
+    <h2>Who sits with whom</h2>
+    <p>Average gap between each pair of authors, in scale points. Darker cells are closer.</p>
+    <div class="scroll"><table class="matrix" id="matrix"></table></div>
+    <div class="pairs" id="pairs"></div>
+    <ul class="plain">
+      <li><b>Two camps.</b> The first trusts states: Norton, Hudson and Berletic, with Henningsen, Crooke, Wilkerson, Wolff and Diesen close by. The second puts power in networks above countries and fears the state's tools: Werner, Fitts, Martenson and Webb, with Dixon further out.</li>
+      <li><b>A third line: countries or blocs.</b> On the two newest questions, Diesen, Wilkerson and Crooke stand apart. They treat states and leaders as the actors and wars as won or lost by countries, while nearly everyone else sees blocs or classes, and complexes that gain win or lose.</li>
+      <li><b>Krainer bridges the first two camps.</b> He puts finance above all countries, as the second camp does, and wants a strong state, as the first does.</li>
+      <li><b>Hudson is the most central, then Werner, Henningsen and Crooke.</b> Hudson is two points from the group on only one question. His closest neighbour is Norton, whose site carries his interviews, and Wolff's is Wilkerson, whose shows he shares, so those closenesses are not independent agreement.</li>
+      <li><b>Diesen and Webb are furthest apart.</b> Diesen sees sovereign states balancing a hegemon; Webb sees states, the multipolar ones included, as instruments of the same private networks.</li>
+      <li><b>Dixon stands furthest from the crowd, then Webb, Krainer and Diesen.</b> The first three put power above countries; Diesen is the outlier at the other end, the state frame.</li>
+    </ul>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="advice-sec">
+    <h2>Personal advice</h2>
+    <p>What the authors tell individuals to do, as opposed to what they want governments to do. A piece of advice counts only where I found it in the author’s own words. Each bar has one cell per author; filled cells are the authors who give that advice, with the quote below.</p>
+    <div class="axes" id="advice"></div>
+    <p class="muted small">No personal advice found in what I read: Werner (he argues for small local banks, but as policy), Norton, Hudson, Crooke, Diesen and Webb. Their remedies are national programmes, diplomacy or exposure. Henningsen’s and Berletic’s advice is about how to read the news rather than what to do with money.</p>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="scatter-sec">
+    <h2>Two axes at once</h2>
+    <div class="controls">
+      <label for="selx">Left to right
+        <select id="selx"></select>
+      </label>
+      <label for="sely">Bottom to top
+        <select id="sely"></select>
+      </label>
+    </div>
+    <div class="scatter-box" id="scatter"></div>
+    <div class="readout" id="readout"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="evidence">
+    <h2>Weighing the evidence: what is the Iran war for, and is it working?</h2>
+    <p>The charts compare the authors’ positions. This section asks which explanation fits the facts best. Facts come first: documents, public data and what authors report as having happened, not their interpretations. Each fact is marked as fitting an explanation, ruling against it, or not bearing on it. The best explanation is the one with the fewest solid facts against it. Facts that could be staged for appearances are flagged, and the ranking is shown both ways.</p>
+    <p>There are two questions, because a war can have a purpose and still fail. The first grid asks what the war is for. The second assumes a purposeful plan and asks whether it is working.</p>
+    <div id="achgrids"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="hypotheses">
+    <h2>Hypotheses</h2>
+    <p>The authors’ disagreements come down to a few competing explanations. Each card gives the claim, whose material fits it or cuts against it, what would test it, and where it stands. All come from the authors’ material; four (H1, H2, H9, H10) combine pieces from several authors into one model, and each card names whose pieces they are. The same list closes synthesis.md, and both are generated from the ledger.</p>
+    <p class="muted small">So far the forecast record favours the readings built on written plans and on structure (H6, H5) over readings of Trump’s character; one collision between blocs, the diesel case, fits H1 and H4.</p>
+    <div class="axes" id="hyps"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
+  <section class="stack" id="how">
+    <h2>How to read this</h2>
+    <ul class="plain">
+      <li>A score is a position, not a grade. A 5 is not better than a 1.</li>
+      <li>Scores are whole numbers on a five-point scale, so a one-point gap is within my margin of judgement. Gaps of two or more are the ones to trust.</li>
+      <li>The margin and pair figures treat all thirteen axes as equally important. Change that and the ranking can move.</li>
+      <li>Left out because fewer than ten authors take a position, or because the answer is yes or no: crypto as exit or trap (four authors), depopulation (raised by Krainer, Fitts and Werner only), the Epstein files, a spiritual framing, whether Western workers gain or lose, Martenson's question of whether energy caps growth, and Hudson's of whether debts should be written down.</li>
+      <li>Berletic, Wilkerson, Diesen and Wolff have no score on digital control; Webb has none on China, the Iran war’s target, elections or who gains from the wars; Krainer none on the Iran war’s target; Martenson none on the multipolar bloc; Werner and Norton none on elections. I found no position in what I read.</li>
+      <li>Chomsky and K.J. Noh are cited in the synthesis as references and are not scored here: Chomsky has nothing on 2026, and Noh’s positions largely duplicate Norton’s, whose site he writes for.</li>
+    </ul>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+</div>
+
+<script>
+const AUTHORS = [
+ {
+  "name": "Werner",
+  "first": "Richard",
+  "code": "We"
+ },
+ {
+  "name": "Krainer",
+  "first": "Alex",
+  "code": "Kr"
+ },
+ {
+  "name": "Berletic",
+  "first": "Brian",
+  "code": "Be"
+ },
+ {
+  "name": "Dixon",
+  "first": "Simon",
+  "code": "Di"
+ },
+ {
+  "name": "Fitts",
+  "first": "Catherine Austin",
+  "code": "Fi"
+ },
+ {
+  "name": "Norton",
+  "first": "Ben",
+  "code": "Nr"
+ },
+ {
+  "name": "Henningsen",
+  "first": "Patrick",
+  "code": "He"
+ },
+ {
+  "name": "Martenson",
+  "first": "Chris",
+  "code": "Ma"
+ },
+ {
+  "name": "Hudson",
+  "first": "Michael",
+  "code": "Hu"
+ },
+ {
+  "name": "Crooke",
+  "first": "Alastair",
+  "code": "Cr"
+ },
+ {
+  "name": "Wilkerson",
+  "first": "Lawrence",
+  "code": "Wi"
+ },
+ {
+  "name": "Diesen",
+  "first": "Glenn",
+  "code": "Ds"
+ },
+ {
+  "name": "Webb",
+  "first": "Whitney",
+  "code": "Wb"
+ },
+ {
+  "name": "Wolff",
+  "first": "Richard",
+  "code": "Wo"
+ }
+];
+const AXES = [
+ {
+  "id": "coord",
+  "title": "How coordinated is the power?",
+  "low": "Incentives; no one directing",
+  "high": "One deliberate plan",
+  "s": [
+   4,
+   5,
+   4,
+   1,
+   4,
+   2,
+   3,
+   3,
+   4,
+   4,
+   2,
+   2,
+   5,
+   2
+  ],
+  "why": [
+   "Recessions are chosen: “whenever we see a country in recession, this is a policy-decision by the central planners”.",
+   "A “monolithic and ruthless conspiracy” with a hidden hand.",
+   "A plan, written down: “US policy papers explicitly lay out plans for maritime blockades, attacking the Chinese BRI”.",
+   "“There is no one on top. It’s not an organized cabal.”",
+   "Both: “Oh, there’s total malice”, yet “the people who run the financial system are first and foremost risk managers”, “very afraid of the guillotine”.",
+   "Class interest acting in the open: “US government policy is made by and for these powerful corporations.”",
+   "A regime-change “formula”, but of the Iran war: “if this is some grandmaster plan, can someone explain to me what is in America’s interest”.",
+   "Undecided: “they know not what they do”, or “maybe they did it”.",
+   "“There has been a long plan”, stated openly: “no attempt to conceal it”.",
+   "Behind Trump, “a clear design for the preservation of a certain power structure’s ambition to attain global primacy”.",
+   "Mostly incompetence, careerism and hatred: “There is no strategic purpose to it.”",
+   "Structure more than plan: “A declining hegemon will predictably seek to weaken rising powers.”",
+   "“A handful of men with bottomless pockets who were willing to wait decades.”",
+   "Class interest and a declining empire, not a hidden plan; government is an arena where “clumps” of capitalists “work out amongst themselves a deal”."
+  ]
+ },
+ {
+  "id": "finance",
+  "title": "Is finance the seat of power?",
+  "low": "No: a state, a class, or arms",
+  "high": "Yes: finance above all",
+  "s": [
+   5,
+   5,
+   2,
+   5,
+   5,
+   4,
+   3,
+   4,
+   5,
+   3,
+   2,
+   1,
+   4,
+   2
+  ],
+  "why": [
+   "Central banks and bank credit: “the tools are available to quickly exit any recession and deliver high growth and prosperity for all.”",
+   "“The bankers hold all the power.”",
+   "“Wall Street and Washington”: arms, energy and tech using the state.",
+   "Asset managers sit across the market, though Larry Fink is “not the top of the chain”; BlackRock “doesn’t have a monopoly”.",
+   "The financial system’s managers “print money out of thin air” and are “increasingly above the law”.",
+   "Oligarchs and corporations; through Hudson on his site, “an extractive, predatory financial system”.",
+   "Old money, insurers and donors rather than banks alone: “Most of the money in this city is concentrated into old money and foreign money”.",
+   "Banks make money “out of thin air” and the Fed moves wealth upward, but energy sits underneath.",
+   "A rentier class has run governments through their finances since medieval times: “the birth of the fiscal state—a state that is governed above all by its fiscal policy that is dominated by the banking class itself”.",
+   "Finance is the enforcer: a “dark state” bid for primacy, with the “financial oligarchy as its enforcement structure”.",
+   "The national security state, arms makers and donors; finance appears mainly as a debt warning: “The bond market is saying Trump is going to have one of the worst economic situations by midterm in our history.”",
+   "Says little about money; power is the hegemon’s project, “a world order defined as liberal hegemony”.",
+   "“A world system of financial control in private hands” (quoting Quigley), joined to intelligence and tech.",
+   "The employer class as a whole; business lobbies speak for “a clump of American enterprises who have carved out a niche for themselves”."
+  ]
+ },
+ {
+  "id": "remedy",
+  "title": "What is the remedy?",
+  "low": "Decentralise and exit",
+  "high": "A strong sovereign state",
+  "s": [
+   2,
+   5,
+   4,
+   1,
+   1,
+   5,
+   4,
+   2,
+   5,
+   4,
+   4,
+   5,
+   2,
+   3
+  ],
+  "why": [
+   "Small local banks against the central planners: “Who lends to small firms? It’s small banks and that’s it.”",
+   "A sovereign state over the oligarchs: “We, the people, must demand sovereignty and empower ourselves to plan a future rooted in a genuine love of humanity.”",
+   "A multipolar world of sovereign states, against “Wall Street and Washington’s pursuit of a unipolar world order and its war on the emerging multipolar world”.",
+   "Boycott and exit: “If you want to boycott BlackRock, you have to own it in self custody.”",
+   "Personal and local: “You can use cash. Okay. And you can stop shopping. You can stop using the banks.”",
+   "Multipolarity and de-dollarised trade; on his site Radhika Desai argues for “some version of capital controls”.",
+   "National and energy sovereignty, yet against global taxation: “a form of global collectivism, or communism”.",
+   "Personal and local: “for ordinary people, having some buffers in your life is can make sense”; gold, land, food and neighbours.",
+   "Credit as “a public utility” under a central authority; tax land rent; write down unpayable debts.",
+   "Civilisational sovereignty, “self-circulating, self-sufficient economies” and a defensive concert of powers.",
+   "Diplomacy and restraint: “We are either going to go back to offshore balancing, which we should, never should have abandoned it”; and an amendment to undo Citizens United.",
+   "Diplomacy: “understand their security concerns, and then find ways to mitigate security competition and pursue forms of indivisible security”.",
+   "Exposure, with no personal programme in what I read; “The decentralization theater… is masking the greatest centralization of power in history”.",
+   "Neither exit nor the state: “Democratically organized worker cooperatives are the goal”, for private and state-owned enterprises alike."
+  ]
+ },
+ {
+  "id": "china",
+  "title": "How do they see China?",
+  "low": "Wary: the same system, or in its debt",
+  "high": "The model",
+  "s": [
+   4,
+   5,
+   4,
+   3,
+   2,
+   5,
+   4,
+   3,
+   5,
+   4,
+   4,
+   4,
+   null,
+   4
+  ],
+  "why": [
+   "Deng’s reforms are the model: China’s rise “to superpower status in only 40 years can teach us much”; Mao’s era is the warning.",
+   "“The most undeniable case” for the national system.",
+   "Pursuing abundance; align with it: “China has already committed to a national and global model of abundance.”",
+   "A different model (“All the currency that’s printed goes back to the government and the government reinvests it in its own infrastructure”), but capital is “moving east” into it.",
+   "Impressive (“very very impressive”), but “China was developed by Europe and US capital”, and she does not know “what obligations does China have to European and US capital”.",
+   "“The United States is capitalist and constitutes the heart of the capitalist world-system, whereas China is socialist.”",
+   "Benign; has not “really done any harm”.",
+   "Admires its energy planning; says it “does not care that much about human life”.",
+   "Keeps money creation public; its property finance has caught “the American-British disease”.",
+   "Winning the contest: “Beijing has prepared and built a fortress around one of the most critical inputs to modern technology”; containment is “probably already too late”.",
+   "“China is winning”, and from his talks with its officials, does not want an American-style empire.",
+   "A rising power that “can resist economic coercion”.",
+   "",
+   "“A remarkable mastery of both economic nationalism and openness”; warns of a road “toward a new Chinese global empire”."
+  ]
+ },
+ {
+  "id": "digital",
+  "title": "Digital money and ID as the tool of control",
+  "low": "Not a concern",
+  "high": "The central threat",
+  "s": [
+   5,
+   3,
+   null,
+   4,
+   5,
+   1,
+   3,
+   4,
+   2,
+   2,
+   null,
+   null,
+   5,
+   null
+  ],
+  "why": [
+   "The EU is “serious about wartime mobilisation and the digital Gulag”.",
+   "Fears fraudulent money, but “blockchain could be as important to the transformation of the money system as the Arabic numerals have been to math and sciences”.",
+   "",
+   "A control layer being built: “we can progress our digital ID, we can progress our central bank digital currency”; self-custody is the exit.",
+   "“The control grid”, with stablecoins as its rails.",
+   "Not a theme; crypto is a scam: “US politicians are promoting crypto rug pull scams, exploiting their own supporters.”",
+   "In 2022, the CBDC roll-out was “completely in line with the Great Reset’s digital global fiat and cashless society, with its digital ID wallets”; silent on it in 2026.",
+   "AI, cameras and digital ID as “our control grid”; expects fuel rationing by digital currency.",
+   "US AI is “police state type of technology”, but digital money is not his threat; stablecoins are unsafe because the US seizes them.",
+   "Not a theme; he sees “compute and the minerals” as a new US choke point.",
+   "",
+   "",
+   "Trump would use “programmable, surveillable stablecoins to expand and entrench dollar dominance”; digital ID through UN goal SDG 16.9.",
+   ""
+  ]
+ },
+ {
+  "id": "israel",
+  "title": "Who steers: Washington or Israel?",
+  "low": "Israel is a US proxy",
+  "high": "Israel steers US policy",
+  "s": [
+   3,
+   2,
+   1,
+   1,
+   3,
+   1,
+   5,
+   4,
+   1,
+   4,
+   3,
+   3,
+   4,
+   2
+  ],
+  "why": [
+   "Israel has its own “intentions and goals”, which drain US resources.",
+   "“The invention of the Brits”: an instrument of the City.",
+   "“On behalf of Israel” is a myth.",
+   "A proxy: “if you want to do something that’s really, really illegal, like a genocide or ethnic cleansing, then use your Israeli proxy”.",
+   "Ties Israel to the hidden system: Forrestal “was very opposed to the creation of the black budget and the creation of Israel”.",
+   "Quotes Biden approvingly as proof of the relationship: “Israel is the best investment we make”; Hudson, on his site, calls Israel “a client army”.",
+   "“It’s a war for Israel.” The lobby picked the cabinet.",
+   "Reports Joe Kent’s view that the lobby drove the war; Trump “became far more Israel-focused”.",
+   "“Israel is a satellite of the United States”, which “could stop Israel at any time”.",
+   "“The U.S.-Israeli war primordially is being waged to create Israeli hegemony across West Asia”; on Russia, “the veto of pro-Israel mega-donors”.",
+   "“Israel’s our tool, not the other way around”, yet Trump is “trapped by Netanyahu” and donor money.",
+   "Israel would “pull America into one of its wars”; Trump may be “beholden to Netanyahu”.",
+   "A partnership: a “CIA-Israeli intelligence nexus”.",
+   "The wars are US-led; AIPAC money keeps both parties in line; Israel attempts “17th century colonialism … several centuries too late”."
+  ]
+ },
+ {
+  "id": "gains",
+  "title": "Who gains from the wars?",
+  "low": "The country that wins",
+  "high": "The arms and finance complexes, win or lose",
+  "s": [
+   3,
+   5,
+   2,
+   5,
+   4,
+   5,
+   5,
+   3,
+   4,
+   2,
+   4,
+   1,
+   null,
+   5
+  ],
+  "why": [
+   "The dollar system: the war is “the attempt to ensure that the petro dollar can survive”.",
+   "“All wars are bankers’ wars… It is strictly about banking and about the collateral.”",
+   "The US state gains even when it seems to lose: “the US is conducting a “controlled demolition”” of Asia’s energy supply.",
+   "“The military companies, their stock price benefits, the more wars you can go in.”",
+   "Whoever owns the stock: policy that moves a dollar into a listed company multiplies it, “if I make a dollar, my stock goes up $10”.",
+   "Trump “is demonstrating to the world that all US wars are indeed a form of class war.”",
+   "The arms makers are “profiting massively”, while “accelerating the demise of the very empire” they serve.",
+   "Asks whether the shortage itself is the aim: “I’m starting to wonder if that hasn’t been the point all along.”",
+   "“Donald Trump’s war is to make money for himself, and he makes money by essentially manipulating the stock market prices.”",
+   "Framed as a contest between states: “The U.S. has lost the war.”",
+   "Of the arms makers: “They know they’re going to make money out their yin yang.” He still frames the war as a US defeat.",
+   "Framed as a contest between states: “Iran has triumphantly defeated the US”.",
+   "",
+   "“Wars accelerate contracts to replace used-up arms and thereby profit military-industrial complexes.”"
+  ]
+ },
+ {
+  "id": "trump",
+  "title": "What did they expect from Trump?",
+  "low": "A real break",
+  "high": "More of the same",
+  "s": [
+   2,
+   1,
+   5,
+   2,
+   4,
+   5,
+   4,
+   2,
+   5,
+   3,
+   2,
+   4,
+   5,
+   4
+  ],
+  "why": [
+   "Welcomed the challenge to the Fed (August 2025): “President Trump has challenged the powerful Federal Reserve head-on.”",
+   "“Real, not controlled, opposition” (October 2025).",
+   "“Continuity of agenda”, whoever is president.",
+   "Expected peace seven weeks before the war: “I think Iran has already been regime changed.”",
+   "Tracks his administration as the builder of the control grid (April 2025): “A complete reengineering of the U.S. government through the digital systems is now possible at high speed.”",
+   "Trump “claims to be a so-called “peace president”, but he has bombed more countries than any other US leader.”",
+   "2016: “the outsider eventually becomes the insider”.",
+   "Trump “seemed to be on track”, and “then something shifted”.",
+   "“A uniparty with two personalities”; he dates the plan to 2018. No pre-war text read.",
+   "In 2025 a possible disruptor (“Trump as Myth”), then “wholly co-opted” on Russia.",
+   "Nov 2024, on Trump’s “disdain for war. I think it’s genuine”, but Israel was the danger.",
+   "Sceptical in March 2025; by July 2025 Trump is “very much aligned with the hawks”.",
+   "July 2024: “the Trump administration was responsible for implementing the BlackRock-designed “Going Direct Reset.”” and would push stablecoins next.",
+   "Jan 2025: “whatever he in fact does is marginal”; his “capacity for saying one thing and doing another is already legendary”."
+  ]
+ },
+ {
+  "id": "iranchina",
+  "title": "Is the Iran war aimed at China?",
+  "low": "No",
+  "high": "Yes, that is the point",
+  "s": [
+   4,
+   null,
+   5,
+   1,
+   4,
+   5,
+   1,
+   3,
+   4,
+   4,
+   3,
+   4,
+   null,
+   3
+  ],
+  "why": [
+   "June 2026: “The true aim is to make war on China.” Later: an attempt to keep the petrodollar alive.",
+   "",
+   "Iran, Russia and Venezuela are steps toward China; cutting Asia’s energy gives “the US strategic leverage over Asia to create a similar united front against China”.",
+   "Not a war on China; before it began he said “Iran has already been regime changed and the IRGC are completely on board”.",
+   "“Iran right now is the big leakage in the system”; its oil “feeding China gives China greater independence”.",
+   "“The ultimate goal of isolating Beijing.”",
+   "“A war for Israel”; China will “sit back and watch”.",
+   "China is “the country that we’re going to hit the most”, but he suspects the shortage itself may be the point.",
+   "An oil war for choke-point control; China is “the number one enemy”.",
+   "“All about a bigger U.S. play”: control chokepoints to deny China energy, alongside Israeli hegemony.",
+   "Mainly for Israel and from hatred, but the railway matters: “We’re bombing the hell out of that railroad that China had finished all the way to the Persian Gulf”.",
+   "US wars on Russia, Iran and China aim “to knock out or roll back the key adversaries on the Eurasian continent”.",
+   "",
+   "A bid to reverse decline and “do another Maduro” in Iran; reports elites saying the real enemy at Hormuz is “a Chinese”."
+  ]
+ },
+ {
+  "id": "bloc",
+  "title": "Is the multipolar bloc a different system?",
+  "low": "Yes, a real alternative",
+  "high": "No, the same capital’s next home",
+  "s": [
+   2,
+   1,
+   1,
+   4,
+   4,
+   1,
+   1,
+   null,
+   2,
+   1,
+   2,
+   1,
+   5,
+   2
+  ],
+  "why": [
+   "BRICS settlement systems are “not linked to the dollar”, “not swift”; Deng’s China is his model.",
+   "“Multipolar integrations: the other system.”",
+   "The multipolar world is the remedy; the US wages a “war on multipolarism”.",
+   "“BlackRock wants to split the world up into a multipolar world order. That’s the next empire.” Sovereign states can still use their own resources.",
+   "Not a clean alternative: “China was developed by Europe and US capital”, with obligations she cannot see.",
+   "“China wants a multipolar order based on peace, sovereign equality, and win-win cooperation.”",
+   "2022: the blocs are diverging, “while Klaus and the West head towards their technocratic digital ‘utopia’”.",
+   "",
+   "“Forget the BRICS”, but China, Russia and Iran form a real core. Warns China has caught “the American-British disease” in property.",
+   "Civilisational states against a Western bid for primacy: “this moral, civilisational way-of-being versus the radical Trumpian-U.S. materialist void”.",
+   "“China is winning” and does not want an American-style empire.",
+   "A real alternative to hegemony: “Diplomacy between sovereign equals is replaced with the ‘civilizational teachers’ rewarding or punishing the ‘civilizational students’.”",
+   "One system: Pisar’s “transideological corporation”, with Western firms “merging and/ or forging significant agreements or joint ventures” with Eastern state firms.",
+   "A real alternative: the BRICS’ “aggregate GDP surpassed that of the G7” in 2020, though the road could lead “toward a new Chinese global empire”."
+  ]
+ },
+ {
+  "id": "centre",
+  "title": "Where does power sit?",
+  "low": "In the US state",
+  "high": "Above all countries",
+  "s": [
+   4,
+   5,
+   1,
+   5,
+   5,
+   1,
+   3,
+   2,
+   2,
+   3,
+   1,
+   1,
+   5,
+   2
+  ],
+  "why": [
+   "“Power-hungry central planners who want to control us vs. the People”, at the central banks and around them.",
+   "“The City of London with its satellites on Wall Street, in Paris, Frankfurt, Basel, Tokyo.”",
+   "“Wall Street and Washington”: US interests using the US state.",
+   "Asset managers and sovereign wealth funds: “we are in the asset stripping phase and the money’s moving east.”",
+   "Investment networks around the central banks: “They’re sort of above countries.”",
+   "US oligarchs and corporations, through the US state: policy “is made by and for these powerful corporations”.",
+   "The City of London as much as Washington: “Most of the money in this city is concentrated into old money and foreign money… You could call that the colonial dividend.”",
+   "A class “above” the president: “power brokers in DC” and Wall Street.",
+   "That class now works through Washington’s leverage: “the American strategy can only succeed as long as the United States can impose choke points on the entire world”.",
+   "A US “Dark State” whose ambitions are “one world governance”, with finance as its enforcer.",
+   "The US “national security state”, arms makers and donors.",
+   "The hegemon: “The West subsequently pursued a world order defined as liberal hegemony, in which the West would dominate the world rather than manage great-power balancing”.",
+   "“A world system of financial control in private hands”, run through public-private partnerships.",
+   "The US employer class acting through the US state: “Both parties use the money from their major donors”."
+  ]
+ },
+ {
+  "id": "vote",
+  "title": "Can voting or law still change policy?",
+  "low": "Yes, through elections or law",
+  "high": "No, the ballot box is closed",
+  "s": [
+   null,
+   5,
+   5,
+   5,
+   3,
+   null,
+   4,
+   2,
+   5,
+   4,
+   2,
+   4,
+   null,
+   3
+  ],
+  "why": [
+   "",
+   "“We can vote for politicians, but the bankers hold all the power and we’ve no way to overturn their policies at the ballot box.”",
+   "Party contests are “political theater used to perpetuate this continuity of agenda”.",
+   "“You cannot fix this system through the ballot box because the politicians are owned by the lobbies.”",
+   "Built a tool to let voters see federal money by district and “hold your congressman accountable”; her remedy now is local.",
+   "",
+   "Big parties absorb protest movements into “the current two-party paradigm”; “the outsider eventually becomes the insider”.",
+   "Agrees (“Exactly”) with Ratigan’s call for a political organisation “outside the two political parties”.",
+   "“It doesn’t matter what the voters want because their choice is between two parties that have exactly the same position.”",
+   "Policy “transcends party lines and is implemented regardless of which administration occupies the White House”.",
+   "Law can still work: “We already have 26 states. We only need three-quarters of the states, two-thirds of the Congress.”",
+   "“One can change the people in power, there’s often less and less ability to actually change the policies.”",
+   "",
+   "Elections matter when movements drive them: Mamdani’s win is “an index of change”; the Democratic centre blocks it."
+  ]
+ },
+ {
+  "id": "actors",
+  "title": "Who are the actors?",
+  "low": "States and their leaders",
+  "high": "Blocs and classes",
+  "s": [
+   4,
+   5,
+   3,
+   5,
+   5,
+   4,
+   3,
+   4,
+   4,
+   2,
+   2,
+   1,
+   5,
+   5
+  ],
+  "why": [
+   "An institutional class: “power-hungry central planners who want to control us vs. the People”.",
+   "Finance, not countries: “all wars are bankers’ wars”.",
+   "Both: “Wall Street and Washington’s pursuit of a unipolar world order”.",
+   "“America is not a country; it is a series of companies and a financial industrial complex.”",
+   "Networks: “They’re sort of above countries.”",
+   "A class acting through the state: “US government policy is made by and for these powerful corporations.”",
+   "Both: “The US empire is the dog”, with old money, insurers and the lobby inside it.",
+   "“There’s a class of people above him, who have more power than the government because they are completely untouchable.”",
+   "A creditor class running states: “a state that is governed above all by its fiscal policy that is dominated by the banking class itself”.",
+   "Mostly civilisational states: “this moral, civilisational way-of-being versus the radical Trumpian-U.S. materialist void”, though with donors behind Trump.",
+   "Mostly states and their officials: “Mark my words, we’re leaving. We are either going to go back to offshore balancing”.",
+   "States: “A declining hegemon will predictably seek to weaken rising powers.”",
+   "“A world system of financial control in private hands”, quoting Quigley.",
+   "Blocs: government “becomes the arena very vulgar of clumps subgroups of capitalists”."
+  ]
+ }
+];
+
+const state = { focus: null, x: "actors", y: "remedy" };
+const SVGNS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs, text) => {
+  const n = document.createElement(tag);
+  for (const k in (attrs || {})) n.setAttribute(k, attrs[k]);
+  if (text != null) n.textContent = text;
+  return n;
+};
+const sv = (tag, attrs, text) => {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const k in (attrs || {})) n.setAttribute(k, attrs[k]);
+  if (text != null) n.textContent = text;
+  return n;
+};
+const median = (arr) => {
+  const v = arr.filter(x => x != null).slice().sort((a, b) => a - b);
+  const m = Math.floor(v.length / 2);
+  return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+};
+const sd = (arr) => {
+  const v = arr.filter(x => x != null);
+  const mu = v.reduce((a, b) => a + b, 0) / v.length;
+  return Math.sqrt(v.reduce((a, b) => a + (b - mu) * (b - mu), 0) / v.length);
+};
+AXES.forEach(a => { a.med = median(a.s); a.sd = sd(a.s); });
+const ORDERED = AXES.slice().sort((a, b) => b.sd - a.sd);
+const dimClass = (i) => (state.focus != null && state.focus !== i) ? " dim" : "";
+
+function pairGap(i, j) {
+  let sum = 0, n = 0;
+  AXES.forEach(a => { if (a.s[i] != null && a.s[j] != null) { sum += Math.abs(a.s[i] - a.s[j]); n++; } });
+  return sum / n;
+}
+
+function drawLegend() {
+  const box = document.getElementById("legend");
+  box.textContent = "";
+  AUTHORS.forEach((au, i) => {
+    const b = el("button", { type: "button", id: "au-" + i, "aria-pressed": state.focus === i ? "true" : "false" });
+    b.appendChild(el("span", { class: "dot c" + i }, au.code));
+    b.appendChild(el("span", null, au.name + ", " + au.first));
+    b.addEventListener("click", () => { state.focus = state.focus === i ? null : i; renderAll(); });
+    box.appendChild(b);
+  });
+}
+
+function drawStrip(host, axis) {
+  const w = Math.max(260, host.clientWidth);
+  const pad = 22, r = 11, step = 25;
+  const groups = {};
+  axis.s.forEach((v, i) => { if (v != null) (groups[v] = groups[v] || []).push(i); });
+  const maxStack = Math.max(...Object.values(groups).map(g => g.length));
+  const trackY = 14 + maxStack * step;
+  const h = trackY + 26;
+  const X = (v) => pad + (v - 1) / 4 * (w - 2 * pad);
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + h, height: h, role: "img",
+    "aria-label": axis.title + ". " + AUTHORS.map((a, i) => a.name + " " + (axis.s[i] == null ? "not scored" : axis.s[i])).join(", ") });
+  svg.appendChild(sv("line", { class: "track", x1: X(1), x2: X(5), y1: trackY, y2: trackY }));
+  for (let v = 1; v <= 5; v++) {
+    svg.appendChild(sv("line", { class: "tick", x1: X(v), x2: X(v), y1: trackY - 5, y2: trackY + 5 }));
+    svg.appendChild(sv("text", { class: "tick-label", x: X(v), y: trackY + 20, "text-anchor": "middle" }, String(v)));
+  }
+  const mx = X(axis.med);
+  svg.appendChild(sv("rect", { class: "median", x: mx - 5, y: trackY - 5, width: 10, height: 10, transform: "rotate(45 " + mx + " " + trackY + ")" }));
+  Object.keys(groups).forEach(v => {
+    groups[v].forEach((i, k) => {
+      const cy = trackY - 20 - k * step;
+      const g = sv("g", { class: dimClass(i).trim() });
+      g.appendChild(sv("circle", { class: "c" + i, cx: X(+v), cy: cy, r: r }));
+      g.appendChild(sv("text", { class: "dot-text", x: X(+v), y: cy }, AUTHORS[i].code));
+      g.appendChild(sv("title", null, AUTHORS[i].name + ": " + v + ". " + axis.why[i]));
+      svg.appendChild(g);
+    });
+  });
+  host.textContent = "";
+  host.appendChild(svg);
+}
+
+function drawAxes() {
+  const box = document.getElementById("axes");
+  box.textContent = "";
+  ORDERED.forEach(axis => {
+    const sec = el("div", { class: "axis", id: "axis-" + axis.id });
+    const head = el("div", { class: "axis-head" });
+    head.appendChild(el("h3", null, axis.title));
+    head.appendChild(el("span", { class: "spread" }, "spread " + axis.sd.toFixed(2)));
+    sec.appendChild(head);
+    const host = el("div");
+    sec.appendChild(host);
+    const poles = el("div", { class: "poles" });
+    poles.appendChild(el("span", null, "1 · " + axis.low));
+    poles.appendChild(el("span", null, axis.high + " · 5"));
+    sec.appendChild(poles);
+    const ul = el("ul", { class: "reasons" });
+    const order = AUTHORS.map((a, i) => i).sort((p, q) => (axis.s[p] == null ? 9 : axis.s[p]) - (axis.s[q] == null ? 9 : axis.s[q]) || p - q);
+    order.forEach(i => {
+      const au = AUTHORS[i], scored = axis.s[i] != null;
+      const li = el("li", { class: dimClass(i).trim() });
+      li.appendChild(el("span", { class: "dot c" + i }, au.code));
+      li.appendChild(el("b", null, scored ? String(axis.s[i]) : "\u2013"));
+      li.appendChild(el("span", { class: "who" }, au.name));
+      li.appendChild(el("span", { class: "why" + (scored ? "" : " none") }, scored ? axis.why[i] : "Not scored. I found no position in what I read."));
+      ul.appendChild(li);
+    });
+    sec.appendChild(ul);
+    box.appendChild(sec);
+    drawStrip(host, axis);
+  });
+}
+
+function drawBars() {
+  const box = document.getElementById("bars");
+  box.textContent = "";
+  const fmt = v => (Number.isInteger(v) ? String(v) : v.toFixed(1));
+  const rows = AUTHORS.map((au, i) => {
+    let sum = 0, n = 0; const far = [];
+    AXES.forEach(a => {
+      if (a.s[i] == null) return;
+      const d = a.s[i] - a.med; sum += Math.abs(d); n++;
+      if (Math.abs(d) >= 2) far.push({ a, v: a.s[i], d });
+    });
+    far.sort((x, y) => Math.abs(y.d) - Math.abs(x.d));
+    return { i, v: sum / n, far };
+  }).sort((a, b) => b.v - a.v);
+  const max = Math.max(...rows.map(r => r.v));
+  rows.forEach(rw => {
+    const row = el("div", { class: "bar-row" + dimClass(rw.i) });
+    const name = el("div", { class: "bar-name" });
+    name.appendChild(el("span", { class: "dot c" + rw.i }, AUTHORS[rw.i].code));
+    name.appendChild(el("span", null, AUTHORS[rw.i].name));
+    row.appendChild(name);
+    const track = el("div", { class: "bar-track" });
+    const fill = el("div", { class: "bar-fill c" + rw.i });
+    fill.style.width = (rw.v / (max * 1.05) * 100).toFixed(1) + "%";
+    track.appendChild(fill);
+    row.appendChild(track);
+    row.appendChild(el("div", { class: "bar-val" }, rw.v.toFixed(2)));
+    const why = el("div", { class: "bar-why" });
+    if (!rw.far.length) {
+      why.appendChild(el("p", null, "Within one and a half points of the group on every question."));
+    } else {
+      const ul = el("ul", { class: "far-list" });
+      rw.far.forEach(f => {
+        const li = el("li");
+        const head = el("div", { class: "far-head" });
+        head.appendChild(el("b", null, f.a.title + " "));
+        head.appendChild(el("span", null, f.v + " against the group’s " + fmt(f.a.med) + ", toward “" + (f.d < 0 ? f.a.low : f.a.high) + "”"));
+        li.appendChild(head);
+        li.appendChild(el("div", { class: "far-reason" }, f.a.why[rw.i]));
+        ul.appendChild(li);
+      });
+      why.appendChild(ul);
+    }
+    row.appendChild(why);
+    box.appendChild(row);
+  });
+}
+function drawMatrix() {
+  const t = document.getElementById("matrix");
+  t.textContent = "";
+  const hr = el("tr"); hr.appendChild(el("th"));
+  AUTHORS.forEach((au, j) => { const th = el("th", { scope: "col", title: au.name }); th.appendChild(el("span", { class: "dot c" + j + dimClass(j) }, au.code)); hr.appendChild(th); });
+  t.appendChild(hr);
+  const all = [];
+  AUTHORS.forEach((au, i) => {
+    const tr = el("tr");
+    const th = el("th", { scope: "row", title: au.name }); th.appendChild(el("span", { class: "dot c" + i + dimClass(i) }, au.code)); tr.appendChild(th);
+    AUTHORS.forEach((bu, j) => {
+      if (i === j) { tr.appendChild(el("td", { class: "self" }, "·")); return; }
+      const g = pairGap(i, j);
+      if (i < j) all.push({ i, j, g });
+      const td = el("td", { title: au.name + " and " + bu.name + ": " + g.toFixed(2) }, g.toFixed(1));
+      const pct = Math.round(Math.max(0, 1 - g / 2.8) * 42);
+      td.style.background = "color-mix(in srgb, var(--accent) " + pct + "%, var(--surface))";
+      if (state.focus != null && state.focus !== i && state.focus !== j) td.className = "dim";
+      tr.appendChild(td);
+    });
+    t.appendChild(tr);
+  });
+  all.sort((a, b) => a.g - b.g);
+  const fmt = (p) => AUTHORS[p.i].name + " and " + AUTHORS[p.j].name + " (" + p.g.toFixed(2) + ")";
+  const box = document.getElementById("pairs");
+  box.textContent = "";
+  const near = el("div"); near.appendChild(el("b", null, "Closest pairs: ")); near.appendChild(document.createTextNode(all.slice(0, 3).map(fmt).join(", ") + "."));
+  const far = el("div"); far.appendChild(el("b", null, "Furthest pairs: ")); far.appendChild(document.createTextNode(all.slice(-3).reverse().map(fmt).join(", ") + "."));
+  box.appendChild(near); box.appendChild(far);
+}
+
+function fillSelects() {
+  ["selx", "sely"].forEach(id => {
+    const s = document.getElementById(id);
+    AXES.forEach(a => s.appendChild(el("option", { value: a.id }, a.title)));
+  });
+  const sx = document.getElementById("selx"), sy = document.getElementById("sely");
+  sx.value = state.x; sy.value = state.y;
+  sx.addEventListener("change", () => { state.x = sx.value; drawScatter(); });
+  sy.addEventListener("change", () => { state.y = sy.value; drawScatter(); });
+}
+
+function drawScatter() {
+  const host = document.getElementById("scatter");
+  const ax = AXES.find(a => a.id === state.x), ay = AXES.find(a => a.id === state.y);
+  const w = Math.max(260, host.clientWidth), pad = 34, r = 11;
+  const P = (v) => pad + (v - 1) / 4 * (w - 2 * pad);
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + w, height: w, role: "img", "aria-label": "Scatter of " + ax.title + " against " + ay.title });
+  for (let v = 1; v <= 5; v++) {
+    svg.appendChild(sv("line", { class: "grid-line", x1: P(v), x2: P(v), y1: P(1), y2: P(5) }));
+    svg.appendChild(sv("line", { class: "grid-line", x1: P(1), x2: P(5), y1: P(v), y2: P(v) }));
+    svg.appendChild(sv("text", { class: "tick-label", x: P(v), y: w - 8, "text-anchor": "middle" }, String(v)));
+    svg.appendChild(sv("text", { class: "tick-label", x: 10, y: w - P(v) + 4, "text-anchor": "middle" }, String(v)));
+  }
+  const cells = {};
+  AUTHORS.forEach((au, i) => {
+    const x = ax.s[i], y = ay.s[i];
+    if (x == null || y == null) return;
+    (cells[x + "," + y] = cells[x + "," + y] || []).push(i);
+  });
+  Object.keys(cells).forEach(key => {
+    const [x, y] = key.split(",").map(Number);
+    const g = cells[key];
+    g.forEach((i, k) => {
+      const ang = (k / g.length) * Math.PI * 2 - Math.PI / 2;
+      const off = g.length === 1 ? 0 : (g.length === 2 ? 12 : 16);
+      const cx = P(x) + Math.cos(ang) * off, cy = w - P(y) + Math.sin(ang) * off;
+      const grp = sv("g", { class: dimClass(i).trim() });
+      grp.appendChild(sv("circle", { class: "c" + i, cx: cx, cy: cy, r: r }));
+      grp.appendChild(sv("text", { class: "dot-text", x: cx, y: cy }, AUTHORS[i].code));
+      grp.appendChild(sv("title", null, AUTHORS[i].name + ": " + x + " across, " + y + " up"));
+      svg.appendChild(grp);
+    });
+  });
+  host.textContent = "";
+  host.appendChild(svg);
+  const out = document.getElementById("readout");
+  out.textContent = "";
+  out.appendChild(el("div", null, "Left to right: " + ax.low + " (1) to " + ax.high + " (5)."));
+  out.appendChild(el("div", null, "Bottom to top: " + ay.low + " (1) to " + ay.high + " (5)."));
+  const miss = AUTHORS.filter((a, i) => ax.s[i] == null || ay.s[i] == null).map(a => a.name);
+  if (miss.length) out.appendChild(el("div", null, "Not shown, no score on one of these axes: " + miss.join(", ") + "."));
+}
+
+function drawQuestions() {
+  const t = document.getElementById("qtable");
+  t.textContent = "";
+  const hr = el("tr");
+  ["#", "Question", "A score of 1 means", "A score of 5 means", "Median", "Spread"].forEach((c, k) => hr.appendChild(el("th", k === 0 || k > 3 ? { class: "num" } : null, c)));
+  t.appendChild(hr);
+  ORDERED.forEach((a, k) => {
+    const tr = el("tr");
+    tr.appendChild(el("td", { class: "num" }, String(k + 1)));
+    const q = el("td"); q.appendChild(el("a", { href: "#axis-" + a.id }, a.title)); tr.appendChild(q);
+    tr.appendChild(el("td", null, a.low));
+    tr.appendChild(el("td", null, a.high));
+    tr.appendChild(el("td", { class: "num" }, String(a.med)));
+    tr.appendChild(el("td", { class: "num" }, a.sd.toFixed(2)));
+    t.appendChild(tr);
+  });
+}
+
+const ADVICE = [
+ {
+  "label": "Read critically: ask who pays the speaker, and read the documents themselves",
+  "who": [
+   {
+    "i": 6,
+    "q": "Of Mike Pompeo: “he’s paid to have his views… who’s paying his grocery bill.”"
+   },
+   {
+    "i": 2,
+    "q": "Until “journalists, analysts, and the general public can strip away the political theater”, the agenda continues."
+   }
+  ]
+ },
+ {
+  "label": "Hold assets outside the banks: gold, silver, commodities, Bitcoin or crypto",
+  "who": [
+   {
+    "i": 3,
+    "q": "“If you want to boycott the Federal Reserve, then you have to own money outside the system. Gold or Bitcoin are two ways of doing that.”"
+   },
+   {
+    "i": 7,
+    "q": "“Individual resilience. Um buy gold, have some chickens, you know, stuff like that.”"
+   },
+   {
+    "i": 1,
+    "q": "2023: “acquire some farmland (if possible), some gold and silver bullion” and commodity futures; crypto “holds potential to advance our emancipation from the current money prison”. By 2026 he calls gold, crypto and the like “merely temporary refuges”."
+   }
+  ]
+ },
+ {
+  "label": "Organise or act politically",
+  "who": [
+   {
+    "i": 10,
+    "q": "Backs a constitutional amendment to undo Citizens United: “We already have 26 states.”"
+   },
+   {
+    "i": 1,
+    "q": "“We can’t vote our way out of this matrix… This will have to be fought, sooner or later.”"
+   },
+   {
+    "i": 7,
+    "q": "Agrees (“Exactly”) with Dylan Ratigan that change needs a political organisation “outside the two political parties”."
+   },
+   {
+    "i": 13,
+    "q": "To an organising meeting, January 2025: “Build on what you got … Work with us, with everybody else.” His longer-run aim: worker cooperatives."
+   }
+  ]
+ },
+ {
+  "label": "Boycott: stop buying from, and banking with, the centralisers",
+  "who": [
+   {
+    "i": 3,
+    "q": "“The best you can do is boycott”; “Boycott more this month than last month.”"
+   },
+   {
+    "i": 4,
+    "q": "“You can use cash. Okay. And you can stop shopping. You can stop using the banks.”"
+   },
+   {
+    "i": 1,
+    "q": "“Getting our money out of the banking system is a way of reducing that vulnerability. But money eventually runs out. Preferably, it should be put to a productive purpose.”"
+   }
+  ]
+ },
+ {
+  "label": "Go local: spend and invest in your own community",
+  "who": [
+   {
+    "i": 3,
+    "q": "“You have to spend local”; “am I investing in a global machine or am I investing in my local football club, my local community?”"
+   },
+   {
+    "i": 4,
+    "q": "“If we want clean water, fresh food, sustainable infrastructure, and healthy communities, we are going to have to finance and govern these resources ourselves.”"
+   }
+  ]
+ },
+ {
+  "label": "Use cash",
+  "who": [
+   {
+    "i": 4,
+    "q": "“You can use cash.” She pays her staff’s bonuses in cash, “which I always do”."
+   }
+  ]
+ },
+ {
+  "label": "Build buffers: stock up on food, fuel and essentials",
+  "who": [
+   {
+    "i": 7,
+    "q": "July 2026: “stock up now – time is running out”. To Werner: “having some buffers in your life is can make sense”."
+   }
+  ]
+ },
+ {
+  "label": "Bitcoin in self-custody, and run a node",
+  "who": [
+   {
+    "i": 3,
+    "q": "“Bitcoin and self custody and running nodes I still think is one of the most important thing that any youth could do.”"
+   }
+  ]
+ },
+ {
+  "label": "Put money into farms and food: farmland, farm shares, food you raise",
+  "who": [
+   {
+    "i": 1,
+    "q": "July 2026: “people investing in diversified farming operations in exchange for a share of the farm’s produce”, which “can bypass the banking system completely”. In 2023: “acquire some farmland (if possible)”."
+   },
+   {
+    "i": 4,
+    "q": "She went to Montana “to develop a venture capital model to support a healthier, fresher local food supply”."
+   },
+   {
+    "i": 7,
+    "q": "“Buy gold, have some chickens, you know, stuff like that.”"
+   }
+  ]
+ }
+];
+function drawAdvice() {
+  const box = document.getElementById("advice");
+  box.textContent = "";
+  ADVICE.slice().sort((a, b) => b.who.length - a.who.length).forEach(ad => {
+    const sec = el("div", { class: "axis" });
+    const head = el("div", { class: "axis-head" });
+    head.appendChild(el("h3", null, ad.label));
+    head.appendChild(el("span", { class: "spread" }, ad.who.length + " of " + AUTHORS.length));
+    sec.appendChild(head);
+    const segs = el("div", { class: "segs", role: "img", "aria-label": ad.who.length + " of " + AUTHORS.length + " authors give this advice" });
+    const given = new Set(ad.who.map(w => w.i));
+    ad.who.forEach(w => segs.appendChild(el("span", { class: "seg c" + w.i + dimClass(w.i) })));
+    AUTHORS.forEach((a, i) => { if (!given.has(i)) segs.appendChild(el("span", { class: "seg empty" })); });
+    sec.appendChild(segs);
+    const ul = el("ul", { class: "reasons advice-list" });
+    ad.who.forEach(w => {
+      const li = el("li", { class: dimClass(w.i).trim() });
+      li.appendChild(el("span", { class: "dot c" + w.i }, AUTHORS[w.i].code));
+      li.appendChild(el("span", { class: "who" }, AUTHORS[w.i].name));
+      li.appendChild(el("span", { class: "why" }, w.q));
+      ul.appendChild(li);
+    });
+    sec.appendChild(ul);
+    box.appendChild(sec);
+  });
+}
+const QUOTECOUNTS = {"Werner": {"synthesis": 22, "charts": 12}, "Krainer": {"synthesis": 15, "charts": 20}, "Berletic": {"synthesis": 14, "charts": 13}, "Dixon": {"synthesis": 11, "charts": 20}, "Fitts": {"synthesis": 3, "charts": 23}, "Norton": {"synthesis": 10, "charts": 13}, "Henningsen": {"synthesis": 31, "charts": 16}, "Martenson": {"synthesis": 24, "charts": 19}, "Hudson": {"synthesis": 31, "charts": 16}, "Crooke": {"synthesis": 20, "charts": 16}, "Wilkerson": {"synthesis": 34, "charts": 14}, "Diesen": {"synthesis": 20, "charts": 13}, "Webb": {"synthesis": 11, "charts": 9}, "Wolff": {"synthesis": 57, "charts": 16}};
+function drawQuoteCounts() {
+  const box = document.getElementById("qbars");
+  if (!box) return;
+  box.textContent = "";
+  const rows = AUTHORS.map((au, i) => {
+    const c = QUOTECOUNTS[au.name] || { synthesis: 0, charts: 0 };
+    return { i, s: c.synthesis, c: c.charts, t: c.synthesis + c.charts };
+  }).sort((a, b) => b.t - a.t);
+  const max = Math.max(1, ...rows.map(r => r.t));
+  rows.forEach(rw => {
+    const row = el("div", { class: "bar-row" + dimClass(rw.i) });
+    const name = el("div", { class: "bar-name" });
+    name.appendChild(el("span", { class: "dot c" + rw.i }, AUTHORS[rw.i].code));
+    name.appendChild(el("span", null, AUTHORS[rw.i].name));
+    row.appendChild(name);
+    const track = el("div", { class: "bar-track stacked", role: "img", "aria-label": AUTHORS[rw.i].name + ": " + rw.s + " quotations in synthesis.md, " + rw.c + " on this page" });
+    const a = el("div", { class: "bar-fill c" + rw.i }); a.style.width = (rw.s / (max * 1.05) * 100).toFixed(1) + "%";
+    const b = el("div", { class: "bar-fill light c" + rw.i }); b.style.width = (rw.c / (max * 1.05) * 100).toFixed(1) + "%";
+    track.appendChild(a); track.appendChild(b);
+    row.appendChild(track);
+    row.appendChild(el("div", { class: "bar-val" }, String(rw.t)));
+    row.appendChild(el("div", { class: "bar-why" }, rw.s + " in synthesis.md, " + rw.c + " on this page"));
+    box.appendChild(row);
+  });
+}
+const ACH = [{"grid": {"id": "iran-war", "question": "What is the Iran war for?", "frozen": "2026-10-03", "hypotheses": [{"id": "W1", "label": "Energy dominance by managed demolition", "short": "Energy dominance", "from": "H2: Berletic, Hudson"}, {"id": "W2", "label": "A war for Israel", "short": "For Israel", "from": "H7: Henningsen, Crooke"}, {"id": "W3", "label": "Against China, through its corridors and energy", "short": "Against China", "from": "H6 and H10: Berletic, Werner, Wilkerson"}, {"id": "W4", "label": "No coherent aim: a blunder by a declining power", "short": "Blunder", "from": "Wolff, Crooke, Diesen, Dolan"}, {"id": "W5", "label": "Profit for the blocs (arms, energy, finance) and political theatre", "short": "Bloc profit", "from": "Hudson, Wolff"}], "facts": [{"id": "F1", "text": "Iran's strikes led the US to evacuate many of its Gulf bases.", "kind": "author report", "reliability": "medium", "staged": true, "cells": {"W1": "C", "W2": "N", "W3": "N", "W4": "C", "W5": "N"}, "author": "Werner", "quote": "the US military leadership essentially ordered many US bases in the region to be evacuated."}, {"id": "F2", "text": "US and Israeli strikes hit China's new railway through Iran.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "N", "W2": "I", "W3": "C", "W4": "N", "W5": "I"}, "author": "Wilkerson", "quote": "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf", "reasons": {"W2": "A war fought only for Israel has no reason to target China's railway.", "W5": "Profit and theatre do not need a strategic target like China's railway; hitting it serves a strategy, not a sale."}}, {"id": "F3", "text": "A 2009 Brookings paper proposed letting Israel strike so that blame would fall on Israel.", "kind": "document", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "I", "W3": "N", "W4": "N", "W5": "N"}, "author": "Brookings-2009", "quote": "deflected away from the United States and onto Israel", "reasons": {"W2": "US planners themselves designed the appearance of an Israeli war, so the appearance is weak evidence that the war is Israel's."}}, {"id": "F4", "text": "Talks keep failing as the US changes its demands.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "N", "W4": "I", "W5": "N"}, "author": "Werner", "quote": "constantly changing its views and putting forward new or contradictory demands", "reasons": {"W4": "A power that had gambled and lost would look for a way out, not keep moving the terms."}}, {"id": "F5", "text": "During the ceasefire, Trump imposed a US naval blockade on Iranian shipping (13 April 2026).", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "C", "W4": "I", "W5": "N"}, "author": "Werner", "quote": "President Trump announced on 13 April that a US-led naval blockade is being imposed", "reasons": {"W4": "A loser seeking an exit would want Hormuz reopened, not add its own blockade."}}, {"id": "F6", "text": "The US imposed secondary sanctions on Chinese companies buying Iranian oil (24 April 2026).", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "N", "W2": "N", "W3": "C", "W4": "N", "W5": "N"}, "author": "Werner", "quote": "the US Treasury announced so-called secondary sanctions on Chinese companies importing Iranian oil"}, {"id": "F7", "text": "The US share of the EU's LNG imports rose to 59% in 2026 (55% a year earlier); forecasts reach two-thirds in 2026 and 80% by 2028.", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "N", "W4": "N", "W5": "C"}, "source": "IEEFA; S&P Global (2026)"}, {"id": "F8", "text": "EU imports of Russian LNG hit a quarterly record in early 2026, up 16% on the year.", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "I", "W2": "N", "W3": "N", "W4": "N", "W5": "N"}, "source": "Euronews / IEEFA (May 2026)", "reasons": {"W1": "If the aim were to lock Europe into US gas, Europe buying record Russian LNG cuts against it."}}, {"id": "F9", "text": "Before the war, Europe committed to large US energy purchases in Trump's 2025 trade deal.", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "N", "W4": "N", "W5": "C"}, "author": "Wolff", "quote": "over $1 trillion in committed purchases of liquified natural gas plus investments"}, {"id": "F10", "text": "Refiners blocked a diesel export ban that would have lowered US prices.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "N", "W4": "N", "W5": "C"}, "author": "Wolff", "quote": "We have been your loyal supporters. We don't want this."}, {"id": "F11", "text": "The Pentagon's cost estimate is about $29 billion, mostly replacing destroyed equipment.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "N", "W2": "N", "W3": "N", "W4": "C", "W5": "C"}, "author": "Werner", "quote": "most of this seems to consist of “repair or replacement costs for equipment”"}, {"id": "F12", "text": "Trump moves markets with alternating peace and war statements.", "kind": "author report", "reliability": "low", "staged": false, "cells": {"W1": "N", "W2": "N", "W3": "N", "W4": "N", "W5": "C"}, "author": "Hudson", "quote": "Donald Trump's war is to make money for himself, and he makes money by essentially manipulating the stock market prices."}, {"id": "F13", "text": "Israel awarded offshore gas licences to BP, Eni, Socar and others in October 2023; the Ben-Gurion Canal plan was revived in 2026 but nothing is built.", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "C", "W3": "N", "W4": "N", "W5": "N"}, "source": "Al-Monitor / Times of Israel (2023); shipping press (2026)"}, {"id": "F14", "text": "Pro-Israel donors fund both parties, and neither wants to lose that money.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "N", "W2": "C", "W3": "N", "W4": "N", "W5": "N"}, "author": "Wolff", "quote": "The Republican leadership doesn't want to lose that money, and the Democratic Party doesn't."}, {"id": "F15", "text": "Israel did most of the bombing.", "kind": "author report", "reliability": "medium", "staged": true, "cells": {"W1": "C", "W2": "C", "W3": "N", "W4": "N", "W5": "N"}, "author": "Wilkerson", "quote": "with the Israelis being the lion's share of the bombing"}, {"id": "F16", "text": "Central banks outside the West are cutting US Treasuries and buying gold.", "kind": "public", "reliability": "high", "staged": false, "cells": {"W1": "N", "W2": "N", "W3": "N", "W4": "C", "W5": "N"}, "source": "US Treasury TIC; PBOC (2026)"}, {"id": "F17", "text": "Iran's strikes hit Gulf energy and desalination plants, cutting supply to Asia and Europe.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "C", "W4": "C", "W5": "C"}, "author": "Wolff", "quote": "the desalination plants, the electric plants, the energy facilities"}, {"id": "F18", "text": "At the Trump–Xi summit, US corporations pressed to get into China's market.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"W1": "N", "W2": "N", "W3": "I", "W4": "N", "W5": "C"}, "author": "Norton", "quote": "these corporations are trying to claw their way into the enormous Chinese market", "reasons": {"W3": "A campaign to contain China sits awkwardly with US firms pushing to expand there at the same moment."}}, {"id": "F19", "text": "US interceptors carried most of Israel's defence while the Gulf states ran short.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "C", "W3": "C", "W4": "N", "W5": "N"}, "source": "Libertarian Institute, summarising US reporting; CBS News (2026)"}, {"id": "F20", "text": "Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller).", "kind": "author report", "reliability": "high", "staged": false, "cells": {"W1": "C", "W2": "N", "W3": "N", "W4": "N", "W5": "C"}, "author": "Johnson", "quote": "more than two-thirds in August and September"}], "weights": {"high": 1.0, "medium": 0.7, "low": 0.4}, "note": "The fact list was fixed before scoring and includes facts each side's authors put forward. Authors' interpretations are not facts here; only documents, public data, and what authors report as having happened. Facts marked as possibly staged are ones a capable actor could arrange for appearances. This grid asks only what the war is for. Whether the plan is working is a separate question, weighed in the next grid."}, "scores": {"W1": {"inc": 1.0, "con": 10.5, "ninc": 1, "ncon": 12}, "W2": {"inc": 1.7, "con": 3.4, "ninc": 2, "ncon": 4}, "W3": {"inc": 0.7, "con": 4.4, "ninc": 1, "ncon": 5}, "W4": {"inc": 1.7, "con": 3.1, "ninc": 2, "ncon": 4}, "W5": {"inc": 0.7, "con": 6.2, "ninc": 1, "ncon": 8}}, "scores_unstaged": {"W1": {"inc": 1.0, "con": 9.1, "ninc": 1, "ncon": 10}, "W2": {"inc": 1.7, "con": 2.7, "ninc": 2, "ncon": 3}, "W3": {"inc": 0.7, "con": 4.4, "ninc": 1, "ncon": 5}, "W4": {"inc": 1.7, "con": 2.4, "ninc": 2, "ncon": 3}, "W5": {"inc": 0.7, "con": 6.2, "ninc": 1, "ncon": 8}}}, {"grid": {"id": "iran-war-outcome", "question": "Is the plan working?", "frozen": "2026-10-03", "hypotheses": [{"id": "O1", "label": "On track: the plan is advancing as designed", "short": "On track", "from": "H2 read as succeeding"}, {"id": "O2", "label": "Failing on contact: new weapons, a hollowed-out industrial base, a war that will not stay short", "short": "Failing", "from": "H11: Crooke, Wilkerson, Hudson, Wolff"}, {"id": "O3", "label": "Profit either way: the outcome does not matter to those the war pays", "short": "Profit either way", "from": "Hudson, Wolff; the 'Who gains from the wars?' axis"}], "weights": {"high": 1.0, "medium": 0.7, "low": 0.4}, "note": "An explanation of what a war is for can be right while the plan fails. This grid assumes a purposeful plan (the first grid's best fits) and asks whether it is working. The munitions and logistics facts are public data, widely reported; the rest are authors' reports.", "facts": [{"id": "G1", "text": "Iran destroyed at least ten US radars in the war's first two weeks, including four AN/TPY-2 radars that guide THAAD batteries.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "C"}, "source": "ABC News satellite imagery review (March 2026)", "reasons": {"O1": "Blinding the missile shield at the outset is not a plan going to schedule."}}, {"id": "G2", "text": "Iran's fastest missiles got through Israeli air defences.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "C"}, "author": "Crooke", "quote": "Iranian high-end missiles flying at speeds above Mach Four are proving largely impervious to Israeli air defences", "reasons": {"O1": "Defences that do not stop the main threat are not part of a plan going well."}}, {"id": "G3", "text": "Killing the Supreme Leader rallied support for the Iranian state instead of toppling it.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "author": "Crooke", "quote": "it led instead to massive outpourings of support for the Islamic Republic", "reasons": {"O1": "The decapitation was meant to bring the state down."}}, {"id": "G4", "text": "US interceptor stocks fell steeply: Patriot from about 2,330 before the war to 760–830, THAAD from 452 to 234–278 even after some resupply.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "C"}, "source": "CSIS estimates, reported by ABC News and Arab News (2026)", "reasons": {"O1": "A plan cannot run on munitions it is using up faster than it makes them."}}, {"id": "G5", "text": "Replacing the Patriot, THAAD and Tomahawk stocks will take at least three years; Patriot output is about 600 a year.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "C"}, "source": "CSIS; Pentagon production figures (2026)", "reasons": {"O1": "Only a short war fits stocks that take years to rebuild, and this one was not short."}}, {"id": "G6", "text": "The arms makers expect large profits from the replacement orders.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"O1": "N", "O2": "N", "O3": "C"}, "author": "Wilkerson", "quote": "They know they're going to make money out their yin yang"}, {"id": "G7", "text": "The Pentagon's cost estimate is mostly for repairing or replacing equipment.", "kind": "document", "reliability": "medium", "staged": false, "cells": {"O1": "N", "O2": "C", "O3": "C"}, "author": "Werner", "quote": "most of this seems to consist of “repair or replacement costs for equipment”"}, {"id": "G8", "text": "Iran's targeting appears to use Chinese satellite intelligence, with Russian backup.", "kind": "author judgement", "reliability": "low", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "author": "Wilkerson", "quote": "With the help of a very sophisticated Chinese satellite, and probably backups from Russia", "reasons": {"O1": "A plan that isolates Iran would not leave it with real-time intelligence from China and Russia."}}, {"id": "G9", "text": "The US share of the EU's LNG imports keeps rising (59% in 2026).", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "C", "O2": "I", "O3": "C"}, "source": "IEEFA; S&P Global (2026)", "reasons": {"O2": "The energy-sales part of the plan is succeeding in Europe."}}, {"id": "G10", "text": "EU imports of Russian LNG hit a quarterly record in early 2026.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "source": "Euronews / IEEFA (May 2026)", "reasons": {"O1": "Energy dominance means Europe buying less Russian gas, not more."}}, {"id": "G11", "text": "During the ceasefire, the US imposed a naval blockade on Iranian shipping instead of settling.", "kind": "document", "reliability": "high", "staged": false, "cells": {"O1": "C", "O2": "C", "O3": "N"}, "author": "Werner", "quote": "a US-led naval blockade"}, {"id": "G12", "text": "The war's diesel prices split Trump's own backers, big oil against big agriculture, and nobody got relief.", "kind": "author report", "reliability": "medium", "staged": false, "cells": {"O1": "N", "O2": "C", "O3": "N"}, "author": "Wolff", "quote": "One group of his supporters want it, another group of his supporters don't want it."}, {"id": "G13", "text": "Central banks outside the West are cutting US Treasuries and buying gold.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "source": "US Treasury TIC; PBOC (2026)", "reasons": {"O1": "A plan restoring US dominance would strengthen confidence in US assets; official holders outside the West are leaving them."}}, {"id": "G14", "text": "THAAD interceptors were shipped from South Korea to the Middle East to make up the losses.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "source": "US Forces Korea commander; Korea Times (March 2026)", "reasons": {"O1": "Stripping another theatre's defences shows the plan did not budget for this war."}}, {"id": "G15", "text": "US interceptors carried most of Israel's defence (about 200 THAAD and over 100 SM-3 and SM-6, against Israel's own 100 Arrow and 90 David's Sling), while the Gulf states ran low (the UAE used up to three-quarters of its Patriots) and asked Washington to speed deliveries.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "source": "Libertarian Institute, summarising US reporting; IDSA; CBS News (2026)", "reasons": {"O1": "The shield was stretched so thin that it covered Israel first and left the Gulf oil states short."}}, {"id": "G16", "text": "With the US Navy base in Bahrain largely destroyed, the carriers had to be resupplied from Diego Garcia, Singapore or through Suez.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "source": "New York Times report (August 2026)", "reasons": {"O1": "Supply lines thousands of miles long were not the plan for a Gulf war."}}, {"id": "G17", "text": "Patriot interceptors meant for Ukraine were diverted; in June Ukraine stopped only 14 of 54 Russian ballistic missiles.", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "source": "Foreign Policy; Al-Monitor (2026)", "reasons": {"O1": "One theatre can only be fed by starving another: the industrial base cannot supply both."}}, {"id": "G18", "text": "Hormuz is averaging almost 13 million barrels a day against about 20 million before the war, on the US Energy Secretary's own figures, while the president claims record flows.", "kind": "official figure", "reliability": "high", "staged": false, "cells": {"O1": "I", "O2": "C", "O3": "N"}, "author": "Johnson", "quote": "The running average today is almost 13 million barrels a day", "reasons": {"O1": "The strait the plan depends on is running at about two-thirds of normal, and the administration has to dress that up as a record."}}, {"id": "G19", "text": "Middle East net diesel exports were 390,000 barrels a day in August, just over a quarter of prewar levels (IEA figures, via Karl Miller).", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "C", "O2": "C", "O3": "C"}, "author": "Johnson", "quote": "just over a quarter of prewar levels"}, {"id": "G20", "text": "Qatar puts repairs to two damaged LNG trains at about three years; Miller estimates up to five years for the worst-damaged Gulf facilities.", "kind": "official estimate", "reliability": "high", "staged": false, "cells": {"O1": "C", "O2": "C", "O3": "C"}, "author": "Johnson", "quote": "puts repairs to two damaged LNG trains at about three years"}, {"id": "G21", "text": "US distillate exports hit a record 1.935 million barrels a day in early August, with refineries at 96.8% of capacity and East Coast stocks at record lows (EIA figures, via Karl Miller).", "kind": "public data", "reliability": "high", "staged": false, "cells": {"O1": "C", "O2": "N", "O3": "C"}, "author": "Johnson", "quote": "after a record 1.935 million in early August"}, {"id": "G22", "text": "Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller).", "kind": "author report", "reliability": "high", "staged": false, "cells": {"O1": "C", "O2": "C", "O3": "N"}, "author": "Johnson", "quote": "It is taking orders"}]}, "scores": {"O1": {"inc": 11.8, "con": 6.0, "ninc": 13, "ncon": 6}, "O2": {"inc": 1.0, "con": 17.2, "ninc": 1, "ncon": 19}, "O3": {"inc": 0.0, "con": 9.1, "ninc": 0, "ncon": 10}}, "scores_unstaged": {"O1": {"inc": 11.8, "con": 6.0, "ninc": 13, "ncon": 6}, "O2": {"inc": 1.0, "con": 17.2, "ninc": 1, "ncon": 19}, "O3": {"inc": 0.0, "con": 9.1, "ninc": 0, "ncon": 10}}}];
+function drawAch() {
+  const box = document.getElementById("achgrids");
+  if (!box) return;
+  box.textContent = "";
+  ACH.forEach((P, gi) => {
+    const g = P.grid, sc = P.scores, su = P.scores_unstaged;
+    box.appendChild(el("h3", null, (gi + 1) + ". " + g.question));
+    const rank = el("table", { class: "qtable" }), grid = el("table", { class: "qtable achgrid" });
+    const w1 = el("div", { class: "scroll" }), w2 = el("div", { class: "scroll" });
+    w1.appendChild(rank); w2.appendChild(grid);
+    box.appendChild(w1); box.appendChild(w2);
+    const order = g.hypotheses.slice().sort((a, b) => sc[a.id].inc - sc[b.id].inc || sc[b.id].con - sc[a.id].con);
+    const hr = el("tr");
+    ["", "Explanation", "From", "Weighted against", "Facts against", "Facts that fit", "Against, staged facts dropped"].forEach(t => hr.appendChild(el("th", null, t)));
+    rank.appendChild(hr);
+    order.forEach((hp, k) => {
+      const tr = el("tr");
+      tr.appendChild(el("td", { class: "num" }, String(k + 1)));
+      tr.appendChild(el("td", null, hp.label));
+      tr.appendChild(el("td", null, hp.from));
+      tr.appendChild(el("td", { class: "num" }, sc[hp.id].inc.toFixed(1)));
+      tr.appendChild(el("td", { class: "num" }, String(sc[hp.id].ninc)));
+      tr.appendChild(el("td", { class: "num" }, String(sc[hp.id].ncon)));
+      tr.appendChild(el("td", { class: "num" }, su[hp.id].inc.toFixed(1)));
+      rank.appendChild(tr);
+    });
+    const gh = el("tr");
+    gh.appendChild(el("th", null, "Fact"));
+    g.hypotheses.forEach(hp => gh.appendChild(el("th", null, hp.short)));
+    grid.appendChild(gh);
+    const word = { C: "fits", I: "against", N: "·" }, cls = { C: "fit", I: "against", N: "na" };
+    g.facts.forEach(f => {
+      const tr = el("tr");
+      const td = el("td");
+      td.appendChild(el("span", null, f.id + ". " + f.text));
+      if (f.staged) td.appendChild(el("span", { class: "tag" }, "could be staged"));
+      td.appendChild(el("span", { class: "tag" }, f.reliability));
+      const src = f.quote ? ((f.author === "Brookings-2009" ? "Brookings 2009" : f.author) + ": “" + f.quote + "”") : (f.source || "");
+      if (src) td.appendChild(el("span", { class: "src" }, src));
+      Object.entries(f.reasons || {}).forEach(([hid, why]) => {
+        const hp = g.hypotheses.find(x => x.id === hid);
+        td.appendChild(el("span", { class: "why" }, "Against “" + (hp ? hp.short : hid) + "”: " + why));
+      });
+      tr.appendChild(td);
+      g.hypotheses.forEach(hp => {
+        const c = f.cells[hp.id] || "N";
+        tr.appendChild(el("td", { class: "cell " + cls[c] }, word[c]));
+      });
+      grid.appendChild(tr);
+    });
+    box.appendChild(el("p", { class: "muted small" }, "Fact list fixed on " + g.frozen + ". " + g.note));
+  });
+  box.appendChild(el("p", { class: "muted small" }, "Weights: high reliability 1, medium 0.7, low 0.4. Every mark is a judgement and can be challenged; the same grids, with a written reading, are in synthesis.md."));
+}
+const HYPOTHESES = [{"id": "H1", "title": "A nexus of interests", "answers": "Question 4: is anyone hidden at the top?", "proposed_by": "Dixon, Henningsen, Hudson and Wolff, each in part; combined into one model by the person who assembled these sources", "claim": "The US state is shared by interest blocs (finance, arms, energy, technology, the Israel lobby, media and think tanks). A policy happens when enough blocs want it and none strong enough objects; finance owns and funds the others.", "support": ["Dixon", "Henningsen", "Hudson", "Wolff"], "against": ["Krainer", "Webb", "Crooke", "Norton"], "evidence": "Dixon's shared ownership, Henningsen's blocs, Hudson's choke points, Wolff's \"clumps\" of capitalists bargaining over the state.", "objection": "Krainer and Webb see one directing group; Norton sees one class; Crooke sees a project behind the blocs.", "tests": ["Policy stalls or reverses where blocs collide", "The Israel lobby against finance or energy"], "status": "One case fits: the diesel collision (October 2026), where the oil bloc beat agriculture. The harder test has not occurred."}, {"id": "H2", "title": "Energy dominance by managed demolition", "answers": "Question 8: whose war is the Iran war?", "proposed_by": "Berletic, most of it; Hudson, Wilkerson and Werner add pieces; combined by the person who assembled these sources", "claim": "The Iran war aims to close the Gulf with deniability, making Europe and Asia dependent on US energy, as Ukraine and Nord Stream did for Europe; Israel's Mediterranean routes and gas fit the same aim.", "support": ["Berletic", "Hudson", "Wilkerson"], "against": ["Henningsen", "Wolff", "Crooke", "Diesen"], "evidence": "Berletic's \"decades-spanning US project\"; Hudson's choke points and Arctic logic; Wilkerson's base withdrawal; the canal proposal, Gaza Marine and the 2023 gas licences. The deniability is on paper: the 2009 Brookings chapter \"Leave it to Bibi\". Werner: \"the US military leadership essentially ordered many US bases in the region to be evacuated.\"", "objection": "It can explain any outcome. Its costs fall on the population and on the dollar's Treasury market, as the Gulf states buy less US debt; but if finance is global and moving east, as Dixon argues, it may lose nothing while the country is stripped.", "tests": ["US share of Europe's and Asia's gas imports", "Mediterranean pipeline, canal or Gaza Marine", "Gulf supply impaired while American supply fills the gap", "Gulf bases cut, Arctic deployments grown", "No durable deal reopens Hormuz"], "status": "Five tests open, resolving 2027 to 2028."}, {"id": "H3", "title": "A hidden directing hand", "answers": "Question 4", "proposed_by": "Krainer; Webb", "claim": "A small group, centred on finance, directs events over decades, mostly out of view.", "support": ["Krainer", "Webb", "Fitts"], "against": ["Dixon", "Wilkerson", "Norton", "Diesen"], "evidence": "Webb's documented networks of the same financiers and intelligence figures; Krainer's history of the City of London.", "objection": "The insiders here (Fitts, Hudson, Dixon, Wilkerson, Tyson) each describe one part from inside; none describes a central body. Webb's links show proximity better than intent.", "tests": ["A document or insider describing a directing body, not only overlapping networks"], "status": "Not supported by the insider testimony in this set; not ruled out."}, {"id": "H4", "title": "A ruling class acting in the open", "answers": "Question 4", "proposed_by": "Norton; Wolff", "claim": "An employer and creditor class rules through donors and the state, mostly openly; plans are written down.", "support": ["Norton", "Wolff", "Hudson"], "against": ["Krainer", "Webb"], "evidence": "Norton: US policy is \"made by and for these powerful corporations\". Wolff: the same donors fund both parties. Hudson: officials state their aims openly.", "objection": "It says little about the secret side: Fitts's covert economy and the off-books budget.", "tests": ["Whether stated plans and donor interests predict policy better than hidden ones"], "status": "Consistent with the diesel case and with the forecast record below."}, {"id": "H5", "title": "The logic of a declining hegemon", "answers": "Question 10: plan, interests or ideology?", "proposed_by": "Diesen; Wolff in part", "claim": "No hidden ruler is needed: a hegemon losing its rival behaves predictably, over-extending and turning on its allies.", "support": ["Diesen", "Wolff", "Crooke"], "against": ["Krainer", "Berletic"], "evidence": "Diesen's forecast that a war on Iran would be a disaster held; Wolff's account of tariffs and tribute as desperate acts.", "objection": "It treats states as the actors and wars as won or lost by countries. On the bloc reading no country acts: policies that look \"irrational\" for a state are rational for whoever profits, and the arms and finance complexes gain whether a war is won or lost. It also says little about money.", "tests": ["Whether US behaviour keeps matching what decline predicts, for example turning on more allies"], "status": "Its forecasts on the war held."}, {"id": "H6", "title": "A written plan, followed through", "answers": "Questions 8 and 10", "proposed_by": "Berletic", "claim": "US policy follows plans laid out in policy papers, whichever party is in power; apparent defeats advance the plan.", "support": ["Berletic", "Norton", "Hudson"], "against": ["Henningsen", "Wilkerson"], "evidence": "The best forecast record on Trump and the Iran war; the plans are on paper.", "objection": "Henningsen cannot see what US interest the Iran war serves; Wilkerson thinks a plan can live in the planners without the president.", "tests": ["Whether the next moves match the published papers"], "status": "Best forecast record in the set so far."}, {"id": "H7", "title": "A war for Israel", "answers": "Question 8", "proposed_by": "Henningsen; Crooke in part", "claim": "The Iran war serves Israel, not the US; the Israel lobby steers US policy in West Asia.", "support": ["Henningsen", "Crooke"], "against": ["Berletic", "Dixon", "Hudson", "Norton"], "evidence": "No US interest that Henningsen can find; Crooke's \"primordially\" for Israeli hegemony; pro-Israel donors.", "objection": "Chomsky's 2006 test: where the lobby and US interests diverged, Israel backed down. And the appearance may be designed: the 2009 Brookings paper's chapter \"Leave it to Bibi\" proposed letting Israel strike so that criticism and retaliation would be \"deflected away from the United States and onto Israel\". It warned that this would be hard to sell, since Iranians would see the strike as \"American supported or even American orchestrated\", flown in US-funded aircraft.", "tests": ["A case where Israel's aims and the energy or finance bloc's aims diverge"], "status": "Contested. If the Brookings logic is being followed, a war that looks like Israel's is what the planners intended, so the appearance cannot count as evidence for H7; and it cannot be separated from H2 while the interests run together."}, {"id": "H8", "title": "A hidden layer: secret programs and withheld energy", "answers": "Open question 12", "proposed_by": "Greer; Dolan; Fitts in part (see hidden-layer.md)", "claim": "An off-books economy funds secret programs that hold technology, energy above all, that would end the oil order.", "support": ["Fitts"], "against": [], "evidence": "Fitts's covert economy and $21 trillion in undocumented adjustments; Greer's and Dolan's material in hidden-layer.md.", "objection": "The money side is documented; the technology side rests on witnesses who are not named.", "tests": ["Greer's disclosure forecast (2027)", "A working device in public"], "status": "Money side supported; technology side open."}, {"id": "H9", "title": "Mobile finance, anchored arms", "answers": "Where does power sit?", "proposed_by": "Dixon (finance moving east), with Crooke and Wilkerson on the arms complex; combined by the person who assembled these sources", "claim": "The blocs differ in how easily they move. The arms complex is tied to US territory, entrenched in costly, outdated weapons, and has been shown up by cheap drones and missiles. Finance needs no physical location and is moving east. As military power stops being concentrated in the US, the US matters less to the bloc that owns the others.", "support": ["Dixon", "Wolff", "Fitts", "Crooke", "Wilkerson", "Webb"], "against": ["Hudson", "Berletic"], "evidence": "Crooke: \"small, fleeter Iranian naval assets ran rings around the large lumbering naval vessels of the U.S. Navy\". Wilkerson: \"our maritime assets are getting increasingly dated\". Dixon: \"the money's moving east\". Wolff: the US as \"a place where you can safely keep your money is finished\". Fitts: \"They're sort of above countries.\"", "objection": "Finance needs a guard for its contracts and choke points. Crooke: \"dollar hegemony largely is a function of preserving the myth of U.S. exceptional military invulnerability\"; Hudson: the strategy works only \"as long as the United States can impose choke points\". If the arms complex fails, finance must find a new protector, and where it goes is the test.", "tests": ["Official holders outside the West cut Treasuries and buy gold (met)", "Total foreign holdings of US Treasuries fall (not so far: a record in June 2026)", "Asian financial centres gain listings and assets", "Large asset managers shift headquarters, staff or new funds to Asia", "US procurement keeps favouring carriers and jets over cheap drones and missiles", "Finance aligns with a new military guarantor rather than the US"], "status": "Mixed. Official holders outside the West are leaving Treasuries for gold (public data, 2026), but total foreign holdings hit a record in June 2026 as private buyers and the UK bought more. Other tests open."}, {"id": "H10", "title": "Land against sea: the new Great Game", "answers": "Questions 6 and 8: the multipolar bloc, and whose war", "proposed_by": "Werner, Wilkerson, Diesen and Berletic; restated by the person who assembled these sources", "claim": "The European and US empires were sea-based, so controlling sea lanes was everything. A Eurasia joined by land corridors (railways, pipelines, the Belt and Road) as well as sea lanes would escape that control. Stopping such corridors has been a constant aim, from the world wars, fought partly to stop Germany building eastward toward Middle East oil, to the bombing of China's new railway through Iran in 2026.", "support": ["Werner", "Wilkerson", "Diesen", "Henningsen", "Berletic", "Hudson"], "against": ["Dixon", "Webb"], "evidence": "Werner on 1914: \"Germany's economic success & transport corridor plans were seen as lethal challenge to British hegemony requiring total war\", and 2026 as \"a replay\" (the full argument is behind his paywall). Wilkerson: \"We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf\", because \"most of the world's commerce travels over land\". Diesen on Mackinder's fear of Russia's \"intercontinental railways\". Henningsen: \"US maritime power is in many ways backstopped by the city of London\", whose insurers reach sea trade but not land routes. Berletic: US papers plan \"maritime blockades, attacking the Chinese BRI\".", "objection": "Dixon and Webb would say the corridors change the route, not the owner: the same capital buys into the land routes. The reply is physical. Sea trade runs through a few choke points that a navy can hold; a dense rail network across a continent, like China's today, cannot be stopped without bombing the whole continent. Owning capital does not settle who controls the routes, much as Martenson argues that energy, not money, sets the limits.", "tests": ["Freight on China-Europe and China-Iran rail corridors grows despite strikes", "Further strikes or sanctions aimed at rail and pipeline corridors rather than military targets", "Western funds or insurers take large stakes in the land corridors (would support the objection)", "Traffic on the Arctic route grows, with Russian and Chinese control"], "status": "Proposed October 2026; Werner and Wilkerson tie the 1914 and 2026 cases to corridors; tests open."}, {"id": "H11", "title": "The plan meets reality", "answers": "Questions 5 and 6: who gains from the wars, and whether the empire can hold", "proposed_by": "Crooke, Wilkerson, Hudson and Wolff; restated by the person who assembled these sources", "claim": "The Iran war can be part of a deliberate plan for US energy dominance and still fail when the plan meets reality. Nobody expected Iran's weapons to be what they proved to be: a new generation of drones and ballistic and guided missiles, made at home, kept underground, and aimed with Chinese and Russian satellite data. New technology can shift the balance of power, as Jared Diamond's Guns, Germs, and Steel shows over the long run of history. The US has de-industrialised and cannot match its rivals' arms production, so it needs short, decisive wars against weak opponents, and this is not one. Its arms industry was built to make profits, not to beat twenty-first-century adversaries. The old empire is in denial and doubling down while the world economy spirals.", "support": ["Crooke", "Wilkerson", "Hudson", "Wolff"], "against": [], "evidence": "Public data on munitions: CSIS estimates that Patriot stocks fell by at least 65% and THAAD by at least 38%, and that rebuilding them will take at least three years; THAAD interceptors were shipped from South Korea after Iran destroyed at least ten US radars, four of them THAAD radars; Gulf states ran low on interceptors; with the Bahrain base hit, carriers were resupplied from Diego Garcia; Patriots meant for Ukraine were diverted. From the authors: Crooke, four days in: \"Iran sits in the driving seat\", its fastest missiles \"largely impervious to Israeli air defences\". Wilkerson on the arms makers: they \"know they're going to make money out their yin yang\"; and on the response: \"We don't back away. We don't retrench.\" Hudson: \"Invasions don't work. All you can do is destroy other countries.\" Wolff on denial: \"a refusal to entertain the very idea the empire is over\".", "objection": "Failing for whom? Those the war pays profit whether it is won or lost (the 'profit either way' reading), and the energy-sales part is working: the US share of Europe's LNG keeps rising. The reply: an arms industry built for profit is exactly why the plan cannot win a long war against a capable adversary. The plan can enrich its contractors and still fail as a plan for dominance.", "tests": ["Iran keeps launching at scale late in the war, showing its stocks and underground production survived", "US output of interceptors and strike missiles (THAAD, SM-6, Tomahawk) stays below wartime use through 2027", "After setbacks, Washington escalates (blockades, new sanctions, new fronts) rather than settles", "The US share of the EU's LNG imports keeps rising (this would support 'on track' for the energy part)"], "status": "Proposed October 2026; in the evidence grid 'on track' has the most facts against it, while 'failing' and 'profit either way' have few and can both be true; tests open."}];
+function drawHypotheses() {
+  const box = document.getElementById("hyps");
+  if (!box) return;
+  box.textContent = "";
+  const idx = n => AUTHORS.findIndex(a => a.name === n);
+  HYPOTHESES.forEach(hp => {
+    const sec = el("div", { class: "axis" });
+    const head = el("div", { class: "axis-head" });
+    head.appendChild(el("h3", null, hp.id + ". " + hp.title));
+    head.appendChild(el("span", { class: "spread" }, hp.answers));
+    sec.appendChild(head);
+    sec.appendChild(el("p", { class: "case-p" }, hp.claim));
+    sec.appendChild(el("div", { class: "case-h" }, "Proposed by · " + hp.proposed_by));
+    [["Fits the material of", hp.support], ["Cuts against", hp.against]].forEach(([lab, list]) => {
+      const p = el("p", { class: "case-p" }, lab + ":");
+      const chips = el("span", { class: "chips" });
+      (list || []).forEach(n => { const i = idx(n); if (i >= 0) chips.appendChild(el("span", { class: "dot c" + i + dimClass(i), title: n }, AUTHORS[i].code)); });
+      if (!list || !list.length) p.appendChild(el("span", { class: "muted" }, " none in this set"));
+      p.appendChild(chips);
+      sec.appendChild(p);
+    });
+    sec.appendChild(el("div", { class: "case-h" }, "Evidence"));
+    sec.appendChild(el("p", { class: "case-p" }, hp.evidence));
+    sec.appendChild(el("div", { class: "case-h" }, "Objection"));
+    sec.appendChild(el("p", { class: "case-p" }, hp.objection));
+    sec.appendChild(el("div", { class: "case-h" }, "What would test it"));
+    const ul = el("ul", { class: "case-list" });
+    hp.tests.forEach(t => ul.appendChild(el("li", null, t)));
+    sec.appendChild(ul);
+    sec.appendChild(el("div", { class: "case-h" }, "Where it stands"));
+    sec.appendChild(el("p", { class: "case-p" }, hp.status));
+    box.appendChild(sec);
+  });
+}
+const CASES = [{"id": "diesel-2026", "title": "Blocs collide: big oil against big agriculture over diesel", "date": "October 2026", "source": "Wolff, interview with Glenn Diesen (wolff.txt)", "happened": [{"text": "Diesel prices were squeezing farmers, so farm-state senators and large agricultural firms asked Trump to ban diesel exports.", "author": "Wolff", "quote": "literally extinguishing the margin"}, {"text": "The refiners objected.", "author": "Wolff", "quote": "We have been your loyal supporters. We don't want this."}, {"text": "Trump floated the ban and repeated it, caught between two groups of backers.", "author": "Wolff", "quote": "One group of his supporters want it, another group of his supporters don't want it."}, {"text": "The refiners threatened to cut output; the ban was dropped. The farmers got a release of European reserves worth about a day's demand.", "author": "Wolff", "quote": "we will cut back on refining and it'll go right back up"}], "bears_on": [{"axis": "coord", "reading": "At this level policy was bargained between competing blocs, with the president as broker, not handed down by one plan. It fits more easily with the scores near the bottom of the scale (Wolff, Dixon, Wilkerson, Diesen) and with the nexus model in synthesis.md, and is harder to square with “one deliberate plan” (Krainer, Webb). It does not rule out a plan above this level.", "fits": ["Wolff", "Dixon", "Wilkerson", "Diesen"], "strains": ["Krainer", "Webb"]}], "forecasts": ["Hudson: Trump holds fuel prices down until the November vote", "Martenson: oil pushed down before the midterms"], "forecast_note": "A refiners' veto on cheaper diesel cuts against both; neither is marked failed until the vote on 3 November.", "limits": "One case, told by one author whose own verdict is “That seems to have worked”. It does not test the harder collision the nexus model names: the Israel lobby against finance or energy. The reading of what it fits is mine."}];
+function drawCases() {
+  const box = document.getElementById("cases");
+  if (!box) return;
+  box.textContent = "";
+  const idx = n => AUTHORS.findIndex(a => a.name === n);
+  CASES.forEach(cs => {
+    const sec = el("div", { class: "axis" });
+    const head = el("div", { class: "axis-head" });
+    head.appendChild(el("h3", null, cs.title));
+    head.appendChild(el("span", { class: "spread" }, cs.date));
+    sec.appendChild(head);
+    sec.appendChild(el("div", { class: "case-h" }, "What happened · " + cs.source));
+    const ul = el("ul", { class: "case-list" });
+    cs.happened.forEach(hp => {
+      const li = el("li", null, hp.text + " ");
+      li.appendChild(el("q", null, hp.quote));
+      ul.appendChild(li);
+    });
+    sec.appendChild(ul);
+    cs.bears_on.forEach(b => {
+      const ax = AXES.find(a => a.id === b.axis);
+      sec.appendChild(el("div", { class: "case-h" }, "Bears on · " + (ax ? ax.title : b.axis)));
+      sec.appendChild(el("p", { class: "case-p" }, b.reading));
+      [["Fits more easily", b.fits], ["Strains", b.strains]].forEach(([lab, list]) => {
+        if (!list || !list.length) return;
+        const p = el("p", { class: "case-p" }, lab + ":");
+        const chips = el("span", { class: "chips" });
+        list.forEach(n => { const i = idx(n); if (i >= 0) chips.appendChild(el("span", { class: "dot c" + i + dimClass(i), title: n }, AUTHORS[i].code)); });
+        p.appendChild(chips);
+        sec.appendChild(p);
+      });
+    });
+    if (cs.forecasts && cs.forecasts.length) {
+      sec.appendChild(el("div", { class: "case-h" }, "Forecasts it touches"));
+      sec.appendChild(el("p", { class: "case-p" }, cs.forecasts.join("; ") + ". " + (cs.forecast_note || "")));
+    }
+    sec.appendChild(el("div", { class: "case-h" }, "Limits"));
+    sec.appendChild(el("p", { class: "case-p" }, cs.limits));
+    box.appendChild(sec);
+  });
+}
+function renderAll() { drawLegend(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawScatter(); drawAch(); drawHypotheses(); }
+function start() {
+  fillSelects();
+  renderAll();
+  let t = null, lastW = document.body.clientWidth;
+  window.addEventListener("resize", () => {
+    if (document.body.clientWidth === lastW) return;
+    lastW = document.body.clientWidth;
+    clearTimeout(t); t = setTimeout(() => { drawAxes(); drawScatter(); }, 120);
+  });
+}
+start();
+</script>

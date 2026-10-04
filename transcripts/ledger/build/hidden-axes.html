@@ -1,0 +1,683 @@
+<title>Hidden Layer Axes</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column; each chart is a full-width band inside it, text held to ~65ch. */
+:root {
+  --bg: #f3f5f7;
+  --surface: #ffffff;
+  --fg: #18212b;
+  --muted: #5a6675;
+  --line: #d3dae2;
+  --accent: #0f6e78;
+  --dot-ink: #ffffff;
+  --a0: #2b66ad; --a1: #b2432c; --a2: #2a7f52; --a3: #7d48a8;
+  --a4: #8f6510; --a5: #b83a72; --a6: #157f8a; --a7: #566070; --a8: #a1561b; --a9: #3f4fb5; --a10: #66741a; --a11: #8a3d4a; --a12: #2f6f8f; --a13: #9a4f8a;
+  --display: "Bricolage Grotesque", "IBM Plex Sans", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161c; --surface: #19212a; --fg: #e6ebf0; --muted: #9aa7b5; --line: #2e3945;
+    --accent: #5cc4cf; --dot-ink: #10151a;
+    --a0: #7fb0ee; --a1: #ee8f78; --a2: #6fcf9a; --a3: #c79bea;
+    --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161c; --surface: #19212a; --fg: #e6ebf0; --muted: #9aa7b5; --line: #2e3945;
+  --accent: #5cc4cf; --dot-ink: #10151a;
+  --a0: #7fb0ee; --a1: #ee8f78; --a2: #6fcf9a; --a3: #c79bea;
+  --a4: #e0b85c; --a5: #f08bb8; --a6: #62cfd9; --a7: #b3bdc9; --a8: #f2a35e; --a9: #9aa6f5; --a10: #c3d27a; --a11: #e89aa6; --a12: #8cc8e6; --a13: #e3a6d6;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.55; }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 16px; padding-block: 32px 64px; display: flex; flex-direction: column; gap: 44px; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.9rem, 5vw, 2.7rem); line-height: 1.08; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h2 { font-family: var(--display); font-weight: 700; font-size: 1.45rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--body); font-weight: 600; font-size: 1.02rem; margin: 0; }
+p { margin: 0; max-width: 66ch; }
+.eyebrow { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
+.stack { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.muted { color: var(--muted); }
+.small { font-size: 0.88rem; }
+
+/* legend */
+.legend { display: flex; flex-wrap: wrap; gap: 8px; }
+.legend button { font: inherit; font-size: 0.9rem; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px 4px 5px; display: inline-flex; align-items: center; gap: 7px; cursor: pointer; }
+.legend button[aria-pressed="true"] { border-color: var(--fg); box-shadow: inset 0 0 0 1px var(--fg); }
+.legend button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.dot { width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-family: var(--mono); font-weight: 600; font-size: 0.66rem; color: var(--dot-ink); flex: none; }
+
+/* axis strips */
+.axes { display: flex; flex-direction: column; gap: 28px; }
+.axis { background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--fg); border-radius: 4px; padding: 18px 18px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.axis h3 { font-family: var(--display); font-weight: 700; font-size: 1.22rem; line-height: 1.2; }
+.axis-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 16px; }
+.spread { font-family: var(--mono); font-size: 0.74rem; color: var(--muted); }
+.poles { display: flex; justify-content: space-between; gap: 16px; font-size: 0.82rem; color: var(--muted); }
+.poles span { max-width: 46%; }
+.poles span:last-child { text-align: right; }
+.na { font-size: 0.82rem; color: var(--muted); }
+svg { display: block; width: 100%; }
+svg text { font-family: var(--mono); }
+.tick-label { fill: var(--muted); font-size: 11px; }
+.track { stroke: var(--line); stroke-width: 2; fill: none; }
+.tick { stroke: var(--line); stroke-width: 1; fill: none; }
+.median { fill: var(--accent); }
+.dot-text { fill: var(--dot-ink); font-size: 10px; font-weight: 600; text-anchor: middle; dominant-baseline: central; }
+.dim { opacity: 0.18; }
+.c0 { fill: var(--a0); background: var(--a0); } .c1 { fill: var(--a1); background: var(--a1); }
+.c2 { fill: var(--a2); background: var(--a2); } .c3 { fill: var(--a3); background: var(--a3); }
+.c4 { fill: var(--a4); background: var(--a4); } .c5 { fill: var(--a5); background: var(--a5); }
+.c6 { fill: var(--a6); background: var(--a6); } .c7 { fill: var(--a7); background: var(--a7); }
+.c8 { fill: var(--a8); background: var(--a8); } .c9 { fill: var(--a9); background: var(--a9); }
+.c10 { fill: var(--a10); background: var(--a10); } .c11 { fill: var(--a11); background: var(--a11); }
+.c12 { fill: var(--a12); background: var(--a12); } .c13 { fill: var(--a13); background: var(--a13); }
+.reasons { margin: 10px 0 0; padding: 10px 0 0; border-top: 1px solid var(--line); list-style: none; display: flex; flex-direction: column; font-size: 0.92rem; }
+.reasons li { display: grid; grid-template-columns: 24px 1.4ch 6.4rem 1fr; gap: 10px; align-items: start; padding-block: 6px; }
+.reasons li + li { border-top: 1px dashed var(--line); }
+.reasons b { font-family: var(--mono); font-weight: 600; text-align: right; line-height: 24px; }
+.reasons .who { font-weight: 600; line-height: 24px; }
+.reasons .why { min-width: 0; padding-top: 1px; }
+.reasons .none { color: var(--muted); }
+.advice-list li { grid-template-columns: 24px 6.4rem 1fr; }
+.segs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3px; }
+.seg { height: 16px; border-radius: 2px; }
+.seg.empty { background: transparent; border: 1px dashed var(--line); }
+@media (max-width: 520px) { .advice-list li { grid-template-columns: 24px 1fr; } .advice-list .why { grid-column: 1 / -1; } }
+@media (max-width: 520px) { .reasons li { grid-template-columns: 24px 1.4ch 1fr; } .reasons .why { grid-column: 3; } }
+
+/* margin bars */
+.bars { display: flex; flex-direction: column; gap: 10px; }
+.bar-row { display: grid; grid-template-columns: 9.5rem 1fr 3.2rem; gap: 10px; align-items: center; }
+.bar-name { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.bar-track { height: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+.bar-fill { height: 100%; }
+.bar-val { font-family: var(--mono); font-size: 0.86rem; font-variant-numeric: tabular-nums; text-align: right; }
+.bar-why { grid-column: 2 / 4; font-size: 0.82rem; color: var(--muted); margin-top: -6px; }
+@media (max-width: 520px) { .bar-row { grid-template-columns: 2rem 1fr 3rem; } .bar-name span:last-child { display: none; } }
+
+/* matrix */
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.qtable { width: 100%; min-width: 560px; font-size: 0.9rem; }
+.qtable th, .qtable td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+.qtable th { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 400; }
+.qtable td.num { font-family: var(--mono); text-align: right; white-space: nowrap; }
+.qtable a { color: var(--fg); font-weight: 600; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.qtable a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.matrix th, .matrix td { width: 44px; height: 40px; text-align: center; font-family: var(--mono); font-size: 0.8rem; padding: 0; }
+.matrix th { font-weight: 400; }
+.matrix th .dot { margin: 0 auto; }
+.matrix td { border: 1px solid var(--bg); color: var(--fg); }
+.matrix td.self { color: var(--muted); }
+.pairs { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px 28px; }
+.pairs div { font-size: 0.92rem; }
+.pairs b { font-weight: 600; }
+
+/* scatter */
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.controls label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); min-width: 0; }
+select { font: inherit; font-size: 0.92rem; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; max-width: 100%; }
+.scatter-box { max-width: 540px; }
+.grid-line { stroke: var(--line); stroke-width: 1; }
+.readout { font-size: 0.86rem; color: var(--muted); display: flex; flex-direction: column; gap: 3px; }
+ul.plain { margin: 0; padding-left: 1.1em; max-width: 66ch; display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+  <header class="stack">
+    <div class="eyebrow">Companion to hidden-layer.md · first pass</div>
+    <h1>Four Authors, Seven Axes</h1>
+    <p>Dolan, Greer, Doty and Lear placed from 1 to 5 on seven questions from hidden-layer.md where at least three of the four take a position. The scores are my reading of their texts, not measurements, and four authors is a small group: one score moves the median. The reason for every score is listed under its chart.</p>
+    <p class="muted small">Select an author to follow them through every chart.</p>
+    <div class="legend" id="legend"></div>
+  </header>
+
+  <section class="stack">
+    <h2>Where each author sits</h2>
+    <p>The seven questions, from most to least divisive. Spread is how far apart the authors are (the standard deviation of their scores); select a question to jump to its chart.</p>
+    <div class="scroll"><table class="qtable" id="qtable"></table></div>
+    <p class="muted small">The diamond on each line is the group median. Under each diagram, one row per author gives the score and the reason, from lowest score to highest.</p>
+    <div class="axes" id="axes"></div>
+  </section>
+
+  <section class="stack">
+    <h2>Who is on the margin</h2>
+    <p>Average distance from the group median, across the axes each author addresses. A higher number means further from the crowd.</p>
+    <div class="bars" id="bars"></div>
+  </section>
+
+  <section class="stack">
+    <h2>Who sits with whom</h2>
+    <p>Average gap between each pair of authors, in scale points. Darker cells are closer.</p>
+    <div class="scroll"><table class="matrix" id="matrix"></table></div>
+    <div class="pairs" id="pairs"></div>
+    <ul class="plain">
+      <li><b>Doty and Lear sit closest.</b> Both describe the visitors as a possible threat, and both describe the secret as held by government bodies (the Defense Intelligence Agency for Doty, MJ-12 for Lear) rather than by private interests.</li>
+      <li><b>Greer stands furthest from Doty, then from Lear.</b> He gives the opposite answer on hostility, on who controls the secret and on what it protects: for him a private, transnational group keeps it to protect the energy order.</li>
+      <li><b>Dolan sits between them</b>, a little nearer Lear and Greer than Doty, and is the only one of the four whose case rests mainly on documents.</li>
+    </ul>
+  </section>
+
+  <section class="stack">
+    <h2>Personal advice</h2>
+    <p>What the four tell individuals to do. A piece of advice counts only where I found it in the author’s own words. Each bar has one cell per author; filled cells are the authors who give that advice, with the quote below.</p>
+    <div class="axes" id="advice"></div>
+    <p class="muted small">No personal advice found in Lear’s 1987 statement or interview.</p>
+  </section>
+
+  <section class="stack">
+    <h2>Two axes at once</h2>
+    <div class="controls">
+      <label for="selx">Left to right
+        <select id="selx"></select>
+      </label>
+      <label for="sely">Bottom to top
+        <select id="sely"></select>
+      </label>
+    </div>
+    <div class="scatter-box" id="scatter"></div>
+    <div class="readout" id="readout"></div>
+  </section>
+
+  <section class="stack">
+    <h2>How to read this</h2>
+    <ul class="plain">
+      <li>A score is a position, not a grade. A 5 is not better than a 1.</li>
+      <li>Scores are whole numbers on a five-point scale, so a one-point gap is within my margin of judgement. Gaps of two or more are the ones to trust.</li>
+      <li>The margin and pair figures treat all seven axes as equally important. Change that and the ranking can move.</li>
+      <li>Left out because fewer than three of the four take a position: where the money comes from (only Greer gives figures; Fitts, in synthesis.md, describes the black budget).</li>
+      <li>Doty has no score on withheld energy technology: he does not address it in the interview I read.</li>
+      <li>The material is uneven: Greer’s papers span 1995–2025, Dolan’s talks 2016–2026, Doty’s interview is from 2019 and Lear’s material from 1987. Anka and Harris are background in the README and are not scored.</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+const AUTHORS = [
+ {
+  "name": "Greer",
+  "first": "Steven",
+  "code": "Gr"
+ },
+ {
+  "name": "Dolan",
+  "first": "Richard",
+  "code": "Dl"
+ },
+ {
+  "name": "Doty",
+  "first": "Richard",
+  "code": "Dy"
+ },
+ {
+  "name": "Lear",
+  "first": "John",
+  "code": "Le"
+ }
+];
+const AXES = [
+ {
+  "id": "presence",
+  "title": "Is a non-human presence real?",
+  "low": "Not shown",
+  "high": "Certain",
+  "s": [
+   5,
+   4,
+   5,
+   5
+  ],
+  "why": [
+   "Settled: “UFOs are real; they are of extraterrestrial origin; they have been around for decades (if not centuries)”.",
+   "“The document record proves the cover up of extraordinary UAP activity. Proves it.” The presence itself “looks like” the conclusion: “it looks like a long-standing cover up that has concealed evidence of a nonhuman alien presence”.",
+   "Bennewitz’s signals “had to come from an ET source”.",
+   "Ten to fifteen recovered craft and “between 30 and 50 alien bodies in cryogenic storage”."
+  ]
+ },
+ {
+  "id": "hostile",
+  "title": "Are the visitors hostile?",
+  "low": "Not hostile",
+  "high": "Hostile",
+  "s": [
+   1,
+   3,
+   4,
+   5
+  ],
+  "why": [
+   "“There is no evidence that they are hostile”; the threat story is the planned false disclosure.",
+   "Does not decide: “I can’t say I know the full answer to the question of: what do they want?”",
+   "“A phenomena out there that I think can be dangerous to the United States.”",
+   "“At least 90% of them are hostile”; “our government sold us to the aliens”."
+  ]
+ },
+ {
+  "id": "control",
+  "title": "Who controls the secret?",
+  "low": "Government agencies",
+  "high": "A private, transnational group",
+  "s": [
+   5,
+   3,
+   1,
+   2
+  ],
+  "why": [
+   "“A quasi-governmental, USAPS related, quasi-private entity operating internationally/transnationally”; policy rests “predominantly … in the private, civilian sector”.",
+   "Programs “beyond lawful oversight”; “Private contractors would have to be examined.”",
+   "Describes agencies: “It went to headquarters, it went to our headquarters. And from that point on, I would guess DIA has a repository someplace”.",
+   "MJ-12: “As each member passed away, the group itself appointed a new member to fill the position.”"
+  ]
+ },
+ {
+  "id": "protects",
+  "title": "What does the secrecy protect?",
+  "low": "Military secrets",
+  "high": "Economic and political power",
+  "s": [
+   5,
+   4,
+   1,
+   2
+  ],
+  "why": [
+   "The energy order: the technology would replace “the entire geo-political and economic order”.",
+   "Control of energy and wealth: a system based on “physical control” of oil is “vulnerable to emerging technologies”.",
+   "Classified aircraft: “what you’re seeing is UFOs. It’s not US crafts.”",
+   "First fear of panic, then a failed deal: “In its effort to protect democracy, our government sold us to the aliens.”"
+  ]
+ },
+ {
+  "id": "energy",
+  "title": "Is energy technology being withheld?",
+  "low": "Not claimed",
+  "high": "The central fact",
+  "s": [
+   5,
+   3,
+   null,
+   2
+  ],
+  "why": [
+   "The core of the secret: zero-point power for “every home, business, factory and vehicle”.",
+   "In passing: the way out includes “energy harvesting devices free energy and the like”.",
+   "",
+   "The traded technology “could only be operated by the EBE’s themselves”."
+  ]
+ },
+ {
+  "id": "disclosure",
+  "title": "How will disclosure come?",
+  "low": "Openly, in stages",
+  "high": "Staged and managed by the secret-keepers",
+  "s": [
+   5,
+   4,
+   1,
+   3
+  ],
+  "why": [
+   "As a staged threat: “a planned, contrived disclosure run by the keepers of the secrets”.",
+   "As “disclosure management”: “a managed fragment of the truth uh just ain’t going to cut it”.",
+   "“I think disclosure’s going to happen, piecemeal”; “very impressed” by the trend.",
+   "A metered release planned in 1968, thrown into “utter confusion and panic”."
+  ]
+ },
+ {
+  "id": "evidence",
+  "title": "What does the case rest on?",
+  "low": "Documents",
+  "high": "Testimony",
+  "s": [
+   5,
+   2,
+   4,
+   5
+  ],
+  "why": [
+   "Witnesses he does not name: “Safety and prudence requires that I leave their names out”.",
+   "Documents for the cover-up (“all of those official documents… that is take to the bank”); witness accounts such as Stringfield’s “45 firsthand sources” only for crash retrievals.",
+   "His own testimony, most of it, he says, redacted: “343 pages of it was totally redacted.”",
+   "Friends and Moore, whom he suspected himself: “Moore himself is a government agent working for MJ-12”."
+  ]
+ }
+];
+
+const state = { focus: null, x: "hostile", y: "protects" };
+const SVGNS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs, text) => {
+  const n = document.createElement(tag);
+  for (const k in (attrs || {})) n.setAttribute(k, attrs[k]);
+  if (text != null) n.textContent = text;
+  return n;
+};
+const sv = (tag, attrs, text) => {
+  const n = document.createElementNS(SVGNS, tag);
+  for (const k in (attrs || {})) n.setAttribute(k, attrs[k]);
+  if (text != null) n.textContent = text;
+  return n;
+};
+const median = (arr) => {
+  const v = arr.filter(x => x != null).slice().sort((a, b) => a - b);
+  const m = Math.floor(v.length / 2);
+  return v.length % 2 ? v[m] : (v[m - 1] + v[m]) / 2;
+};
+const sd = (arr) => {
+  const v = arr.filter(x => x != null);
+  const mu = v.reduce((a, b) => a + b, 0) / v.length;
+  return Math.sqrt(v.reduce((a, b) => a + (b - mu) * (b - mu), 0) / v.length);
+};
+AXES.forEach(a => { a.med = median(a.s); a.sd = sd(a.s); });
+const ORDERED = AXES.slice().sort((a, b) => b.sd - a.sd);
+const dimClass = (i) => (state.focus != null && state.focus !== i) ? " dim" : "";
+
+function pairGap(i, j) {
+  let sum = 0, n = 0;
+  AXES.forEach(a => { if (a.s[i] != null && a.s[j] != null) { sum += Math.abs(a.s[i] - a.s[j]); n++; } });
+  return sum / n;
+}
+
+function drawLegend() {
+  const box = document.getElementById("legend");
+  box.textContent = "";
+  AUTHORS.forEach((au, i) => {
+    const b = el("button", { type: "button", id: "au-" + i, "aria-pressed": state.focus === i ? "true" : "false" });
+    b.appendChild(el("span", { class: "dot c" + i }, au.code));
+    b.appendChild(el("span", null, au.name + ", " + au.first));
+    b.addEventListener("click", () => { state.focus = state.focus === i ? null : i; renderAll(); });
+    box.appendChild(b);
+  });
+}
+
+function drawStrip(host, axis) {
+  const w = Math.max(260, host.clientWidth);
+  const pad = 22, r = 11, step = 25;
+  const groups = {};
+  axis.s.forEach((v, i) => { if (v != null) (groups[v] = groups[v] || []).push(i); });
+  const maxStack = Math.max(...Object.values(groups).map(g => g.length));
+  const trackY = 14 + maxStack * step;
+  const h = trackY + 26;
+  const X = (v) => pad + (v - 1) / 4 * (w - 2 * pad);
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + h, height: h, role: "img",
+    "aria-label": axis.title + ". " + AUTHORS.map((a, i) => a.name + " " + (axis.s[i] == null ? "not scored" : axis.s[i])).join(", ") });
+  svg.appendChild(sv("line", { class: "track", x1: X(1), x2: X(5), y1: trackY, y2: trackY }));
+  for (let v = 1; v <= 5; v++) {
+    svg.appendChild(sv("line", { class: "tick", x1: X(v), x2: X(v), y1: trackY - 5, y2: trackY + 5 }));
+    svg.appendChild(sv("text", { class: "tick-label", x: X(v), y: trackY + 20, "text-anchor": "middle" }, String(v)));
+  }
+  const mx = X(axis.med);
+  svg.appendChild(sv("rect", { class: "median", x: mx - 5, y: trackY - 5, width: 10, height: 10, transform: "rotate(45 " + mx + " " + trackY + ")" }));
+  Object.keys(groups).forEach(v => {
+    groups[v].forEach((i, k) => {
+      const cy = trackY - 20 - k * step;
+      const g = sv("g", { class: dimClass(i).trim() });
+      g.appendChild(sv("circle", { class: "c" + i, cx: X(+v), cy: cy, r: r }));
+      g.appendChild(sv("text", { class: "dot-text", x: X(+v), y: cy }, AUTHORS[i].code));
+      g.appendChild(sv("title", null, AUTHORS[i].name + ": " + v + ". " + axis.why[i]));
+      svg.appendChild(g);
+    });
+  });
+  host.textContent = "";
+  host.appendChild(svg);
+}
+
+function drawAxes() {
+  const box = document.getElementById("axes");
+  box.textContent = "";
+  ORDERED.forEach(axis => {
+    const sec = el("div", { class: "axis", id: "axis-" + axis.id });
+    const head = el("div", { class: "axis-head" });
+    head.appendChild(el("h3", null, axis.title));
+    head.appendChild(el("span", { class: "spread" }, "spread " + axis.sd.toFixed(2)));
+    sec.appendChild(head);
+    const host = el("div");
+    sec.appendChild(host);
+    const poles = el("div", { class: "poles" });
+    poles.appendChild(el("span", null, "1 · " + axis.low));
+    poles.appendChild(el("span", null, axis.high + " · 5"));
+    sec.appendChild(poles);
+    const ul = el("ul", { class: "reasons" });
+    const order = AUTHORS.map((a, i) => i).sort((p, q) => (axis.s[p] == null ? 9 : axis.s[p]) - (axis.s[q] == null ? 9 : axis.s[q]) || p - q);
+    order.forEach(i => {
+      const au = AUTHORS[i], scored = axis.s[i] != null;
+      const li = el("li", { class: dimClass(i).trim() });
+      li.appendChild(el("span", { class: "dot c" + i }, au.code));
+      li.appendChild(el("b", null, scored ? String(axis.s[i]) : "\u2013"));
+      li.appendChild(el("span", { class: "who" }, au.name));
+      li.appendChild(el("span", { class: "why" + (scored ? "" : " none") }, scored ? axis.why[i] : "Not scored. I found no position in what I read."));
+      ul.appendChild(li);
+    });
+    sec.appendChild(ul);
+    box.appendChild(sec);
+    drawStrip(host, axis);
+  });
+}
+
+function drawBars() {
+  const box = document.getElementById("bars");
+  box.textContent = "";
+  const rows = AUTHORS.map((au, i) => {
+    let sum = 0, n = 0; const far = [];
+    AXES.forEach(a => {
+      if (a.s[i] == null) return;
+      const d = Math.abs(a.s[i] - a.med); sum += d; n++;
+      if (d >= 2) far.push(a.title.replace(/\?$/, ""));
+    });
+    return { i, v: sum / n, far };
+  }).sort((a, b) => b.v - a.v);
+  const max = Math.max(...rows.map(r => r.v));
+  rows.forEach(rw => {
+    const row = el("div", { class: "bar-row" + dimClass(rw.i) });
+    const name = el("div", { class: "bar-name" });
+    name.appendChild(el("span", { class: "dot c" + rw.i }, AUTHORS[rw.i].code));
+    name.appendChild(el("span", null, AUTHORS[rw.i].name));
+    row.appendChild(name);
+    const track = el("div", { class: "bar-track" });
+    const fill = el("div", { class: "bar-fill c" + rw.i });
+    fill.style.width = (rw.v / (max * 1.05) * 100).toFixed(1) + "%";
+    track.appendChild(fill);
+    row.appendChild(track);
+    row.appendChild(el("div", { class: "bar-val" }, rw.v.toFixed(2)));
+    row.appendChild(el("div", { class: "bar-why" }, rw.far.length ? "Two or more points from the median on: " + rw.far.join("; ") + "." : "Within one and a half points of the median on every axis."));
+    box.appendChild(row);
+  });
+}
+
+function drawMatrix() {
+  const t = document.getElementById("matrix");
+  t.textContent = "";
+  const hr = el("tr"); hr.appendChild(el("th"));
+  AUTHORS.forEach((au, j) => { const th = el("th", { scope: "col", title: au.name }); th.appendChild(el("span", { class: "dot c" + j + dimClass(j) }, au.code)); hr.appendChild(th); });
+  t.appendChild(hr);
+  const all = [];
+  AUTHORS.forEach((au, i) => {
+    const tr = el("tr");
+    const th = el("th", { scope: "row", title: au.name }); th.appendChild(el("span", { class: "dot c" + i + dimClass(i) }, au.code)); tr.appendChild(th);
+    AUTHORS.forEach((bu, j) => {
+      if (i === j) { tr.appendChild(el("td", { class: "self" }, "·")); return; }
+      const g = pairGap(i, j);
+      if (i < j) all.push({ i, j, g });
+      const td = el("td", { title: au.name + " and " + bu.name + ": " + g.toFixed(2) }, g.toFixed(1));
+      const pct = Math.round(Math.max(0, 1 - g / 2.8) * 42);
+      td.style.background = "color-mix(in srgb, var(--accent) " + pct + "%, var(--surface))";
+      if (state.focus != null && state.focus !== i && state.focus !== j) td.className = "dim";
+      tr.appendChild(td);
+    });
+    t.appendChild(tr);
+  });
+  all.sort((a, b) => a.g - b.g);
+  const fmt = (p) => AUTHORS[p.i].name + " and " + AUTHORS[p.j].name + " (" + p.g.toFixed(2) + ")";
+  const box = document.getElementById("pairs");
+  box.textContent = "";
+  const near = el("div"); near.appendChild(el("b", null, "Closest pairs: ")); near.appendChild(document.createTextNode(all.slice(0, 3).map(fmt).join(", ") + "."));
+  const far = el("div"); far.appendChild(el("b", null, "Furthest pairs: ")); far.appendChild(document.createTextNode(all.slice(-3).reverse().map(fmt).join(", ") + "."));
+  box.appendChild(near); box.appendChild(far);
+}
+
+function fillSelects() {
+  ["selx", "sely"].forEach(id => {
+    const s = document.getElementById(id);
+    AXES.forEach(a => s.appendChild(el("option", { value: a.id }, a.title)));
+  });
+  const sx = document.getElementById("selx"), sy = document.getElementById("sely");
+  sx.value = state.x; sy.value = state.y;
+  sx.addEventListener("change", () => { state.x = sx.value; drawScatter(); });
+  sy.addEventListener("change", () => { state.y = sy.value; drawScatter(); });
+}
+
+function drawScatter() {
+  const host = document.getElementById("scatter");
+  const ax = AXES.find(a => a.id === state.x), ay = AXES.find(a => a.id === state.y);
+  const w = Math.max(260, host.clientWidth), pad = 34, r = 11;
+  const P = (v) => pad + (v - 1) / 4 * (w - 2 * pad);
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + w, height: w, role: "img", "aria-label": "Scatter of " + ax.title + " against " + ay.title });
+  for (let v = 1; v <= 5; v++) {
+    svg.appendChild(sv("line", { class: "grid-line", x1: P(v), x2: P(v), y1: P(1), y2: P(5) }));
+    svg.appendChild(sv("line", { class: "grid-line", x1: P(1), x2: P(5), y1: P(v), y2: P(v) }));
+    svg.appendChild(sv("text", { class: "tick-label", x: P(v), y: w - 8, "text-anchor": "middle" }, String(v)));
+    svg.appendChild(sv("text", { class: "tick-label", x: 10, y: w - P(v) + 4, "text-anchor": "middle" }, String(v)));
+  }
+  const cells = {};
+  AUTHORS.forEach((au, i) => {
+    const x = ax.s[i], y = ay.s[i];
+    if (x == null || y == null) return;
+    (cells[x + "," + y] = cells[x + "," + y] || []).push(i);
+  });
+  Object.keys(cells).forEach(key => {
+    const [x, y] = key.split(",").map(Number);
+    const g = cells[key];
+    g.forEach((i, k) => {
+      const ang = (k / g.length) * Math.PI * 2 - Math.PI / 2;
+      const off = g.length === 1 ? 0 : (g.length === 2 ? 12 : 16);
+      const cx = P(x) + Math.cos(ang) * off, cy = w - P(y) + Math.sin(ang) * off;
+      const grp = sv("g", { class: dimClass(i).trim() });
+      grp.appendChild(sv("circle", { class: "c" + i, cx: cx, cy: cy, r: r }));
+      grp.appendChild(sv("text", { class: "dot-text", x: cx, y: cy }, AUTHORS[i].code));
+      grp.appendChild(sv("title", null, AUTHORS[i].name + ": " + x + " across, " + y + " up"));
+      svg.appendChild(grp);
+    });
+  });
+  host.textContent = "";
+  host.appendChild(svg);
+  const out = document.getElementById("readout");
+  out.textContent = "";
+  out.appendChild(el("div", null, "Left to right: " + ax.low + " (1) to " + ax.high + " (5)."));
+  out.appendChild(el("div", null, "Bottom to top: " + ay.low + " (1) to " + ay.high + " (5)."));
+  const miss = AUTHORS.filter((a, i) => ax.s[i] == null || ay.s[i] == null).map(a => a.name);
+  if (miss.length) out.appendChild(el("div", null, "Not shown, no score on one of these axes: " + miss.join(", ") + "."));
+}
+
+function drawQuestions() {
+  const t = document.getElementById("qtable");
+  t.textContent = "";
+  const hr = el("tr");
+  ["#", "Question", "A score of 1 means", "A score of 5 means", "Median", "Spread"].forEach((c, k) => hr.appendChild(el("th", k === 0 || k > 3 ? { class: "num" } : null, c)));
+  t.appendChild(hr);
+  ORDERED.forEach((a, k) => {
+    const tr = el("tr");
+    tr.appendChild(el("td", { class: "num" }, String(k + 1)));
+    const q = el("td"); q.appendChild(el("a", { href: "#axis-" + a.id }, a.title)); tr.appendChild(q);
+    tr.appendChild(el("td", null, a.low));
+    tr.appendChild(el("td", null, a.high));
+    tr.appendChild(el("td", { class: "num" }, String(a.med)));
+    tr.appendChild(el("td", { class: "num" }, a.sd.toFixed(2)));
+    t.appendChild(tr);
+  });
+}
+
+const ADVICE = [
+ {
+  "label": "Press your elected officials for disclosure",
+  "who": [
+   {
+    "i": 0,
+    "q": "1996: “Write the President and ask that he issue an executive order permitting these witnesses to safely come forward … write your Senator and Congressman.”"
+   }
+  ]
+ },
+ {
+  "label": "If you know something, come forward",
+  "who": [
+   {
+    "i": 0,
+    "q": "“Contact me immediately if you or someone you know may be a current or former government, military or corporate witness.” Inventors with a working device: “please contact us”."
+   }
+  ]
+ },
+ {
+  "label": "Don’t accept the fear",
+  "who": [
+   {
+    "i": 0,
+    "q": "On a threat-framed disclosure: “Do not be deceived.”"
+   },
+   {
+    "i": 1,
+    "q": "“Don’t buy into the fear.”"
+   }
+  ]
+ },
+ {
+  "label": "Educate yourself and be an activist",
+  "who": [
+   {
+    "i": 1,
+    "q": "“Educate ourselves be unafraid to be an activist … find out what you’re willing to go to jail for.”"
+   }
+  ]
+ },
+ {
+  "label": "Report what you see",
+  "who": [
+   {
+    "i": 2,
+    "q": "“It starts with the UFO reporting center. You call in and report UFOs.”"
+   }
+  ]
+ }
+];
+function drawAdvice() {
+  const box = document.getElementById("advice");
+  box.textContent = "";
+  ADVICE.slice().sort((a, b) => b.who.length - a.who.length).forEach(ad => {
+    const sec = el("div", { class: "axis" });
+    const head = el("div", { class: "axis-head" });
+    head.appendChild(el("h3", null, ad.label));
+    head.appendChild(el("span", { class: "spread" }, ad.who.length + " of " + AUTHORS.length));
+    sec.appendChild(head);
+    const segs = el("div", { class: "segs", role: "img", "aria-label": ad.who.length + " of " + AUTHORS.length + " authors give this advice" });
+    segs.style.gridTemplateColumns = "repeat(" + AUTHORS.length + ", 1fr)";
+    const given = new Set(ad.who.map(w => w.i));
+    ad.who.forEach(w => segs.appendChild(el("span", { class: "seg c" + w.i + dimClass(w.i) })));
+    AUTHORS.forEach((a, i) => { if (!given.has(i)) segs.appendChild(el("span", { class: "seg empty" })); });
+    sec.appendChild(segs);
+    const ul = el("ul", { class: "reasons advice-list" });
+    ad.who.forEach(w => {
+      const li = el("li", { class: dimClass(w.i).trim() });
+      li.appendChild(el("span", { class: "dot c" + w.i }, AUTHORS[w.i].code));
+      li.appendChild(el("span", { class: "who" }, AUTHORS[w.i].name));
+      li.appendChild(el("span", { class: "why" }, w.q));
+      ul.appendChild(li);
+    });
+    sec.appendChild(ul);
+    box.appendChild(sec);
+  });
+}
+function renderAll() { drawLegend(); drawQuestions(); drawAxes(); drawBars(); drawMatrix(); drawAdvice(); drawScatter(); }
+function start() {
+  fillSelects();
+  renderAll();
+  let t = null, lastW = document.body.clientWidth;
+  window.addEventListener("resize", () => {
+    if (document.body.clientWidth === lastW) return;
+    lastW = document.body.clientWidth;
+    clearTimeout(t); t = setTimeout(() => { drawAxes(); drawScatter(); }, 120);
+  });
+}
+start();
+</script>

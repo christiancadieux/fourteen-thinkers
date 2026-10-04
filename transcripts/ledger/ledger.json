@@ -1,0 +1,3097 @@
+{
+ "version": 1,
+ "note": "Master data for synthesis.md checks and the chart pages. Edit here, then run build.py.",
+ "charts": {
+  "author-axes": {
+   "authors": [
+    {
+     "name": "Werner",
+     "first": "Richard",
+     "code": "We"
+    },
+    {
+     "name": "Krainer",
+     "first": "Alex",
+     "code": "Kr"
+    },
+    {
+     "name": "Berletic",
+     "first": "Brian",
+     "code": "Be"
+    },
+    {
+     "name": "Dixon",
+     "first": "Simon",
+     "code": "Di"
+    },
+    {
+     "name": "Fitts",
+     "first": "Catherine Austin",
+     "code": "Fi"
+    },
+    {
+     "name": "Norton",
+     "first": "Ben",
+     "code": "Nr"
+    },
+    {
+     "name": "Henningsen",
+     "first": "Patrick",
+     "code": "He"
+    },
+    {
+     "name": "Martenson",
+     "first": "Chris",
+     "code": "Ma"
+    },
+    {
+     "name": "Hudson",
+     "first": "Michael",
+     "code": "Hu"
+    },
+    {
+     "name": "Crooke",
+     "first": "Alastair",
+     "code": "Cr"
+    },
+    {
+     "name": "Wilkerson",
+     "first": "Lawrence",
+     "code": "Wi"
+    },
+    {
+     "name": "Diesen",
+     "first": "Glenn",
+     "code": "Ds"
+    },
+    {
+     "name": "Webb",
+     "first": "Whitney",
+     "code": "Wb"
+    },
+    {
+     "name": "Wolff",
+     "first": "Richard",
+     "code": "Wo"
+    }
+   ],
+   "axes": [
+    {
+     "id": "coord",
+     "title": "How coordinated is the power?",
+     "low": "Incentives; no one directing",
+     "high": "One deliberate plan"
+    },
+    {
+     "id": "finance",
+     "title": "Is finance the seat of power?",
+     "low": "No: a state, a class, or arms",
+     "high": "Yes: finance above all"
+    },
+    {
+     "id": "remedy",
+     "title": "What is the remedy?",
+     "low": "Decentralise and exit",
+     "high": "A strong sovereign state"
+    },
+    {
+     "id": "china",
+     "title": "How do they see China?",
+     "low": "Wary: the same system, or in its debt",
+     "high": "The model"
+    },
+    {
+     "id": "digital",
+     "title": "Digital money and ID as the tool of control",
+     "low": "Not a concern",
+     "high": "The central threat"
+    },
+    {
+     "id": "israel",
+     "title": "Who steers: Washington or Israel?",
+     "low": "Israel is a US proxy",
+     "high": "Israel steers US policy"
+    },
+    {
+     "id": "gains",
+     "title": "Who gains from the wars?",
+     "low": "The country that wins",
+     "high": "The arms and finance complexes, win or lose"
+    },
+    {
+     "id": "trump",
+     "title": "What did they expect from Trump?",
+     "low": "A real break",
+     "high": "More of the same"
+    },
+    {
+     "id": "iranchina",
+     "title": "Is the Iran war aimed at China?",
+     "low": "No",
+     "high": "Yes, that is the point"
+    },
+    {
+     "id": "bloc",
+     "title": "Is the multipolar bloc a different system?",
+     "low": "Yes, a real alternative",
+     "high": "No, the same capital’s next home"
+    },
+    {
+     "id": "centre",
+     "title": "Where does power sit?",
+     "low": "In the US state",
+     "high": "Above all countries"
+    },
+    {
+     "id": "vote",
+     "title": "Can voting or law still change policy?",
+     "low": "Yes, through elections or law",
+     "high": "No, the ballot box is closed"
+    },
+    {
+     "id": "actors",
+     "title": "Who are the actors?",
+     "low": "States and their leaders",
+     "high": "Blocs and classes"
+    }
+   ],
+   "scores": [
+    {
+     "axis": "coord",
+     "author": "Werner",
+     "score": 4,
+     "why": "Recessions are chosen: “whenever we see a country in recession, this is a policy-decision by the central planners”."
+    },
+    {
+     "axis": "coord",
+     "author": "Krainer",
+     "score": 5,
+     "why": "A “monolithic and ruthless conspiracy” with a hidden hand."
+    },
+    {
+     "axis": "coord",
+     "author": "Berletic",
+     "score": 4,
+     "why": "A plan, written down: “US policy papers explicitly lay out plans for maritime blockades, attacking the Chinese BRI”."
+    },
+    {
+     "axis": "coord",
+     "author": "Dixon",
+     "score": 1,
+     "why": "“There is no one on top. It’s not an organized cabal.”"
+    },
+    {
+     "axis": "coord",
+     "author": "Fitts",
+     "score": 4,
+     "why": "Both: “Oh, there’s total malice”, yet “the people who run the financial system are first and foremost risk managers”, “very afraid of the guillotine”."
+    },
+    {
+     "axis": "coord",
+     "author": "Norton",
+     "score": 2,
+     "why": "Class interest acting in the open: “US government policy is made by and for these powerful corporations.”"
+    },
+    {
+     "axis": "coord",
+     "author": "Henningsen",
+     "score": 3,
+     "why": "A regime-change “formula”, but of the Iran war: “if this is some grandmaster plan, can someone explain to me what is in America’s interest”."
+    },
+    {
+     "axis": "coord",
+     "author": "Martenson",
+     "score": 3,
+     "why": "Undecided: “they know not what they do”, or “maybe they did it”."
+    },
+    {
+     "axis": "coord",
+     "author": "Hudson",
+     "score": 4,
+     "why": "“There has been a long plan”, stated openly: “no attempt to conceal it”."
+    },
+    {
+     "axis": "coord",
+     "author": "Crooke",
+     "score": 4,
+     "why": "Behind Trump, “a clear design for the preservation of a certain power structure’s ambition to attain global primacy”."
+    },
+    {
+     "axis": "coord",
+     "author": "Wilkerson",
+     "score": 2,
+     "why": "Mostly incompetence, careerism and hatred: “There is no strategic purpose to it.”"
+    },
+    {
+     "axis": "coord",
+     "author": "Diesen",
+     "score": 2,
+     "why": "Structure more than plan: “A declining hegemon will predictably seek to weaken rising powers.”"
+    },
+    {
+     "axis": "coord",
+     "author": "Webb",
+     "score": 5,
+     "why": "“A handful of men with bottomless pockets who were willing to wait decades.”"
+    },
+    {
+     "axis": "coord",
+     "author": "Wolff",
+     "score": 2,
+     "why": "Class interest and a declining empire, not a hidden plan; government is an arena where “clumps” of capitalists “work out amongst themselves a deal”."
+    },
+    {
+     "axis": "finance",
+     "author": "Werner",
+     "score": 5,
+     "why": "Central banks and bank credit: “the tools are available to quickly exit any recession and deliver high growth and prosperity for all.”"
+    },
+    {
+     "axis": "finance",
+     "author": "Krainer",
+     "score": 5,
+     "why": "“The bankers hold all the power.”"
+    },
+    {
+     "axis": "finance",
+     "author": "Berletic",
+     "score": 2,
+     "why": "“Wall Street and Washington”: arms, energy and tech using the state."
+    },
+    {
+     "axis": "finance",
+     "author": "Dixon",
+     "score": 5,
+     "why": "Asset managers sit across the market, though Larry Fink is “not the top of the chain”; BlackRock “doesn’t have a monopoly”."
+    },
+    {
+     "axis": "finance",
+     "author": "Fitts",
+     "score": 5,
+     "why": "The financial system’s managers “print money out of thin air” and are “increasingly above the law”."
+    },
+    {
+     "axis": "finance",
+     "author": "Norton",
+     "score": 4,
+     "why": "Oligarchs and corporations; through Hudson on his site, “an extractive, predatory financial system”."
+    },
+    {
+     "axis": "finance",
+     "author": "Henningsen",
+     "score": 3,
+     "why": "Old money, insurers and donors rather than banks alone: “Most of the money in this city is concentrated into old money and foreign money”."
+    },
+    {
+     "axis": "finance",
+     "author": "Martenson",
+     "score": 4,
+     "why": "Banks make money “out of thin air” and the Fed moves wealth upward, but energy sits underneath."
+    },
+    {
+     "axis": "finance",
+     "author": "Hudson",
+     "score": 5,
+     "why": "A rentier class has run governments through their finances since medieval times: “the birth of the fiscal state—a state that is governed above all by its fiscal policy that is dominated by the banking class itself”."
+    },
+    {
+     "axis": "finance",
+     "author": "Crooke",
+     "score": 3,
+     "why": "Finance is the enforcer: a “dark state” bid for primacy, with the “financial oligarchy as its enforcement structure”."
+    },
+    {
+     "axis": "finance",
+     "author": "Wilkerson",
+     "score": 2,
+     "why": "The national security state, arms makers and donors; finance appears mainly as a debt warning: “The bond market is saying Trump is going to have one of the worst economic situations by midterm in our history.”"
+    },
+    {
+     "axis": "finance",
+     "author": "Diesen",
+     "score": 1,
+     "why": "Says little about money; power is the hegemon’s project, “a world order defined as liberal hegemony”."
+    },
+    {
+     "axis": "finance",
+     "author": "Webb",
+     "score": 4,
+     "why": "“A world system of financial control in private hands” (quoting Quigley), joined to intelligence and tech."
+    },
+    {
+     "axis": "finance",
+     "author": "Wolff",
+     "score": 2,
+     "why": "The employer class as a whole; business lobbies speak for “a clump of American enterprises who have carved out a niche for themselves”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Werner",
+     "score": 2,
+     "why": "Small local banks against the central planners: “Who lends to small firms? It’s small banks and that’s it.”"
+    },
+    {
+     "axis": "remedy",
+     "author": "Krainer",
+     "score": 5,
+     "why": "A sovereign state over the oligarchs: “We, the people, must demand sovereignty and empower ourselves to plan a future rooted in a genuine love of humanity.”"
+    },
+    {
+     "axis": "remedy",
+     "author": "Berletic",
+     "score": 4,
+     "why": "A multipolar world of sovereign states, against “Wall Street and Washington’s pursuit of a unipolar world order and its war on the emerging multipolar world”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Dixon",
+     "score": 1,
+     "why": "Boycott and exit: “If you want to boycott BlackRock, you have to own it in self custody.”"
+    },
+    {
+     "axis": "remedy",
+     "author": "Fitts",
+     "score": 1,
+     "why": "Personal and local: “You can use cash. Okay. And you can stop shopping. You can stop using the banks.”"
+    },
+    {
+     "axis": "remedy",
+     "author": "Norton",
+     "score": 5,
+     "why": "Multipolarity and de-dollarised trade; on his site Radhika Desai argues for “some version of capital controls”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Henningsen",
+     "score": 4,
+     "why": "National and energy sovereignty, yet against global taxation: “a form of global collectivism, or communism”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Martenson",
+     "score": 2,
+     "why": "Personal and local: “for ordinary people, having some buffers in your life is can make sense”; gold, land, food and neighbours."
+    },
+    {
+     "axis": "remedy",
+     "author": "Hudson",
+     "score": 5,
+     "why": "Credit as “a public utility” under a central authority; tax land rent; write down unpayable debts."
+    },
+    {
+     "axis": "remedy",
+     "author": "Crooke",
+     "score": 4,
+     "why": "Civilisational sovereignty, “self-circulating, self-sufficient economies” and a defensive concert of powers."
+    },
+    {
+     "axis": "remedy",
+     "author": "Wilkerson",
+     "score": 4,
+     "why": "Diplomacy and restraint: “We are either going to go back to offshore balancing, which we should, never should have abandoned it”; and an amendment to undo Citizens United."
+    },
+    {
+     "axis": "remedy",
+     "author": "Diesen",
+     "score": 5,
+     "why": "Diplomacy: “understand their security concerns, and then find ways to mitigate security competition and pursue forms of indivisible security”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Webb",
+     "score": 2,
+     "why": "Exposure, with no personal programme in what I read; “The decentralization theater… is masking the greatest centralization of power in history”."
+    },
+    {
+     "axis": "remedy",
+     "author": "Wolff",
+     "score": 3,
+     "why": "Neither exit nor the state: “Democratically organized worker cooperatives are the goal”, for private and state-owned enterprises alike."
+    },
+    {
+     "axis": "china",
+     "author": "Werner",
+     "score": 4,
+     "why": "Deng’s reforms are the model: China’s rise “to superpower status in only 40 years can teach us much”; Mao’s era is the warning."
+    },
+    {
+     "axis": "china",
+     "author": "Krainer",
+     "score": 5,
+     "why": "“The most undeniable case” for the national system."
+    },
+    {
+     "axis": "china",
+     "author": "Berletic",
+     "score": 4,
+     "why": "Pursuing abundance; align with it: “China has already committed to a national and global model of abundance.”"
+    },
+    {
+     "axis": "china",
+     "author": "Dixon",
+     "score": 3,
+     "why": "A different model (“All the currency that’s printed goes back to the government and the government reinvests it in its own infrastructure”), but capital is “moving east” into it."
+    },
+    {
+     "axis": "china",
+     "author": "Fitts",
+     "score": 2,
+     "why": "Impressive (“very very impressive”), but “China was developed by Europe and US capital”, and she does not know “what obligations does China have to European and US capital”."
+    },
+    {
+     "axis": "china",
+     "author": "Norton",
+     "score": 5,
+     "why": "“The United States is capitalist and constitutes the heart of the capitalist world-system, whereas China is socialist.”"
+    },
+    {
+     "axis": "china",
+     "author": "Henningsen",
+     "score": 4,
+     "why": "Benign; has not “really done any harm”."
+    },
+    {
+     "axis": "china",
+     "author": "Martenson",
+     "score": 3,
+     "why": "Admires its energy planning; says it “does not care that much about human life”."
+    },
+    {
+     "axis": "china",
+     "author": "Hudson",
+     "score": 5,
+     "why": "Keeps money creation public; its property finance has caught “the American-British disease”."
+    },
+    {
+     "axis": "china",
+     "author": "Crooke",
+     "score": 4,
+     "why": "Winning the contest: “Beijing has prepared and built a fortress around one of the most critical inputs to modern technology”; containment is “probably already too late”."
+    },
+    {
+     "axis": "china",
+     "author": "Wilkerson",
+     "score": 4,
+     "why": "“China is winning”, and from his talks with its officials, does not want an American-style empire."
+    },
+    {
+     "axis": "china",
+     "author": "Diesen",
+     "score": 4,
+     "why": "A rising power that “can resist economic coercion”."
+    },
+    {
+     "axis": "china",
+     "author": "Webb",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "china",
+     "author": "Wolff",
+     "score": 4,
+     "why": "“A remarkable mastery of both economic nationalism and openness”; warns of a road “toward a new Chinese global empire”."
+    },
+    {
+     "axis": "digital",
+     "author": "Werner",
+     "score": 5,
+     "why": "The EU is “serious about wartime mobilisation and the digital Gulag”."
+    },
+    {
+     "axis": "digital",
+     "author": "Krainer",
+     "score": 3,
+     "why": "Fears fraudulent money, but “blockchain could be as important to the transformation of the money system as the Arabic numerals have been to math and sciences”."
+    },
+    {
+     "axis": "digital",
+     "author": "Berletic",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "digital",
+     "author": "Dixon",
+     "score": 4,
+     "why": "A control layer being built: “we can progress our digital ID, we can progress our central bank digital currency”; self-custody is the exit."
+    },
+    {
+     "axis": "digital",
+     "author": "Fitts",
+     "score": 5,
+     "why": "“The control grid”, with stablecoins as its rails."
+    },
+    {
+     "axis": "digital",
+     "author": "Norton",
+     "score": 1,
+     "why": "Not a theme; crypto is a scam: “US politicians are promoting crypto rug pull scams, exploiting their own supporters.”"
+    },
+    {
+     "axis": "digital",
+     "author": "Henningsen",
+     "score": 3,
+     "why": "In 2022, the CBDC roll-out was “completely in line with the Great Reset’s digital global fiat and cashless society, with its digital ID wallets”; silent on it in 2026."
+    },
+    {
+     "axis": "digital",
+     "author": "Martenson",
+     "score": 4,
+     "why": "AI, cameras and digital ID as “our control grid”; expects fuel rationing by digital currency."
+    },
+    {
+     "axis": "digital",
+     "author": "Hudson",
+     "score": 2,
+     "why": "US AI is “police state type of technology”, but digital money is not his threat; stablecoins are unsafe because the US seizes them."
+    },
+    {
+     "axis": "digital",
+     "author": "Crooke",
+     "score": 2,
+     "why": "Not a theme; he sees “compute and the minerals” as a new US choke point."
+    },
+    {
+     "axis": "digital",
+     "author": "Wilkerson",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "digital",
+     "author": "Diesen",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "digital",
+     "author": "Webb",
+     "score": 5,
+     "why": "Trump would use “programmable, surveillable stablecoins to expand and entrench dollar dominance”; digital ID through UN goal SDG 16.9."
+    },
+    {
+     "axis": "digital",
+     "author": "Wolff",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "israel",
+     "author": "Werner",
+     "score": 3,
+     "why": "Israel has its own “intentions and goals”, which drain US resources."
+    },
+    {
+     "axis": "israel",
+     "author": "Krainer",
+     "score": 2,
+     "why": "“The invention of the Brits”: an instrument of the City."
+    },
+    {
+     "axis": "israel",
+     "author": "Berletic",
+     "score": 1,
+     "why": "“On behalf of Israel” is a myth."
+    },
+    {
+     "axis": "israel",
+     "author": "Dixon",
+     "score": 1,
+     "why": "A proxy: “if you want to do something that’s really, really illegal, like a genocide or ethnic cleansing, then use your Israeli proxy”."
+    },
+    {
+     "axis": "israel",
+     "author": "Fitts",
+     "score": 3,
+     "why": "Ties Israel to the hidden system: Forrestal “was very opposed to the creation of the black budget and the creation of Israel”."
+    },
+    {
+     "axis": "israel",
+     "author": "Norton",
+     "score": 1,
+     "why": "Quotes Biden approvingly as proof of the relationship: “Israel is the best investment we make”; Hudson, on his site, calls Israel “a client army”."
+    },
+    {
+     "axis": "israel",
+     "author": "Henningsen",
+     "score": 5,
+     "why": "“It’s a war for Israel.” The lobby picked the cabinet."
+    },
+    {
+     "axis": "israel",
+     "author": "Martenson",
+     "score": 4,
+     "why": "Reports Joe Kent’s view that the lobby drove the war; Trump “became far more Israel-focused”."
+    },
+    {
+     "axis": "israel",
+     "author": "Hudson",
+     "score": 1,
+     "why": "“Israel is a satellite of the United States”, which “could stop Israel at any time”."
+    },
+    {
+     "axis": "israel",
+     "author": "Crooke",
+     "score": 4,
+     "why": "“The U.S.-Israeli war primordially is being waged to create Israeli hegemony across West Asia”; on Russia, “the veto of pro-Israel mega-donors”."
+    },
+    {
+     "axis": "israel",
+     "author": "Wilkerson",
+     "score": 3,
+     "why": "“Israel’s our tool, not the other way around”, yet Trump is “trapped by Netanyahu” and donor money."
+    },
+    {
+     "axis": "israel",
+     "author": "Diesen",
+     "score": 3,
+     "why": "Israel would “pull America into one of its wars”; Trump may be “beholden to Netanyahu”."
+    },
+    {
+     "axis": "israel",
+     "author": "Webb",
+     "score": 4,
+     "why": "A partnership: a “CIA-Israeli intelligence nexus”."
+    },
+    {
+     "axis": "israel",
+     "author": "Wolff",
+     "score": 2,
+     "why": "The wars are US-led; AIPAC money keeps both parties in line; Israel attempts “17th century colonialism … several centuries too late”."
+    },
+    {
+     "axis": "gains",
+     "author": "Werner",
+     "score": 3,
+     "why": "The dollar system: the war is “the attempt to ensure that the petro dollar can survive”."
+    },
+    {
+     "axis": "gains",
+     "author": "Krainer",
+     "score": 5,
+     "why": "“All wars are bankers’ wars… It is strictly about banking and about the collateral.”"
+    },
+    {
+     "axis": "gains",
+     "author": "Berletic",
+     "score": 2,
+     "why": "The US state gains even when it seems to lose: “the US is conducting a “controlled demolition”” of Asia’s energy supply."
+    },
+    {
+     "axis": "gains",
+     "author": "Dixon",
+     "score": 5,
+     "why": "“The military companies, their stock price benefits, the more wars you can go in.”"
+    },
+    {
+     "axis": "gains",
+     "author": "Fitts",
+     "score": 4,
+     "why": "Whoever owns the stock: policy that moves a dollar into a listed company multiplies it, “if I make a dollar, my stock goes up $10”."
+    },
+    {
+     "axis": "gains",
+     "author": "Norton",
+     "score": 5,
+     "why": "Trump “is demonstrating to the world that all US wars are indeed a form of class war.”"
+    },
+    {
+     "axis": "gains",
+     "author": "Henningsen",
+     "score": 5,
+     "why": "The arms makers are “profiting massively”, while “accelerating the demise of the very empire” they serve."
+    },
+    {
+     "axis": "gains",
+     "author": "Martenson",
+     "score": 3,
+     "why": "Asks whether the shortage itself is the aim: “I’m starting to wonder if that hasn’t been the point all along.”"
+    },
+    {
+     "axis": "gains",
+     "author": "Hudson",
+     "score": 4,
+     "why": "“Donald Trump’s war is to make money for himself, and he makes money by essentially manipulating the stock market prices.”"
+    },
+    {
+     "axis": "gains",
+     "author": "Crooke",
+     "score": 2,
+     "why": "Framed as a contest between states: “The U.S. has lost the war.”"
+    },
+    {
+     "axis": "gains",
+     "author": "Wilkerson",
+     "score": 4,
+     "why": "Of the arms makers: “They know they’re going to make money out their yin yang.” He still frames the war as a US defeat."
+    },
+    {
+     "axis": "gains",
+     "author": "Diesen",
+     "score": 1,
+     "why": "Framed as a contest between states: “Iran has triumphantly defeated the US”."
+    },
+    {
+     "axis": "gains",
+     "author": "Webb",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "gains",
+     "author": "Wolff",
+     "score": 5,
+     "why": "“Wars accelerate contracts to replace used-up arms and thereby profit military-industrial complexes.”"
+    },
+    {
+     "axis": "trump",
+     "author": "Werner",
+     "score": 2,
+     "why": "Welcomed the challenge to the Fed (August 2025): “President Trump has challenged the powerful Federal Reserve head-on.”"
+    },
+    {
+     "axis": "trump",
+     "author": "Krainer",
+     "score": 1,
+     "why": "“Real, not controlled, opposition” (October 2025)."
+    },
+    {
+     "axis": "trump",
+     "author": "Berletic",
+     "score": 5,
+     "why": "“Continuity of agenda”, whoever is president."
+    },
+    {
+     "axis": "trump",
+     "author": "Dixon",
+     "score": 2,
+     "why": "Expected peace seven weeks before the war: “I think Iran has already been regime changed.”"
+    },
+    {
+     "axis": "trump",
+     "author": "Fitts",
+     "score": 4,
+     "why": "Tracks his administration as the builder of the control grid (April 2025): “A complete reengineering of the U.S. government through the digital systems is now possible at high speed.”"
+    },
+    {
+     "axis": "trump",
+     "author": "Norton",
+     "score": 5,
+     "why": "Trump “claims to be a so-called “peace president”, but he has bombed more countries than any other US leader.”"
+    },
+    {
+     "axis": "trump",
+     "author": "Henningsen",
+     "score": 4,
+     "why": "2016: “the outsider eventually becomes the insider”."
+    },
+    {
+     "axis": "trump",
+     "author": "Martenson",
+     "score": 2,
+     "why": "Trump “seemed to be on track”, and “then something shifted”."
+    },
+    {
+     "axis": "trump",
+     "author": "Hudson",
+     "score": 5,
+     "why": "“A uniparty with two personalities”; he dates the plan to 2018. No pre-war text read."
+    },
+    {
+     "axis": "trump",
+     "author": "Crooke",
+     "score": 3,
+     "why": "In 2025 a possible disruptor (“Trump as Myth”), then “wholly co-opted” on Russia."
+    },
+    {
+     "axis": "trump",
+     "author": "Wilkerson",
+     "score": 2,
+     "why": "Nov 2024, on Trump’s “disdain for war. I think it’s genuine”, but Israel was the danger."
+    },
+    {
+     "axis": "trump",
+     "author": "Diesen",
+     "score": 4,
+     "why": "Sceptical in March 2025; by July 2025 Trump is “very much aligned with the hawks”."
+    },
+    {
+     "axis": "trump",
+     "author": "Webb",
+     "score": 5,
+     "why": "July 2024: “the Trump administration was responsible for implementing the BlackRock-designed “Going Direct Reset.”” and would push stablecoins next."
+    },
+    {
+     "axis": "trump",
+     "author": "Wolff",
+     "score": 4,
+     "why": "Jan 2025: “whatever he in fact does is marginal”; his “capacity for saying one thing and doing another is already legendary”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Werner",
+     "score": 4,
+     "why": "June 2026: “The true aim is to make war on China.” Later: an attempt to keep the petrodollar alive."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Krainer",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "iranchina",
+     "author": "Berletic",
+     "score": 5,
+     "why": "Iran, Russia and Venezuela are steps toward China; cutting Asia’s energy gives “the US strategic leverage over Asia to create a similar united front against China”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Dixon",
+     "score": 1,
+     "why": "Not a war on China; before it began he said “Iran has already been regime changed and the IRGC are completely on board”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Fitts",
+     "score": 4,
+     "why": "“Iran right now is the big leakage in the system”; its oil “feeding China gives China greater independence”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Norton",
+     "score": 5,
+     "why": "“The ultimate goal of isolating Beijing.”"
+    },
+    {
+     "axis": "iranchina",
+     "author": "Henningsen",
+     "score": 1,
+     "why": "“A war for Israel”; China will “sit back and watch”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Martenson",
+     "score": 3,
+     "why": "China is “the country that we’re going to hit the most”, but he suspects the shortage itself may be the point."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Hudson",
+     "score": 4,
+     "why": "An oil war for choke-point control; China is “the number one enemy”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Crooke",
+     "score": 4,
+     "why": "“All about a bigger U.S. play”: control chokepoints to deny China energy, alongside Israeli hegemony."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Wilkerson",
+     "score": 3,
+     "why": "Mainly for Israel and from hatred, but the railway matters: “We’re bombing the hell out of that railroad that China had finished all the way to the Persian Gulf”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Diesen",
+     "score": 4,
+     "why": "US wars on Russia, Iran and China aim “to knock out or roll back the key adversaries on the Eurasian continent”."
+    },
+    {
+     "axis": "iranchina",
+     "author": "Webb",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "iranchina",
+     "author": "Wolff",
+     "score": 3,
+     "why": "A bid to reverse decline and “do another Maduro” in Iran; reports elites saying the real enemy at Hormuz is “a Chinese”."
+    },
+    {
+     "axis": "bloc",
+     "author": "Werner",
+     "score": 2,
+     "why": "BRICS settlement systems are “not linked to the dollar”, “not swift”; Deng’s China is his model."
+    },
+    {
+     "axis": "bloc",
+     "author": "Krainer",
+     "score": 1,
+     "why": "“Multipolar integrations: the other system.”"
+    },
+    {
+     "axis": "bloc",
+     "author": "Berletic",
+     "score": 1,
+     "why": "The multipolar world is the remedy; the US wages a “war on multipolarism”."
+    },
+    {
+     "axis": "bloc",
+     "author": "Dixon",
+     "score": 4,
+     "why": "“BlackRock wants to split the world up into a multipolar world order. That’s the next empire.” Sovereign states can still use their own resources."
+    },
+    {
+     "axis": "bloc",
+     "author": "Fitts",
+     "score": 4,
+     "why": "Not a clean alternative: “China was developed by Europe and US capital”, with obligations she cannot see."
+    },
+    {
+     "axis": "bloc",
+     "author": "Norton",
+     "score": 1,
+     "why": "“China wants a multipolar order based on peace, sovereign equality, and win-win cooperation.”"
+    },
+    {
+     "axis": "bloc",
+     "author": "Henningsen",
+     "score": 1,
+     "why": "2022: the blocs are diverging, “while Klaus and the West head towards their technocratic digital ‘utopia’”."
+    },
+    {
+     "axis": "bloc",
+     "author": "Martenson",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "bloc",
+     "author": "Hudson",
+     "score": 2,
+     "why": "“Forget the BRICS”, but China, Russia and Iran form a real core. Warns China has caught “the American-British disease” in property."
+    },
+    {
+     "axis": "bloc",
+     "author": "Crooke",
+     "score": 1,
+     "why": "Civilisational states against a Western bid for primacy: “this moral, civilisational way-of-being versus the radical Trumpian-U.S. materialist void”."
+    },
+    {
+     "axis": "bloc",
+     "author": "Wilkerson",
+     "score": 2,
+     "why": "“China is winning” and does not want an American-style empire."
+    },
+    {
+     "axis": "bloc",
+     "author": "Diesen",
+     "score": 1,
+     "why": "A real alternative to hegemony: “Diplomacy between sovereign equals is replaced with the ‘civilizational teachers’ rewarding or punishing the ‘civilizational students’.”"
+    },
+    {
+     "axis": "bloc",
+     "author": "Webb",
+     "score": 5,
+     "why": "One system: Pisar’s “transideological corporation”, with Western firms “merging and/ or forging significant agreements or joint ventures” with Eastern state firms."
+    },
+    {
+     "axis": "bloc",
+     "author": "Wolff",
+     "score": 2,
+     "why": "A real alternative: the BRICS’ “aggregate GDP surpassed that of the G7” in 2020, though the road could lead “toward a new Chinese global empire”."
+    },
+    {
+     "axis": "centre",
+     "author": "Werner",
+     "score": 4,
+     "why": "“Power-hungry central planners who want to control us vs. the People”, at the central banks and around them."
+    },
+    {
+     "axis": "centre",
+     "author": "Krainer",
+     "score": 5,
+     "why": "“The City of London with its satellites on Wall Street, in Paris, Frankfurt, Basel, Tokyo.”"
+    },
+    {
+     "axis": "centre",
+     "author": "Berletic",
+     "score": 1,
+     "why": "“Wall Street and Washington”: US interests using the US state."
+    },
+    {
+     "axis": "centre",
+     "author": "Dixon",
+     "score": 5,
+     "why": "Asset managers and sovereign wealth funds: “we are in the asset stripping phase and the money’s moving east.”"
+    },
+    {
+     "axis": "centre",
+     "author": "Fitts",
+     "score": 5,
+     "why": "Investment networks around the central banks: “They’re sort of above countries.”"
+    },
+    {
+     "axis": "centre",
+     "author": "Norton",
+     "score": 1,
+     "why": "US oligarchs and corporations, through the US state: policy “is made by and for these powerful corporations”."
+    },
+    {
+     "axis": "centre",
+     "author": "Henningsen",
+     "score": 3,
+     "why": "The City of London as much as Washington: “Most of the money in this city is concentrated into old money and foreign money… You could call that the colonial dividend.”"
+    },
+    {
+     "axis": "centre",
+     "author": "Martenson",
+     "score": 2,
+     "why": "A class “above” the president: “power brokers in DC” and Wall Street."
+    },
+    {
+     "axis": "centre",
+     "author": "Hudson",
+     "score": 2,
+     "why": "That class now works through Washington’s leverage: “the American strategy can only succeed as long as the United States can impose choke points on the entire world”."
+    },
+    {
+     "axis": "centre",
+     "author": "Crooke",
+     "score": 3,
+     "why": "A US “Dark State” whose ambitions are “one world governance”, with finance as its enforcer."
+    },
+    {
+     "axis": "centre",
+     "author": "Wilkerson",
+     "score": 1,
+     "why": "The US “national security state”, arms makers and donors."
+    },
+    {
+     "axis": "centre",
+     "author": "Diesen",
+     "score": 1,
+     "why": "The hegemon: “The West subsequently pursued a world order defined as liberal hegemony, in which the West would dominate the world rather than manage great-power balancing”."
+    },
+    {
+     "axis": "centre",
+     "author": "Webb",
+     "score": 5,
+     "why": "“A world system of financial control in private hands”, run through public-private partnerships."
+    },
+    {
+     "axis": "centre",
+     "author": "Wolff",
+     "score": 2,
+     "why": "The US employer class acting through the US state: “Both parties use the money from their major donors”."
+    },
+    {
+     "axis": "vote",
+     "author": "Werner",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "vote",
+     "author": "Krainer",
+     "score": 5,
+     "why": "“We can vote for politicians, but the bankers hold all the power and we’ve no way to overturn their policies at the ballot box.”"
+    },
+    {
+     "axis": "vote",
+     "author": "Berletic",
+     "score": 5,
+     "why": "Party contests are “political theater used to perpetuate this continuity of agenda”."
+    },
+    {
+     "axis": "vote",
+     "author": "Dixon",
+     "score": 5,
+     "why": "“You cannot fix this system through the ballot box because the politicians are owned by the lobbies.”"
+    },
+    {
+     "axis": "vote",
+     "author": "Fitts",
+     "score": 3,
+     "why": "Built a tool to let voters see federal money by district and “hold your congressman accountable”; her remedy now is local."
+    },
+    {
+     "axis": "vote",
+     "author": "Norton",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "vote",
+     "author": "Henningsen",
+     "score": 4,
+     "why": "Big parties absorb protest movements into “the current two-party paradigm”; “the outsider eventually becomes the insider”."
+    },
+    {
+     "axis": "vote",
+     "author": "Martenson",
+     "score": 2,
+     "why": "Agrees (“Exactly”) with Ratigan’s call for a political organisation “outside the two political parties”."
+    },
+    {
+     "axis": "vote",
+     "author": "Hudson",
+     "score": 5,
+     "why": "“It doesn’t matter what the voters want because their choice is between two parties that have exactly the same position.”"
+    },
+    {
+     "axis": "vote",
+     "author": "Crooke",
+     "score": 4,
+     "why": "Policy “transcends party lines and is implemented regardless of which administration occupies the White House”."
+    },
+    {
+     "axis": "vote",
+     "author": "Wilkerson",
+     "score": 2,
+     "why": "Law can still work: “We already have 26 states. We only need three-quarters of the states, two-thirds of the Congress.”"
+    },
+    {
+     "axis": "vote",
+     "author": "Diesen",
+     "score": 4,
+     "why": "“One can change the people in power, there’s often less and less ability to actually change the policies.”"
+    },
+    {
+     "axis": "vote",
+     "author": "Webb",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "vote",
+     "author": "Wolff",
+     "score": 3,
+     "why": "Elections matter when movements drive them: Mamdani’s win is “an index of change”; the Democratic centre blocks it."
+    },
+    {
+     "axis": "actors",
+     "author": "Werner",
+     "score": 4,
+     "why": "An institutional class: “power-hungry central planners who want to control us vs. the People”."
+    },
+    {
+     "axis": "actors",
+     "author": "Krainer",
+     "score": 5,
+     "why": "Finance, not countries: “all wars are bankers’ wars”."
+    },
+    {
+     "axis": "actors",
+     "author": "Berletic",
+     "score": 3,
+     "why": "Both: “Wall Street and Washington’s pursuit of a unipolar world order”."
+    },
+    {
+     "axis": "actors",
+     "author": "Dixon",
+     "score": 5,
+     "why": "“America is not a country; it is a series of companies and a financial industrial complex.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Fitts",
+     "score": 5,
+     "why": "Networks: “They’re sort of above countries.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Norton",
+     "score": 4,
+     "why": "A class acting through the state: “US government policy is made by and for these powerful corporations.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Henningsen",
+     "score": 3,
+     "why": "Both: “The US empire is the dog”, with old money, insurers and the lobby inside it."
+    },
+    {
+     "axis": "actors",
+     "author": "Martenson",
+     "score": 4,
+     "why": "“There’s a class of people above him, who have more power than the government because they are completely untouchable.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Hudson",
+     "score": 4,
+     "why": "A creditor class running states: “a state that is governed above all by its fiscal policy that is dominated by the banking class itself”."
+    },
+    {
+     "axis": "actors",
+     "author": "Crooke",
+     "score": 2,
+     "why": "Mostly civilisational states: “this moral, civilisational way-of-being versus the radical Trumpian-U.S. materialist void”, though with donors behind Trump."
+    },
+    {
+     "axis": "actors",
+     "author": "Wilkerson",
+     "score": 2,
+     "why": "Mostly states and their officials: “Mark my words, we’re leaving. We are either going to go back to offshore balancing”."
+    },
+    {
+     "axis": "actors",
+     "author": "Diesen",
+     "score": 1,
+     "why": "States: “A declining hegemon will predictably seek to weaken rising powers.”"
+    },
+    {
+     "axis": "actors",
+     "author": "Webb",
+     "score": 5,
+     "why": "“A world system of financial control in private hands”, quoting Quigley."
+    },
+    {
+     "axis": "actors",
+     "author": "Wolff",
+     "score": 5,
+     "why": "Blocs: government “becomes the arena very vulgar of clumps subgroups of capitalists”."
+    }
+   ],
+   "advice": [
+    {
+     "advice": "Read critically: ask who pays the speaker, and read the documents themselves",
+     "author": "Henningsen",
+     "quote": "Of Mike Pompeo: “he’s paid to have his views… who’s paying his grocery bill.”"
+    },
+    {
+     "advice": "Read critically: ask who pays the speaker, and read the documents themselves",
+     "author": "Berletic",
+     "quote": "Until “journalists, analysts, and the general public can strip away the political theater”, the agenda continues."
+    },
+    {
+     "advice": "Hold assets outside the banks: gold, silver, commodities, Bitcoin or crypto",
+     "author": "Dixon",
+     "quote": "“If you want to boycott the Federal Reserve, then you have to own money outside the system. Gold or Bitcoin are two ways of doing that.”"
+    },
+    {
+     "advice": "Hold assets outside the banks: gold, silver, commodities, Bitcoin or crypto",
+     "author": "Martenson",
+     "quote": "“Individual resilience. Um buy gold, have some chickens, you know, stuff like that.”"
+    },
+    {
+     "advice": "Hold assets outside the banks: gold, silver, commodities, Bitcoin or crypto",
+     "author": "Krainer",
+     "quote": "2023: “acquire some farmland (if possible), some gold and silver bullion” and commodity futures; crypto “holds potential to advance our emancipation from the current money prison”. By 2026 he calls gold, crypto and the like “merely temporary refuges”."
+    },
+    {
+     "advice": "Organise or act politically",
+     "author": "Wilkerson",
+     "quote": "Backs a constitutional amendment to undo Citizens United: “We already have 26 states.”"
+    },
+    {
+     "advice": "Organise or act politically",
+     "author": "Krainer",
+     "quote": "“We can’t vote our way out of this matrix… This will have to be fought, sooner or later.”"
+    },
+    {
+     "advice": "Organise or act politically",
+     "author": "Martenson",
+     "quote": "Agrees (“Exactly”) with Dylan Ratigan that change needs a political organisation “outside the two political parties”."
+    },
+    {
+     "advice": "Organise or act politically",
+     "author": "Wolff",
+     "quote": "To an organising meeting, January 2025: “Build on what you got … Work with us, with everybody else.” His longer-run aim: worker cooperatives."
+    },
+    {
+     "advice": "Boycott: stop buying from, and banking with, the centralisers",
+     "author": "Dixon",
+     "quote": "“The best you can do is boycott”; “Boycott more this month than last month.”"
+    },
+    {
+     "advice": "Boycott: stop buying from, and banking with, the centralisers",
+     "author": "Fitts",
+     "quote": "“You can use cash. Okay. And you can stop shopping. You can stop using the banks.”"
+    },
+    {
+     "advice": "Boycott: stop buying from, and banking with, the centralisers",
+     "author": "Krainer",
+     "quote": "“Getting our money out of the banking system is a way of reducing that vulnerability. But money eventually runs out. Preferably, it should be put to a productive purpose.”"
+    },
+    {
+     "advice": "Go local: spend and invest in your own community",
+     "author": "Dixon",
+     "quote": "“You have to spend local”; “am I investing in a global machine or am I investing in my local football club, my local community?”"
+    },
+    {
+     "advice": "Go local: spend and invest in your own community",
+     "author": "Fitts",
+     "quote": "“If we want clean water, fresh food, sustainable infrastructure, and healthy communities, we are going to have to finance and govern these resources ourselves.”"
+    },
+    {
+     "advice": "Use cash",
+     "author": "Fitts",
+     "quote": "“You can use cash.” She pays her staff’s bonuses in cash, “which I always do”."
+    },
+    {
+     "advice": "Build buffers: stock up on food, fuel and essentials",
+     "author": "Martenson",
+     "quote": "July 2026: “stock up now – time is running out”. To Werner: “having some buffers in your life is can make sense”."
+    },
+    {
+     "advice": "Bitcoin in self-custody, and run a node",
+     "author": "Dixon",
+     "quote": "“Bitcoin and self custody and running nodes I still think is one of the most important thing that any youth could do.”"
+    },
+    {
+     "advice": "Put money into farms and food: farmland, farm shares, food you raise",
+     "author": "Krainer",
+     "quote": "July 2026: “people investing in diversified farming operations in exchange for a share of the farm’s produce”, which “can bypass the banking system completely”. In 2023: “acquire some farmland (if possible)”."
+    },
+    {
+     "advice": "Put money into farms and food: farmland, farm shares, food you raise",
+     "author": "Fitts",
+     "quote": "She went to Montana “to develop a venture capital model to support a healthier, fresher local food supply”."
+    },
+    {
+     "advice": "Put money into farms and food: farmland, farm shares, food you raise",
+     "author": "Martenson",
+     "quote": "“Buy gold, have some chickens, you know, stuff like that.”"
+    }
+   ]
+  },
+  "hidden-axes": {
+   "authors": [
+    {
+     "name": "Greer",
+     "first": "Steven",
+     "code": "Gr"
+    },
+    {
+     "name": "Dolan",
+     "first": "Richard",
+     "code": "Dl"
+    },
+    {
+     "name": "Doty",
+     "first": "Richard",
+     "code": "Dy"
+    },
+    {
+     "name": "Lear",
+     "first": "John",
+     "code": "Le"
+    }
+   ],
+   "axes": [
+    {
+     "id": "presence",
+     "title": "Is a non-human presence real?",
+     "low": "Not shown",
+     "high": "Certain"
+    },
+    {
+     "id": "hostile",
+     "title": "Are the visitors hostile?",
+     "low": "Not hostile",
+     "high": "Hostile"
+    },
+    {
+     "id": "control",
+     "title": "Who controls the secret?",
+     "low": "Government agencies",
+     "high": "A private, transnational group"
+    },
+    {
+     "id": "protects",
+     "title": "What does the secrecy protect?",
+     "low": "Military secrets",
+     "high": "Economic and political power"
+    },
+    {
+     "id": "energy",
+     "title": "Is energy technology being withheld?",
+     "low": "Not claimed",
+     "high": "The central fact"
+    },
+    {
+     "id": "disclosure",
+     "title": "How will disclosure come?",
+     "low": "Openly, in stages",
+     "high": "Staged and managed by the secret-keepers"
+    },
+    {
+     "id": "evidence",
+     "title": "What does the case rest on?",
+     "low": "Documents",
+     "high": "Testimony"
+    }
+   ],
+   "scores": [
+    {
+     "axis": "presence",
+     "author": "Greer",
+     "score": 5,
+     "why": "Settled: “UFOs are real; they are of extraterrestrial origin; they have been around for decades (if not centuries)”."
+    },
+    {
+     "axis": "presence",
+     "author": "Dolan",
+     "score": 4,
+     "why": "“The document record proves the cover up of extraordinary UAP activity. Proves it.” The presence itself “looks like” the conclusion: “it looks like a long-standing cover up that has concealed evidence of a nonhuman alien presence”."
+    },
+    {
+     "axis": "presence",
+     "author": "Doty",
+     "score": 5,
+     "why": "Bennewitz’s signals “had to come from an ET source”."
+    },
+    {
+     "axis": "presence",
+     "author": "Lear",
+     "score": 5,
+     "why": "Ten to fifteen recovered craft and “between 30 and 50 alien bodies in cryogenic storage”."
+    },
+    {
+     "axis": "hostile",
+     "author": "Greer",
+     "score": 1,
+     "why": "“There is no evidence that they are hostile”; the threat story is the planned false disclosure."
+    },
+    {
+     "axis": "hostile",
+     "author": "Dolan",
+     "score": 3,
+     "why": "Does not decide: “I can’t say I know the full answer to the question of: what do they want?”"
+    },
+    {
+     "axis": "hostile",
+     "author": "Doty",
+     "score": 4,
+     "why": "“A phenomena out there that I think can be dangerous to the United States.”"
+    },
+    {
+     "axis": "hostile",
+     "author": "Lear",
+     "score": 5,
+     "why": "“At least 90% of them are hostile”; “our government sold us to the aliens”."
+    },
+    {
+     "axis": "control",
+     "author": "Greer",
+     "score": 5,
+     "why": "“A quasi-governmental, USAPS related, quasi-private entity operating internationally/transnationally”; policy rests “predominantly … in the private, civilian sector”."
+    },
+    {
+     "axis": "control",
+     "author": "Dolan",
+     "score": 3,
+     "why": "Programs “beyond lawful oversight”; “Private contractors would have to be examined.”"
+    },
+    {
+     "axis": "control",
+     "author": "Doty",
+     "score": 1,
+     "why": "Describes agencies: “It went to headquarters, it went to our headquarters. And from that point on, I would guess DIA has a repository someplace”."
+    },
+    {
+     "axis": "control",
+     "author": "Lear",
+     "score": 2,
+     "why": "MJ-12: “As each member passed away, the group itself appointed a new member to fill the position.”"
+    },
+    {
+     "axis": "protects",
+     "author": "Greer",
+     "score": 5,
+     "why": "The energy order: the technology would replace “the entire geo-political and economic order”."
+    },
+    {
+     "axis": "protects",
+     "author": "Dolan",
+     "score": 4,
+     "why": "Control of energy and wealth: a system based on “physical control” of oil is “vulnerable to emerging technologies”."
+    },
+    {
+     "axis": "protects",
+     "author": "Doty",
+     "score": 1,
+     "why": "Classified aircraft: “what you’re seeing is UFOs. It’s not US crafts.”"
+    },
+    {
+     "axis": "protects",
+     "author": "Lear",
+     "score": 2,
+     "why": "First fear of panic, then a failed deal: “In its effort to protect democracy, our government sold us to the aliens.”"
+    },
+    {
+     "axis": "energy",
+     "author": "Greer",
+     "score": 5,
+     "why": "The core of the secret: zero-point power for “every home, business, factory and vehicle”."
+    },
+    {
+     "axis": "energy",
+     "author": "Dolan",
+     "score": 3,
+     "why": "In passing: the way out includes “energy harvesting devices free energy and the like”."
+    },
+    {
+     "axis": "energy",
+     "author": "Doty",
+     "score": null,
+     "why": ""
+    },
+    {
+     "axis": "energy",
+     "author": "Lear",
+     "score": 2,
+     "why": "The traded technology “could only be operated by the EBE’s themselves”."
+    },
+    {
+     "axis": "disclosure",
+     "author": "Greer",
+     "score": 5,
+     "why": "As a staged threat: “a planned, contrived disclosure run by the keepers of the secrets”."
+    },
+    {
+     "axis": "disclosure",
+     "author": "Dolan",
+     "score": 4,
+     "why": "As “disclosure management”: “a managed fragment of the truth uh just ain’t going to cut it”."
+    },
+    {
+     "axis": "disclosure",
+     "author": "Doty",
+     "score": 1,
+     "why": "“I think disclosure’s going to happen, piecemeal”; “very impressed” by the trend."
+    },
+    {
+     "axis": "disclosure",
+     "author": "Lear",
+     "score": 3,
+     "why": "A metered release planned in 1968, thrown into “utter confusion and panic”."
+    },
+    {
+     "axis": "evidence",
+     "author": "Greer",
+     "score": 5,
+     "why": "Witnesses he does not name: “Safety and prudence requires that I leave their names out”."
+    },
+    {
+     "axis": "evidence",
+     "author": "Dolan",
+     "score": 2,
+     "why": "Documents for the cover-up (“all of those official documents… that is take to the bank”); witness accounts such as Stringfield’s “45 firsthand sources” only for crash retrievals."
+    },
+    {
+     "axis": "evidence",
+     "author": "Doty",
+     "score": 4,
+     "why": "His own testimony, most of it, he says, redacted: “343 pages of it was totally redacted.”"
+    },
+    {
+     "axis": "evidence",
+     "author": "Lear",
+     "score": 5,
+     "why": "Friends and Moore, whom he suspected himself: “Moore himself is a government agent working for MJ-12”."
+    }
+   ],
+   "advice": [
+    {
+     "advice": "Press your elected officials for disclosure",
+     "author": "Greer",
+     "quote": "1996: “Write the President and ask that he issue an executive order permitting these witnesses to safely come forward … write your Senator and Congressman.”"
+    },
+    {
+     "advice": "If you know something, come forward",
+     "author": "Greer",
+     "quote": "“Contact me immediately if you or someone you know may be a current or former government, military or corporate witness.” Inventors with a working device: “please contact us”."
+    },
+    {
+     "advice": "Don’t accept the fear",
+     "author": "Greer",
+     "quote": "On a threat-framed disclosure: “Do not be deceived.”"
+    },
+    {
+     "advice": "Don’t accept the fear",
+     "author": "Dolan",
+     "quote": "“Don’t buy into the fear.”"
+    },
+    {
+     "advice": "Educate yourself and be an activist",
+     "author": "Dolan",
+     "quote": "“Educate ourselves be unafraid to be an activist … find out what you’re willing to go to jail for.”"
+    },
+    {
+     "advice": "Report what you see",
+     "author": "Doty",
+     "quote": "“It starts with the UFO reporting center. You call in and report UFOs.”"
+    }
+   ]
+  }
+ },
+ "forecasts": [
+  {
+   "author": "Wilkerson",
+   "made": "2024-11",
+   "claim": "A war with Iran that the US cannot walk away from, because of Netanyahu",
+   "quote": "I'm worried that we might be walking into a war that we cannot walk away from because of Netanyahu.",
+   "resolves": "2026-02-28",
+   "status": "hit",
+   "basis": "The US-Israeli attack began 28 Feb 2026 and was still going in September (Wilkerson, Crooke, Hudson)."
+  },
+  {
+   "author": "Diesen",
+   "made": "2025-03",
+   "claim": "A war on Iran would be a disaster and Iran would hit back hard",
+   "quote": "Iran would hit back in a massive way",
+   "resolves": "2026-03",
+   "status": "hit",
+   "basis": "Iran struck Gulf bases and closed Hormuz (Wolff, Hudson, Martenson)."
+  },
+  {
+   "author": "Webb",
+   "made": "2024-07",
+   "claim": "Trump would use dollar stablecoins to entrench dollar dominance",
+   "quote": "programmable, surveillable stablecoins to expand and entrench dollar dominance",
+   "resolves": "2026",
+   "status": "hit",
+   "basis": "Werner and Hudson describe the stablecoin push as having happened."
+  },
+  {
+   "author": "Dixon",
+   "made": "2026-01",
+   "claim": "Peace in the Middle East was coming; Iran 'already regime changed'",
+   "quote": "already been regime changed",
+   "resolves": "2026-02-28",
+   "status": "miss",
+   "basis": "The war began seven weeks later."
+  },
+  {
+   "author": "Crooke",
+   "made": "2026-03",
+   "claim": "A long war rather than a quick one",
+   "quote": "A long war is more likely than a quick war.",
+   "resolves": "2026-09",
+   "status": "hit",
+   "basis": "The war was still on in September 2026 (Crooke, Wilkerson, Wolff)."
+  },
+  {
+   "author": "Martenson",
+   "made": "2026-02-27",
+   "claim": "War alert the day before the attack",
+   "quote": "war alert",
+   "resolves": "2026-02-28",
+   "status": "hit",
+   "basis": "The attack came the next day."
+  },
+  {
+   "author": "Dolan",
+   "made": "2026-02-28",
+   "claim": "The war will not unfold the way its architects expect",
+   "quote": "I doubt it will unfold the way its architects expect.",
+   "resolves": "2026-09",
+   "status": "hit",
+   "basis": "By April he and others describe a failed campaign."
+  },
+  {
+   "author": "Martenson",
+   "made": "2026-07",
+   "claim": "Critical fuel shortages within two to three months if prices stay low",
+   "quote": "",
+   "resolves": "2026-10",
+   "status": "open",
+   "basis": "Wolff (Oct 2026) describes a diesel shortage squeezing farmers; check against Martenson's own later account."
+  },
+  {
+   "author": "Martenson",
+   "made": "2026-09",
+   "claim": "Oil pushed down before the midterms; bond market 'ugly' in six to twelve months",
+   "quote": "ugly",
+   "resolves": "2027-09",
+   "status": "open",
+   "basis": "Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban that would have lowered prices."
+  },
+  {
+   "author": "Hudson",
+   "made": "2026",
+   "claim": "A world depression no later than autumn 2026",
+   "quote": "no later than this autumn",
+   "resolves": "2026-12",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "Hudson",
+   "made": "2026",
+   "claim": "Trump holds fuel prices down until the November vote and declares an emergency after it",
+   "quote": "",
+   "resolves": "2026-11",
+   "status": "open",
+   "basis": "Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban that would have lowered prices."
+  },
+  {
+   "author": "Henningsen",
+   "made": "2026-08",
+   "claim": "Trump will not concede on Iran before his term ends",
+   "quote": "",
+   "resolves": "2029-01",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "Henningsen",
+   "made": "2026-09",
+   "claim": "Impeachment hearings likely if the House changes hands; no lasting Ukraine settlement",
+   "quote": "",
+   "resolves": "2027",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "Wilkerson",
+   "made": "2026-05",
+   "claim": "'60/40 we don't have elections'",
+   "quote": "60/40 we don't have elections",
+   "resolves": "2026-11-03",
+   "status": "open",
+   "basis": "Resolves with the midterms."
+  },
+  {
+   "author": "Wilkerson",
+   "made": "2026-09",
+   "claim": "A 50-50 chance that Saudi Arabia disappears as a state",
+   "quote": "50-50 chance",
+   "resolves": "",
+   "status": "open",
+   "basis": "No date given."
+  },
+  {
+   "author": "Crooke",
+   "made": "2026-07",
+   "claim": "The US will ultimately have to capitulate",
+   "quote": "The U.S. ultimately will have to capitulate",
+   "resolves": "",
+   "status": "open",
+   "basis": "No date given."
+  },
+  {
+   "author": "Wolff",
+   "made": "2026-03",
+   "claim": "Trump's only options: interfere in the election or lose",
+   "quote": "interfere in the election or lose",
+   "resolves": "2026-11-03",
+   "status": "open",
+   "basis": "Resolves with the midterms."
+  },
+  {
+   "author": "Wolff",
+   "made": "2026-10",
+   "claim": "Trump will 'lose farm votes big time'",
+   "quote": "lose farm votes big time",
+   "resolves": "2026-11-03",
+   "status": "open",
+   "basis": "Resolves with the midterms."
+  },
+  {
+   "author": "Wolff",
+   "made": "2025-01",
+   "claim": "Trump's ceasefire pressure ends Netanyahu's career",
+   "quote": "Bye-bye, Mr. Netanyahu",
+   "resolves": "2026",
+   "status": "miss",
+   "basis": "Thirteen months later they went to war together."
+  },
+  {
+   "author": "Greer",
+   "made": "1995-08",
+   "claim": "A public extraterrestrial event within 2-10 years",
+   "quote": "within the next 2-10 years or sooner",
+   "resolves": "2005",
+   "status": "miss",
+   "basis": "Dolan (Sept 2026): no acknowledgment yet."
+  },
+  {
+   "author": "Greer",
+   "made": "2023-07",
+   "claim": "A staged alien attack 'imminently'",
+   "quote": "preparing to execute this plan imminently",
+   "resolves": "2024",
+   "status": "miss",
+   "basis": "Not reported by any author here."
+  },
+  {
+   "author": "Greer",
+   "made": "2025",
+   "claim": "Disclosure 'in the next year or two'",
+   "quote": "disclosure is going to happen in the next year or two",
+   "resolves": "2027",
+   "status": "open",
+   "basis": "Dolan (Sept 2026) describes managed preparations, no acknowledgment."
+  },
+  {
+   "author": "Doty",
+   "made": "2019",
+   "claim": "Disclosure will come 'piecemeal'",
+   "quote": "disclosure's going to happen, piecemeal",
+   "resolves": "",
+   "status": "partly",
+   "basis": "Dolan (2026) describes document tranches and a reporting system, no acknowledgment."
+  },
+  {
+   "author": "Q8 hypothesis (managed demolition)",
+   "made": "2026-10",
+   "claim": "US share of Europe's and Asia's gas imports rises and stays high, with long-term contracts",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for the energy-dominance hypothesis in synthesis.md."
+  },
+  {
+   "author": "Q8 hypothesis (managed demolition)",
+   "made": "2026-10",
+   "claim": "Financing or ground broken on a Mediterranean pipeline, the Ben-Gurion Canal, or Gaza Marine",
+   "quote": "",
+   "resolves": "2028",
+   "status": "open",
+   "basis": "As of Oct 2026: canal proposed, nothing built; Gaza Marine stalled."
+  },
+  {
+   "author": "Q8 hypothesis (managed demolition)",
+   "made": "2026-10",
+   "claim": "Gulf supply stays impaired while US, Canadian and Venezuelan supply fills the gap",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "Q8 hypothesis (managed demolition)",
+   "made": "2026-10",
+   "claim": "US bases in the Gulf reduced while Arctic deployments grow",
+   "quote": "",
+   "resolves": "2028",
+   "status": "open",
+   "basis": "Wilkerson (2026): \"we're leaving\"."
+  },
+  {
+   "author": "Q8 hypothesis (managed demolition)",
+   "made": "2026-10",
+   "claim": "No durable settlement reopens Hormuz (a quick reopening weakens the hypothesis)",
+   "quote": "",
+   "resolves": "2027-06",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "H9 (mobile finance, anchored arms)",
+   "made": "2026-10",
+   "claim": "Large asset managers shift headquarters, staff or new funds to Asia",
+   "quote": "",
+   "resolves": "2028",
+   "status": "open",
+   "basis": "Indicator for H9 in synthesis.md."
+  },
+  {
+   "author": "H9 (mobile finance, anchored arms)",
+   "made": "2026-10",
+   "claim": "US procurement keeps favouring carriers and jets over cheap drones and missiles",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for H9 in synthesis.md."
+  },
+  {
+   "author": "H9 (mobile finance, anchored arms)",
+   "made": "2026-10",
+   "claim": "Finance aligns with a new military guarantor rather than the US",
+   "quote": "",
+   "resolves": "2029",
+   "status": "open",
+   "basis": "Indicator for H9 in synthesis.md."
+  },
+  {
+   "author": "H10 (land against sea)",
+   "made": "2026-10",
+   "claim": "Freight on China-Europe and China-Iran rail corridors grows despite strikes",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for H10 in synthesis.md."
+  },
+  {
+   "author": "H10 (land against sea)",
+   "made": "2026-10",
+   "claim": "Further strikes or sanctions aimed at rail and pipeline corridors",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for H10 in synthesis.md."
+  },
+  {
+   "author": "H10 (land against sea)",
+   "made": "2026-10",
+   "claim": "Western funds or insurers take large stakes in the land corridors (supports the objection)",
+   "quote": "",
+   "resolves": "2028",
+   "status": "open",
+   "basis": "Indicator for H10 in synthesis.md."
+  },
+  {
+   "author": "H10 (land against sea)",
+   "made": "2026-10",
+   "claim": "Arctic route traffic grows under Russian and Chinese control",
+   "quote": "",
+   "resolves": "2028",
+   "status": "open",
+   "basis": "Indicator for H10 in synthesis.md."
+  },
+  {
+   "author": "H9 (mobile finance, anchored arms)",
+   "made": "2026-10",
+   "claim": "Official holders outside the West (China, India, Brazil) cut US Treasuries and buy gold",
+   "quote": "",
+   "resolves": "2026-10",
+   "status": "hit",
+   "basis": "Public data: year to June 2026, Treasury holdings China -13.4%, India -18.0%, Brazil -21.8% (US Treasury TIC); PBOC gold purchases 22 months running, about 80 t in Jan-Aug 2026; gold passed Treasuries as the largest official reserve asset at end-2025 (about 27%)."
+  },
+  {
+   "author": "H9 (mobile finance, anchored arms)",
+   "made": "2026-10",
+   "claim": "Total foreign holdings of US Treasuries fall",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Not so far: a record $9.29 trillion in June 2026, up 2.3% on the year, as private foreign buyers and the UK (+9.8%) more than offset the official sellers (US Treasury TIC)."
+  },
+  {
+   "author": "H9 (mobile finance, anchored arms)",
+   "made": "2026-10",
+   "claim": "Asian financial centres gain listings and assets relative to New York and London",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "H11 (the plan meets reality)",
+   "made": "2026-10",
+   "claim": "Iran keeps launching at scale late in the war, showing its stocks and underground production survived",
+   "quote": "",
+   "resolves": "2027-06",
+   "status": "open",
+   "basis": ""
+  },
+  {
+   "author": "H11 (the plan meets reality)",
+   "made": "2026-10",
+   "claim": "US output of interceptors and strike missiles (THAAD, SM-6, Tomahawk) stays below wartime use through 2027",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "So far yes: CSIS estimates at least three years to rebuild Patriot, THAAD and Tomahawk stocks; Patriot output is about 600 a year against roughly 1,500 used (2026)."
+  },
+  {
+   "author": "H11 (the plan meets reality)",
+   "made": "2026-10",
+   "claim": "After setbacks, Washington escalates (blockades, new sanctions, new fronts) rather than settles",
+   "quote": "",
+   "resolves": "2027-06",
+   "status": "open",
+   "basis": ""
+  }
+ ],
+ "manual_checks": [
+  {
+   "quote": "monopoly capital financializes, de-industrializes, deskills",
+   "author": "Noh",
+   "source": "kjnoh.txt",
+   "note": "Transcript reads \"monopoly uh capital financializes, de-industrializes, deskkills\"."
+  },
+  {
+   "quote": "not linked to the dollar",
+   "author": "Werner",
+   "source": "werner2.txt",
+   "note": "Auto-transcript reads \"not linked to the doll, not swift\"."
+  },
+  {
+   "quote": "the most highly classified subject in the United States Government, rating higher even than the H-bomb",
+   "author": "Greer",
+   "source": "Greer/sgp_Secret-and-Covert-Operations.p.txt",
+   "note": "The PDF text has broken spacing (\"S TATES G OVERNMENT\"); quoted from the 1950 Wilbur Smith memo as reproduced by Greer."
+  },
+  {
+   "quote": "lose farm votes big time",
+   "author": "Wolff",
+   "source": "wolff.txt",
+   "note": "Transcript reads \"lose farm farm votes big time\"."
+  }
+ ],
+ "cases": [
+  {
+   "id": "diesel-2026",
+   "title": "Blocs collide: big oil against big agriculture over diesel",
+   "date": "October 2026",
+   "source": "Wolff, interview with Glenn Diesen (wolff.txt)",
+   "happened": [
+    {
+     "text": "Diesel prices were squeezing farmers, so farm-state senators and large agricultural firms asked Trump to ban diesel exports.",
+     "author": "Wolff",
+     "quote": "literally extinguishing the margin"
+    },
+    {
+     "text": "The refiners objected.",
+     "author": "Wolff",
+     "quote": "We have been your loyal supporters. We don't want this."
+    },
+    {
+     "text": "Trump floated the ban and repeated it, caught between two groups of backers.",
+     "author": "Wolff",
+     "quote": "One group of his supporters want it, another group of his supporters don't want it."
+    },
+    {
+     "text": "The refiners threatened to cut output; the ban was dropped. The farmers got a release of European reserves worth about a day's demand.",
+     "author": "Wolff",
+     "quote": "we will cut back on refining and it'll go right back up"
+    }
+   ],
+   "bears_on": [
+    {
+     "axis": "coord",
+     "reading": "At this level policy was bargained between competing blocs, with the president as broker, not handed down by one plan. It fits more easily with the scores near the bottom of the scale (Wolff, Dixon, Wilkerson, Diesen) and with the nexus model in synthesis.md, and is harder to square with “one deliberate plan” (Krainer, Webb). It does not rule out a plan above this level.",
+     "fits": [
+      "Wolff",
+      "Dixon",
+      "Wilkerson",
+      "Diesen"
+     ],
+     "strains": [
+      "Krainer",
+      "Webb"
+     ]
+    }
+   ],
+   "forecasts": [
+    "Hudson: Trump holds fuel prices down until the November vote",
+    "Martenson: oil pushed down before the midterms"
+   ],
+   "forecast_note": "A refiners' veto on cheaper diesel cuts against both; neither is marked failed until the vote on 3 November.",
+   "limits": "One case, told by one author whose own verdict is “That seems to have worked”. It does not test the harder collision the nexus model names: the Israel lobby against finance or energy. The reading of what it fits is mine."
+  }
+ ],
+ "hypotheses": [
+  {
+   "id": "H1",
+   "title": "A nexus of interests",
+   "answers": "Question 4: is anyone hidden at the top?",
+   "proposed_by": "Dixon, Henningsen, Hudson and Wolff, each in part; combined into one model by the person who assembled these sources",
+   "claim": "The US state is shared by interest blocs (finance, arms, energy, technology, the Israel lobby, media and think tanks). A policy happens when enough blocs want it and none strong enough objects; finance owns and funds the others.",
+   "support": [
+    "Dixon",
+    "Henningsen",
+    "Hudson",
+    "Wolff"
+   ],
+   "against": [
+    "Krainer",
+    "Webb",
+    "Crooke",
+    "Norton"
+   ],
+   "evidence": "Dixon's shared ownership, Henningsen's blocs, Hudson's choke points, Wolff's \"clumps\" of capitalists bargaining over the state.",
+   "objection": "Krainer and Webb see one directing group; Norton sees one class; Crooke sees a project behind the blocs.",
+   "tests": [
+    "Policy stalls or reverses where blocs collide",
+    "The Israel lobby against finance or energy"
+   ],
+   "status": "One case fits: the diesel collision (October 2026), where the oil bloc beat agriculture. The harder test has not occurred."
+  },
+  {
+   "id": "H2",
+   "title": "Energy dominance by managed demolition",
+   "answers": "Question 8: whose war is the Iran war?",
+   "proposed_by": "Berletic, most of it; Hudson, Wilkerson and Werner add pieces; combined by the person who assembled these sources",
+   "claim": "The Iran war aims to close the Gulf with deniability, making Europe and Asia dependent on US energy, as Ukraine and Nord Stream did for Europe; Israel's Mediterranean routes and gas fit the same aim.",
+   "support": [
+    "Berletic",
+    "Hudson",
+    "Wilkerson"
+   ],
+   "against": [
+    "Henningsen",
+    "Wolff",
+    "Crooke",
+    "Diesen"
+   ],
+   "evidence": "Berletic's \"decades-spanning US project\"; Hudson's choke points and Arctic logic; Wilkerson's base withdrawal; the canal proposal, Gaza Marine and the 2023 gas licences. The deniability is on paper: the 2009 Brookings chapter \"Leave it to Bibi\". Werner: \"the US military leadership essentially ordered many US bases in the region to be evacuated.\"",
+   "objection": "It can explain any outcome. Its costs fall on the population and on the dollar's Treasury market, as the Gulf states buy less US debt; but if finance is global and moving east, as Dixon argues, it may lose nothing while the country is stripped.",
+   "tests": [
+    "US share of Europe's and Asia's gas imports",
+    "Mediterranean pipeline, canal or Gaza Marine",
+    "Gulf supply impaired while American supply fills the gap",
+    "Gulf bases cut, Arctic deployments grown",
+    "No durable deal reopens Hormuz"
+   ],
+   "status": "Five tests open, resolving 2027 to 2028."
+  },
+  {
+   "id": "H3",
+   "title": "A hidden directing hand",
+   "answers": "Question 4",
+   "proposed_by": "Krainer; Webb",
+   "claim": "A small group, centred on finance, directs events over decades, mostly out of view.",
+   "support": [
+    "Krainer",
+    "Webb",
+    "Fitts"
+   ],
+   "against": [
+    "Dixon",
+    "Wilkerson",
+    "Norton",
+    "Diesen"
+   ],
+   "evidence": "Webb's documented networks of the same financiers and intelligence figures; Krainer's history of the City of London.",
+   "objection": "The insiders here (Fitts, Hudson, Dixon, Wilkerson, Tyson) each describe one part from inside; none describes a central body. Webb's links show proximity better than intent.",
+   "tests": [
+    "A document or insider describing a directing body, not only overlapping networks"
+   ],
+   "status": "Not supported by the insider testimony in this set; not ruled out."
+  },
+  {
+   "id": "H4",
+   "title": "A ruling class acting in the open",
+   "answers": "Question 4",
+   "proposed_by": "Norton; Wolff",
+   "claim": "An employer and creditor class rules through donors and the state, mostly openly; plans are written down.",
+   "support": [
+    "Norton",
+    "Wolff",
+    "Hudson"
+   ],
+   "against": [
+    "Krainer",
+    "Webb"
+   ],
+   "evidence": "Norton: US policy is \"made by and for these powerful corporations\". Wolff: the same donors fund both parties. Hudson: officials state their aims openly.",
+   "objection": "It says little about the secret side: Fitts's covert economy and the off-books budget.",
+   "tests": [
+    "Whether stated plans and donor interests predict policy better than hidden ones"
+   ],
+   "status": "Consistent with the diesel case and with the forecast record below."
+  },
+  {
+   "id": "H5",
+   "title": "The logic of a declining hegemon",
+   "answers": "Question 10: plan, interests or ideology?",
+   "proposed_by": "Diesen; Wolff in part",
+   "claim": "No hidden ruler is needed: a hegemon losing its rival behaves predictably, over-extending and turning on its allies.",
+   "support": [
+    "Diesen",
+    "Wolff",
+    "Crooke"
+   ],
+   "against": [
+    "Krainer",
+    "Berletic"
+   ],
+   "evidence": "Diesen's forecast that a war on Iran would be a disaster held; Wolff's account of tariffs and tribute as desperate acts.",
+   "objection": "It treats states as the actors and wars as won or lost by countries. On the bloc reading no country acts: policies that look \"irrational\" for a state are rational for whoever profits, and the arms and finance complexes gain whether a war is won or lost. It also says little about money.",
+   "tests": [
+    "Whether US behaviour keeps matching what decline predicts, for example turning on more allies"
+   ],
+   "status": "Its forecasts on the war held."
+  },
+  {
+   "id": "H6",
+   "title": "A written plan, followed through",
+   "answers": "Questions 8 and 10",
+   "proposed_by": "Berletic",
+   "claim": "US policy follows plans laid out in policy papers, whichever party is in power; apparent defeats advance the plan.",
+   "support": [
+    "Berletic",
+    "Norton",
+    "Hudson"
+   ],
+   "against": [
+    "Henningsen",
+    "Wilkerson"
+   ],
+   "evidence": "The best forecast record on Trump and the Iran war; the plans are on paper.",
+   "objection": "Henningsen cannot see what US interest the Iran war serves; Wilkerson thinks a plan can live in the planners without the president.",
+   "tests": [
+    "Whether the next moves match the published papers"
+   ],
+   "status": "Best forecast record in the set so far."
+  },
+  {
+   "id": "H7",
+   "title": "A war for Israel",
+   "answers": "Question 8",
+   "proposed_by": "Henningsen; Crooke in part",
+   "claim": "The Iran war serves Israel, not the US; the Israel lobby steers US policy in West Asia.",
+   "support": [
+    "Henningsen",
+    "Crooke"
+   ],
+   "against": [
+    "Berletic",
+    "Dixon",
+    "Hudson",
+    "Norton"
+   ],
+   "evidence": "No US interest that Henningsen can find; Crooke's \"primordially\" for Israeli hegemony; pro-Israel donors.",
+   "objection": "Chomsky's 2006 test: where the lobby and US interests diverged, Israel backed down. And the appearance may be designed: the 2009 Brookings paper's chapter \"Leave it to Bibi\" proposed letting Israel strike so that criticism and retaliation would be \"deflected away from the United States and onto Israel\". It warned that this would be hard to sell, since Iranians would see the strike as \"American supported or even American orchestrated\", flown in US-funded aircraft.",
+   "tests": [
+    "A case where Israel's aims and the energy or finance bloc's aims diverge"
+   ],
+   "status": "Contested. If the Brookings logic is being followed, a war that looks like Israel's is what the planners intended, so the appearance cannot count as evidence for H7; and it cannot be separated from H2 while the interests run together."
+  },
+  {
+   "id": "H8",
+   "title": "A hidden layer: secret programs and withheld energy",
+   "answers": "Open question 12",
+   "proposed_by": "Greer; Dolan; Fitts in part (see hidden-layer.md)",
+   "claim": "An off-books economy funds secret programs that hold technology, energy above all, that would end the oil order.",
+   "support": [
+    "Fitts"
+   ],
+   "against": [],
+   "evidence": "Fitts's covert economy and $21 trillion in undocumented adjustments; Greer's and Dolan's material in hidden-layer.md.",
+   "objection": "The money side is documented; the technology side rests on witnesses who are not named.",
+   "tests": [
+    "Greer's disclosure forecast (2027)",
+    "A working device in public"
+   ],
+   "status": "Money side supported; technology side open."
+  },
+  {
+   "id": "H9",
+   "title": "Mobile finance, anchored arms",
+   "answers": "Where does power sit?",
+   "proposed_by": "Dixon (finance moving east), with Crooke and Wilkerson on the arms complex; combined by the person who assembled these sources",
+   "claim": "The blocs differ in how easily they move. The arms complex is tied to US territory, entrenched in costly, outdated weapons, and has been shown up by cheap drones and missiles. Finance needs no physical location and is moving east. As military power stops being concentrated in the US, the US matters less to the bloc that owns the others.",
+   "support": [
+    "Dixon",
+    "Wolff",
+    "Fitts",
+    "Crooke",
+    "Wilkerson",
+    "Webb"
+   ],
+   "against": [
+    "Hudson",
+    "Berletic"
+   ],
+   "evidence": "Crooke: \"small, fleeter Iranian naval assets ran rings around the large lumbering naval vessels of the U.S. Navy\". Wilkerson: \"our maritime assets are getting increasingly dated\". Dixon: \"the money's moving east\". Wolff: the US as \"a place where you can safely keep your money is finished\". Fitts: \"They're sort of above countries.\"",
+   "objection": "Finance needs a guard for its contracts and choke points. Crooke: \"dollar hegemony largely is a function of preserving the myth of U.S. exceptional military invulnerability\"; Hudson: the strategy works only \"as long as the United States can impose choke points\". If the arms complex fails, finance must find a new protector, and where it goes is the test.",
+   "tests": [
+    "Official holders outside the West cut Treasuries and buy gold (met)",
+    "Total foreign holdings of US Treasuries fall (not so far: a record in June 2026)",
+    "Asian financial centres gain listings and assets",
+    "Large asset managers shift headquarters, staff or new funds to Asia",
+    "US procurement keeps favouring carriers and jets over cheap drones and missiles",
+    "Finance aligns with a new military guarantor rather than the US"
+   ],
+   "status": "Mixed. Official holders outside the West are leaving Treasuries for gold (public data, 2026), but total foreign holdings hit a record in June 2026 as private buyers and the UK bought more. Other tests open."
+  },
+  {
+   "id": "H10",
+   "title": "Land against sea: the new Great Game",
+   "answers": "Questions 6 and 8: the multipolar bloc, and whose war",
+   "proposed_by": "Werner, Wilkerson, Diesen and Berletic; restated by the person who assembled these sources",
+   "claim": "The European and US empires were sea-based, so controlling sea lanes was everything. A Eurasia joined by land corridors (railways, pipelines, the Belt and Road) as well as sea lanes would escape that control. Stopping such corridors has been a constant aim, from the world wars, fought partly to stop Germany building eastward toward Middle East oil, to the bombing of China's new railway through Iran in 2026.",
+   "support": [
+    "Werner",
+    "Wilkerson",
+    "Diesen",
+    "Henningsen",
+    "Berletic",
+    "Hudson"
+   ],
+   "against": [
+    "Dixon",
+    "Webb"
+   ],
+   "evidence": "Werner on 1914: \"Germany's economic success & transport corridor plans were seen as lethal challenge to British hegemony requiring total war\", and 2026 as \"a replay\" (the full argument is behind his paywall). Wilkerson: \"We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf\", because \"most of the world's commerce travels over land\". Diesen on Mackinder's fear of Russia's \"intercontinental railways\". Henningsen: \"US maritime power is in many ways backstopped by the city of London\", whose insurers reach sea trade but not land routes. Berletic: US papers plan \"maritime blockades, attacking the Chinese BRI\".",
+   "objection": "Dixon and Webb would say the corridors change the route, not the owner: the same capital buys into the land routes. The reply is physical. Sea trade runs through a few choke points that a navy can hold; a dense rail network across a continent, like China's today, cannot be stopped without bombing the whole continent. Owning capital does not settle who controls the routes, much as Martenson argues that energy, not money, sets the limits.",
+   "tests": [
+    "Freight on China-Europe and China-Iran rail corridors grows despite strikes",
+    "Further strikes or sanctions aimed at rail and pipeline corridors rather than military targets",
+    "Western funds or insurers take large stakes in the land corridors (would support the objection)",
+    "Traffic on the Arctic route grows, with Russian and Chinese control"
+   ],
+   "status": "Proposed October 2026; Werner and Wilkerson tie the 1914 and 2026 cases to corridors; tests open."
+  },
+  {
+   "id": "H11",
+   "title": "The plan meets reality",
+   "answers": "Questions 5 and 6: who gains from the wars, and whether the empire can hold",
+   "proposed_by": "Crooke, Wilkerson, Hudson and Wolff; restated by the person who assembled these sources",
+   "claim": "The Iran war can be part of a deliberate plan for US energy dominance and still fail when the plan meets reality. Nobody expected Iran's weapons to be what they proved to be: a new generation of drones and ballistic and guided missiles, made at home, kept underground, and aimed with Chinese and Russian satellite data. New technology can shift the balance of power, as Jared Diamond's Guns, Germs, and Steel shows over the long run of history. The US has de-industrialised and cannot match its rivals' arms production, so it needs short, decisive wars against weak opponents, and this is not one. Its arms industry was built to make profits, not to beat twenty-first-century adversaries. The old empire is in denial and doubling down while the world economy spirals.",
+   "support": [
+    "Crooke",
+    "Wilkerson",
+    "Hudson",
+    "Wolff"
+   ],
+   "against": [],
+   "evidence": "Public data on munitions: CSIS estimates that Patriot stocks fell by at least 65% and THAAD by at least 38%, and that rebuilding them will take at least three years; THAAD interceptors were shipped from South Korea after Iran destroyed at least ten US radars, four of them THAAD radars; Gulf states ran low on interceptors; with the Bahrain base hit, carriers were resupplied from Diego Garcia; Patriots meant for Ukraine were diverted. From the authors: Crooke, four days in: \"Iran sits in the driving seat\", its fastest missiles \"largely impervious to Israeli air defences\". Wilkerson on the arms makers: they \"know they're going to make money out their yin yang\"; and on the response: \"We don't back away. We don't retrench.\" Hudson: \"Invasions don't work. All you can do is destroy other countries.\" Wolff on denial: \"a refusal to entertain the very idea the empire is over\".",
+   "objection": "Failing for whom? Those the war pays profit whether it is won or lost (the 'profit either way' reading), and the energy-sales part is working: the US share of Europe's LNG keeps rising. The reply: an arms industry built for profit is exactly why the plan cannot win a long war against a capable adversary. The plan can enrich its contractors and still fail as a plan for dominance.",
+   "tests": [
+    "Iran keeps launching at scale late in the war, showing its stocks and underground production survived",
+    "US output of interceptors and strike missiles (THAAD, SM-6, Tomahawk) stays below wartime use through 2027",
+    "After setbacks, Washington escalates (blockades, new sanctions, new fronts) rather than settles",
+    "The US share of the EU's LNG imports keeps rising (this would support 'on track' for the energy part)"
+   ],
+   "status": "Proposed October 2026; in the evidence grid 'on track' has the most facts against it, while 'failing' and 'profit either way' have few and can both be true; tests open."
+  }
+ ],
+ "ach": [
+  {
+   "id": "iran-war",
+   "question": "What is the Iran war for?",
+   "frozen": "2026-10-03",
+   "hypotheses": [
+    {
+     "id": "W1",
+     "label": "Energy dominance by managed demolition",
+     "short": "Energy dominance",
+     "from": "H2: Berletic, Hudson"
+    },
+    {
+     "id": "W2",
+     "label": "A war for Israel",
+     "short": "For Israel",
+     "from": "H7: Henningsen, Crooke"
+    },
+    {
+     "id": "W3",
+     "label": "Against China, through its corridors and energy",
+     "short": "Against China",
+     "from": "H6 and H10: Berletic, Werner, Wilkerson"
+    },
+    {
+     "id": "W4",
+     "label": "No coherent aim: a blunder by a declining power",
+     "short": "Blunder",
+     "from": "Wolff, Crooke, Diesen, Dolan"
+    },
+    {
+     "id": "W5",
+     "label": "Profit for the blocs (arms, energy, finance) and political theatre",
+     "short": "Bloc profit",
+     "from": "Hudson, Wolff"
+    }
+   ],
+   "facts": [
+    {
+     "id": "F1",
+     "text": "Iran's strikes led the US to evacuate many of its Gulf bases.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": true,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "N",
+      "W4": "C",
+      "W5": "N"
+     },
+     "author": "Werner",
+     "quote": "the US military leadership essentially ordered many US bases in the region to be evacuated."
+    },
+    {
+     "id": "F2",
+     "text": "US and Israeli strikes hit China's new railway through Iran.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "I",
+      "W3": "C",
+      "W4": "N",
+      "W5": "I"
+     },
+     "author": "Wilkerson",
+     "quote": "We're bombing the hell out of that railroad that China had finished all the way to the Persian Gulf",
+     "reasons": {
+      "W2": "A war fought only for Israel has no reason to target China's railway.",
+      "W5": "Profit and theatre do not need a strategic target like China's railway; hitting it serves a strategy, not a sale."
+     }
+    },
+    {
+     "id": "F3",
+     "text": "A 2009 Brookings paper proposed letting Israel strike so that blame would fall on Israel.",
+     "kind": "document",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "I",
+      "W3": "N",
+      "W4": "N",
+      "W5": "N"
+     },
+     "author": "Brookings-2009",
+     "quote": "deflected away from the United States and onto Israel",
+     "reasons": {
+      "W2": "US planners themselves designed the appearance of an Israeli war, so the appearance is weak evidence that the war is Israel's."
+     }
+    },
+    {
+     "id": "F4",
+     "text": "Talks keep failing as the US changes its demands.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "N",
+      "W4": "I",
+      "W5": "N"
+     },
+     "author": "Werner",
+     "quote": "constantly changing its views and putting forward new or contradictory demands",
+     "reasons": {
+      "W4": "A power that had gambled and lost would look for a way out, not keep moving the terms."
+     }
+    },
+    {
+     "id": "F5",
+     "text": "During the ceasefire, Trump imposed a US naval blockade on Iranian shipping (13 April 2026).",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "C",
+      "W4": "I",
+      "W5": "N"
+     },
+     "author": "Werner",
+     "quote": "President Trump announced on 13 April that a US-led naval blockade is being imposed",
+     "reasons": {
+      "W4": "A loser seeking an exit would want Hormuz reopened, not add its own blockade."
+     }
+    },
+    {
+     "id": "F6",
+     "text": "The US imposed secondary sanctions on Chinese companies buying Iranian oil (24 April 2026).",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "N",
+      "W3": "C",
+      "W4": "N",
+      "W5": "N"
+     },
+     "author": "Werner",
+     "quote": "the US Treasury announced so-called secondary sanctions on Chinese companies importing Iranian oil"
+    },
+    {
+     "id": "F7",
+     "text": "The US share of the EU's LNG imports rose to 59% in 2026 (55% a year earlier); forecasts reach two-thirds in 2026 and 80% by 2028.",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "N",
+      "W4": "N",
+      "W5": "C"
+     },
+     "source": "IEEFA; S&P Global (2026)"
+    },
+    {
+     "id": "F8",
+     "text": "EU imports of Russian LNG hit a quarterly record in early 2026, up 16% on the year.",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "I",
+      "W2": "N",
+      "W3": "N",
+      "W4": "N",
+      "W5": "N"
+     },
+     "source": "Euronews / IEEFA (May 2026)",
+     "reasons": {
+      "W1": "If the aim were to lock Europe into US gas, Europe buying record Russian LNG cuts against it."
+     }
+    },
+    {
+     "id": "F9",
+     "text": "Before the war, Europe committed to large US energy purchases in Trump's 2025 trade deal.",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "N",
+      "W4": "N",
+      "W5": "C"
+     },
+     "author": "Wolff",
+     "quote": "over $1 trillion in committed purchases of liquified natural gas plus investments"
+    },
+    {
+     "id": "F10",
+     "text": "Refiners blocked a diesel export ban that would have lowered US prices.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "N",
+      "W4": "N",
+      "W5": "C"
+     },
+     "author": "Wolff",
+     "quote": "We have been your loyal supporters. We don't want this."
+    },
+    {
+     "id": "F11",
+     "text": "The Pentagon's cost estimate is about $29 billion, mostly replacing destroyed equipment.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "N",
+      "W3": "N",
+      "W4": "C",
+      "W5": "C"
+     },
+     "author": "Werner",
+     "quote": "most of this seems to consist of “repair or replacement costs for equipment”"
+    },
+    {
+     "id": "F12",
+     "text": "Trump moves markets with alternating peace and war statements.",
+     "kind": "author report",
+     "reliability": "low",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "N",
+      "W3": "N",
+      "W4": "N",
+      "W5": "C"
+     },
+     "author": "Hudson",
+     "quote": "Donald Trump's war is to make money for himself, and he makes money by essentially manipulating the stock market prices."
+    },
+    {
+     "id": "F13",
+     "text": "Israel awarded offshore gas licences to BP, Eni, Socar and others in October 2023; the Ben-Gurion Canal plan was revived in 2026 but nothing is built.",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "C",
+      "W3": "N",
+      "W4": "N",
+      "W5": "N"
+     },
+     "source": "Al-Monitor / Times of Israel (2023); shipping press (2026)"
+    },
+    {
+     "id": "F14",
+     "text": "Pro-Israel donors fund both parties, and neither wants to lose that money.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "C",
+      "W3": "N",
+      "W4": "N",
+      "W5": "N"
+     },
+     "author": "Wolff",
+     "quote": "The Republican leadership doesn't want to lose that money, and the Democratic Party doesn't."
+    },
+    {
+     "id": "F15",
+     "text": "Israel did most of the bombing.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": true,
+     "cells": {
+      "W1": "C",
+      "W2": "C",
+      "W3": "N",
+      "W4": "N",
+      "W5": "N"
+     },
+     "author": "Wilkerson",
+     "quote": "with the Israelis being the lion's share of the bombing"
+    },
+    {
+     "id": "F16",
+     "text": "Central banks outside the West are cutting US Treasuries and buying gold.",
+     "kind": "public",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "N",
+      "W3": "N",
+      "W4": "C",
+      "W5": "N"
+     },
+     "source": "US Treasury TIC; PBOC (2026)"
+    },
+    {
+     "id": "F17",
+     "text": "Iran's strikes hit Gulf energy and desalination plants, cutting supply to Asia and Europe.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "C",
+      "W4": "C",
+      "W5": "C"
+     },
+     "author": "Wolff",
+     "quote": "the desalination plants, the electric plants, the energy facilities"
+    },
+    {
+     "id": "F18",
+     "text": "At the Trump–Xi summit, US corporations pressed to get into China's market.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "W1": "N",
+      "W2": "N",
+      "W3": "I",
+      "W4": "N",
+      "W5": "C"
+     },
+     "author": "Norton",
+     "quote": "these corporations are trying to claw their way into the enormous Chinese market",
+     "reasons": {
+      "W3": "A campaign to contain China sits awkwardly with US firms pushing to expand there at the same moment."
+     }
+    },
+    {
+     "id": "F19",
+     "text": "US interceptors carried most of Israel's defence while the Gulf states ran short.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "C",
+      "W3": "C",
+      "W4": "N",
+      "W5": "N"
+     },
+     "source": "Libertarian Institute, summarising US reporting; CBS News (2026)"
+    },
+    {
+     "id": "F20",
+     "text": "Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller).",
+     "kind": "author report",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "W1": "C",
+      "W2": "N",
+      "W3": "N",
+      "W4": "N",
+      "W5": "C"
+     },
+     "author": "Johnson",
+     "quote": "more than two-thirds in August and September"
+    }
+   ],
+   "weights": {
+    "high": 1.0,
+    "medium": 0.7,
+    "low": 0.4
+   },
+   "note": "The fact list was fixed before scoring and includes facts each side's authors put forward. Authors' interpretations are not facts here; only documents, public data, and what authors report as having happened. Facts marked as possibly staged are ones a capable actor could arrange for appearances. This grid asks only what the war is for. Whether the plan is working is a separate question, weighed in the next grid."
+  },
+  {
+   "id": "iran-war-outcome",
+   "question": "Is the plan working?",
+   "frozen": "2026-10-03",
+   "hypotheses": [
+    {
+     "id": "O1",
+     "label": "On track: the plan is advancing as designed",
+     "short": "On track",
+     "from": "H2 read as succeeding"
+    },
+    {
+     "id": "O2",
+     "label": "Failing on contact: new weapons, a hollowed-out industrial base, a war that will not stay short",
+     "short": "Failing",
+     "from": "H11: Crooke, Wilkerson, Hudson, Wolff"
+    },
+    {
+     "id": "O3",
+     "label": "Profit either way: the outcome does not matter to those the war pays",
+     "short": "Profit either way",
+     "from": "Hudson, Wolff; the 'Who gains from the wars?' axis"
+    }
+   ],
+   "weights": {
+    "high": 1.0,
+    "medium": 0.7,
+    "low": 0.4
+   },
+   "note": "An explanation of what a war is for can be right while the plan fails. This grid assumes a purposeful plan (the first grid's best fits) and asks whether it is working. The munitions and logistics facts are public data, widely reported; the rest are authors' reports.",
+   "facts": [
+    {
+     "id": "G1",
+     "text": "Iran destroyed at least ten US radars in the war's first two weeks, including four AN/TPY-2 radars that guide THAAD batteries.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "C"
+     },
+     "source": "ABC News satellite imagery review (March 2026)",
+     "reasons": {
+      "O1": "Blinding the missile shield at the outset is not a plan going to schedule."
+     }
+    },
+    {
+     "id": "G2",
+     "text": "Iran's fastest missiles got through Israeli air defences.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "C"
+     },
+     "author": "Crooke",
+     "quote": "Iranian high-end missiles flying at speeds above Mach Four are proving largely impervious to Israeli air defences",
+     "reasons": {
+      "O1": "Defences that do not stop the main threat are not part of a plan going well."
+     }
+    },
+    {
+     "id": "G3",
+     "text": "Killing the Supreme Leader rallied support for the Iranian state instead of toppling it.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "author": "Crooke",
+     "quote": "it led instead to massive outpourings of support for the Islamic Republic",
+     "reasons": {
+      "O1": "The decapitation was meant to bring the state down."
+     }
+    },
+    {
+     "id": "G4",
+     "text": "US interceptor stocks fell steeply: Patriot from about 2,330 before the war to 760–830, THAAD from 452 to 234–278 even after some resupply.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "C"
+     },
+     "source": "CSIS estimates, reported by ABC News and Arab News (2026)",
+     "reasons": {
+      "O1": "A plan cannot run on munitions it is using up faster than it makes them."
+     }
+    },
+    {
+     "id": "G5",
+     "text": "Replacing the Patriot, THAAD and Tomahawk stocks will take at least three years; Patriot output is about 600 a year.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "C"
+     },
+     "source": "CSIS; Pentagon production figures (2026)",
+     "reasons": {
+      "O1": "Only a short war fits stocks that take years to rebuild, and this one was not short."
+     }
+    },
+    {
+     "id": "G6",
+     "text": "The arms makers expect large profits from the replacement orders.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "O1": "N",
+      "O2": "N",
+      "O3": "C"
+     },
+     "author": "Wilkerson",
+     "quote": "They know they're going to make money out their yin yang"
+    },
+    {
+     "id": "G7",
+     "text": "The Pentagon's cost estimate is mostly for repairing or replacing equipment.",
+     "kind": "document",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "O1": "N",
+      "O2": "C",
+      "O3": "C"
+     },
+     "author": "Werner",
+     "quote": "most of this seems to consist of “repair or replacement costs for equipment”"
+    },
+    {
+     "id": "G8",
+     "text": "Iran's targeting appears to use Chinese satellite intelligence, with Russian backup.",
+     "kind": "author judgement",
+     "reliability": "low",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "author": "Wilkerson",
+     "quote": "With the help of a very sophisticated Chinese satellite, and probably backups from Russia",
+     "reasons": {
+      "O1": "A plan that isolates Iran would not leave it with real-time intelligence from China and Russia."
+     }
+    },
+    {
+     "id": "G9",
+     "text": "The US share of the EU's LNG imports keeps rising (59% in 2026).",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "C",
+      "O2": "I",
+      "O3": "C"
+     },
+     "source": "IEEFA; S&P Global (2026)",
+     "reasons": {
+      "O2": "The energy-sales part of the plan is succeeding in Europe."
+     }
+    },
+    {
+     "id": "G10",
+     "text": "EU imports of Russian LNG hit a quarterly record in early 2026.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "source": "Euronews / IEEFA (May 2026)",
+     "reasons": {
+      "O1": "Energy dominance means Europe buying less Russian gas, not more."
+     }
+    },
+    {
+     "id": "G11",
+     "text": "During the ceasefire, the US imposed a naval blockade on Iranian shipping instead of settling.",
+     "kind": "document",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "C",
+      "O2": "C",
+      "O3": "N"
+     },
+     "author": "Werner",
+     "quote": "a US-led naval blockade"
+    },
+    {
+     "id": "G12",
+     "text": "The war's diesel prices split Trump's own backers, big oil against big agriculture, and nobody got relief.",
+     "kind": "author report",
+     "reliability": "medium",
+     "staged": false,
+     "cells": {
+      "O1": "N",
+      "O2": "C",
+      "O3": "N"
+     },
+     "author": "Wolff",
+     "quote": "One group of his supporters want it, another group of his supporters don't want it."
+    },
+    {
+     "id": "G13",
+     "text": "Central banks outside the West are cutting US Treasuries and buying gold.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "source": "US Treasury TIC; PBOC (2026)",
+     "reasons": {
+      "O1": "A plan restoring US dominance would strengthen confidence in US assets; official holders outside the West are leaving them."
+     }
+    },
+    {
+     "id": "G14",
+     "text": "THAAD interceptors were shipped from South Korea to the Middle East to make up the losses.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "source": "US Forces Korea commander; Korea Times (March 2026)",
+     "reasons": {
+      "O1": "Stripping another theatre's defences shows the plan did not budget for this war."
+     }
+    },
+    {
+     "id": "G15",
+     "text": "US interceptors carried most of Israel's defence (about 200 THAAD and over 100 SM-3 and SM-6, against Israel's own 100 Arrow and 90 David's Sling), while the Gulf states ran low (the UAE used up to three-quarters of its Patriots) and asked Washington to speed deliveries.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "source": "Libertarian Institute, summarising US reporting; IDSA; CBS News (2026)",
+     "reasons": {
+      "O1": "The shield was stretched so thin that it covered Israel first and left the Gulf oil states short."
+     }
+    },
+    {
+     "id": "G16",
+     "text": "With the US Navy base in Bahrain largely destroyed, the carriers had to be resupplied from Diego Garcia, Singapore or through Suez.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "source": "New York Times report (August 2026)",
+     "reasons": {
+      "O1": "Supply lines thousands of miles long were not the plan for a Gulf war."
+     }
+    },
+    {
+     "id": "G17",
+     "text": "Patriot interceptors meant for Ukraine were diverted; in June Ukraine stopped only 14 of 54 Russian ballistic missiles.",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "source": "Foreign Policy; Al-Monitor (2026)",
+     "reasons": {
+      "O1": "One theatre can only be fed by starving another: the industrial base cannot supply both."
+     }
+    },
+    {
+     "id": "G18",
+     "text": "Hormuz is averaging almost 13 million barrels a day against about 20 million before the war, on the US Energy Secretary's own figures, while the president claims record flows.",
+     "kind": "official figure",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "I",
+      "O2": "C",
+      "O3": "N"
+     },
+     "author": "Johnson",
+     "quote": "The running average today is almost 13 million barrels a day",
+     "reasons": {
+      "O1": "The strait the plan depends on is running at about two-thirds of normal, and the administration has to dress that up as a record."
+     }
+    },
+    {
+     "id": "G19",
+     "text": "Middle East net diesel exports were 390,000 barrels a day in August, just over a quarter of prewar levels (IEA figures, via Karl Miller).",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "C",
+      "O2": "C",
+      "O3": "C"
+     },
+     "author": "Johnson",
+     "quote": "just over a quarter of prewar levels"
+    },
+    {
+     "id": "G20",
+     "text": "Qatar puts repairs to two damaged LNG trains at about three years; Miller estimates up to five years for the worst-damaged Gulf facilities.",
+     "kind": "official estimate",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "C",
+      "O2": "C",
+      "O3": "C"
+     },
+     "author": "Johnson",
+     "quote": "puts repairs to two damaged LNG trains at about three years"
+    },
+    {
+     "id": "G21",
+     "text": "US distillate exports hit a record 1.935 million barrels a day in early August, with refineries at 96.8% of capacity and East Coast stocks at record lows (EIA figures, via Karl Miller).",
+     "kind": "public data",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "C",
+      "O2": "N",
+      "O3": "C"
+     },
+     "author": "Johnson",
+     "quote": "after a record 1.935 million in early August"
+    },
+    {
+     "id": "G22",
+     "text": "Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller).",
+     "kind": "author report",
+     "reliability": "high",
+     "staged": false,
+     "cells": {
+      "O1": "C",
+      "O2": "C",
+      "O3": "N"
+     },
+     "author": "Johnson",
+     "quote": "It is taking orders"
+    }
+   ]
+  }
+ ]
+}
