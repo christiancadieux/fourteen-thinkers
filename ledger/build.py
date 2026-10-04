@@ -1,7 +1,7 @@
 """Build step for the transcripts synthesis.
 
 Reads ledger.json (master data) and sources/ (authors' own texts), then:
-  1. checks every quotation in synthesis.md, hidden-layer.md and the chart reasons
+  1. checks every quotation in synthesis.md and the chart reasons
      against the quoted author's own texts;
   2. checks "N of the fifteen (A, B and C)" counts in synthesis.md;
   3. writes report.md (failed quotes, single-quote scores, forecast scorecard);
@@ -18,8 +18,8 @@ ROOT = os.path.dirname(HERE)
 SRC = os.path.join(HERE, "sources")
 
 def doc(name):
-    """The project documents may sit in transcripts/ or in the repository root above it."""
-    for d in (ROOT, os.path.dirname(ROOT)):
+    """The project documents sit in the repository root or in transcripts/."""
+    for d in (ROOT, os.path.join(ROOT, "transcripts")):
         if os.path.exists(os.path.join(d, name)):
             return os.path.join(d, name)
     return os.path.join(ROOT, name)
@@ -77,7 +77,7 @@ def md_quotes(path):
     section = ""
     lines = open(path, encoding="utf-8").read().split("\n")
     headings = set()
-    for d in ("synthesis.md", "hidden-layer.md"):
+    for d in ("synthesis.md",):
         headings |= {norm(l.strip("# ")) for l in open(doc(d), encoding="utf-8") if l.startswith("#")}
     recent = []  # authors named in recent lines of the same section (context)
     for ln, line in enumerate(lines, 1):
@@ -346,7 +346,7 @@ def main():
 
     # quotes in the two documents
     allq = []
-    for d in ("synthesis.md", "hidden-layer.md"):
+    for d in ("synthesis.md",):
         allq += check_md(doc(d))
     json.dump(allq, open(os.path.join(HERE, "build/quotes.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     by = defaultdict(list)
@@ -397,6 +397,9 @@ def main():
             rep += ["### Checked quotations per author", "", "| Author | In synthesis.md | On the chart page | Total |", "|---|---|---|---|"]
             rep += [f"| {a} | {c['synthesis']} | {c['charts']} | {c['synthesis'] + c['charts']} |" for a, c in sorted(counts.items(), key=lambda kv: -(kv[1]['synthesis'] + kv[1]['charts']))]
             rep.append("")
+        if not os.path.exists(tmpl):
+            rep += [f"Template templates/{name}.src.html not found, so {name}.html was not rebuilt.", ""]
+            continue
         page = render(tmpl, entry, counts, L.get("cases", []) if name == "author-axes" else None)
         open(os.path.join(HERE, "build", name + ".html"), "w", encoding="utf-8").write(page)
         open(doc(name + ".html"), "w", encoding="utf-8").write(standalone(page))
