@@ -1409,15 +1409,6 @@
    "basis": "The attack came the next day."
   },
   {
-   "author": "Dolan",
-   "made": "2026-02-28",
-   "claim": "The war will not unfold the way its architects expect",
-   "quote": "I doubt it will unfold the way its architects expect.",
-   "resolves": "2026-09",
-   "status": "hit",
-   "basis": "By April he and others describe a failed campaign."
-  },
-  {
    "author": "Martenson",
    "made": "2026-07",
    "claim": "Critical fuel shortages within two to three months if prices stay low",
@@ -1524,42 +1515,6 @@
    "resolves": "2026",
    "status": "miss",
    "basis": "Thirteen months later they went to war together."
-  },
-  {
-   "author": "Greer",
-   "made": "1995-08",
-   "claim": "A public extraterrestrial event within 2-10 years",
-   "quote": "within the next 2-10 years or sooner",
-   "resolves": "2005",
-   "status": "miss",
-   "basis": "Dolan (Sept 2026): no acknowledgment yet."
-  },
-  {
-   "author": "Greer",
-   "made": "2023-07",
-   "claim": "A staged alien attack 'imminently'",
-   "quote": "preparing to execute this plan imminently",
-   "resolves": "2024",
-   "status": "miss",
-   "basis": "Not reported by any author here."
-  },
-  {
-   "author": "Greer",
-   "made": "2025",
-   "claim": "Disclosure 'in the next year or two'",
-   "quote": "disclosure is going to happen in the next year or two",
-   "resolves": "2027",
-   "status": "open",
-   "basis": "Dolan (Sept 2026) describes managed preparations, no acknowledgment."
-  },
-  {
-   "author": "Doty",
-   "made": "2019",
-   "claim": "Disclosure will come 'piecemeal'",
-   "quote": "disclosure's going to happen, piecemeal",
-   "resolves": "",
-   "status": "partly",
-   "basis": "Dolan (2026) describes document tranches and a reporting system, no acknowledgment."
   },
   {
    "author": "Q8 hypothesis (managed demolition)",
@@ -1736,12 +1691,6 @@
    "author": "Werner",
    "source": "werner2.txt",
    "note": "Auto-transcript reads \"not linked to the doll, not swift\"."
-  },
-  {
-   "quote": "the most highly classified subject in the United States Government, rating higher even than the H-bomb",
-   "author": "Greer",
-   "source": "Greer/sgp_Secret-and-Covert-Operations.p.txt",
-   "note": "The PDF text has broken spacing (\"S TATES G OVERNMENT\"); quoted from the 1950 Wilbur Smith memo as reproduced by Greer."
   },
   {
    "quote": "lose farm votes big time",
@@ -1971,24 +1920,6 @@
    "status": "Contested. If the Brookings logic is being followed, a war that looks like Israel's is what the planners intended, so the appearance cannot count as evidence for H7; and it cannot be separated from H2 while the interests run together."
   },
   {
-   "id": "H8",
-   "title": "A hidden layer: secret programs and withheld energy",
-   "answers": "Open question 12",
-   "proposed_by": "Greer; Dolan; Fitts in part (see hidden-layer.md)",
-   "claim": "An off-books economy funds secret programs that hold technology, energy above all, that would end the oil order.",
-   "support": [
-    "Fitts"
-   ],
-   "against": [],
-   "evidence": "Fitts's covert economy and $21 trillion in undocumented adjustments; Greer's and Dolan's material in hidden-layer.md.",
-   "objection": "The money side is documented; the technology side rests on witnesses who are not named.",
-   "tests": [
-    "Greer's disclosure forecast (2027)",
-    "A working device in public"
-   ],
-   "status": "Money side supported; technology side open."
-  },
-  {
    "id": "H9",
    "title": "Mobile finance, anchored arms",
    "answers": "Where does power sit?",
@@ -2098,7 +2029,7 @@
      "id": "W4",
      "label": "No coherent aim: a blunder by a declining power",
      "short": "Blunder",
-     "from": "Wolff, Crooke, Diesen, Dolan"
+     "from": "Wolff, Crooke, Diesen"
     },
     {
      "id": "W5",
