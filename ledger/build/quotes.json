@@ -1258,6 +1258,47 @@
  },
  {
   "doc": "synthesis.md",
+  "line": 64,
+  "section": "The mechanism, assembled from all the authors",
+  "quote": "estimated between 75 and 90 trillion dollars",
+  "words": 7,
+  "candidates": [
+   "Krainer"
+  ],
+  "context": [
+   "Fitts",
+   "Dixon",
+   "Hudson",
+   "Werner",
+   "Martenson"
+  ],
+  "status": "verified",
+  "author": "Krainer",
+  "source": "Krainer/krainer.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 64,
+  "section": "The mechanism, assembled from all the authors",
+  "quote": "the whole point of taking political control of Russia is to turn all that natural resource wealth into collateral that western financial institutions can use to issue loans",
+  "words": 28,
+  "candidates": [
+   "Krainer"
+  ],
+  "context": [
+   "Fitts",
+   "Dixon",
+   "Hudson",
+   "Werner",
+   "Martenson"
+  ],
+  "status": "verified",
+  "author": "Krainer",
+  "source": "Krainer/krainer.txt",
+  "note": "Continuous in the transcript apart from a timestamp (20:09) between \"Russia is to\" and \"turn all that\"."
+ },
+ {
+  "doc": "synthesis.md",
   "line": 65,
   "section": "The mechanism, assembled from all the authors",
   "quote": "to pay for its many wars, large and small. This enabled US governments to avoid having to raise taxes to pay for wars.",
@@ -6092,6 +6133,27 @@
  },
  {
   "doc": "synthesis.md",
+  "line": 205,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "never in a million years will Trump go to war against Iran",
+  "words": 12,
+  "candidates": [
+   "Krainer"
+  ],
+  "context": [
+   "Hudson",
+   "Werner",
+   "Webb",
+   "Mearsheimer",
+   "Sachs",
+   "Diesen"
+  ],
+  "status": "verified",
+  "author": "Krainer",
+  "source": "Krainer/document1.clean.txt"
+ },
+ {
+  "doc": "synthesis.md",
   "line": 206,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "The true aim is to make war on China",
@@ -7038,6 +7100,28 @@
   ],
   "context": [],
   "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 332,
+  "section": "Hypotheses",
+  "quote": "who's running the show? ... There's something else going on.",
+  "words": 11,
+  "candidates": [
+   "Krainer",
+   "Webb"
+  ],
+  "context": [
+   "Mearsheimer",
+   "Sachs",
+   "Wolff",
+   "Hudson",
+   "Wilkerson",
+   "Crooke"
+  ],
+  "status": "verified",
+  "author": "Krainer",
+  "source": "Krainer/document1.clean.txt"
  },
  {
   "doc": "synthesis.md",

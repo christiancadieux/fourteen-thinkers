@@ -1923,6 +1923,15 @@
    "basis": "",
    "check": "after-midterms-2026",
    "check_part": "election"
+  },
+  {
+   "author": "Krainer",
+   "made": "2026-02",
+   "claim": "Trump would never go to war against Iran",
+   "quote": "never in a million years will Trump go to war against Iran",
+   "resolves": "2026-02-28",
+   "status": "miss",
+   "basis": "His own later account, interview of 3 October 2026"
   }
  ],
  "manual_checks": [
@@ -1943,6 +1952,12 @@
    "author": "Wolff",
    "source": "wolff.txt",
    "note": "Transcript reads \"lose farm farm votes big time\"."
+  },
+  {
+   "quote": "the whole point of taking political control of Russia is to turn all that natural resource wealth into collateral that western financial institutions can use to issue loans",
+   "author": "Krainer",
+   "source": "Krainer/krainer.txt",
+   "note": "Continuous in the transcript apart from a timestamp (20:09) between \"Russia is to\" and \"turn all that\"."
   }
  ],
  "cases": [
@@ -2070,10 +2085,11 @@
     "Norton",
     "Diesen"
    ],
-   "evidence": "Webb's documented networks of the same financiers and intelligence figures; Krainer's history of the City of London.",
-   "objection": "The insiders here (Fitts, Hudson, Dixon, Wilkerson, Tyson) each describe one part from inside; none describes a central body. Webb's links show proximity better than intent.",
+   "evidence": "Webb's documented networks of the same financiers and intelligence figures; Krainer's history of the City of London. Krainer's test case, October 2026: Trump publicly asked Zelensky on 13 and 20 September 2026 to stop striking Russian refineries, and the strikes went on. Krainer: \"who's running the show? ... There's something else going on.\"",
+   "objection": "The insiders here (Fitts, Hudson, Dixon, Wilkerson, Tyson) each describe one part from inside; none describes a central body. Webb's links show proximity better than intent. The Zelensky episode has other readings: deniability, with a public request while the strikes continue with tacit approval, or Ukraine and Britain acting on their own interests.",
    "tests": [
-    "A document or insider describing a directing body, not only overlapping networks"
+    "A document or insider describing a directing body, not only overlapping networks",
+    "A dependent ally defies a public order from its patron at no cost (supports); the defiance is later shown to have been privately approved (supports deniability instead)"
    ],
    "status": "Not supported by the insider testimony in this set; not ruled out."
   },
