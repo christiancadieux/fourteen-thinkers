@@ -51,5 +51,5 @@ This needs only Python 3. Fix anything listed in `ledger/report.md` before publi
 ## Limits
 
 - The authors were chosen for a shared outlook, so part of their agreement is built in.
-- They share hosts, platforms and sometimes sources, so their agreement is not fully independent.
+- Some of them share sources; where two authors rely on the same document or witness, their agreement counts once, not twice.
 - Every score and every mark in the evidence grids is a judgement. Each one shows its quote or reason so it can be challenged.
