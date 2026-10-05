@@ -7945,6 +7945,88 @@
  },
  {
   "doc": "synthesis.md",
+  "line": 404,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "deflected away from the United States and onto Israel",
+  "words": 9,
+  "candidates": [
+   "Brookings-2009",
+   "Berletic"
+  ],
+  "context": [
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson"
+  ],
+  "status": "verified",
+  "author": "Brookings-2009",
+  "source": "Brookings-2009/which_path_to_persia.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 404,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "verbatim",
+  "words": 1,
+  "candidates": [
+   "Brookings-2009",
+   "Berletic"
+  ],
+  "context": [
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 404,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "really, really illegal",
+  "words": 2,
+  "candidates": [
+   "Dixon",
+   "Brookings-2009",
+   "Berletic"
+  ],
+  "context": [
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson"
+  ],
+  "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 404,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "your Israeli proxy",
+  "words": 3,
+  "candidates": [
+   "Dixon",
+   "Brookings-2009",
+   "Berletic"
+  ],
+  "context": [
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson"
+  ],
+  "status": "verified",
+  "author": "Dixon",
+  "source": "Dixon/ALL_d1.clean.txt"
+ },
+ {
+  "doc": "synthesis.md",
   "line": 407,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite.",
@@ -7953,11 +8035,12 @@
    "Wolff"
   ],
   "context": [
+   "Dixon",
    "Brookings-2009",
+   "Berletic",
    "Sachs",
    "Johnson",
-   "Norton",
-   "Wilkerson"
+   "Norton"
   ],
   "status": "verified",
   "author": "Wolff",
