@@ -2336,14 +2336,13 @@
       "W1": "C",
       "W2": "I",
       "W3": "N",
-      "W4": "I",
+      "W4": "N",
       "W5": "N"
      },
      "author": "Brookings-2009",
      "quote": "deflected away from the United States and onto Israel",
      "reasons": {
-      "W2": "US planners had their own case for war with Iran and planned for Israel to take the blame; that cuts against a war fought only for Israel's sake.",
-      "W4": "A war against Iran was worked out on paper years in advance, down to who would take the blame; that is not a war without a coherent aim."
+      "W2": "US analysts saw their own reasons for war with Iran and considered letting Israel take the blame; that cuts against a war fought only for Israel's sake."
      }
     },
     {
@@ -2618,7 +2617,7 @@
     },
     {
      "id": "F21",
-     "text": "Federal lobbying in 2024: the defense industry spent about $149 million and the oil and gas industry about $137 million (2023), against about $3.3 million for AIPAC, roughly forty times less.",
+     "text": "Federal lobbying: the defense industry spent about $149 million in the 2024 cycle by OpenSecrets' count, and the oil and gas industry about $137 million in 2023, against about $3.3 million for AIPAC in 2024, tens of times less.",
      "kind": "public data",
      "reliability": "high",
      "staged": false,

@@ -7608,12 +7608,12 @@
    "Werner"
   ],
   "context": [
-   "Sachs",
-   "Diesen",
-   "Crooke",
-   "Wolff",
    "Mearsheimer",
-   "Henningsen"
+   "Sachs",
+   "Crooke",
+   "Henningsen",
+   "Hudson",
+   "Berletic"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7630,11 +7630,11 @@
   ],
   "context": [
    "Werner",
+   "Mearsheimer",
    "Sachs",
-   "Diesen",
    "Crooke",
-   "Wolff",
-   "Mearsheimer"
+   "Henningsen",
+   "Hudson"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -7652,10 +7652,10 @@
   "context": [
    "Wilkerson",
    "Werner",
+   "Mearsheimer",
    "Sachs",
-   "Diesen",
    "Crooke",
-   "Wolff"
+   "Henningsen"
   ],
   "status": "verified",
   "author": "Brookings-2009",
@@ -7673,8 +7673,8 @@
   "context": [
    "Brookings-2009",
    "Wilkerson",
+   "Mearsheimer",
    "Sachs",
-   "Diesen",
    "Crooke"
   ],
   "status": "verified",
@@ -7693,8 +7693,8 @@
   "context": [
    "Brookings-2009",
    "Wilkerson",
+   "Mearsheimer",
    "Sachs",
-   "Diesen",
    "Crooke"
   ],
   "status": "verified",
@@ -7713,8 +7713,8 @@
   "context": [
    "Brookings-2009",
    "Wilkerson",
+   "Mearsheimer",
    "Sachs",
-   "Diesen",
    "Crooke"
   ],
   "status": "verified",
@@ -7734,8 +7734,8 @@
    "Werner",
    "Brookings-2009",
    "Wilkerson",
+   "Mearsheimer",
    "Sachs",
-   "Diesen",
    "Crooke"
   ],
   "status": "verified",
@@ -7755,8 +7755,8 @@
    "Werner",
    "Brookings-2009",
    "Wilkerson",
-   "Sachs",
-   "Diesen"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7775,8 +7775,8 @@
    "Wolff",
    "Brookings-2009",
    "Wilkerson",
-   "Sachs",
-   "Diesen"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Werner",
@@ -7796,8 +7796,8 @@
    "Wolff",
    "Brookings-2009",
    "Wilkerson",
-   "Sachs",
-   "Diesen"
+   "Mearsheimer",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Hudson",
@@ -7817,7 +7817,7 @@
    "Werner",
    "Brookings-2009",
    "Wilkerson",
-   "Sachs"
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7837,7 +7837,7 @@
    "Hudson",
    "Werner",
    "Brookings-2009",
-   "Sachs"
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Wilkerson",
@@ -7857,7 +7857,7 @@
    "Hudson",
    "Werner",
    "Brookings-2009",
-   "Sachs"
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Wolff",
@@ -7878,7 +7878,7 @@
    "Hudson",
    "Werner",
    "Brookings-2009",
-   "Sachs"
+   "Mearsheimer"
   ],
   "status": "verified",
   "author": "Norton",
@@ -7945,7 +7945,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 404,
+  "line": 403,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "deflected away from the United States and onto Israel",
   "words": 9,
@@ -7966,7 +7966,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 404,
+  "line": 403,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "verbatim",
   "words": 1,
@@ -7985,7 +7985,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 404,
+  "line": 403,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "really, really illegal",
   "words": 2,
@@ -8005,7 +8005,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 404,
+  "line": 403,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "your Israeli proxy",
   "words": 3,
@@ -8027,7 +8027,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 407,
+  "line": 406,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite.",
   "words": 15,
@@ -8048,7 +8048,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 411,
+  "line": 410,
   "section": "Is the plan working?",
   "quote": "Iran sits in the driving seat.",
   "words": 6,
@@ -8065,7 +8065,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 411,
+  "line": 410,
   "section": "Is the plan working?",
   "quote": "Try thinking for THAAD, maybe even longer than that.",
   "words": 9,
@@ -8082,7 +8082,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 411,
+  "line": 410,
   "section": "Is the plan working?",
   "quote": "Invasions don't work. All you can do is destroy other countries.",
   "words": 12,
@@ -8099,7 +8099,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 429,
+  "line": 428,
   "section": "Is the plan working?",
   "quote": "Iranian high-end missiles flying at speeds above Mach Four are proving largely impervious to Israeli air defences",
   "words": 18,
@@ -8118,7 +8118,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 430,
+  "line": 429,
   "section": "Is the plan working?",
   "quote": "it led instead to massive outpourings of support for the Islamic Republic",
   "words": 12,
@@ -8137,7 +8137,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 433,
+  "line": 432,
   "section": "Is the plan working?",
   "quote": "They know they're going to make money out their yin yang",
   "words": 12,
@@ -8156,7 +8156,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 434,
+  "line": 433,
   "section": "Is the plan working?",
   "quote": "most of this seems to consist of “repair or replacement costs for equipment”",
   "words": 13,
@@ -8176,7 +8176,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 435,
+  "line": 434,
   "section": "Is the plan working?",
   "quote": "With the help of a very sophisticated Chinese satellite, and probably backups from Russia",
   "words": 14,
@@ -8196,7 +8196,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 438,
+  "line": 437,
   "section": "Is the plan working?",
   "quote": "a US-led naval blockade",
   "words": 5,
@@ -8216,7 +8216,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 439,
+  "line": 438,
   "section": "Is the plan working?",
   "quote": "One group of his supporters want it, another group of his supporters don't want it.",
   "words": 16,
@@ -8236,7 +8236,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 445,
+  "line": 444,
   "section": "Is the plan working?",
   "quote": "The running average today is almost 13 million barrels a day",
   "words": 11,
@@ -8257,7 +8257,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 446,
+  "line": 445,
   "section": "Is the plan working?",
   "quote": "just over a quarter of prewar levels",
   "words": 7,
@@ -8277,7 +8277,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 447,
+  "line": 446,
   "section": "Is the plan working?",
   "quote": "puts repairs to two damaged LNG trains at about three years",
   "words": 11,
@@ -8297,7 +8297,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 448,
+  "line": 447,
   "section": "Is the plan working?",
   "quote": "after a record 1.935 million in early August",
   "words": 9,
@@ -8317,7 +8317,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 449,
+  "line": 448,
   "section": "Is the plan working?",
   "quote": "It is taking orders",
   "words": 4,
@@ -8337,7 +8337,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 451,
+  "line": 450,
   "section": "Is the plan working?",
   "quote": "against",
   "words": 1,
@@ -8354,7 +8354,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 474,
+  "line": 473,
   "section": "Is the plan working?",
   "quote": "from a Trump perspective, this war in the Middle East is going according plan.",
   "words": 14,
@@ -8374,7 +8374,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 483,
+  "line": 482,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "US empire",
   "words": 2,
@@ -8389,7 +8389,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 487,
+  "line": 486,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "This is systemic. There is no one on top. It's not an organized cabal.",
   "words": 15,
@@ -8407,7 +8407,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 488,
+  "line": 487,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "pop",
   "words": 1,
@@ -8424,7 +8424,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 489,
+  "line": 488,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "part and parcel of the military-industrial complex",
   "words": 8,
@@ -8443,7 +8443,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 492,
+  "line": 491,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "strategic-economic interests of concentrations of domestic power",
   "words": 8,
@@ -8464,7 +8464,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 493,
+  "line": 492,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "would be fine if they took it all",
   "words": 8,
@@ -8487,7 +8487,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 493,
+  "line": 492,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "Prophetically, we're right on cue.",
   "words": 6,
@@ -8510,7 +8510,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 494,
+  "line": 493,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "The consequence was predictable.",
   "words": 4,
@@ -8531,7 +8531,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 495,
+  "line": 494,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "accelerating the demise of the very empire",
   "words": 7,
@@ -8552,7 +8552,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 496,
+  "line": 495,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "clumps",
   "words": 1,
@@ -8571,7 +8571,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 496,
+  "line": 495,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "work out amongst themselves a deal",
   "words": 6,
@@ -8592,7 +8592,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 496,
+  "line": 495,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "don't make a monopoly... Have three or four an oligopoly",
   "words": 11,
@@ -8613,7 +8613,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 496,
+  "line": 495,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "go as a coordinated group to the Congress",
   "words": 8,
@@ -8634,7 +8634,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 496,
+  "line": 495,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "medical industrial complex",
   "words": 3,
@@ -8655,7 +8655,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 496,
+  "line": 495,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "If we were watching this in Russia, there would be all this conversation about oligarchs because that's what we have.",
   "words": 21,
@@ -8676,7 +8676,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 507,
+  "line": 506,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "monolithic and ruthless conspiracy",
   "words": 4,
@@ -8697,7 +8697,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 507,
+  "line": 506,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "the invention of the Brits",
   "words": 5,
@@ -8718,7 +8718,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 509,
+  "line": 508,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "nexus",
   "words": 1,
@@ -8737,7 +8737,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 510,
+  "line": 509,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "no strategic purpose",
   "words": 3,
@@ -8758,7 +8758,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 517,
+  "line": 516,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "literally extinguishing the margin",
   "words": 4,
@@ -8778,7 +8778,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 517,
+  "line": 516,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "We have been your loyal supporters. We don't want this.",
   "words": 11,
@@ -8798,7 +8798,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 518,
+  "line": 517,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "One group of his supporters want it, another group of his supporters don't want it.",
   "words": 16,
@@ -8818,7 +8818,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 518,
+  "line": 517,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "to try to give to whoever comes to him what they want",
   "words": 12,
@@ -8838,7 +8838,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 519,
+  "line": 518,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "we will cut back on refining and it'll go right back up.",
   "words": 13,
@@ -8858,7 +8858,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 519,
+  "line": 518,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "one day's demand",
   "words": 4,
@@ -8878,7 +8878,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 521,
+  "line": 520,
   "section": "H1. A nexus of interests (a candidate answer to question 4)",
   "quote": "That seems to have worked",
   "words": 5,
@@ -8898,7 +8898,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 532,
+  "line": 531,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The war on Iran is part of a decades-spanning US project to assume complete control over the Middle East and the oil and gas that is produced and exported",
   "words": 30,
@@ -8916,7 +8916,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 533,
+  "line": 532,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "may represent a broader strategy aimed at reshaping global energy flows",
   "words": 11,
@@ -8934,7 +8934,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 534,
+  "line": 533,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "placing Europe under increasing and likely irreversible energy dependence on the United States",
   "words": 13,
@@ -8952,7 +8952,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 534,
+  "line": 533,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "This energy dependence on the US obviously benefits US-based energy corporations financially",
   "words": 13,
@@ -8970,7 +8970,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 535,
+  "line": 534,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the destruction of the Nord Stream pipelines and ever-tightening sanctions on Russian energy exports that have made otherwise irrational US LNG imports to Europe essential",
   "words": 26,
@@ -8988,7 +8988,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 536,
+  "line": 535,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Why the War Might Pause but Won't End",
   "words": 9,
@@ -9006,7 +9006,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 537,
+  "line": 536,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "we have Venezuela's oil now. We have Canada's oil. We can block the trade for Russian oil through the Arctic by invading Greenland",
   "words": 25,
@@ -9024,7 +9024,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 537,
+  "line": 536,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "There's no deal that's imminent at all, and there cannot be.",
   "words": 13,
@@ -9042,7 +9042,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 538,
+  "line": 537,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the US military leadership essentially ordered many US bases in the region to be evacuated.",
   "words": 15,
@@ -9060,7 +9060,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 539,
+  "line": 538,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Mark my words, we're leaving.",
   "words": 6,
@@ -9078,7 +9078,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 539,
+  "line": 538,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the oil field and gas field they stole in the Mediterranean from the Gazans",
   "words": 14,
@@ -9096,7 +9096,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 540,
+  "line": 539,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The bases and their host nations have become endangered targets vulnerable to Iranian drones and missiles.",
   "words": 16,
@@ -9115,7 +9115,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 541,
+  "line": 540,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "has nothing to do with US interests. It's a war for Israel.",
   "words": 13,
@@ -9135,7 +9135,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 541,
+  "line": 540,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite.",
   "words": 15,
@@ -9157,7 +9157,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 543,
+  "line": 542,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Which Path to Persia?",
   "words": 4,
@@ -9178,7 +9178,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 543,
+  "line": 542,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Leave it to Bibi: Allowing or Encouraging an Israeli Military Strike",
   "words": 11,
@@ -9200,7 +9200,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 544,
+  "line": 543,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "would encourage—and perhaps even assist—the Israelis in conducting the strikes themselves, in the expectation that both international criticism and Iranian retaliation would be deflected away from the United States and onto Israel",
   "words": 34,
@@ -9220,7 +9220,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 544,
+  "line": 543,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "verbatim",
   "words": 1,
@@ -9238,7 +9238,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 545,
+  "line": 544,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Many Iranians would still see the attack as American supported or even American orchestrated. After all, the aircraft in any strike would be American produced, supplied, and funded F-15s and F-16s, and much of the ordnance would be American made.",
   "words": 42,
@@ -9258,7 +9258,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 545,
+  "line": 544,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "$3 billion dollars in U.S. assistance annually sustains the IDF's conventional superiority in the region.",
   "words": 17,
@@ -9278,7 +9278,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 545,
+  "line": 544,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "a complete cutoff of all military assistance and economic aid",
   "words": 10,
@@ -9298,7 +9298,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 546,
+  "line": 545,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Bibi, just ignore what I'm saying. That's only for public consumption.",
   "words": 13,
@@ -9319,7 +9319,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 564,
+  "line": 563,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The US",
   "words": 2,
@@ -9336,7 +9336,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 565,
+  "line": 564,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "fiscal cliff",
   "words": 2,
@@ -9354,7 +9354,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 566,
+  "line": 565,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "much less of a buyer of American debt",
   "words": 8,
@@ -9374,7 +9374,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 567,
+  "line": 566,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "we are in the asset stripping phase and the money's moving east",
   "words": 13,
@@ -9395,7 +9395,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 568,
+  "line": 567,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "with its satellites",
   "words": 3,
