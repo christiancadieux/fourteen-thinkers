@@ -206,6 +206,48 @@ def quote_counts(entry, quotes):
         out[n] = {"synthesis": syn, "charts": ch}
     return out
 
+def pca_map(entry):
+    """Two principal components of the authors' scores, in plain Python (no numpy).
+    Missing scores are filled with the question's average; each question is standardised."""
+    names = [a["name"] for a in entry["authors"]]
+    axes = [a["id"] for a in entry["axes"]]
+    sc = {(x["author"], x["axis"]): x["score"] for x in entry["scores"] if x["score"] is not None}
+    n, m = len(names), len(axes)
+    cols = []
+    for ax in axes:
+        vals = [sc[(a, ax)] for a in names if (a, ax) in sc]
+        mean = sum(vals) / len(vals)
+        col = [sc.get((a, ax), mean) for a in names]
+        mu = sum(col) / n
+        sd = (sum((v - mu) ** 2 for v in col) / n) ** 0.5 or 1.0
+        cols.append([(v - mu) / sd for v in col])
+    Z = [[cols[j][i] for j in range(m)] for i in range(n)]
+    C = [[sum(Z[k][a] * Z[k][b] for k in range(n)) / n for b in range(m)] for a in range(m)]
+    total = sum(C[a][a] for a in range(m))
+    vecs, vals = [], []
+    for _ in range(2):
+        v = [1.0 / (j + 1) for j in range(m)]
+        for _ in range(500):
+            w = [sum(C[a][b] * v[b] for b in range(m)) for a in range(m)]
+            nrm = sum(x * x for x in w) ** 0.5
+            v = [x / nrm for x in w]
+        lam = sum(v[a] * sum(C[a][b] * v[b] for b in range(m)) for a in range(m))
+        vecs.append(v); vals.append(lam)
+        C = [[C[a][b] - lam * v[a] * v[b] for b in range(m)] for a in range(m)]
+    # orient: x grows toward "power above countries", y toward "China as the model"
+    if vecs[0][axes.index("centre")] < 0: vecs[0] = [-x for x in vecs[0]]
+    if vecs[1][axes.index("china")] < 0: vecs[1] = [-x for x in vecs[1]]
+    pts = []
+    for i, a in enumerate(names):
+        x = sum(Z[i][j] * vecs[0][j] for j in range(m)); y = sum(Z[i][j] * vecs[1][j] for j in range(m))
+        pts.append({"i": i, "name": a, "x": round(x, 3), "y": round(y, 3),
+                    "missing": sum(1 for ax in axes if (a, ax) not in sc)})
+    def top(v):
+        idx = sorted(range(m), key=lambda j: -abs(v[j]))[:5]
+        return [{"axis": axes[j], "w": round(v[j], 2)} for j in idx]
+    return {"points": pts, "var": [round(vals[0] / total, 3), round(vals[1] / total, 3)],
+            "load": [top(vecs[0]), top(vecs[1])]}
+
 def render(template, entry, counts=None, cases=None):
     h = open(template, encoding="utf-8").read()
     names = [a["name"] for a in entry["authors"]]
@@ -234,6 +276,9 @@ def render(template, entry, counts=None, cases=None):
     if cases is not None and "const CASES = " in h:
         i = h.index("const CASES = "); j = h.index(";\n", i) + 2
         h = h[:i] + "const CASES = " + json.dumps(cases, ensure_ascii=False) + ";\n" + h[j:]
+    if "const MAP = " in h:
+        i = h.index("const MAP = "); j = h.index(";\n", i) + 2
+        h = h[:i] + "const MAP = " + json.dumps(pca_map(entry), ensure_ascii=False) + ";\n" + h[j:]
     if counts is not None and "const QUOTECOUNTS = " in h:
         i = h.index("const QUOTECOUNTS = "); j = h.index(";\n", i) + 2
         h = h[:i] + "const QUOTECOUNTS = " + json.dumps(counts, ensure_ascii=False) + ";\n" + h[j:]

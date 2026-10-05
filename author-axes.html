@@ -152,6 +152,9 @@ table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
 .controls label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); min-width: 0; }
 select { font: inherit; font-size: 0.92rem; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; max-width: 100%; }
 .scatter-box { max-width: 540px; }
+.map-box { max-width: 760px; }
+.map-name { fill: var(--fg); font-size: 11px; }
+.map-pole { fill: var(--muted); font-size: 11px; font-style: italic; }
 .grid-line { stroke: var(--line); stroke-width: 1; }
 .readout { font-size: 0.86rem; color: var(--muted); display: flex; flex-direction: column; gap: 3px; }
 ul.plain { margin: 0; padding-left: 1.1em; max-width: 66ch; display: flex; flex-direction: column; gap: 6px; }
@@ -178,8 +181,9 @@ section[id], nav[id] { scroll-margin-top: 12px; }
   <nav class="stack toc" id="contents-top" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
+      <li><a href="#map-sec">One map of all sixteen</a><span>Every author placed on the two axes that separate them most</span></li>
       <li><a href="#quotes">Quotes per author</a><span>How much of each author's own wording backs the page</span></li>
-      <li><a href="#axes">Where each author sits</a><span>The thirteen questions, with every author's score and reason</span></li>
+      <li><a href="#axes-sec">Where each author sits</a><span>The thirteen questions, with every author's score and reason</span></li>
       <li><a href="#margin">Who is on the margin</a><span>Distance from the group, and why</span></li>
       <li><a href="#cases-sec">Cases</a><span>Events that test the positions</span></li>
       <li><a href="#pairs-sec">Who sits with whom</a><span>Which authors are closest and furthest apart</span></li>
@@ -191,6 +195,14 @@ section[id], nav[id] { scroll-margin-top: 12px; }
     </ol>
   </nav>
 
+  <section class="stack" id="map-sec">
+    <h2>One map of all sixteen</h2>
+    <p>Each author's thirteen scores, reduced to the two directions in which the authors differ most (principal component analysis). Authors with similar views sit close together. Each axis is named after the questions that drive it, listed under the map.</p>
+    <div class="map-box" id="map"></div>
+    <div class="readout" id="mapnote"></div>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
+
   <section class="stack" id="quotes">
     <h2>How much of each author is quoted</h2>
     <p>The number of quotations from each author’s own words that back these pages: in the text of <a href="https://github.com/christiancadieux/fourteen-thinkers/blob/main/synthesis.md">synthesis.md</a>, and in the reasons and advice on this page. Every one is checked against the author’s saved texts by the ledger build. More quotes means more of an author’s position rests on their own wording rather than on my summary; it also reflects how much of their material I could read. Terms of one or two words (Fitts’s “pop”, “come clean”, “total malice”) are too short to check and are not counted, which is why her synthesis.md count is low.</p>
@@ -199,7 +211,7 @@ section[id], nav[id] { scroll-margin-top: 12px; }
     <p class="back"><a href="#contents-top">Back to contents</a></p>
   </section>
 
-  <section class="stack" id="axes">
+  <section class="stack" id="axes-sec">
     <h2>Where each author sits</h2>
     <p>The thirteen questions, from most to least divisive. Spread is how far apart the authors are (the standard deviation of their scores); select a question to jump to its chart.</p>
     <div class="scroll"><table class="qtable" id="qtable"></table></div>
@@ -1341,6 +1353,39 @@ function drawAdvice() {
     box.appendChild(sec);
   });
 }
+const MAP = {"points": [{"i": 0, "name": "Werner", "x": 1.859, "y": -0.181, "missing": 1}, {"i": 1, "name": "Krainer", "x": 1.257, "y": 2.71, "missing": 1}, {"i": 2, "name": "Berletic", "x": -1.496, "y": 1.45, "missing": 1}, {"i": 3, "name": "Dixon", "x": 3.752, "y": -0.334, "missing": 0}, {"i": 4, "name": "Fitts", "x": 3.696, "y": -1.332, "missing": 0}, {"i": 5, "name": "Norton", "x": -1.667, "y": 3.237, "missing": 1}, {"i": 6, "name": "Henningsen", "x": -0.305, "y": -0.402, "missing": 0}, {"i": 7, "name": "Martenson", "x": 0.887, "y": -1.886, "missing": 1}, {"i": 8, "name": "Hudson", "x": -0.387, "y": 3.28, "missing": 0}, {"i": 9, "name": "Crooke", "x": -1.373, "y": 0.245, "missing": 0}, {"i": 10, "name": "Wilkerson", "x": -1.196, "y": -1.193, "missing": 1}, {"i": 11, "name": "Diesen", "x": -2.96, "y": -0.66, "missing": 1}, {"i": 12, "name": "Webb", "x": 2.967, "y": -0.558, "missing": 4}, {"i": 13, "name": "Wolff", "x": 0.257, "y": 0.225, "missing": 1}, {"i": 14, "name": "Mearsheimer", "x": -2.322, "y": -2.486, "missing": 3}, {"i": 15, "name": "Sachs", "x": -2.968, "y": -2.115, "missing": 2}], "var": [0.356, 0.237], "load": [[{"axis": "centre", "w": 0.42}, {"axis": "remedy", "w": -0.4}, {"axis": "actors", "w": 0.39}, {"axis": "finance", "w": 0.37}, {"axis": "bloc", "w": 0.37}], [{"axis": "china", "w": 0.43}, {"axis": "israel", "w": -0.43}, {"axis": "vote", "w": 0.35}, {"axis": "digital", "w": -0.35}, {"axis": "gains", "w": 0.28}]]};
+const POLES = { x: ["Power in states", "Power in networks above states"], y: ["The US misled or captured", "The US empire acting for its own class"] };
+function drawMap() {
+  const host = document.getElementById("map"); if (!host || !MAP.points) return;
+  const w = Math.max(320, Math.min(760, host.clientWidth || 760)), h = Math.round(w * 0.72), pad = 46;
+  const xs = MAP.points.map(p => p.x), ys = MAP.points.map(p => p.y);
+  const xr = Math.max(...xs.map(Math.abs)) * 1.15, yr = Math.max(...ys.map(Math.abs)) * 1.2;
+  const X = v => pad + (v + xr) / (2 * xr) * (w - 2 * pad), Y = v => h - pad - (v + yr) / (2 * yr) * (h - 2 * pad);
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + h, height: h, role: "img", "aria-label": "Map of the sixteen authors on two axes" });
+  svg.appendChild(sv("line", { class: "grid-line", x1: X(0), x2: X(0), y1: pad / 2, y2: h - pad / 2 }));
+  svg.appendChild(sv("line", { class: "grid-line", x1: pad / 2, x2: w - pad / 2, y1: Y(0), y2: Y(0) }));
+  svg.appendChild(sv("text", { class: "map-pole", x: pad / 2, y: Y(0) - 8 }, "\u2190 " + POLES.x[0]));
+  svg.appendChild(sv("text", { class: "map-pole", x: w - pad / 2, y: Y(0) - 8, "text-anchor": "end" }, POLES.x[1] + " \u2192"));
+  svg.appendChild(sv("text", { class: "map-pole", x: X(0) + 6, y: pad / 2 + 4 }, "\u2191 " + POLES.y[1]));
+  svg.appendChild(sv("text", { class: "map-pole", x: X(0) + 6, y: h - pad / 2 }, "\u2193 " + POLES.y[0]));
+  MAP.points.forEach(p => {
+    const cx = X(p.x), cy = Y(p.y), left = cx > w * 0.75;
+    const g = sv("g", null);
+    g.appendChild(sv("circle", { class: "c" + p.i, cx: cx, cy: cy, r: 11 }));
+    g.appendChild(sv("text", { class: "dot-text", x: cx, y: cy }, AUTHORS[p.i].code));
+    g.appendChild(sv("text", { class: "map-name", x: left ? cx - 15 : cx + 15, y: cy + 4, "text-anchor": left ? "end" : "start" }, p.name + (p.missing >= 3 ? " *" : "")));
+    g.appendChild(sv("title", null, p.name + ": " + p.x.toFixed(2) + " across, " + p.y.toFixed(2) + " up"));
+    svg.appendChild(g);
+  });
+  host.textContent = ""; host.appendChild(svg);
+  const out = document.getElementById("mapnote"); out.textContent = "";
+  const T = id => AXES.find(a => a.id === id);
+  ["Left to right", "Bottom to top"].forEach((lab, k) => {
+    const parts = MAP.load[k].map(l => { const a = T(l.axis); return a.title + " (toward \u201c" + (l.w > 0 ? a.high : a.low) + "\u201d)"; });
+    out.appendChild(el("div", null, lab + ", " + Math.round(MAP.var[k] * 100) + "% of the differences: " + (k ? POLES.y[0] + " to " + POLES.y[1] : POLES.x[0] + " to " + POLES.x[1]) + ". Driven most by " + parts.join("; ") + "."));
+  });
+  out.appendChild(el("div", null, "Together the two axes capture " + Math.round((MAP.var[0] + MAP.var[1]) * 100) + "% of the differences between the authors, not all of them. Missing scores are filled with that question's average; * marks authors with three or more missing (Webb, Mearsheimer), whose positions are rougher. The axis names are a reading of the questions that drive them."));
+}
 const QUOTECOUNTS = {"Werner": {"synthesis": 22, "charts": 12}, "Krainer": {"synthesis": 15, "charts": 20}, "Berletic": {"synthesis": 14, "charts": 13}, "Dixon": {"synthesis": 12, "charts": 20}, "Fitts": {"synthesis": 3, "charts": 23}, "Norton": {"synthesis": 10, "charts": 13}, "Henningsen": {"synthesis": 31, "charts": 16}, "Martenson": {"synthesis": 23, "charts": 19}, "Hudson": {"synthesis": 31, "charts": 16}, "Crooke": {"synthesis": 20, "charts": 16}, "Wilkerson": {"synthesis": 34, "charts": 14}, "Diesen": {"synthesis": 20, "charts": 13}, "Webb": {"synthesis": 11, "charts": 9}, "Wolff": {"synthesis": 57, "charts": 16}, "Mearsheimer": {"synthesis": 8, "charts": 10}, "Sachs": {"synthesis": 15, "charts": 11}};
 function drawQuoteCounts() {
   const box = document.getElementById("qbars");
@@ -1499,7 +1544,7 @@ function drawCases() {
     box.appendChild(sec);
   });
 }
-function renderAll() { drawLegend(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawScatter(); drawAch(); drawHypotheses(); }
+function renderAll() { drawLegend(); drawMap(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawScatter(); drawAch(); drawHypotheses(); }
 function start() {
   fillSelects();
   renderAll();
