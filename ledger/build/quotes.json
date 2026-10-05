@@ -7945,6 +7945,71 @@
  },
  {
   "doc": "synthesis.md",
+  "line": 402,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "your Israeli proxy",
+  "words": 3,
+  "candidates": [
+   "Dixon"
+  ],
+  "context": [
+   "Brookings-2009",
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson"
+  ],
+  "status": "verified",
+  "author": "Dixon",
+  "source": "Dixon/ALL_d1.clean.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 402,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "a satellite of the United States",
+  "words": 6,
+  "candidates": [
+   "Hudson",
+   "Dixon"
+  ],
+  "context": [
+   "Brookings-2009",
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff",
+   "Wilkerson"
+  ],
+  "status": "verified",
+  "author": "Hudson",
+  "source": "Hudson/MH2.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 402,
+  "section": "Weighing the evidence: what is the Iran war for?",
+  "quote": "Israel's our tool",
+  "words": 4,
+  "candidates": [
+   "Wilkerson",
+   "Hudson",
+   "Dixon"
+  ],
+  "context": [
+   "Brookings-2009",
+   "Sachs",
+   "Johnson",
+   "Norton",
+   "Wolff"
+  ],
+  "status": "verified",
+  "author": "Wilkerson",
+  "source": "Wilkerson/LW3.txt"
+ },
+ {
+  "doc": "synthesis.md",
   "line": 403,
   "section": "Weighing the evidence: what is the Iran war for?",
   "quote": "deflected away from the United States and onto Israel",
@@ -7954,11 +8019,11 @@
    "Berletic"
   ],
   "context": [
+   "Wilkerson",
+   "Hudson",
+   "Dixon",
    "Sachs",
-   "Johnson",
-   "Norton",
-   "Wolff",
-   "Wilkerson"
+   "Johnson"
   ],
   "status": "verified",
   "author": "Brookings-2009",
@@ -7975,11 +8040,11 @@
    "Berletic"
   ],
   "context": [
+   "Wilkerson",
+   "Hudson",
+   "Dixon",
    "Sachs",
-   "Johnson",
-   "Norton",
-   "Wolff",
-   "Wilkerson"
+   "Johnson"
   ],
   "status": "term"
  },
@@ -7995,11 +8060,10 @@
    "Berletic"
   ],
   "context": [
+   "Wilkerson",
+   "Hudson",
    "Sachs",
-   "Johnson",
-   "Norton",
-   "Wolff",
-   "Wilkerson"
+   "Johnson"
   ],
   "status": "term"
  },
@@ -8015,11 +8079,10 @@
    "Berletic"
   ],
   "context": [
+   "Wilkerson",
+   "Hudson",
    "Sachs",
-   "Johnson",
-   "Norton",
-   "Wolff",
-   "Wilkerson"
+   "Johnson"
   ],
   "status": "verified",
   "author": "Dixon",
@@ -8038,9 +8101,9 @@
    "Dixon",
    "Brookings-2009",
    "Berletic",
-   "Sachs",
-   "Johnson",
-   "Norton"
+   "Wilkerson",
+   "Hudson",
+   "Sachs"
   ],
   "status": "verified",
   "author": "Wolff",

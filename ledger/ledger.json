@@ -118,9 +118,9 @@
     },
     {
      "id": "israel",
-     "title": "Who steers: Washington or Israel?",
-     "low": "Israel is a US proxy",
-     "high": "Israel steers US policy"
+     "title": "Israel: a separate power, or part of the machinery?",
+     "low": "Part of the machinery: a proxy and forward base",
+     "high": "A separate power steering US policy"
     },
     {
      "id": "gains",
@@ -2146,7 +2146,7 @@
   },
   {
    "id": "H7",
-   "title": "A war for Israel",
+   "title": "A war for Israel's own aims",
    "answers": "Question 8",
    "proposed_by": "Henningsen; Crooke in part",
    "claim": "The Iran war serves Israel, not the US; the Israel lobby steers US policy in West Asia.",
@@ -2267,8 +2267,8 @@
     },
     {
      "id": "W2",
-     "label": "A war for Israel",
-     "short": "For Israel",
+     "label": "A war for Israel's own aims",
+     "short": "Israel's aims",
      "from": "H7: Henningsen, Crooke, Sachs, Mearsheimer"
     },
     {
