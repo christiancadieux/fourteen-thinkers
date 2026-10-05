@@ -15,7 +15,7 @@ The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherin
   - their forecasts on the Iran war, judged by their own later accounts;
   - a closing set of hypotheses, each with its supporters, objections and tests.
 - `author-axes.html`: the charts page. Download it and open it in a browser. It shows:
-  - one map placing all sixteen authors on the two axes that separate them most;
+  - one map placing all sixteen authors on the three dimensions that separate them most, any two at a time;
   - each of the sixteen authors scored from 1 to 5 on thirteen questions, every score backed by the author's own words;
   - who sits close to whom, and who is on the margin;
   - a chart of the personal advice the authors give;

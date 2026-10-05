@@ -174,14 +174,13 @@ section[id], nav[id] { scroll-margin-top: 12px; }
   <nav class="stack toc" id="contents-top" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
-      <li><a href="#map-sec">One map of all sixteen</a><span>Every author placed on the two axes that separate them most</span></li>
+      <li><a href="#map-sec">One map of all sixteen</a><span>Every author placed on the three dimensions that separate them most, two at a time</span></li>
       <li><a href="#quotes">Quotes per author</a><span>How much of each author's own wording backs the page</span></li>
       <li><a href="#axes-sec">Where each author sits</a><span>The thirteen questions, with every author's score and reason</span></li>
       <li><a href="#margin">Who is on the margin</a><span>Distance from the group, and why</span></li>
       <li><a href="#cases-sec">Cases</a><span>Events that test the positions</span></li>
       <li><a href="#pairs-sec">Who sits with whom</a><span>Which authors are closest and furthest apart</span></li>
       <li><a href="#advice-sec">Personal advice</a><span>What the authors tell individuals to do</span></li>
-      <li><a href="#scatter-sec">Do two disagreements line up?</a><span>Pick any two questions and see whether they split the authors the same way</span></li>
       <li><a href="#evidence">Weighing the evidence</a><span>What the Iran war is for, and whether the plan is working</span></li>
       <li><a href="#hypotheses">Hypotheses</a><span>The competing explanations, with tests</span></li>
       <li><a href="#how">How to read this</a><span>Caveats and what was left out</span></li>
@@ -190,9 +189,19 @@ section[id], nav[id] { scroll-margin-top: 12px; }
 
   <section class="stack" id="map-sec">
     <h2>One map of all sixteen</h2>
-    <p>Each author's thirteen scores, reduced to the two directions in which the authors differ most (principal component analysis). Authors with similar views sit close together. Each axis is named after the questions that drive it, listed under the map.</p>
+    <p>Each author's thirteen scores, reduced to the three directions in which the authors differ most (principal component analysis). Authors with similar views sit close together. Choose any two of the three dimensions for the axes; each is named after the questions that drive it, listed under the map.</p>
+    <div class="controls">
+      <label for="mapx">Left to right <select id="mapx"></select></label>
+      <label for="mapy">Bottom to top <select id="mapy"></select></label>
+    </div>
     <div class="map-box" id="map"></div>
-    <div class="readout" id="mapnote"></div>
+    <h3>What the percentages mean</h3>
+    <p>Each author is scored on thirteen questions. The map does not show two of those questions. Each of its three dimensions combines all thirteen, weighted toward questions on which the authors' scores tend to move together. Dimension 1, for example, is mostly where power sits, the remedy, who the actors are, whether finance is the seat of power, and the multipolar bloc: authors who score high on one of these tend to score high, or consistently low, on the others, so a single dimension can summarise all five. Not every difference between the authors follows such a shared pattern, so some is always lost. The percentage says how much of the total variation in the authors' scores each dimension keeps: dimension 1 keeps 36%, dimension 2 adds 24%, and dimension 3 adds 12%, so the three together keep 71%. The other 29% does not show on the map.</p>
+    <p>The three dimensions, and the questions each is mostly made of:</p>
+    <ul class="plain" id="mapdims"></ul>
+    <p>What gets lost is mostly a view that one author holds alone. Krainer is the clearest example. He went furthest in expecting Trump to be a real break: he called him "real, not controlled, opposition", and he is the only author to score 1 on that question, where eight of the others score 4 or 5. Because no one else goes that far, and the authors who lean his way on Trump disagree with him on most other questions, that view lines up only weakly with the three dimensions shown. Most of it falls in a fourth, smaller dimension that the map leaves out, so the map barely shows it. On most other questions Krainer agrees with Hudson and Norton, and the map places him in the same upper group as them, which is right on most questions but hides that one.</p>
+    <p>So read the map this way: authors who sit close together agree on most questions, but not necessarily on every one, and an author who stands apart on a single question can look closer to the group than he is. For the exact score on any one question, with the author's own words, use the question charts in <a href="#axes-sec">Where each author sits</a>.</p>
+    <p class="muted small">Some authors have no score on a few questions; there the question's average is used. Webb and Mearsheimer, marked * on the map, are missing three or more, so their positions are rougher. The dimension names are a reading of the questions they are made of.</p>
     <p class="back"><a href="#contents-top">Back to contents</a></p>
   </section>
 
@@ -249,26 +258,6 @@ section[id], nav[id] { scroll-margin-top: 12px; }
     <p>What the authors tell individuals to do, as opposed to what they want governments to do. A piece of advice counts only where I found it in the author’s own words. Each bar has one cell per author; filled cells are the authors who give that advice, with the quote below.</p>
     <div class="axes" id="advice"></div>
     <p class="muted small">No personal advice found in what I read: Werner (he argues for small local banks, but as policy), Norton, Hudson, Crooke, Diesen and Webb. Their remedies are national programmes, diplomacy or exposure. Henningsen’s and Berletic’s advice is about how to read the news rather than what to do with money.</p>
-    <p class="back"><a href="#contents-top">Back to contents</a></p>
-  </section>
-
-  <section class="stack" id="scatter-sec">
-    <h2>Do two disagreements line up?</h2>
-    <p>Each question above shows one disagreement. This chart puts two questions side by side, to show whether they are really the same disagreement. Pick a question for each direction.</p>
-    <ul class="plain">
-      <li><b>If the authors fall along a diagonal,</b> the two questions split them the same way, so they are one disagreement asked twice. Try <i>What is the remedy?</i> against <i>How do they see China?</i>: those who want a strong sovereign state also see China favourably, and those who want to decentralise and exit do not.</li>
-      <li><b>If they spread into the corners,</b> the questions cut across each other, and the corners are the real groupings. The default view, <i>Who are the actors?</i> against <i>What is the remedy?</i>, shows this. The authors who see blocs and classes as the actors divide between exit (Dixon, Fitts, Webb) and a strong state (Krainer, with Norton and Hudson close by).</li>
-    </ul>
-    <div class="controls">
-      <label for="selx">Left to right
-        <select id="selx"></select>
-      </label>
-      <label for="sely">Bottom to top
-        <select id="sely"></select>
-      </label>
-    </div>
-    <div class="scatter-box" id="scatter"></div>
-    <div class="readout" id="readout"></div>
     <p class="back"><a href="#contents-top">Back to contents</a></p>
   </section>
 
@@ -696,59 +685,6 @@ function drawMatrix() {
   box.appendChild(near); box.appendChild(far);
 }
 
-function fillSelects() {
-  ["selx", "sely"].forEach(id => {
-    const s = document.getElementById(id);
-    AXES.forEach(a => s.appendChild(el("option", { value: a.id }, a.title)));
-  });
-  const sx = document.getElementById("selx"), sy = document.getElementById("sely");
-  sx.value = state.x; sy.value = state.y;
-  sx.addEventListener("change", () => { state.x = sx.value; drawScatter(); });
-  sy.addEventListener("change", () => { state.y = sy.value; drawScatter(); });
-}
-
-function drawScatter() {
-  const host = document.getElementById("scatter");
-  const ax = AXES.find(a => a.id === state.x), ay = AXES.find(a => a.id === state.y);
-  const w = Math.max(260, host.clientWidth), pad = 34, r = 11;
-  const P = (v) => pad + (v - 1) / 4 * (w - 2 * pad);
-  const svg = sv("svg", { viewBox: "0 0 " + w + " " + w, height: w, role: "img", "aria-label": "Scatter of " + ax.title + " against " + ay.title });
-  for (let v = 1; v <= 5; v++) {
-    svg.appendChild(sv("line", { class: "grid-line", x1: P(v), x2: P(v), y1: P(1), y2: P(5) }));
-    svg.appendChild(sv("line", { class: "grid-line", x1: P(1), x2: P(5), y1: P(v), y2: P(v) }));
-    svg.appendChild(sv("text", { class: "tick-label", x: P(v), y: w - 8, "text-anchor": "middle" }, String(v)));
-    svg.appendChild(sv("text", { class: "tick-label", x: 10, y: w - P(v) + 4, "text-anchor": "middle" }, String(v)));
-  }
-  const cells = {};
-  AUTHORS.forEach((au, i) => {
-    const x = ax.s[i], y = ay.s[i];
-    if (x == null || y == null) return;
-    (cells[x + "," + y] = cells[x + "," + y] || []).push(i);
-  });
-  Object.keys(cells).forEach(key => {
-    const [x, y] = key.split(",").map(Number);
-    const g = cells[key];
-    g.forEach((i, k) => {
-      const ang = (k / g.length) * Math.PI * 2 - Math.PI / 2;
-      const off = g.length === 1 ? 0 : (g.length === 2 ? 12 : 16);
-      const cx = P(x) + Math.cos(ang) * off, cy = w - P(y) + Math.sin(ang) * off;
-      const grp = sv("g", { class: dimClass(i).trim() });
-      grp.appendChild(sv("circle", { class: "c" + i, cx: cx, cy: cy, r: r }));
-      grp.appendChild(sv("text", { class: "dot-text", x: cx, y: cy }, AUTHORS[i].code));
-      grp.appendChild(sv("title", null, AUTHORS[i].name + ": " + x + " across, " + y + " up"));
-      svg.appendChild(grp);
-    });
-  });
-  host.textContent = "";
-  host.appendChild(svg);
-  const out = document.getElementById("readout");
-  out.textContent = "";
-  out.appendChild(el("div", null, "Left to right: " + ax.low + " (1) to " + ax.high + " (5)."));
-  out.appendChild(el("div", null, "Bottom to top: " + ay.low + " (1) to " + ay.high + " (5)."));
-  const miss = AUTHORS.filter((a, i) => ax.s[i] == null || ay.s[i] == null).map(a => a.name);
-  if (miss.length) out.appendChild(el("div", null, "Not shown, no score on one of these axes: " + miss.join(", ") + "."));
-}
-
 function drawQuestions() {
   const t = document.getElementById("qtable");
   t.textContent = "";
@@ -925,37 +861,57 @@ function drawAdvice() {
   });
 }
 const MAP = {};
-const POLES = { x: ["Power in states", "Power in networks above states"], y: ["The system has been hijacked", "The system works as designed, for its owners"] };
+const DIMS = [
+  { name: "Where power sits", lo: "Power in states", hi: "Power in networks above states" },
+  { name: "Hijacked or working as designed", lo: "The system has been hijacked", hi: "The system works as designed, for its owners" },
+  { name: "Plan or incentives", lo: "Incentives, nobody directing", hi: "One deliberate plan" }
+];
+const mapSel = [0, 1];
+function initMap() {
+  const sx = document.getElementById("mapx"), sy = document.getElementById("mapy");
+  if (!sx || !MAP.points) return;
+  [sx, sy].forEach(sel => DIMS.forEach((d, k) => sel.appendChild(el("option", { value: k }, (k + 1) + ". " + d.name + " (" + Math.round(MAP.var[k] * 100) + "%)"))));
+  sx.value = mapSel[0]; sy.value = mapSel[1];
+  const on = (k, sel, other) => { mapSel[k] = +sel.value; if (mapSel[0] === mapSel[1]) { mapSel[1 - k] = [0, 1, 2].find(d => d !== mapSel[k]); other.value = mapSel[1 - k]; } drawMap(); };
+  sx.addEventListener("change", () => on(0, sx, sy));
+  sy.addEventListener("change", () => on(1, sy, sx));
+}
 function drawMap() {
   const host = document.getElementById("map"); if (!host || !MAP.points) return;
+  const [dx, dy] = mapSel, DX = DIMS[dx], DY = DIMS[dy];
   const w = Math.max(320, Math.min(760, host.clientWidth || 760)), h = Math.round(w * 0.72), pad = 46;
-  const xs = MAP.points.map(p => p.x), ys = MAP.points.map(p => p.y);
+  const xs = MAP.points.map(p => p.c[dx]), ys = MAP.points.map(p => p.c[dy]);
   const xr = Math.max(...xs.map(Math.abs)) * 1.15, yr = Math.max(...ys.map(Math.abs)) * 1.2;
   const X = v => pad + (v + xr) / (2 * xr) * (w - 2 * pad), Y = v => h - pad - (v + yr) / (2 * yr) * (h - 2 * pad);
-  const svg = sv("svg", { viewBox: "0 0 " + w + " " + h, height: h, role: "img", "aria-label": "Map of the sixteen authors on two axes" });
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + h, height: h, role: "img", "aria-label": "Map of the sixteen authors: " + DX.name + " against " + DY.name });
   svg.appendChild(sv("line", { class: "grid-line", x1: X(0), x2: X(0), y1: pad / 2, y2: h - pad / 2 }));
   svg.appendChild(sv("line", { class: "grid-line", x1: pad / 2, x2: w - pad / 2, y1: Y(0), y2: Y(0) }));
-  svg.appendChild(sv("text", { class: "map-pole", x: pad / 2, y: Y(0) - 8 }, "\u2190 " + POLES.x[0]));
-  svg.appendChild(sv("text", { class: "map-pole", x: w - pad / 2, y: Y(0) - 8, "text-anchor": "end" }, POLES.x[1] + " \u2192"));
-  svg.appendChild(sv("text", { class: "map-pole", x: X(0) + 6, y: pad / 2 + 4 }, "\u2191 " + POLES.y[1]));
-  svg.appendChild(sv("text", { class: "map-pole", x: X(0) + 6, y: h - pad / 2 }, "\u2193 " + POLES.y[0]));
+  svg.appendChild(sv("text", { class: "map-pole", x: pad / 2, y: Y(0) - 8 }, "\u2190 " + DX.lo));
+  svg.appendChild(sv("text", { class: "map-pole", x: w - pad / 2, y: Y(0) - 8, "text-anchor": "end" }, DX.hi + " \u2192"));
+  svg.appendChild(sv("text", { class: "map-pole", x: X(0) + 6, y: pad / 2 + 4 }, "\u2191 " + DY.hi));
+  svg.appendChild(sv("text", { class: "map-pole", x: X(0) + 6, y: h - pad / 2 }, "\u2193 " + DY.lo));
+  const placed = [];
   MAP.points.forEach(p => {
-    const cx = X(p.x), cy = Y(p.y), left = cx > w * 0.75;
+    const cx = X(p.c[dx]), cy = Y(p.c[dy]), left = cx > w * 0.75;
+    let ly = cy + 4;
+    while (placed.some(q => Math.abs(q.y - ly) < 13 && Math.abs(q.x - cx) < 90)) ly += 13;
+    placed.push({ x: cx, y: ly });
     const g = sv("g", null);
     g.appendChild(sv("circle", { class: "c" + p.i, cx: cx, cy: cy, r: 11 }));
     g.appendChild(sv("text", { class: "dot-text", x: cx, y: cy }, AUTHORS[p.i].code));
-    g.appendChild(sv("text", { class: "map-name", x: left ? cx - 15 : cx + 15, y: cy + 4, "text-anchor": left ? "end" : "start" }, p.name + (p.missing >= 3 ? " *" : "")));
-    g.appendChild(sv("title", null, p.name + ": " + p.x.toFixed(2) + " across, " + p.y.toFixed(2) + " up"));
+    g.appendChild(sv("text", { class: "map-name", x: left ? cx - 15 : cx + 15, y: ly, "text-anchor": left ? "end" : "start" }, p.name + (p.missing >= 3 ? " *" : "")));
+    g.appendChild(sv("title", null, p.name));
     svg.appendChild(g);
   });
   host.textContent = ""; host.appendChild(svg);
-  const out = document.getElementById("mapnote"); out.textContent = "";
-  const T = id => AXES.find(a => a.id === id);
-  ["Left to right", "Bottom to top"].forEach((lab, k) => {
-    const parts = MAP.load[k].map(l => { const a = T(l.axis); return a.title + " (toward \u201c" + (l.w > 0 ? a.high : a.low) + "\u201d)"; });
-    out.appendChild(el("div", null, lab + ", " + Math.round(MAP.var[k] * 100) + "% of the differences: " + (k ? POLES.y[0] + " to " + POLES.y[1] : POLES.x[0] + " to " + POLES.x[1]) + ". Driven most by " + parts.join("; ") + "."));
+  const box = document.getElementById("mapdims"); if (!box) return; box.textContent = "";
+  const SHORT = { centre: "where power sits", remedy: "the remedy", actors: "who the actors are", finance: "whether finance is the seat of power", bloc: "the multipolar bloc", china: "how they see China", israel: "Israel's role", vote: "whether voting can change policy", digital: "digital money and ID", gains: "who gains from wars", coord: "how coordinated power is", iranchina: "whether the Iran war targets China", trump: "what they expected from Trump" };
+  DIMS.forEach((d, k) => {
+    const li = el("li");
+    li.appendChild(el("b", null, (k + 1) + ". " + d.name + " (" + Math.round(MAP.var[k] * 100) + "%): "));
+    li.appendChild(document.createTextNode("from \u201c" + d.lo + "\u201d to \u201c" + d.hi + "\u201d. Mostly made of " + MAP.load[k].slice(0, 4).map(l => SHORT[l.axis] || l.axis).join(", ") + "."));
+    box.appendChild(li);
   });
-  out.appendChild(el("div", null, "Together the two axes capture " + Math.round((MAP.var[0] + MAP.var[1]) * 100) + "% of the differences between the authors, not all of them. Missing scores are filled with that question's average; * marks authors with three or more missing (Webb, Mearsheimer), whose positions are rougher. The axis names are a reading of the questions that drive them."));
 }
 const QUOTECOUNTS = {};
 function drawQuoteCounts() {
@@ -1115,15 +1071,15 @@ function drawCases() {
     box.appendChild(sec);
   });
 }
-function renderAll() { drawLegend(); drawMap(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawScatter(); drawAch(); drawHypotheses(); }
+function renderAll() { drawLegend(); drawMap(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawAch(); drawHypotheses(); }
 function start() {
-  fillSelects();
+  initMap();
   renderAll();
   let t = null, lastW = document.body.clientWidth;
   window.addEventListener("resize", () => {
     if (document.body.clientWidth === lastW) return;
     lastW = document.body.clientWidth;
-    clearTimeout(t); t = setTimeout(() => { drawAxes(); drawScatter(); }, 120);
+    clearTimeout(t); t = setTimeout(() => { drawAxes(); drawMap(); }, 120);
   });
 }
 start();

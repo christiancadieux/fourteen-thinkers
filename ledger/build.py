@@ -225,7 +225,7 @@ def pca_map(entry):
     C = [[sum(Z[k][a] * Z[k][b] for k in range(n)) / n for b in range(m)] for a in range(m)]
     total = sum(C[a][a] for a in range(m))
     vecs, vals = [], []
-    for _ in range(2):
+    for _ in range(3):
         v = [1.0 / (j + 1) for j in range(m)]
         for _ in range(500):
             w = [sum(C[a][b] * v[b] for b in range(m)) for a in range(m)]
@@ -237,16 +237,16 @@ def pca_map(entry):
     # orient: x grows toward "power above countries", y toward "China as the model"
     if vecs[0][axes.index("centre")] < 0: vecs[0] = [-x for x in vecs[0]]
     if vecs[1][axes.index("china")] < 0: vecs[1] = [-x for x in vecs[1]]
+    if vecs[2][axes.index("coord")] < 0: vecs[2] = [-x for x in vecs[2]]
     pts = []
     for i, a in enumerate(names):
-        x = sum(Z[i][j] * vecs[0][j] for j in range(m)); y = sum(Z[i][j] * vecs[1][j] for j in range(m))
-        pts.append({"i": i, "name": a, "x": round(x, 3), "y": round(y, 3),
+        c = [round(sum(Z[i][j] * vecs[k][j] for j in range(m)), 3) for k in range(3)]
+        pts.append({"i": i, "name": a, "c": c,
                     "missing": sum(1 for ax in axes if (a, ax) not in sc)})
     def top(v):
         idx = sorted(range(m), key=lambda j: -abs(v[j]))[:5]
         return [{"axis": axes[j], "w": round(v[j], 2)} for j in idx]
-    return {"points": pts, "var": [round(vals[0] / total, 3), round(vals[1] / total, 3)],
-            "load": [top(vecs[0]), top(vecs[1])]}
+    return {"points": pts, "var": [round(v / total, 3) for v in vals], "load": [top(v) for v in vecs]}
 
 def render(template, entry, counts=None, cases=None):
     h = open(template, encoding="utf-8").read()
