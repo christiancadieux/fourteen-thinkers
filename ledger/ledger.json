@@ -1516,7 +1516,176 @@
      "author": "Martenson",
      "quote": "“Buy gold, have some chickens, you know, stuff like that.”"
     }
-   ]
+   ],
+   "vantage": {
+    "note": "Where each author looks from. Weights are the share of their work seen from each side, a judgement from their background and texts, not a measurement; each row sums to 1.",
+    "sides": [
+     {
+      "id": "states",
+      "label": "States and diplomacy",
+      "source": "IR theory, diplomatic access"
+     },
+     {
+      "id": "inside",
+      "label": "Inside institutions",
+      "source": "decades in government"
+     },
+     {
+      "id": "class",
+      "label": "Class and system",
+      "source": "Marxist economics"
+     },
+     {
+      "id": "energy",
+      "label": "Energy and hardware",
+      "source": "military, resource data"
+     },
+     {
+      "id": "money",
+      "label": "Money and finance",
+      "source": "banking, trading"
+     },
+     {
+      "id": "networks",
+      "label": "Hidden networks",
+      "source": "investigative journalism"
+     }
+    ],
+    "authors": [
+     {
+      "author": "Werner",
+      "weights": {
+       "money": 0.7,
+       "networks": 0.3
+      },
+      "why": "Banking economist: who creates credit, with central banks as a hidden power."
+     },
+     {
+      "author": "Krainer",
+      "weights": {
+       "money": 0.5,
+       "networks": 0.3,
+       "energy": 0.2
+      },
+      "why": "Former hedge-fund manager and commodities trader: markets and the City of London, the families behind them, and energy."
+     },
+     {
+      "author": "Berletic",
+      "weights": {
+       "energy": 0.6,
+       "states": 0.2,
+       "money": 0.2
+      },
+      "why": "Former US Marine: wars read through weapons, energy infrastructure and the corporate interests behind state policy."
+     },
+     {
+      "author": "Dixon",
+      "weights": {
+       "money": 0.7,
+       "networks": 0.3
+      },
+      "why": "Former investment banker: banking and payments, and the networks around central banks."
+     },
+     {
+      "author": "Fitts",
+      "weights": {
+       "money": 0.4,
+       "networks": 0.4,
+       "inside": 0.2
+      },
+      "why": "Former Wall Street banker and Assistant Secretary of Housing: money flows, the networks that run them, and government from inside."
+     },
+     {
+      "author": "Norton",
+      "weights": {
+       "class": 0.5,
+       "states": 0.5
+      },
+      "why": "Journalist of geopolitical economy: class analysis applied to states and blocs."
+     },
+     {
+      "author": "Henningsen",
+      "weights": {
+       "networks": 0.6,
+       "states": 0.4
+      },
+      "why": "Journalist: networks, lobbies and media, read through what states do."
+     },
+     {
+      "author": "Martenson",
+      "weights": {
+       "energy": 0.6,
+       "money": 0.4
+      },
+      "why": "Scientist turned resource analyst: energy and physical limits, and a money system that ignores them."
+     },
+     {
+      "author": "Hudson",
+      "weights": {
+       "money": 0.6,
+       "class": 0.2,
+       "states": 0.2
+      },
+      "why": "Economist of debt and rent: finance capturing states, in a class frame."
+     },
+     {
+      "author": "Crooke",
+      "weights": {
+       "states": 0.6,
+       "inside": 0.4
+      },
+      "why": "Former British diplomat and intelligence officer: states and diplomacy, seen from inside."
+     },
+     {
+      "author": "Wilkerson",
+      "weights": {
+       "inside": 0.7,
+       "states": 0.3
+      },
+      "why": "Retired colonel and Powell's chief of staff: institutions, careers and the people in the room."
+     },
+     {
+      "author": "Diesen",
+      "weights": {
+       "states": 0.8,
+       "money": 0.2
+      },
+      "why": "Professor of political economy: the balance of great powers, and economic statecraft."
+     },
+     {
+      "author": "Webb",
+      "weights": {
+       "networks": 0.8,
+       "money": 0.2
+      },
+      "why": "Investigative journalist: intelligence networks, families and fixers, and the money linking them."
+     },
+     {
+      "author": "Wolff",
+      "weights": {
+       "class": 0.7,
+       "money": 0.3
+      },
+      "why": "Marxist economist: class and the capitalist system, with finance as part of it."
+     },
+     {
+      "author": "Mearsheimer",
+      "weights": {
+       "states": 0.9,
+       "networks": 0.1
+      },
+      "why": "Realist scholar of international relations: states pursuing power, with the Israel lobby as the exception."
+     },
+     {
+      "author": "Sachs",
+      "weights": {
+       "states": 0.6,
+       "inside": 0.4
+      },
+      "why": "Economist and adviser to governments and the UN: states and diplomacy, from rooms with leaders."
+     }
+    ]
+   }
   }
  },
  "forecasts": [

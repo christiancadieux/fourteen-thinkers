@@ -14,6 +14,10 @@ All "N of the fifteen (…)" counts match their lists.
 
 191 scores. 170 rest on a single checked quote; 0 have no checked quote in their reason (a summary in my words). These are where more reading would pay off.
 
+### Vantage points
+
+All authors have weights on known sides, summing to 1.
+
 ### Scores with no checked quote
 
 None.

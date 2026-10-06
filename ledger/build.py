@@ -279,6 +279,9 @@ def render(template, entry, counts=None, cases=None):
     if "const MAP = " in h:
         i = h.index("const MAP = "); j = h.index(";\n", i) + 2
         h = h[:i] + "const MAP = " + json.dumps(pca_map(entry), ensure_ascii=False) + ";\n" + h[j:]
+    if "vantage" in entry and "const VANTAGE = " in h:
+        i = h.index("const VANTAGE = "); j = h.index(";\n", i) + 2
+        h = h[:i] + "const VANTAGE = " + json.dumps(entry["vantage"], ensure_ascii=False) + ";\n" + h[j:]
     if counts is not None and "const QUOTECOUNTS = " in h:
         i = h.index("const QUOTECOUNTS = "); j = h.index(";\n", i) + 2
         h = h[:i] + "const QUOTECOUNTS = " + json.dumps(counts, ensure_ascii=False) + ";\n" + h[j:]
@@ -450,6 +453,14 @@ def main():
             rep += ["### Quotes in reasons or advice not found in the author's own texts", ""]
             rep += [f"- {f['author']}, {f['axis']}: “{f['quote'][:90]}”" + (f" (found in: {', '.join(f['found_in'])})" if f["found_in"] else "") for f in failed]
             rep.append("")
+        if "vantage" in entry:
+            V = entry["vantage"]; ids = {s["id"] for s in V["sides"]}
+            names = {a["name"] for a in entry["authors"]}
+            bad = [f"{v['author']}: unknown author" for v in V["authors"] if v["author"] not in names]
+            bad += [f"{v['author']}: unknown side {k}" for v in V["authors"] for k in v["weights"] if k not in ids]
+            bad += [f"{v['author']}: weights sum to {sum(v['weights'].values()):.2f}" for v in V["authors"] if abs(sum(v["weights"].values()) - 1) > 1e-6]
+            bad += [f"{n}: no vantage row" for n in sorted(names - {v["author"] for v in V["authors"]})]
+            rep += ["### Vantage points", "", "All authors have weights on known sides, summing to 1." if not bad else "Problems: " + "; ".join(bad), ""]
         rep += ["### Scores with no checked quote", ""]
         rep += [f"- {s['author']}, {s['axis']} = {s['score']}: {s['why'][:110]}" for s in unquoted] or ["None."]
         rep += ["", "### Scores resting on one quote", ""]

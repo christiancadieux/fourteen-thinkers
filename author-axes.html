@@ -157,6 +157,15 @@ select { font: inherit; font-size: 0.92rem; color: var(--fg); background: var(--
 .map-pole { fill: var(--muted); font-size: 11px; font-style: italic; }
 .grid-line { stroke: var(--line); stroke-width: 1; }
 .readout { font-size: 0.86rem; color: var(--muted); display: flex; flex-direction: column; gap: 3px; }
+.vkey { display: flex; align-items: center; gap: 10px; font-size: 0.82rem; color: var(--muted); }
+.vkey i { flex: 0 1 220px; height: 10px; border-radius: 5px; background: linear-gradient(90deg, rgb(37,99,235), rgb(148,163,184), rgb(217,119,6)); }
+.v-band { fill: var(--surface); }
+.v-row { stroke: var(--line); stroke-width: 1; }
+.v-head { fill: var(--fg); font-family: var(--body); font-size: 12.5px; font-weight: 600; text-anchor: middle; }
+.v-src { fill: var(--muted); font-family: var(--body); font-size: 11px; font-style: italic; text-anchor: middle; }
+.v-title { fill: var(--fg); font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; text-anchor: middle; }
+.v-bracket { stroke: var(--muted); stroke-width: 1; }
+.v-name { fill: var(--fg); font-family: var(--body); font-size: 14px; text-anchor: end; dominant-baseline: central; }
 ul.plain { margin: 0; padding-left: 1.1em; max-width: 66ch; display: flex; flex-direction: column; gap: 6px; }
 .toc ol { margin: 0; padding-left: 1.4em; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 6px 28px; }
 .toc li { font-size: 0.94rem; }
@@ -181,6 +190,7 @@ section[id], nav[id] { scroll-margin-top: 12px; }
   <nav class="stack toc" id="contents-top" aria-label="Contents">
     <h2>Contents</h2>
     <ol>
+      <li><a href="#vantage-sec">Where they stand</a><span>The sides each author looks from, and how that predicts what they conclude</span></li>
       <li><a href="#map-sec">One map of all sixteen</a><span>Every author placed on the three dimensions that separate them most, two at a time</span></li>
       <li><a href="#quotes">Quotes per author</a><span>How much of each author's own wording backs the page</span></li>
       <li><a href="#axes-sec">Where each author sits</a><span>The thirteen questions, with every author's score and reason</span></li>
@@ -193,6 +203,18 @@ section[id], nav[id] { scroll-margin-top: 12px; }
       <li><a href="#how">How to read this</a><span>Caveats and what was left out</span></li>
     </ol>
   </nav>
+
+  <section class="stack" id="vantage-sec">
+    <h2>Where they stand decides what they see</h2>
+    <p>The sixteen look at the same object, US power and its wars, from different vantage points. A realist sees states, a former banker sees credit, an investigative journalist sees networks. Each row below is one author and each column one vantage point, a side of the object; a bigger dot means more of the author's work is seen from there. Most authors look from more than one.</p>
+    <div class="vkey"><span>Power sits in states</span><i></i><span>Power sits in networks above states</span></div>
+    <div class="scroll" id="vantage"></div>
+    <p>The rows are ordered by the authors' conclusions, not by where they look: dimension 1 of the <a href="#map-sec">map</a>, from power sitting in states (blue, top) to power sitting in networks above states (orange, bottom). The dots still run corner to corner. Where an author stands largely predicts what they conclude.</p>
+    <p>The exceptions are worth a look. Berletic looks mostly at energy and weapons, and Norton at class, yet both place power in states: Berletic reads corporate interests through state policy, and Norton applies class analysis to states and blocs. Hudson and Wolff look at money and class and land in the middle.</p>
+    <p>Read this way, many disagreements are two people describing different sides of the same thing. Each author is most reliable on the side they know best.</p>
+    <p class="muted small">The weights are my judgement from each author's background and texts, not a measurement. Hover over a dot for the reason.</p>
+    <p class="back"><a href="#contents-top">Back to contents</a></p>
+  </section>
 
   <section class="stack" id="map-sec">
     <h2>One map of all sixteen</h2>
@@ -1342,6 +1364,49 @@ function drawMap() {
     box.appendChild(li);
   });
 }
+const VANTAGE = {"note": "Where each author looks from. Weights are the share of their work seen from each side, a judgement from their background and texts, not a measurement; each row sums to 1.", "sides": [{"id": "states", "label": "States and diplomacy", "source": "IR theory, diplomatic access"}, {"id": "inside", "label": "Inside institutions", "source": "decades in government"}, {"id": "class", "label": "Class and system", "source": "Marxist economics"}, {"id": "energy", "label": "Energy and hardware", "source": "military, resource data"}, {"id": "money", "label": "Money and finance", "source": "banking, trading"}, {"id": "networks", "label": "Hidden networks", "source": "investigative journalism"}], "authors": [{"author": "Werner", "weights": {"money": 0.7, "networks": 0.3}, "why": "Banking economist: who creates credit, with central banks as a hidden power."}, {"author": "Krainer", "weights": {"money": 0.5, "networks": 0.3, "energy": 0.2}, "why": "Former hedge-fund manager and commodities trader: markets and the City of London, the families behind them, and energy."}, {"author": "Berletic", "weights": {"energy": 0.6, "states": 0.2, "money": 0.2}, "why": "Former US Marine: wars read through weapons, energy infrastructure and the corporate interests behind state policy."}, {"author": "Dixon", "weights": {"money": 0.7, "networks": 0.3}, "why": "Former investment banker: banking and payments, and the networks around central banks."}, {"author": "Fitts", "weights": {"money": 0.4, "networks": 0.4, "inside": 0.2}, "why": "Former Wall Street banker and Assistant Secretary of Housing: money flows, the networks that run them, and government from inside."}, {"author": "Norton", "weights": {"class": 0.5, "states": 0.5}, "why": "Journalist of geopolitical economy: class analysis applied to states and blocs."}, {"author": "Henningsen", "weights": {"networks": 0.6, "states": 0.4}, "why": "Journalist: networks, lobbies and media, read through what states do."}, {"author": "Martenson", "weights": {"energy": 0.6, "money": 0.4}, "why": "Scientist turned resource analyst: energy and physical limits, and a money system that ignores them."}, {"author": "Hudson", "weights": {"money": 0.6, "class": 0.2, "states": 0.2}, "why": "Economist of debt and rent: finance capturing states, in a class frame."}, {"author": "Crooke", "weights": {"states": 0.6, "inside": 0.4}, "why": "Former British diplomat and intelligence officer: states and diplomacy, seen from inside."}, {"author": "Wilkerson", "weights": {"inside": 0.7, "states": 0.3}, "why": "Retired colonel and Powell's chief of staff: institutions, careers and the people in the room."}, {"author": "Diesen", "weights": {"states": 0.8, "money": 0.2}, "why": "Professor of political economy: the balance of great powers, and economic statecraft."}, {"author": "Webb", "weights": {"networks": 0.8, "money": 0.2}, "why": "Investigative journalist: intelligence networks, families and fixers, and the money linking them."}, {"author": "Wolff", "weights": {"class": 0.7, "money": 0.3}, "why": "Marxist economist: class and the capitalist system, with finance as part of it."}, {"author": "Mearsheimer", "weights": {"states": 0.9, "networks": 0.1}, "why": "Realist scholar of international relations: states pursuing power, with the Israel lobby as the exception."}, {"author": "Sachs", "weights": {"states": 0.6, "inside": 0.4}, "why": "Economist and adviser to governments and the UN: states and diplomacy, from rooms with leaders."}]};
+function vColour(t) {
+  // t in [-1, 1]: blue (power in states) through grey to amber (networks above states)
+  const blue = [37, 99, 235], grey = [148, 163, 184], amber = [217, 119, 6];
+  const [a, b] = t > 0 ? [grey, amber] : [grey, blue], u = Math.min(1, Math.abs(t));
+  return "rgb(" + a.map((x, k) => Math.round(x + (b[k] - x) * u)).join(",") + ")";
+}
+function drawVantage() {
+  const host = document.getElementById("vantage"); if (!host || !VANTAGE.sides || !MAP.points) return;
+  const d1 = {}; MAP.points.forEach(p => { d1[p.name] = p.c[0]; });
+  const span = Math.max(...Object.values(d1).map(Math.abs));
+  const rows = VANTAGE.authors.slice().sort((a, b) => d1[a.author] - d1[b.author]);
+  const w = Math.max(640, Math.min(860, host.clientWidth || 860));
+  const nameW = 112, cw = (w - nameW - 8) / VANTAGE.sides.length, hy = 30, top = hy + 78, rh = 34;
+  const h = top + rh * rows.length + 8, rmax = Math.min(cw, rh) * 0.5;
+  const svg = sv("svg", { viewBox: "0 0 " + w + " " + h, width: w, height: h, style: "width:" + w + "px", role: "img",
+    "aria-label": "Sides each author looks from: " + rows.map(r => r.author + " " + Object.entries(r.weights).map(([k, v]) => k + " " + Math.round(v * 100) + "%").join(", ")).join("; ") });
+  const two = (s) => { const i = s.indexOf(", "); if (i > 0) return [s.slice(0, i + 1), s.slice(i + 2)]; const j = s.indexOf(" "); return j > 0 ? [s.slice(0, j), s.slice(j + 1)] : [s]; };
+  VANTAGE.sides.forEach((sd, k) => {
+    const x0 = nameW + cw * k, cx = x0 + cw / 2;
+    if (k % 2 === 0) svg.appendChild(sv("rect", { class: "v-band", x: x0, y: hy, width: cw, height: h - hy }));
+    const lab = sd.label.includes(" and ") ? [sd.label.split(" and ")[0] + " and", sd.label.split(" and ")[1]] : two(sd.label);
+    lab.forEach((t, j) => svg.appendChild(sv("text", { class: "v-head", x: cx, y: hy + 18 + j * 15 }, t)));
+    two(sd.source).forEach((t, j) => svg.appendChild(sv("text", { class: "v-src", x: cx, y: hy + 51 + j * 13 }, t)));
+  });
+  svg.appendChild(sv("text", { class: "v-title", x: nameW + (w - 8 - nameW) / 2, y: 13 }, "Vantage points: the sides an author looks from"));
+  svg.appendChild(sv("line", { class: "v-bracket", x1: nameW + 4, x2: w - 12, y1: 22, y2: 22 }));
+  rows.forEach((r, n) => {
+    const i = AUTHORS.findIndex(a => a.name === r.author), cy = top + rh * n + rh / 2;
+    const g = sv("g", { class: dimClass(i).trim() });
+    g.appendChild(sv("line", { class: "v-row", x1: nameW, x2: w - 8, y1: cy, y2: cy }));
+    g.appendChild(sv("text", { class: "v-name", x: nameW - 12, y: cy }, r.author));
+    const col = vColour(d1[r.author] / span);
+    VANTAGE.sides.forEach((sd, k) => {
+      const v = r.weights[sd.id]; if (!v) return;
+      const c = sv("circle", { cx: nameW + cw * k + cw / 2, cy: cy, r: (3 + (rmax - 3) * Math.sqrt(v)).toFixed(1), fill: col, "fill-opacity": (0.45 + 0.5 * v).toFixed(2) });
+      c.appendChild(sv("title", null, r.author + ", " + sd.label.toLowerCase() + ": " + Math.round(v * 100) + "%. " + r.why));
+      g.appendChild(c);
+    });
+    svg.appendChild(g);
+  });
+  host.textContent = ""; host.appendChild(svg);
+}
 const QUOTECOUNTS = {"Werner": {"synthesis": 22, "charts": 12}, "Krainer": {"synthesis": 19, "charts": 20}, "Berletic": {"synthesis": 14, "charts": 13}, "Dixon": {"synthesis": 13, "charts": 20}, "Fitts": {"synthesis": 3, "charts": 23}, "Norton": {"synthesis": 10, "charts": 13}, "Henningsen": {"synthesis": 31, "charts": 16}, "Martenson": {"synthesis": 23, "charts": 19}, "Hudson": {"synthesis": 32, "charts": 16}, "Crooke": {"synthesis": 20, "charts": 16}, "Wilkerson": {"synthesis": 35, "charts": 14}, "Diesen": {"synthesis": 20, "charts": 13}, "Webb": {"synthesis": 11, "charts": 9}, "Wolff": {"synthesis": 57, "charts": 16}, "Mearsheimer": {"synthesis": 8, "charts": 10}, "Sachs": {"synthesis": 15, "charts": 11}};
 function drawQuoteCounts() {
   const box = document.getElementById("qbars");
@@ -1500,7 +1565,7 @@ function drawCases() {
     box.appendChild(sec);
   });
 }
-function renderAll() { drawLegend(); drawMap(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawAch(); drawHypotheses(); }
+function renderAll() { drawLegend(); drawVantage(); drawMap(); drawQuoteCounts(); drawQuestions(); drawAxes(); drawBars(); drawCases(); drawMatrix(); drawAdvice(); drawAch(); drawHypotheses(); }
 function start() {
   initMap();
   renderAll();
@@ -1508,7 +1573,7 @@ function start() {
   window.addEventListener("resize", () => {
     if (document.body.clientWidth === lastW) return;
     lastW = document.body.clientWidth;
-    clearTimeout(t); t = setTimeout(() => { drawAxes(); drawMap(); }, 120);
+    clearTimeout(t); t = setTimeout(() => { drawAxes(); drawVantage(); drawMap(); }, 120);
   });
 }
 start();
