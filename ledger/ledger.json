@@ -2101,6 +2101,59 @@
    "resolves": "2026-02-28",
    "status": "miss",
    "basis": "His own later account, interview of 3 October 2026"
+  },
+  {
+   "author": "Stanislav Krapivnik",
+   "made": "2026-10-06",
+   "claim": "Trump bans US diesel exports, cutting off Europe's US supply",
+   "quote": "More likely he will",
+   "resolves": "2027-01-31",
+   "status": "open",
+   "basis": "Forecast source only: interview of Cameron MacGregor by Stanislav Krapivnik, 6 October 2026 (ledger/sources/CameronMacGregor; no speaker labels, attributed from context). Counter-signal (Wolff, Oct 2026): refiners vetoed a diesel export ban.",
+   "check": "after-midterms-2026",
+   "check_part": "energy"
+  },
+  {
+   "author": "Cameron MacGregor",
+   "made": "2026-10-06",
+   "claim": "After the midterms Trump resumes attacks on Iran, possibly with a third carrier strike group (passed on as 'rumor')",
+   "quote": "he's waiting for the midterms, and then he's going to start attacking Iran all over again",
+   "resolves": "2027-01-31",
+   "status": "open",
+   "basis": "Forecast source only: interview of Cameron MacGregor by Stanislav Krapivnik, 6 October 2026 (ledger/sources/CameronMacGregor; no speaker labels, attributed from context).",
+   "check": "after-midterms-2026",
+   "check_part": "war"
+  },
+  {
+   "author": "Hudson",
+   "made": "2026-10-06",
+   "claim": "A shortage of refined oil (diesel and jet fuel) lasting well into 2027, with prices rising by the end of 2026",
+   "quote": "Certainly by the end of this year you're going to have prices going up",
+   "resolves": "2026-12-31",
+   "status": "open",
+   "basis": "Interview with Brandon Weichert, 6 October 2026 (sources/Hudson/interview1.txt).",
+   "check": "after-midterms-2026",
+   "check_part": "energy"
+  },
+  {
+   "author": "H11 (the plan meets reality)",
+   "made": "2026-10-06",
+   "claim": "A durable settlement shows the outcome: Iran's oil invoiced in dollars, as in the June 2026 memorandum, means the dollar aim succeeded; Iran still selling in yuan means the aim failed against a country that could hold out, not that it was never the aim",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for H11 in synthesis.md. Bessent, CNBC, 24 June 2026: 'the Iranians will be invoicing in dollars' and 'Dollar dominance is essential' (Bloomberg, Yahoo Finance); a Treasury licence from 22 June to 21 August 2026 let Iran sell oil for dollars, and by 3 October Bessent said Iran had 'no oil on the water'. The pattern, oil returning to dollars once a government is brought into line (Iraq 2003, Venezuela 2026), is the one John Perkins describes in Confessions of an Economic Hit Man (2004)."
+  },
+  {
+   "author": "Wolff",
+   "made": "2026-10-06",
+   "claim": "No US invasion of Iran after the midterms: the threat is election talk, since a president able to invade would not wait for the vote",
+   "quote": "If he could invade Iran, there'd be no point in waiting till after the elections",
+   "resolves": "2027-06",
+   "status": "open",
+   "basis": "Interview with Danny Haiphong, 6 October 2026 (sources/Wolff/interview1.txt). The opposite of Jiang Xueqin's and Cameron MacGregor's forecasts in the same check.",
+   "check": "after-midterms-2026",
+   "check_part": "war"
   }
  ],
  "manual_checks": [
@@ -2322,7 +2375,7 @@
     "Henningsen",
     "Wilkerson"
    ],
-   "evidence": "The best forecast record on Trump and the Iran war; the plans are on paper.",
+   "evidence": "The best forecast record on Trump and the Iran war; the plans are on paper. The plans have authors, whom Henningsen calls \"war planners\": the military staff, intelligence services, think tanks such as RAND and financial interests that design a war and its messaging together. He describes how \"western war planners can quickly construct an important leg in foreign policy messaging\". Werner calls them \"the controllers\" or \"the central planners\": \"what you see is what's being planned\", so watch what they do rather than what they say.",
    "objection": "Henningsen cannot see what US interest the Iran war serves; Wilkerson thinks a plan can live in the planners without the president.",
    "tests": [
     "Whether the next moves match the published papers"
@@ -2427,13 +2480,14 @@
     "Mearsheimer"
    ],
    "against": [],
-   "evidence": "Public data on munitions: CSIS estimates that Patriot stocks fell by at least 65% and THAAD by at least 38%, and that rebuilding them will take at least three years; THAAD interceptors were shipped from South Korea after Iran destroyed at least ten US radars, four of them THAAD radars; Gulf states ran low on interceptors; with the Bahrain base hit, carriers were resupplied from Diego Garcia; Patriots meant for Ukraine were diverted. From the authors: Crooke, four days in: \"Iran sits in the driving seat\", its fastest missiles \"largely impervious to Israeli air defences\". Wilkerson on the arms makers: they \"know they're going to make money out their yin yang\"; and on the response: \"We don't back away. We don't retrench.\" Hudson: \"Invasions don't work. All you can do is destroy other countries.\" Wolff on denial: \"a refusal to entertain the very idea the empire is over\".",
+   "evidence": "Public data on munitions: CSIS estimates that Patriot stocks fell by at least 65% and THAAD by at least 38%, and that rebuilding them will take at least three years; THAAD interceptors were shipped from South Korea after Iran destroyed at least ten US radars, four of them THAAD radars; Gulf states ran low on interceptors; with the Bahrain base hit, carriers were resupplied from Diego Garcia; Patriots meant for Ukraine were diverted. From the authors: Crooke, four days in: \"Iran sits in the driving seat\", its fastest missiles \"largely impervious to Israeli air defences\". Wilkerson on the arms makers: they \"know they're going to make money out their yin yang\"; and on the response: \"We don't back away. We don't retrench.\" Hudson: \"Invasions don't work. All you can do is destroy other countries.\" Wolff on denial: \"a refusal to entertain the very idea the empire is over\". Wolff, comparing Iran with Vietnam and Afghanistan, which won by outlasting the US: \"the Iranians are something new\", with drones and missiles \"buried in places where the Americans can't get them. Tried twice, failed twice.\"",
    "objection": "Failing for whom? Those the war pays profit whether it is won or lost (the 'profit either way' reading), and the energy-sales part is working: the US share of Europe's LNG keeps rising. The reply: an arms industry built for profit is exactly why the plan cannot win a long war against a capable adversary. The plan can enrich its contractors and still fail as a plan for dominance.",
    "tests": [
     "Iran keeps launching at scale late in the war, showing its stocks and underground production survived",
     "US output of interceptors and strike missiles (THAAD, SM-6, Tomahawk) stays below wartime use through 2027",
     "After setbacks, Washington escalates (blockades, new sanctions, new fronts) rather than settles",
-    "The US share of the EU's LNG imports keeps rising (this would support 'on track' for the energy part)"
+    "The US share of the EU's LNG imports keeps rising (this would support 'on track' for the energy part)",
+    "A durable settlement shows the outcome: Iran's oil invoiced in dollars, as in the June 2026 memorandum, means the dollar aim succeeded; Iran still selling in yuan means the aim failed against a country that could hold out, not that it was never the aim"
    ],
    "status": "Proposed October 2026; in the evidence grid 'on track' has the most facts against it, while 'failing' and 'profit either way' have few and can both be true; tests open."
   }
@@ -3228,7 +3282,7 @@
     },
     {
      "id": "G22",
-     "text": "Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller).",
+     "text": "Since March the US has supplied more than half of Europe's diesel imports, two-thirds in August and September; in October Washington threatened an export ban until the G7 agreed to release 100 million barrels of reserves (Johnson, drawing on Karl Miller; Hudson, 6 October 2026, describes European countries selling their reserves to the United States over four months).",
      "kind": "author report",
      "reliability": "high",
      "staged": false,
@@ -3250,7 +3304,7 @@
    "vote": "2026-11-03",
    "review": "2027-01-31",
    "question": "Are fuel prices being held down by paper trading and emergency stocks until the vote, with the physical shortage pushed past it?",
-   "basis": "Paper trading can cap a price only while there are barrels to deliver. Pilkington's chart work shows large, well-timed futures sales capping oil, which he attributes to the US Treasury or entities working with it; Miller, via Johnson, describes \"missing barrels, not just expensive ones\". If the cap is political, it should loosen after the vote."
+   "basis": "Paper trading can cap a price only while there are barrels to deliver. Pilkington's chart work shows large, well-timed futures sales capping oil, which he attributes to the US Treasury or entities working with it; Miller, via Johnson, describes \"missing barrels, not just expensive ones\". If the cap is political, it should loosen after the vote. Hudson, on 6 October 2026, describes the same thing from the authors' side: \"a kind of interregnum\" in which prices are \"in the short term kept down\" by the US reserve release and by European countries selling their reserves to the United States over four months, while the quoted prices are \"for trading paper claims on oil\"."
   }
  ]
 }

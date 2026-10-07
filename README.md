@@ -4,7 +4,7 @@ Fourteen Independent Thinkers, Read Side by Side
 
 An AI-assisted synthesis of sixteen commentators who write and speak outside the mainstream about money, war and power. Their interviews and articles are read in their own words, compared with each other rather than with official fact-checks, and quoted exactly. A small program checks every quotation against the saved texts.
 
-The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherine Austin Fitts, Ben Norton, Patrick Henningsen, Chris Martenson, Michael Hudson, Alastair Crooke, Lawrence Wilkerson, Glenn Diesen, Whitney Webb and Richard Wolff, joined later by John Mearsheimer and Jeffrey Sachs. The title still says fourteen; there are now sixteen. Noam Chomsky and K.J. Noh are cited as references. Larry Johnson (sonar21.com), the energy analyst Karl Miller and Philip Pilkington are used as sources of facts only. Jiang Xueqin (Predictive History) is cited only for his forecasts; his factual claims were checked and found overstated.
+The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherine Austin Fitts, Ben Norton, Patrick Henningsen, Chris Martenson, Michael Hudson, Alastair Crooke, Lawrence Wilkerson, Glenn Diesen, Whitney Webb and Richard Wolff, joined later by John Mearsheimer and Jeffrey Sachs. The title still says fourteen; there are now sixteen. Noam Chomsky and K.J. Noh are cited as references. Larry Johnson (sonar21.com), the energy analyst Karl Miller and Philip Pilkington are used as sources of facts only. Jiang Xueqin (Predictive History) is cited only for his forecasts; his factual claims were checked and found overstated. Cameron MacGregor and Stanislav Krapivnik are cited for one dated forecast each, from an interview recorded on 6 October 2026.
 
 ## What is here
 
@@ -21,7 +21,8 @@ The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherin
   - who sits close to whom, and who is on the margin;
   - a chart of the personal advice the authors give;
   - test cases, the hypotheses and the evidence grids.
-- `medium-draft.html`: a first-person article about the experiment.
+- `article.html`: the full first-person article about the experiment, step by step: the method and what it found.
+- `critical-thinking.html`: a shorter article, "Teaching AI Critical Thinking", on what the project taught about getting an AI to think critically. It links to `article.html` for the detail.
 - `ledger/`: the data and the checking program. See `ledger/README.md`. It contains:
   - `ledger.json`, the master data: chart scores and their quotes, forecasts, cases, hypotheses and evidence grids;
   - `sources/`, the authors' saved texts, one folder per author;

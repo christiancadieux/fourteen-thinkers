@@ -54,7 +54,7 @@ TEXTS, FILES = load_sources()
 INDEX = json.load(open(os.path.join(SRC, "index.json")))
 URL = {e["file"]: e["url"] for au in INDEX.values() for e in au if e.get("url")}
 
-ALIASES = {"Desai": "Desai-Tyson", "Tyson": "Desai-Tyson", "Brookings": "Brookings-2009"}
+ALIASES = {"MacGregor": "CameronMacGregor", "Krapivnik": "CameronMacGregor", "Desai": "Desai-Tyson", "Tyson": "Desai-Tyson", "Brookings": "Brookings-2009"}
 AUTHOR_NAMES = sorted(set(list(TEXTS.keys()) + list(ALIASES.keys())), key=len, reverse=True)
 
 def find(quote, authors=None):
@@ -369,7 +369,7 @@ def check_markdown(L, c):
         st = f["status"] if f["status"] != "open" else "open, resolves " + (f.get("resolves") or "?")
         return f"- {f['author']}: {f['claim']} ({st})."
     out = [f"**{c['question']}** Vote on {c['vote']}; review by {c['review']}. {c['basis']}", "",
-           "The authors' own forecasts on fuel and the economy:", ""]
+           "Forecasts on fuel and the economy:", ""]
     out += [line(f) for f in F if f.get("check_part") == "energy"]
     out += ["", "Public-data indicators (judged on public data, with the source named when marked):", ""]
     out += [line(f) for f in F if f.get("check_part") == "indicator"]

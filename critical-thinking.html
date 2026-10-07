@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teaching AI Critical Thinking</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; a standalone article. */
+:root {
+  --bg: #f6f6f3;
+  --paper: #ffffff;
+  --ink: #1c1f24;
+  --muted: #5d6470;
+  --line: #d9dbd6;
+  --accent: #1f5f8b;
+  --ph: #eef3f7;
+  --display: "Fraunces", Georgia, "Times New Roman", serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #121417; --paper: #1a1d21; --ink: #e7e9ec; --muted: #a2a9b4; --line: #333840; --accent: #7cb7e0; --ph: #1f262e; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #121417; --paper: #1a1d21; --ink: #e7e9ec; --muted: #a2a9b4; --line: #333840; --accent: #7cb7e0; --ph: #1f262e; color-scheme: dark; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 1.1rem; line-height: 1.7; padding-inline: 16px; padding-block: 28px 64px; }
+.wrap { max-width: 44rem; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+article { background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 28px clamp(18px, 5vw, 48px) 40px; display: flex; flex-direction: column; gap: 1.05em; min-width: 0; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(1.9rem, 5vw, 2.6rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+.sub { font-size: 1.2rem; color: var(--muted); margin: 0; line-height: 1.5; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.45rem; line-height: 1.25; margin: 1.2em 0 0; text-wrap: balance; }
+p, ul, ol { margin: 0; }
+ul, ol { padding-left: 1.3em; display: flex; flex-direction: column; gap: 0.4em; }
+blockquote { margin: 0; padding: 2px 0 2px 18px; border-left: 3px solid var(--accent); color: var(--ink); font-style: italic; }
+figure { margin: 0.4em 0; }
+figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line, #ddd); border-radius: 6px; }
+figcaption { font-size: 0.92rem; color: var(--muted); margin-top: 8px; font-style: italic; }
+.note { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); line-height: 1.55; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; font-size: 0.95rem; min-width: 30rem; }
+th, td { text-align: left; vertical-align: top; padding: 6px 10px; border-bottom: 1px solid var(--line); }
+th { font-family: var(--mono); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 500; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 0.6em 0; }
+</style>
+</head>
+<body>
+
+
+
+<div class="wrap">
+  <article id="article">
+    <h1>Teaching AI Critical Thinking</h1>
+    <p class="sub">An AI can read everything and quote anything, but left to itself it believes whatever story it is told. This is what it took to make an AI think critically about a hard, contested subject.</p>
+
+    <p>I used an AI (Claude, from Anthropic) to do something that used to need a research team: read what sixteen independent thinkers, all of them outside the mainstream, have said about who controls the US empire, how it works and why it goes to war, and combine their views into one picture I could trust. The project itself, its method and its results, is described in a <a href="https://christiancadieux.github.io/fourteen-thinkers/article.html">longer article</a>. The main example the project tested its method on was the recent Iran war.</p>
+
+    <p>The project rests on one idea. A deception can fool a witness standing in one place, but it is very hard to stage something so that it looks right from every angle. So instead of trusting any single expert, the project compared sixteen authors who look at US power from different vantage points: money, weapons, governments, hidden networks. Where they agree despite looking from different places, the conclusion is probably solid. Where they disagree, the project asks why. Often each author is describing a different part of the same thing, and both are right. Sometimes they start from different assumptions, and naming those assumptions helps. And sometimes one of them is simply wrong, which the facts can show.</p>
+
+    <p>The main lesson is simple. The AI did not lack intelligence; it lacked suspicion. Left to itself, the AI believed the story as it was presented, and because it writes so fluently, the mistakes were hard to spot. What made the difference was building critical thinking into the process, as a set of rules the AI could not ignore. There were eight rules.</p>
+
+    <h2>1. Look past the stated aims: ask who gains</h2>
+
+    <p>The AI first judged the Iran war by its declared goals: stop Iran from getting a nuclear bomb, and change its government. Judged against those goals, the war is failing, and some of the authors say so. John Mearsheimer calls the war the greatest strategic blunder in US history.</p>
+
+    <p>But the nuclear reason was weak even before the war began, which suggests the real aim lay elsewhere. Iran had signed a deal that inspectors verified, the US walked out of that deal in 2018, and US intelligence assessed that Iran was not building a weapon.</p>
+
+    <p>During the war, the US Treasury Secretary, Scott Bessent, pointed to a different aim. Most of the world's oil is sold for US dollars, and that is a large part of what makes the dollar the world's main currency. Iran had been selling its oil to China without being paid in dollars. In June, Bessent told CNBC that "the Iranians will be invoicing in dollars" and that "Dollar dominance is essential." Asked whether this push to keep oil sold in dollars was a secret plan, the economist Michael Hudson answered: "It's been very overt, very overt."</p>
+
+    <p>The rule: don't judge a war only by the aims its leaders announce. Ask who stands to gain, and look for evidence of that aim, such as what officials say in public. The outcome alone cannot settle it, because a war can fail its real aims too; rule 5 comes back to this.</p>
+
+    <h2>2. Name the frame before answering</h2>
+
+    <p>One of the first questions the project asked about each author was: "Is the US empire winning or losing?" That question quietly assumes that countries are the ones making the decisions. An assumption like that, built into the question itself, is a frame.</p>
+
+    <p>The frame decides what looks sensible. Glenn Diesen, a scholar who sees world politics as competition between states, calls Europe's policy towards Russia "completely irrational": judged as the policy of European countries acting for their own people, it makes no sense. Simon Dixon, a former banker, starts from a different frame: "America is not a country; it is a series of companies and a financial industrial complex." In his view, the same few asset managers, such as BlackRock, own "the military industrial complex, the financial industrial complex, the technical industrial complex", and the media as well.</p>
+
+    <p>When the question became "Who gains?", Diesen's puzzle went away. A policy can hurt Europe and still make money for others, such as the American energy and arms companies that now sell more to Europe. Most of the hard thinking in the project went into fixing the questions, not answering them.</p>
+
+    <h2>3. Know each source's vantage point</h2>
+
+    <p>Sixteen experts on one subject sound like sixteen opinions. But each author has a vantage point: the side of the subject they look from, usually set by their training and experience. A scholar of international relations looks at governments, a former banker at lending and debt, an investigative journalist at hidden connections between powerful people, and most of them look from more than one side. Sorted by vantage point, much of their disagreement turns out to be people describing different sides of the same thing.</p>
+
+    <figure>
+      <img src="images/7-vantage-points.png" alt="Grid of the sixteen authors against six vantage points, with dots sized by how much of each author's work comes from each side, coloured from blue (power in states) to orange (power in networks above states)">
+      <figcaption>Six vantage points on US power, and how much of each author's work takes each one (a bigger dot means more). The authors are sorted by their conclusions, from power held by governments (blue; the chart calls them "states", meaning national governments) to power held by financial and private networks that stand above governments (orange). The weights are a judgement from each author's background and texts; the reason for each is on the <a href="https://christiancadieux.github.io/fourteen-thinkers/author-axes.html#vantage-sec">project's charts page</a>.</figcaption>
+    </figure>
+
+    <p>In the chart, the authors are listed from top to bottom by one of their conclusions: whether power sits in governments (top, blue) or in networks above governments (bottom, orange). That order comes from what the authors conclude, not from their vantage points. Yet the dots still run, roughly, from top left to bottom right. The authors who conclude that power sits in governments mostly look from the side of states and institutions; the authors who conclude that it sits in networks above governments mostly look from the side of money and hidden networks.</p>
+
+    <p>Where an author stands largely predicts what they conclude. This means that much of the disagreement between the authors comes from where each one stands, not from better or worse evidence. So each author is most reliable on the side they know best, and least reliable when judging the whole subject from that side. Mearsheimer shows convincingly that the Iran war has been a failure for the United States; whether the war made money for some Americans is a question his vantage point does not ask.</p>
+
+    <h2>Why sixteen authors, not one</h2>
+
+    <p>An AI that reads one author adopts that author's frame and extends it fluently. Several authors looking at the same problem contradict each other, and that supplies the doubt the AI lacks. This helps in three ways.</p>
+    <ul>
+      <li><b>Agreement from different sides is stronger.</b> Fourteen of the sixteen agree that the real decisions are not made by voters and the officials they elect, but by people with power behind them: donors, lobbies, banks or intelligence agencies, depending on the author. Even most of the authors who think power sits in governments agree; for them the hidden players are national ones, such as lobbies and intelligence agencies. The sixteen reach that conclusion from credit, ownership, intelligence networks and diplomacy, so they are unlikely to share the same mistake.</li>
+      <li><b>Hidden assumptions are easier to spot when authors with different vantage points describe the same thing.</b> Every author makes assumptions they do not state. When you read only one author, those assumptions are hard to see. Rule 2 showed an example: Diesen's verdict that Europe's policy is irrational rests on his assumption that countries make the decisions, and that assumption only became visible next to Dixon's view of America as "a series of companies".</li>
+      <li><b>Each author brings a rival explanation.</b> The project weighed five explanations of the Iran war: (1) control of the world's energy supplies, (2) Israel's own aims, (3) a move against China, (4) a blunder, and (5) profit for the arms, energy and banking industries. Each came from different specialists. A single author would have offered one explanation and emphasised the facts that support it.</li>
+    </ul>
+
+    <p>Authors from different fields still leave one gap, and the project was built to cover it. All sixteen authors stand outside the mainstream, and some share sources, so they can share blind spots. So the project added two checks from outside the group. The first is facts from people who are not arguing a theory, such as an energy analyst's count of how much oil actually left the Persian Gulf, or published estimates of how many missile interceptors the US had left. The second is tests that could prove an explanation wrong; rule 5 describes one.</p>
+
+    <h2>4. Know what can be checked, and when</h2>
+
+    <p>A claim becomes a fact only after it has been checked against documents, data or reliable reporting. For events of the last few days there is often nothing to check against yet, so a claim about them is neither confirmed nor refuted: it is unchecked, and should be labelled that way. The AI tended to repeat such claims as if they were established.</p>
+
+    <p>Predictions are a different kind of claim. They cannot be checked today either, but they can be recorded with their date and checked when the time comes. Several of the people whose interviews I read, for example, predicted what the US will do in Iran after the November midterms. In a few months we will know who was right.</p>
+
+    <h2>5. A failed plan is not proof that there was no plan</h2>
+
+    <p>Some of the authors say the official reasons for the Iran war, a nuclear threat and a regime hated by its own people, were a cover. In their view, the real plan was to provoke Iran into striking oil facilities and shipping across the Persian Gulf. With Gulf oil cut off, Europe and Asia would have to buy American oil and gas and pay for it in dollars, and Iran itself would end up selling its oil for dollars too.</p>
+
+    <p>To check an explanation like this one, you need a result that could show it is wrong. The AI suggested one: if the war ended with Iran still selling its oil to China for Chinese yuan rather than dollars, that would show the war was not about the dollar.</p>
+
+    <p>That test was wrong. The plan could have been real and simply have failed, because Iran proved much harder to defeat than expected. The economist Richard Wolff put it in one line: "the Iranians are something new", with drones and missiles "buried in places where the Americans can't get them." A failed plan is not proof that there was no plan.</p>
+
+    <p>So the test was split in two. Whether the plan existed is a question for other evidence, such as the Treasury Secretary's words in rule 1. How the war ends shows only whether the plan worked: if Iran ends up selling its oil for dollars, it succeeded, and if Iran keeps selling for yuan, it failed.</p>
+
+    <p>Deception can also come in layers, and not everyone involved knows all of them. In the Iran war, three aims can be stacked, each one a cover for the next. The first is the public aim: stop Iran from getting a nuclear weapon. The second is stated openly by officials, which makes it feel like the real answer: bring Iran's oil back into the dollar system. On this view, "regime change" is the wrong name for the goal. The goal is regime control: Iran's government does not need to be replaced, only brought into line, as long as it sells its oil for dollars. The third is never stated: cut oil production in the Persian Gulf, which squeezes China's energy supply and makes the world more dependent on American energy.</p>
+
+    <p>Not every player has the whole plan. The people who do are the planners: the intelligence services, military staff, think tanks and financial interests that design both the war and the story told about it. A president can sincerely believe the first or second aim and still carry out the third, and honest insiders can describe the same war very differently because each was told a different part of it. Layers also make an explanation even harder to prove wrong, because each aim that fails can be called a cover for the next one. The answer is to test each aim on its own evidence: the nuclear aim against what inspectors and US intelligence found, the dollar aim against how Iran is paid for its oil, and the third aim against whether Gulf oil output stays down while Europe and Asia buy more American energy.</p>
+
+    <p>The aims need not even be stacked. They can form a network, each aim meant for a different audience and each with its own chance of success, with actions chosen because they pay off on several aims at once: a blockade of Iranian oil, for example, serves the dollar aim, the energy aim and the pressure on China all together.</p>
+
+    <figure>
+      <img src="images/8-one-war-several-winners.png" alt="Diagram: five players (arms makers, energy companies, finance, Israel's government, US strategists), each linked through the Iran war to a different gain, with the authors who study each player">
+      <figcaption>One war, several winners. Each player gets a different gain from the same war, and each author studies a different player, so each finds a different "real aim". This is one reading of the war, which the project tests rather than assumes; the author names show who writes most about each player.</figcaption>
+    </figure>
+
+    <h2>6. Watch for accounts that bend facts to fit a theory</h2>
+
+    <p>One widely followed interview made four striking claims, and each one had a real core that had been stretched. Three examples: US officials meeting Canadian separatist leaders became US agents stirring up separatism; an agreement allowing two new US bases in Greenland became US control of Greenland; about $2 million that three donors spent to defeat a congressman became $30 million. A strong theory pulls facts toward it. The defence is to check each claim against the record rather than to judge the person.</p>
+
+    <h2>7. Check the AI's work with a program</h2>
+
+    <p>Some of the worst mistakes in the project were made by the AI itself, not copied from the authors. They were hard to catch because they sounded right. Three examples:</p>
+    <ul>
+      <li>The AI put its own summary of what an author said inside quotation marks, as if the author had said those exact words.</li>
+      <li>The AI turned a 2009 think-tank paper that only listed options into a plan that the US had supposedly been following ever since.</li>
+      <li>The AI credited me with ideas that the authors had published long before.</li>
+    </ul>
+
+    <p>When the AI reread its own writing, it did not notice any of these mistakes. What caught them was a simple program. Every author's texts were saved in one folder per author, and the program checks every quotation in the full write-up against those saved texts, and every count such as "seven of the sixteen" against the list of names it summarises. More than 450 quotations have been checked. All of the 350-plus that are long enough to match word for word were found in the authors' own texts; the rest are terms of one or two words, too short to check.</p>
+
+    <h2>8. Don't defer to the human either</h2>
+
+    <p>Critical thinking runs both ways. Early on, the AI rewrote the full write-up every time I made a remark, and I had to tell it: "don't take everything I say at face value." After that, the AI pushed back when I or a source went too far. When an analyst I was reading said that a bond yield rising by 19 basis points was a rise of 19%, the AI pointed out the mistake: 19 basis points is 0.19 of a percentage point. When I dismissed Iran's nuclear programme entirely, the AI pointed out that Iran really had enriched uranium to 60%, far beyond what a power plant needs, even if the case for war built on that fact was not convincing.</p>
+
+    <p>And sometimes the human knew better. Chris Martenson, who writes about energy and markets, often sounds unsure on camera when he talks about oil prices, and the AI read that as real uncertainty. I have followed his work for years, and in writing he is blunt: "the price of oil is so heavily manipulated at this point that veteran commodities traders and portfolio managers like Jeff Currie are throwing in the towel in exasperation." People who depend on video platforms often speak more carefully on camera than on the page, because platforms can restrict videos that make strong accusations. What looks like confusion on video is often caution.</p>
+
+    <h2>What it adds up to</h2>
+
+    <p>Telling an AI once to think critically is not enough. The doubt has to be built into the process, as rules like the eight above, and checked by a program wherever it can be. Then keep a human in the loop who knows how the authors really talk, and an AI willing to say when that human has gone too far. The method worked because the human and the AI checked each other.</p>
+
+    <hr>
+    <p class="note">The longer article, describing the seven-step research method behind this project and what it found, is at <a href="https://christiancadieux.github.io/fourteen-thinkers/article.html">christiancadieux.github.io/fourteen-thinkers/article.html</a> (the project began with fourteen authors, hence the address). The charts are at <a href="https://christiancadieux.github.io/fourteen-thinkers/author-axes.html">christiancadieux.github.io/fourteen-thinkers/author-axes.html</a>, and the written synthesis, the saved sources and the quote-checking program are on <a href="https://github.com/christiancadieux/fourteen-thinkers">GitHub</a>.</p>
+  </article>
+</div>
+</body>
+</html>
