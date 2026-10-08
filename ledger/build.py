@@ -45,7 +45,7 @@ def load_sources():
         p = os.path.join(SRC, d)
         if not os.path.isdir(p):
             continue
-        fl = sorted(glob.glob(os.path.join(p, "*")))
+        fl = sorted(f for f in glob.glob(os.path.join(p, "**", "*"), recursive=True) if os.path.isfile(f))
         files[d] = [os.path.relpath(f, SRC) for f in fl]
         texts[d] = {os.path.relpath(f, SRC): norm(open(f, encoding="utf-8", errors="ignore").read()) for f in fl}
     return texts, files
