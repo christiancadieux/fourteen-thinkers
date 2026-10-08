@@ -22,7 +22,7 @@ The authors: Richard Werner, Alex Krainer, Brian Berletic, Simon Dixon, Catherin
   - a chart of the personal advice the authors give;
   - test cases, the hypotheses and the evidence grids.
 - `article.html`: the full first-person article about the experiment, step by step: the method and what it found.
-- `critical-thinking.html`: a shorter article, "Teaching AI Critical Thinking", on what the project taught about getting an AI to think critically. It links to `article.html` for the detail.
+- `critical-thinking.html`: a shorter article, "Teaching an AI to Doubt", on what the project taught about getting an AI to think critically. It links to `article.html` for the detail.
 - `ledger/`: the data and the checking program. See `ledger/README.md`. It contains:
   - `ledger.json`, the master data: chart scores and their quotes, forecasts, cases, hypotheses and evidence grids;
   - `sources/`, the authors' saved texts, one folder per author;
