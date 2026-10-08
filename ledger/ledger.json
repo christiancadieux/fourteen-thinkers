@@ -1723,7 +1723,7 @@
    "quote": "already been regime changed",
    "resolves": "2026-02-28",
    "status": "miss",
-   "basis": "The war began seven weeks later."
+   "basis": "The war began seven weeks later. His underlying claim, that the IRGC is \"completely on board\" and the war is a managed crisis, is separate and still open."
   },
   {
    "author": "Crooke",
@@ -2154,6 +2154,33 @@
    "basis": "Interview with Danny Haiphong, 6 October 2026 (sources/Wolff/interview1.txt). The opposite of Jiang Xueqin's and Cameron MacGregor's forecasts in the same check.",
    "check": "after-midterms-2026",
    "check_part": "war"
+  },
+  {
+   "author": "H2 (energy dominance by managed demolition)",
+   "made": "2026-10",
+   "claim": "Washington keeps tightening on Russian energy flows to China and India (tankers, buyers, tariffs) rather than tolerating them",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for H2 in synthesis.md (targeted control of energy flows)."
+  },
+  {
+   "author": "H2 (energy dominance by managed demolition)",
+   "made": "2026-10",
+   "claim": "Washington keeps tightening on Russian LNG shipments to Europe rather than tolerating them",
+   "quote": "",
+   "resolves": "2027-12",
+   "status": "open",
+   "basis": "Indicator for H2 in synthesis.md. Weakens the reading if Russian LNG to Europe is quietly tolerated."
+  },
+  {
+   "author": "H1 (a nexus of interests)",
+   "made": "2026-10",
+   "claim": "If Treasury yields keep rising with oil prices, a settlement with Iran follows within months, driven by finance rather than military results",
+   "quote": "",
+   "resolves": "2027-06",
+   "status": "open",
+   "basis": "Indicator for H1 in synthesis.md: the nexus shrinks when a strong bloc starts losing."
   }
  ],
  "manual_checks": [
@@ -2180,6 +2207,24 @@
    "author": "Krainer",
    "source": "Krainer/krainer.txt",
    "note": "Continuous in the transcript apart from a timestamp (20:09) between \"Russia is to\" and \"turn all that\"."
+  },
+  {
+   "quote": "It's not that immediate",
+   "author": "NBC News (Israeli source)",
+   "source": "https://www.nbcnews.com/politics/white-house/netanyahu-plans-brief-trump-possible-new-iran-strikes-rcna250112",
+   "note": "Outside reporting, checked online in October 2026; not an author's text."
+  },
+  {
+   "quote": "most effective force multiplier",
+   "author": "Wall Street Journal editorial board",
+   "source": "https://x.com/WSJopinion/status/2029255605311971403",
+   "note": "Opinion piece of 4 March 2026, checked online in October 2026; not an author's text."
+  },
+  {
+   "quote": "no oil on the water",
+   "author": "Scott Bessent",
+   "source": "https://wltreport.com/2026/10/03/scott-bessent-iran-no-oil-on-water-this-week/",
+   "note": "Public statement reported 3 October 2026, checked online; not an author's text."
   }
  ],
  "cases": [
@@ -2258,7 +2303,8 @@
    "objection": "Krainer and Webb see one directing group; Norton sees one class; Crooke sees a project behind the blocs.",
    "tests": [
     "Policy stalls or reverses where blocs collide",
-    "The Israel lobby against finance or energy"
+    "The Israel lobby against finance or energy",
+    "If Treasury yields keep rising with oil prices, finance turns against the war and a settlement follows, driven by finance rather than military results"
    ],
    "status": "One case fits: the diesel collision (October 2026), where the oil bloc beat agriculture. The harder test has not occurred."
   },
@@ -2279,16 +2325,18 @@
     "Crooke",
     "Diesen"
    ],
-   "evidence": "Berletic's \"decades-spanning US project\"; Hudson's choke points and Arctic logic; Wilkerson's base withdrawal; the canal proposal, Gaza Marine and the 2023 gas licences. The deniability is on paper: the 2009 Brookings chapter \"Leave it to Bibi\". Werner: \"the US military leadership essentially ordered many US bases in the region to be evacuated.\"",
+   "evidence": "Berletic's \"decades-spanning US project\"; Hudson's choke points and Arctic logic; Wilkerson's base withdrawal; the canal proposal, Gaza Marine and the 2023 gas licences. The deniability is on paper: the 2009 Brookings chapter \"Leave it to Bibi\". Werner: \"the US military leadership essentially ordered many US bases in the region to be evacuated.\" A refinement, raised in October 2026: the pattern fits targeted control of energy flows better than restriction in general. China's three suppliers of discounted, sanctioned oil were Iran (now blockaded; Bessent: \"no oil on the water\", October 2026), Venezuela (now under US control and selling for dollars) and Russia (still flowing east, under growing pressure on tankers and buyers). Europe has been pushed onto US energy, with Russian LNG by sea as the leak. Supply comes back where it is under US control and priced in dollars, as in Venezuela, and stays cut where it is not. Venezuela shows the same pattern of targeted stories as Iran: a pretext for domestic voters (strikes on small drug boats from September 2025, backed by an aircraft-carrier group), an aim officials state (oil sold for dollars), and an unstated effect (China cut off from cheap non-dollar oil). Two related claims are not yet verified and are not counted: that Venezuela's oil contracts with China were cancelled, and that control of Panama Canal port assets passed from a Hong Kong owner to a BlackRock-led group.",
    "objection": "It can explain any outcome. Its costs fall on the population and on the dollar's Treasury market, as the Gulf states buy less US debt; but if finance is global and moving east, as Dixon argues, it may lose nothing while the country is stripped.",
    "tests": [
     "US share of Europe's and Asia's gas imports",
     "Mediterranean pipeline, canal or Gaza Marine",
     "Gulf supply impaired while American supply fills the gap",
     "Gulf bases cut, Arctic deployments grown",
-    "No durable deal reopens Hormuz"
+    "No durable deal reopens Hormuz",
+    "Washington keeps tightening on Russian energy flows to China and India rather than tolerating them",
+    "Washington keeps tightening on Russian LNG shipments to Europe rather than tolerating them"
    ],
-   "status": "Five tests open, resolving 2027 to 2028."
+   "status": "Seven tests open, resolving 2027 to 2028."
   },
   {
    "id": "H3",
@@ -2400,7 +2448,7 @@
     "Hudson",
     "Norton"
    ],
-   "evidence": "No US interest that Henningsen can find; Crooke's \"primordially\" for Israeli hegemony; pro-Israel donors.",
+   "evidence": "No US interest that Henningsen can find; Crooke's \"primordially\" for Israeli hegemony; pro-Israel donors. Before the war, Israeli officials told US reporters that Iran's ballistic missiles, not its nuclear programme, were the immediate priority (\"It's not that immediate\", of the nuclear programme; NBC and Haaretz, December 2025), and Trump told Netanyahu at Mar-a-Lago he would back strikes on the missile programme if no deal was reached (CBS, December 2025). Against the reading of Israel as the driver: a Wall Street Journal editorial of 4 March 2026 called Israel America's \"most effective force multiplier\" (opinion, low weight).",
    "objection": "Chomsky's 2006 test: where the lobby and US interests diverged, Israel backed down. And the appearance may be designed: the 2009 Brookings paper's chapter \"Leave it to Bibi\" proposed letting Israel strike so that criticism and retaliation would be \"deflected away from the United States and onto Israel\". It warned that this would be hard to sell, since Iranians would see the strike as \"American supported or even American orchestrated\", flown in US-funded aircraft.",
    "tests": [
     "A case where Israel's aims and the energy or finance bloc's aims diverge"
@@ -2412,7 +2460,7 @@
    "title": "Mobile finance, anchored arms",
    "answers": "Where does power sit?",
    "proposed_by": "Dixon (finance moving east), with Crooke and Wilkerson on the arms complex",
-   "claim": "The blocs differ in how easily they move. The arms complex is tied to US territory, entrenched in costly, outdated weapons, and has been shown up by cheap drones and missiles. Finance needs no physical location and is moving east. As military power stops being concentrated in the US, the US matters less to the bloc that owns the others.",
+   "claim": "The blocs differ in how easily they move. The arms complex is tied to US territory, entrenched in costly, outdated weapons, and has been shown up by cheap drones and missiles. Finance needs no physical location and is moving east. As military power stops being concentrated in the US, the US matters less to the bloc that owns the others. On this view the US as a territory (its people, industry and military) and the hegemon as a network (finance and ownership) can part ways: the territory pulls back towards the Americas while the network moves east, and the US population and industry may themselves become the pawns.",
    "support": [
     "Dixon",
     "Wolff",
@@ -2425,7 +2473,7 @@
     "Hudson",
     "Berletic"
    ],
-   "evidence": "Crooke: \"small, fleeter Iranian naval assets ran rings around the large lumbering naval vessels of the U.S. Navy\". Wilkerson: \"our maritime assets are getting increasingly dated\". Dixon: \"the money's moving east\". Wolff: the US as \"a place where you can safely keep your money is finished\". Fitts: \"They're sort of above countries.\"",
+   "evidence": "Crooke: \"small, fleeter Iranian naval assets ran rings around the large lumbering naval vessels of the U.S. Navy\". Wilkerson: \"our maritime assets are getting increasingly dated\". Dixon: \"the money's moving east\". Wolff: the US as \"a place where you can safely keep your money is finished\". Fitts: \"They're sort of above countries.\" Singapore is to launch an over-the-counter gold-clearing system by the end of 2026, with JPMorgan, Deutsche Bank and ICBC Standard Bank among the clearing members (Bloomberg, 2026): Western banks building financial infrastructure in Asia. A report that JPMorgan moved its New York gold desk to Singapore in November 2025 is unconfirmed and not counted.",
    "objection": "Finance needs a guard for its contracts and choke points. Crooke: \"dollar hegemony largely is a function of preserving the myth of U.S. exceptional military invulnerability\"; Hudson: the strategy works only \"as long as the United States can impose choke points\". If the arms complex fails, finance must find a new protector, and where it goes is the test.",
    "tests": [
     "Official holders outside the West cut Treasuries and buy gold (met)",

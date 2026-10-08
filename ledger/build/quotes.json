@@ -6335,6 +6335,27 @@
  },
  {
   "doc": "synthesis.md",
+  "line": 208,
+  "section": "A shared test: Trump and the war on Iran",
+  "quote": "completely on board with everything that's happening right now",
+  "words": 10,
+  "candidates": [
+   "Dixon"
+  ],
+  "context": [
+   "Martenson",
+   "Werner",
+   "Krainer",
+   "Hudson",
+   "Webb",
+   "Mearsheimer"
+  ],
+  "status": "verified",
+  "author": "Dixon",
+  "source": "Dixon/ALL_d1.clean.txt"
+ },
+ {
+  "doc": "synthesis.md",
   "line": 209,
   "section": "A shared test: Trump and the war on Iran",
   "quote": "whatever he in fact does is marginal",
@@ -7330,6 +7351,50 @@
    "Fitts"
   ],
   "status": "term"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 340,
+  "section": "Hypotheses",
+  "quote": "It's not that immediate",
+  "words": 5,
+  "candidates": [
+   "Crooke",
+   "Henningsen"
+  ],
+  "context": [
+   "Wilkerson",
+   "Werner",
+   "Wolff",
+   "Diesen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "NBC News (Israeli source)",
+  "source": "https://www.nbcnews.com/politics/white-house/netanyahu-plans-brief-trump-possible-new-iran-strikes-rcna250112",
+  "note": "Outside reporting, checked online in October 2026; not an author's text."
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 340,
+  "section": "Hypotheses",
+  "quote": "most effective force multiplier",
+  "words": 4,
+  "candidates": [
+   "Crooke",
+   "Henningsen"
+  ],
+  "context": [
+   "Wilkerson",
+   "Werner",
+   "Wolff",
+   "Diesen",
+   "Fitts"
+  ],
+  "status": "verified",
+  "author": "Wall Street Journal editorial board",
+  "source": "https://x.com/WSJopinion/status/2029255605311971403",
+  "note": "Opinion piece of 4 March 2026, checked online in October 2026; not an author's text."
  },
  {
   "doc": "synthesis.md",
@@ -9248,7 +9313,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 535,
+  "line": 537,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The war on Iran is part of a decades-spanning US project to assume complete control over the Middle East and the oil and gas that is produced and exported",
   "words": 30,
@@ -9266,7 +9331,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 536,
+  "line": 538,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "may represent a broader strategy aimed at reshaping global energy flows",
   "words": 11,
@@ -9284,7 +9349,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 537,
+  "line": 539,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "placing Europe under increasing and likely irreversible energy dependence on the United States",
   "words": 13,
@@ -9302,7 +9367,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 537,
+  "line": 539,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "This energy dependence on the US obviously benefits US-based energy corporations financially",
   "words": 13,
@@ -9320,7 +9385,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 538,
+  "line": 540,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the destruction of the Nord Stream pipelines and ever-tightening sanctions on Russian energy exports that have made otherwise irrational US LNG imports to Europe essential",
   "words": 26,
@@ -9338,7 +9403,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 539,
+  "line": 541,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Why the War Might Pause but Won't End",
   "words": 9,
@@ -9356,7 +9421,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 540,
+  "line": 542,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "we have Venezuela's oil now. We have Canada's oil. We can block the trade for Russian oil through the Arctic by invading Greenland",
   "words": 25,
@@ -9374,7 +9439,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 540,
+  "line": 542,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "There's no deal that's imminent at all, and there cannot be.",
   "words": 13,
@@ -9392,7 +9457,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 541,
+  "line": 543,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the US military leadership essentially ordered many US bases in the region to be evacuated.",
   "words": 15,
@@ -9410,7 +9475,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 542,
+  "line": 544,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Mark my words, we're leaving.",
   "words": 6,
@@ -9428,7 +9493,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 542,
+  "line": 544,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "the oil field and gas field they stole in the Mediterranean from the Gazans",
   "words": 14,
@@ -9446,7 +9511,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 543,
+  "line": 545,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The bases and their host nations have become endangered targets vulnerable to Iranian drones and missiles.",
   "words": 16,
@@ -9465,7 +9530,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 544,
+  "line": 546,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "has nothing to do with US interests. It's a war for Israel.",
   "words": 13,
@@ -9485,7 +9550,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 544,
+  "line": 546,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "goal was to reverse the decline of the US empire; its result was the opposite.",
   "words": 15,
@@ -9507,7 +9572,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 546,
+  "line": 548,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Which Path to Persia?",
   "words": 4,
@@ -9528,7 +9593,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 546,
+  "line": 548,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Leave it to Bibi: Allowing or Encouraging an Israeli Military Strike",
   "words": 11,
@@ -9550,7 +9615,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 547,
+  "line": 549,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "would encourage—and perhaps even assist—the Israelis in conducting the strikes themselves, in the expectation that both international criticism and Iranian retaliation would be deflected away from the United States and onto Israel",
   "words": 34,
@@ -9570,7 +9635,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 547,
+  "line": 549,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "verbatim",
   "words": 1,
@@ -9588,7 +9653,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 548,
+  "line": 550,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Many Iranians would still see the attack as American supported or even American orchestrated. After all, the aircraft in any strike would be American produced, supplied, and funded F-15s and F-16s, and much of the ordnance would be American made.",
   "words": 42,
@@ -9608,7 +9673,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 548,
+  "line": 550,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "$3 billion dollars in U.S. assistance annually sustains the IDF's conventional superiority in the region.",
   "words": 17,
@@ -9628,7 +9693,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 548,
+  "line": 550,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "a complete cutoff of all military assistance and economic aid",
   "words": 10,
@@ -9648,7 +9713,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 549,
+  "line": 551,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "Bibi, just ignore what I'm saying. That's only for public consumption.",
   "words": 13,
@@ -9669,7 +9734,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 567,
+  "line": 569,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "The US",
   "words": 2,
@@ -9686,7 +9751,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 568,
+  "line": 570,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "fiscal cliff",
   "words": 2,
@@ -9704,7 +9769,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 569,
+  "line": 571,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "much less of a buyer of American debt",
   "words": 8,
@@ -9724,7 +9789,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 570,
+  "line": 572,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "we are in the asset stripping phase and the money's moving east",
   "words": 13,
@@ -9745,7 +9810,7 @@
  },
  {
   "doc": "synthesis.md",
-  "line": 571,
+  "line": 573,
   "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
   "quote": "with its satellites",
   "words": 3,
@@ -9763,5 +9828,25 @@
   "status": "verified",
   "author": "Krainer",
   "source": "Krainer/k_undead.clean.txt"
+ },
+ {
+  "doc": "synthesis.md",
+  "line": 576,
+  "section": "H2. Energy dominance by managed demolition (a candidate answer to question 8)",
+  "quote": "no oil on the water",
+  "words": 5,
+  "candidates": [],
+  "context": [
+   "Krainer",
+   "Dixon",
+   "Wolff",
+   "Hudson",
+   "Berletic",
+   "Brookings-2009"
+  ],
+  "status": "verified",
+  "author": "Scott Bessent",
+  "source": "https://wltreport.com/2026/10/03/scott-bessent-iran-no-oil-on-water-this-week/",
+  "note": "Public statement reported 3 October 2026, checked online; not an author's text."
  }
 ]
